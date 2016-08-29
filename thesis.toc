@@ -1,0 +1,57 @@
+\contentsline {chapter}{List of Figures}{ix}
+\contentsline {chapter}{List of Tables}{xi}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}
+\contentsline {section}{\numberline {1.2}Early Experiments: An Overview}{3}
+\contentsline {chapter}{\numberline {2}Nuclear Matter: Hot and Cold}{6}
+\contentsline {section}{\numberline {2.1}Hot versus Cold Nuclear Matter}{6}
+\contentsline {section}{\numberline {2.2}The Cronin Effect}{6}
+\contentsline {subsection}{\numberline {2.2.1}Initial State Multiple Scattering}{8}
+\contentsline {subsection}{\numberline {2.2.2}Final State Multiple Scattering}{10}
+\contentsline {section}{\numberline {2.3}Hot Nuclear Matter: QGP}{12}
+\contentsline {subsection}{\numberline {2.3.1}Baryon Enhancement}{13}
+\contentsline {subsection}{\numberline {2.3.2}Theoretical Models of Baryon Enhancement}{13}
+\contentsline {subsubsection}{Recombination}{13}
+\contentsline {subsubsection}{Fragmentation}{15}
+\contentsline {section}{\numberline {2.4}Flow at the LHC}{17}
+\contentsline {section}{\numberline {2.5}Recombination and Fragmentation for All?}{18}
+\contentsline {chapter}{\numberline {3}Experimental Apparatus}{22}
+\contentsline {section}{\numberline {3.1}The Relativistic Heavy Ion Collider}{22}
+\contentsline {section}{\numberline {3.2}From Start to Finish}{23}
+\contentsline {section}{\numberline {3.3}The PHENIX Detector}{25}
+\contentsline {subsection}{\numberline {3.3.1}Central Arm}{25}
+\contentsline {subsubsection}{TOF: Time Of Flight Detectors}{27}
+\contentsline {subsubsection}{ACC: Aerogel Cherenkov Counter}{31}
+\contentsline {subsection}{\numberline {3.3.2}Forward Detectors}{33}
+\contentsline {subsubsection}{BBC: Beam-Beam Counter}{34}
+\contentsline {subsubsection}{ZDC/SMD: Zero Degree Calorimeter and Shower Max Detectors}{35}
+\contentsline {subsubsection}{MPC: Muon Piston Calorimeter}{36}
+\contentsline {subsubsection}{RXNP: Reaction Plane Detector}{36}
+\contentsline {chapter}{\numberline {4}Heavy Ion Collisions: A Primer}{38}
+\contentsline {section}{\numberline {4.1}Measurable Quantities}{38}
+\contentsline {section}{\numberline {4.2}Event Characterization}{39}
+\contentsline {subsection}{\numberline {4.2.1}Centrality}{39}
+\contentsline {subsection}{\numberline {4.2.2}Event Vertex and Timing}{41}
+\contentsline {section}{\numberline {4.3}Track Reconstruction}{43}
+\contentsline {subsection}{\numberline {4.3.1}Variables for Track Selection}{43}
+\contentsline {subsection}{\numberline {4.3.2}Particle Identification}{43}
+\contentsline {section}{\numberline {4.4}Nuclear Modification Factor}{46}
+\contentsline {chapter}{\numberline {5}Anisotropic Flow}{48}
+\contentsline {chapter}{\numberline {6}Event Plane}{51}
+\contentsline {section}{\numberline {6.1}Determination of Event Plane}{51}
+\contentsline {section}{\numberline {6.2}Event Plane "Flattening"}{51}
+\contentsline {section}{\numberline {6.3}Event Plane Resolution Correction}{51}
+\contentsline {chapter}{\numberline {7}Results}{52}
+\contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{52}
+\contentsline {section}{\numberline {7.2}Separating Particle Signals}{52}
+\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{52}
+\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{52}
+\contentsline {subsection}{\numberline {7.2.3}ACC as a Pion Discriminator}{52}
+\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{52}
+\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{52}
+\contentsline {chapter}{\numberline {8}Error Analysis}{53}
+\contentsline {section}{\numberline {8.1}Systematic Errors}{53}
+\contentsline {chapter}{\numberline {9}Summary and Conclusions}{54}
+\contentsline {section}{\numberline {9.1}Discussion}{54}
+\contentsline {section}{\numberline {9.2}Conclusions}{54}
+\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{55}
