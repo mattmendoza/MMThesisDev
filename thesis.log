@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  29 AUG 2016 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  29 AUG 2016 21:48
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -788,14 +788,14 @@ File: Figures/BBCevtchar.JPG Graphic file (type jpg)
 <use Figures/BBCevtchar.JPG>
 Package pdftex.def Info: Figures/BBCevtchar.JPG used on input line 47.
 (pdftex.def)             Requested size: 433.62pt x 164.17455pt.
- [52 <./Figures/BBCevtchar.JPG>]
-<Figures/tofchargemom.JPG, id=258, 426.84468pt x 400.49625pt>
+ [52 <./Figures/BBCevtchar.JPG>] [53]
+<Figures/tofchargemom.JPG, id=261, 426.84468pt x 400.49625pt>
 File: Figures/tofchargemom.JPG Graphic file (type jpg)
 
 <use Figures/tofchargemom.JPG>
 Package pdftex.def Info: Figures/tofchargemom.JPG used on input line 66.
 (pdftex.def)             Requested size: 303.53267pt x 284.81265pt.
- [53] [54 <./Figures/tofchargemom.JPG>]
+ [54 <./Figures/tofchargemom.JPG>]
 <Figures/m2tofvspt.jpg, id=265, 427.5975pt x 395.22656pt>
 File: Figures/m2tofvspt.jpg Graphic file (type jpg)
 
@@ -803,44 +803,47 @@ File: Figures/m2tofvspt.jpg Graphic file (type jpg)
 Package pdftex.def Info: Figures/m2tofvspt.jpg used on input line 93.
 (pdftex.def)             Requested size: 303.53267pt x 280.5525pt.
  [55] [56 <./Figures/m2tofvspt.jpg>]) (Flow.tex
-[57]
 Chapter 5.
-[58
+[57
 
-] <Figures/fouriercosines.jpg, id=280, 521.7894pt x 321.1197pt>
+] <Figures/fouriercosines.jpg, id=277, 521.7894pt x 321.1197pt>
 File: Figures/fouriercosines.jpg Graphic file (type jpg)
 
 <use Figures/fouriercosines.jpg>
 Package pdftex.def Info: Figures/fouriercosines.jpg used on input line 47.
 (pdftex.def)             Requested size: 346.89731pt x 213.488pt.
- [59] [60 <./Figures/fouriercosines.jpg>])
+ [58] [59 <./Figures/fouriercosines.jpg>])
 (EventPlane.tex
 Chapter 6.
-) (Results.tex [61
+) (Results.tex [60
 
 ]
 Chapter 7.
-[62
+[61
 
 ]) (Systematics.tex
 Chapter 8.
-[63
+[62
 
 ]) (Conclusions.tex
 Chapter 9.
-[64
+[63
 
 ]) (appendix_coords.tex
 Appendix A.
-<Figures/coord2.jpg, id=300, 607.26875pt x 570.13pt>
+<Figures/coord2.jpg, id=297, 607.26875pt x 570.13pt>
 File: Figures/coord2.jpg Graphic file (type jpg)
  <use Figures/coord2.jpg>
 Package pdftex.def Info: Figures/coord2.jpg used on input line 6.
 (pdftex.def)             Requested size: 130.08731pt x 122.12318pt.
 
-[65
+[64
 
- <./Figures/coord2.jpg>]) (thesis.bbl [66]
+ <./Figures/coord2.jpg>]) (appendix_nuclmodfact.tex [65]
+Appendix B.
+[66
+
+]) (thesis.bbl [67]
 
 ! LaTeX Error: \newblock undefined.
 
@@ -851,21 +854,21 @@ Type  H <return>  for immediate help.
 l.1 \begin{thebibliography}{10}
                                
 ? 
-[67
+[68
 
-] [68] [69] [70] [71] [72]) [73] (thesis.aux)
+] [69] [70] [71] [72] [73]) [74] (thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5346 strings out of 493335
- 82917 string characters out of 3136683
- 173861 words of memory out of 3000000
- 8710 multiletter control sequences out of 15000+200000
+ 5353 strings out of 493335
+ 83083 string characters out of 3136683
+ 173870 words of memory out of 3000000
+ 8714 multiletter control sequences out of 15000+200000
  12620 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,23n,46p,1887b,592s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,23n,46p,1904b,592s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C
@@ -881,9 +884,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on thesis.pdf (84 pages, 3702420 bytes).
+Output written on thesis.pdf (85 pages, 3703963 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
+ 383 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

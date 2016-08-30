@@ -38,23 +38,24 @@
 \contentsline {section}{\numberline {4.3}Track Reconstruction}{53}
 \contentsline {subsection}{\numberline {4.3.1}Variables for Track Selection}{53}
 \contentsline {subsection}{\numberline {4.3.2}Particle Identification}{53}
-\contentsline {section}{\numberline {4.4}Nuclear Modification Factor}{56}
-\contentsline {chapter}{\numberline {5}Anisotropic Flow}{58}
-\contentsline {chapter}{\numberline {6}Event Plane}{61}
-\contentsline {section}{\numberline {6.1}Determination of Event Plane}{61}
-\contentsline {section}{\numberline {6.2}Event Plane "Flattening"}{61}
-\contentsline {section}{\numberline {6.3}Event Plane Resolution Correction}{61}
-\contentsline {chapter}{\numberline {7}Results}{62}
-\contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{62}
-\contentsline {section}{\numberline {7.2}Separating Particle Signals}{62}
-\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{62}
-\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{62}
-\contentsline {subsection}{\numberline {7.2.3}ACC as a Pion Discriminator}{62}
-\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{62}
-\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{62}
-\contentsline {chapter}{\numberline {8}Error Analysis}{63}
-\contentsline {section}{\numberline {8.1}Systematic Errors}{63}
-\contentsline {chapter}{\numberline {9}Summary and Conclusions}{64}
-\contentsline {section}{\numberline {9.1}Discussion}{64}
-\contentsline {section}{\numberline {9.2}Conclusions}{64}
-\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{65}
+\contentsline {chapter}{\numberline {5}Anisotropic Flow}{57}
+\contentsline {chapter}{\numberline {6}Event Plane}{60}
+\contentsline {section}{\numberline {6.1}Determination of Event Plane}{60}
+\contentsline {section}{\numberline {6.2}Event Plane "Flattening"}{60}
+\contentsline {section}{\numberline {6.3}Event Plane Resolution Correction}{60}
+\contentsline {chapter}{\numberline {7}Results}{61}
+\contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{61}
+\contentsline {section}{\numberline {7.2}Separating Particle Signals}{61}
+\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{61}
+\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{61}
+\contentsline {subsection}{\numberline {7.2.3}ACC as a Pion Discriminator}{61}
+\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{61}
+\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{61}
+\contentsline {chapter}{\numberline {8}Error Analysis}{62}
+\contentsline {section}{\numberline {8.1}Systematic Errors}{62}
+\contentsline {chapter}{\numberline {9}Summary and Conclusions}{63}
+\contentsline {section}{\numberline {9.1}Discussion}{63}
+\contentsline {section}{\numberline {9.2}Conclusions}{63}
+\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{64}
+\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{66}
+\contentsline {section}{\numberline {B.1}Nuclear Modification Factor}{66}
