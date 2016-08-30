@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  27 AUG 2016 22:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  29 AUG 2016 16:59
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -255,7 +255,19 @@ LaTeX Warning: Label `sub@fig:kyieldrecomb' multiply defined.
 LaTeX Warning: Label `fig:daaaratios' multiply defined.
 
 
-LaTeX Warning: Label `fig:run8config' multiply defined.
+LaTeX Warning: Label `fig:ppiratiocentvsperiph' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ppiratiocentvsperiph' multiply defined.
+
+
+LaTeX Warning: Label `fig:Rcpcentvsperiph' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Rcpcentvsperiph' multiply defined.
+
+
+LaTeX Warning: Label `fig:baryonenhancementAA' multiply defined.
 
 
 LaTeX Warning: Label `fig:ppiratiocentvsperiph' multiply defined.
@@ -275,18 +287,18 @@ LaTeX Warning: Label `fig:baryonenhancementAA' multiply defined.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -398,7 +410,7 @@ Package caption Info: End \AtBeginDocument code.
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 
  []
 
@@ -588,109 +600,175 @@ File: Figures/Phenix_2008.jpg Graphic file (type jpg)
 Package pdftex.def Info: Figures/Phenix_2008.jpg used on input line 37.
 (pdftex.def)             Requested size: 346.89731pt x 451.5111pt.
  [25] [26 <./Figures/Phenix_2008.jpg>] [27]
-<Figures/TOFEschematic.jpg, id=155, 730.73pt x 552.0625pt>
+<Figures/dcdiagram.jpg, id=156, 809.0225pt x 582.175pt>
+File: Figures/dcdiagram.jpg Graphic file (type jpg)
+
+<use Figures/dcdiagram.jpg>
+Package pdftex.def Info: Figures/dcdiagram.jpg used on input line 53.
+(pdftex.def)             Requested size: 260.17464pt x 187.22366pt.
+
+<Figures/pcdiagram.jpg, id=157, 503.8825pt x 566.115pt>
+File: Figures/pcdiagram.jpg Graphic file (type jpg)
+
+<use Figures/pcdiagram.jpg>
+Package pdftex.def Info: Figures/pcdiagram.jpg used on input line 62.
+(pdftex.def)             Requested size: 260.17464pt x 292.30832pt.
+ [28 <./Figures/dcdiagram.jpg>] [29]
+<Figures/TOFEschematic.jpg, id=164, 730.73pt x 552.0625pt>
 File: Figures/TOFEschematic.jpg Graphic file (type jpg)
 
 <use Figures/TOFEschematic.jpg>
-Package pdftex.def Info: Figures/TOFEschematic.jpg used on input line 55.
+Package pdftex.def Info: Figures/TOFEschematic.jpg used on input line 74.
 (pdftex.def)             Requested size: 346.89731pt x 262.08078pt.
- [28 <./Figures/TOFEschematic.jpg>]
-<Figures/TOFEcartoon.jpg, id=159, 938.50626pt x 294.09875pt>
+ [30 <./Figures/pcdiagram.jpg>] [31 <./Figures/TOFEschematic.jpg>]
+<Figures/TOFEcartoon.jpg, id=171, 938.50626pt x 294.09875pt>
 File: Figures/TOFEcartoon.jpg Graphic file (type jpg)
 
 <use Figures/TOFEcartoon.jpg>
-Package pdftex.def Info: Figures/TOFEcartoon.jpg used on input line 71.
+Package pdftex.def Info: Figures/TOFEcartoon.jpg used on input line 90.
 (pdftex.def)             Requested size: 346.89731pt x 108.70712pt.
- [29 <./Figures/TOFEcartoon.jpg>]
-<Figures/RPClayers.jpg, id=163, 447.6725pt x 181.67876pt>
+ [32 <./Figures/TOFEcartoon.jpg>]
+<Figures/RPClayers.jpg, id=176, 447.6725pt x 181.67876pt>
 File: Figures/RPClayers.jpg Graphic file (type jpg)
 
 <use Figures/RPClayers.jpg>
-Package pdftex.def Info: Figures/RPClayers.jpg used on input line 81.
+Package pdftex.def Info: Figures/RPClayers.jpg used on input line 100.
 (pdftex.def)             Requested size: 346.89731pt x 140.7857pt.
-
-<Figures/MRPC_TOFW.jpg, id=164, 921.4425pt x 443.6575pt>
+ [33 <./Figures/RPClayers.jpg>]
+<Figures/MRPC_TOFW.jpg, id=180, 921.4425pt x 443.6575pt>
 File: Figures/MRPC_TOFW.jpg Graphic file (type jpg)
 
 <use Figures/MRPC_TOFW.jpg>
-Package pdftex.def Info: Figures/MRPC_TOFW.jpg used on input line 91.
+Package pdftex.def Info: Figures/MRPC_TOFW.jpg used on input line 110.
 (pdftex.def)             Requested size: 346.89731pt x 167.02103pt.
- [30 <./Figures/RPClayers.jpg>] [31 <./Figures/MRPC_TOFW.jpg>] <Figures/ACCsche
-matic.jpg, id=171, 937.5025pt x 369.38pt>
+ [34 <./Figures/MRPC_TOFW.jpg>]
+<Figures/ACCschematic.jpg, id=184, 937.5025pt x 369.38pt>
 File: Figures/ACCschematic.jpg Graphic file (type jpg)
 
 <use Figures/ACCschematic.jpg>
-Package pdftex.def Info: Figures/ACCschematic.jpg used on input line 102.
+Package pdftex.def Info: Figures/ACCschematic.jpg used on input line 121.
 (pdftex.def)             Requested size: 346.89731pt x 136.67409pt.
- [32 <./Figures/ACCschematic.jpg>]
-<Figures/aerogelchannel.JPG, id=176, 655.69969pt x 221.32687pt>
+ [35 <./Figures/ACCschematic.jpg>]
+<Figures/aerogelchannel.JPG, id=188, 655.69969pt x 221.32687pt>
 File: Figures/aerogelchannel.JPG Graphic file (type jpg)
 
 <use Figures/aerogelchannel.JPG>
-Package pdftex.def Info: Figures/aerogelchannel.JPG used on input line 112.
+Package pdftex.def Info: Figures/aerogelchannel.JPG used on input line 131.
 (pdftex.def)             Requested size: 346.89731pt x 117.09328pt.
 
-<Figures/accrange.jpg, id=177, 813.0375pt x 429.605pt>
+<Figures/accrange.jpg, id=189, 813.0375pt x 429.605pt>
 File: Figures/accrange.jpg Graphic file (type jpg)
 
 <use Figures/accrange.jpg>
-Package pdftex.def Info: Figures/accrange.jpg used on input line 122.
+Package pdftex.def Info: Figures/accrange.jpg used on input line 141.
 (pdftex.def)             Requested size: 346.89731pt x 183.2975pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/bbcrender.JPG, id=178, 359.09157pt x 271.76532pt>
+[36 <./Figures/aerogelchannel.JPG>] [37 <./Figures/accrange.jpg>]
+<Figures/RICHdiagram.jpg, id=196, 782.925pt x 448.67625pt>
+File: Figures/RICHdiagram.jpg Graphic file (type jpg)
+
+<use Figures/RICHdiagram.jpg>
+Package pdftex.def Info: Figures/RICHdiagram.jpg used on input line 154.
+(pdftex.def)             Requested size: 346.89731pt x 198.8011pt.
+
+<Figures/PbScschematic.jpg, id=197, 663.47874pt x 269.005pt>
+File: Figures/PbScschematic.jpg Graphic file (type jpg)
+
+<use Figures/PbScschematic.jpg>
+Package pdftex.def Info: Figures/PbScschematic.jpg used on input line 164.
+(pdftex.def)             Requested size: 216.81pt x 87.90582pt.
+
+<Figures/PbGlmodules.jpg, id=198, 665.48625pt x 465.74pt>
+File: Figures/PbGlmodules.jpg Graphic file (type jpg)
+
+<use Figures/PbGlmodules.jpg>
+Package pdftex.def Info: Figures/PbGlmodules.jpg used on input line 170.
+(pdftex.def)             Requested size: 260.17464pt x 182.08559pt.
+
+<Figures/pbglsupermodule.JPG, id=199, 445.665pt x 335.75438pt>
+File: Figures/pbglsupermodule.JPG Graphic file (type jpg)
+
+<use Figures/pbglsupermodule.JPG>
+Package pdftex.def Info: Figures/pbglsupermodule.JPG used on input line 176.
+(pdftex.def)             Requested size: 260.17464pt x 196.00822pt.
+ [38 <./Figures/RICHdiagram.jpg>] [39 <./Figures/PbScschematic.jpg> <./Figures/
+PbGlmodules.jpg> <./Figures/pbglsupermodule.JPG>] <Figures/ERT.jpg, id=207, 508
+.90125pt x 340.27126pt>
+File: Figures/ERT.jpg Graphic file (type jpg)
+ <use Figures/ERT.jpg>
+Package pdftex.def Info: Figures/ERT.jpg used on input line 193.
+(pdftex.def)             Requested size: 216.81pt x 144.96902pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40] <Figures/bbcrender.JPG, id=211, 359.09157pt x 271.76532pt>
 File: Figures/bbcrender.JPG Graphic file (type jpg)
 
 <use Figures/bbcrender.JPG>
-Package pdftex.def Info: Figures/bbcrender.JPG used on input line 138.
+Package pdftex.def Info: Figures/bbcrender.JPG used on input line 208.
 (pdftex.def)             Requested size: 173.44534pt x 131.26692pt.
 
-<Figures/bbcsinglechannel.JPG, id=179, 355.3275pt x 266.49562pt>
+<Figures/bbcsinglechannel.JPG, id=212, 355.3275pt x 266.49562pt>
 File: Figures/bbcsinglechannel.JPG Graphic file (type jpg)
 
 <use Figures/bbcsinglechannel.JPG>
-Package pdftex.def Info: Figures/bbcsinglechannel.JPG used on input line 144.
+Package pdftex.def Info: Figures/bbcsinglechannel.JPG used on input line 214.
 (pdftex.def)             Requested size: 173.44534pt x 130.08789pt.
- [33 <./Figures/aerogelchannel.JPG>] [34 <./Figures/accrange.jpg>]
-<prevplots/bbczdcanaresponse.JPG, id=186, 375.65344pt x 245.41687pt>
+ [41 <./Figures/ERT.jpg>]
+<prevplots/bbczdcanaresponse.JPG, id=216, 375.65344pt x 245.41687pt>
 File: prevplots/bbczdcanaresponse.JPG Graphic file (type jpg)
 
 <use prevplots/bbczdcanaresponse.JPG>
-Package pdftex.def Info: prevplots/bbczdcanaresponse.JPG used on input line 157
+Package pdftex.def Info: prevplots/bbczdcanaresponse.JPG used on input line 227
 .
 (pdftex.def)             Requested size: 216.81pt x 141.64536pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[35 <./Figures/bbcrender.JPG> <./Figures/bbcsinglechannel.JPG>]
-<Figures/mpcschematic.JPG, id=190, 383.18156pt x 503.63156pt>
+[42 <./Figures/bbcrender.JPG> <./Figures/bbcsinglechannel.JPG>]
+<Figures/mpcschematic.JPG, id=220, 383.18156pt x 503.63156pt>
 File: Figures/mpcschematic.JPG Graphic file (type jpg)
 
 <use Figures/mpcschematic.JPG>
-Package pdftex.def Info: Figures/mpcschematic.JPG used on input line 168.
-(pdftex.def)             Requested size: 216.81pt x 284.96733pt.
+Package pdftex.def Info: Figures/mpcschematic.JPG used on input line 238.
+(pdftex.def)             Requested size: 303.53267pt x 398.96349pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[36 <./prevplots/bbczdcanaresponse.JPG>] [37 <./Figures/mpcschematic.JPG>])
-(HICollisions.tex
-Chapter 4.
-[38
+[43 <./prevplots/bbczdcanaresponse.JPG>]
+<Figures/RXNPschem.jpg, id=224, 938.50626pt x 348.30125pt>
+File: Figures/RXNPschem.jpg Graphic file (type jpg)
 
-] [39]
-<Figures/spectatorsvsparticipants.jpg, id=204, 702.625pt x 284.06125pt>
+<use Figures/RXNPschem.jpg>
+Package pdftex.def Info: Figures/RXNPschem.jpg used on input line 249.
+(pdftex.def)             Requested size: 303.53267pt x 112.64383pt.
+ [44 <./Figures/mpcschematic.JPG>] [45 <./Figures/RXNPschem.jpg>] [46] <Figures
+/DAQ.jpg, id=235, 721.19438pt x 387.69844pt>
+File: Figures/DAQ.jpg Graphic file (type jpg)
+
+<use Figures/DAQ.jpg>
+Package pdftex.def Info: Figures/DAQ.jpg used on input line 262.
+(pdftex.def)             Requested size: 433.62pt x 233.10594pt.
+ [47 <./Figures/DAQ.jpg>]) (HICollisions.tex
+Chapter 4.
+[48
+
+] [49]
+<Figures/spectatorsvsparticipants.jpg, id=245, 702.625pt x 284.06125pt>
 File: Figures/spectatorsvsparticipants.jpg Graphic file (type jpg)
 
 <use Figures/spectatorsvsparticipants.jpg>
 Package pdftex.def Info: Figures/spectatorsvsparticipants.jpg used on input lin
 e 15.
 (pdftex.def)             Requested size: 433.62pt x 175.30994pt.
- [40 <./Figures/spectatorsvsparticipants.jpg>] <Figures/centralvsperipheral.jpg
-, id=208, 1104.125pt x 612.2875pt>
+ [50 <./Figures/spectatorsvsparticipants.jpg>] <Figures/centralvsperipheral.jpg
+, id=250, 1104.125pt x 612.2875pt>
 File: Figures/centralvsperipheral.jpg Graphic file (type jpg)
 
 <use Figures/centralvsperipheral.jpg>
@@ -703,66 +781,66 @@ Package pdftex.def Info: Figures/centralvsperipheral.jpg used on input line 29.
 
 (pdftex.def)             Requested size: 173.44865pt x 96.18353pt.
 
-[41 <./Figures/centralvsperipheral.jpg>]
-<Figures/BBCevtchar.JPG, id=212, 781.41937pt x 295.85532pt>
+[51 <./Figures/centralvsperipheral.jpg>]
+<Figures/BBCevtchar.JPG, id=254, 781.41937pt x 295.85532pt>
 File: Figures/BBCevtchar.JPG Graphic file (type jpg)
 
 <use Figures/BBCevtchar.JPG>
 Package pdftex.def Info: Figures/BBCevtchar.JPG used on input line 47.
 (pdftex.def)             Requested size: 433.62pt x 164.17455pt.
- [42 <./Figures/BBCevtchar.JPG>]
-<Figures/tofchargemom.JPG, id=216, 426.84468pt x 400.49625pt>
+ [52 <./Figures/BBCevtchar.JPG>]
+<Figures/tofchargemom.JPG, id=258, 426.84468pt x 400.49625pt>
 File: Figures/tofchargemom.JPG Graphic file (type jpg)
 
 <use Figures/tofchargemom.JPG>
-Package pdftex.def Info: Figures/tofchargemom.JPG used on input line 70.
+Package pdftex.def Info: Figures/tofchargemom.JPG used on input line 66.
 (pdftex.def)             Requested size: 303.53267pt x 284.81265pt.
- [43] [44 <./Figures/tofchargemom.JPG>]
-<Figures/m2tofvspt.jpg, id=224, 427.5975pt x 395.22656pt>
+ [53] [54 <./Figures/tofchargemom.JPG>]
+<Figures/m2tofvspt.jpg, id=265, 427.5975pt x 395.22656pt>
 File: Figures/m2tofvspt.jpg Graphic file (type jpg)
 
 <use Figures/m2tofvspt.jpg>
-Package pdftex.def Info: Figures/m2tofvspt.jpg used on input line 97.
+Package pdftex.def Info: Figures/m2tofvspt.jpg used on input line 93.
 (pdftex.def)             Requested size: 303.53267pt x 280.5525pt.
- [45] [46 <./Figures/m2tofvspt.jpg>]) (Flow.tex
-[47]
+ [55] [56 <./Figures/m2tofvspt.jpg>]) (Flow.tex
+[57]
 Chapter 5.
-[48
+[58
 
-] <Figures/fouriercosines.jpg, id=238, 521.7894pt x 321.1197pt>
+] <Figures/fouriercosines.jpg, id=280, 521.7894pt x 321.1197pt>
 File: Figures/fouriercosines.jpg Graphic file (type jpg)
 
 <use Figures/fouriercosines.jpg>
 Package pdftex.def Info: Figures/fouriercosines.jpg used on input line 47.
 (pdftex.def)             Requested size: 346.89731pt x 213.488pt.
- [49] [50 <./Figures/fouriercosines.jpg>])
+ [59] [60 <./Figures/fouriercosines.jpg>])
 (EventPlane.tex
 Chapter 6.
-) (Results.tex [51
+) (Results.tex [61
 
 ]
 Chapter 7.
-[52
+[62
 
 ]) (Systematics.tex
 Chapter 8.
-[53
+[63
 
 ]) (Conclusions.tex
 Chapter 9.
-[54
+[64
 
 ]) (appendix_coords.tex
 Appendix A.
-<Figures/coord2.jpg, id=258, 607.26875pt x 570.13pt>
+<Figures/coord2.jpg, id=300, 607.26875pt x 570.13pt>
 File: Figures/coord2.jpg Graphic file (type jpg)
  <use Figures/coord2.jpg>
 Package pdftex.def Info: Figures/coord2.jpg used on input line 6.
 (pdftex.def)             Requested size: 130.08731pt x 122.12318pt.
 
-[55
+[65
 
- <./Figures/coord2.jpg>]) (thesis.bbl [56]
+ <./Figures/coord2.jpg>]) (thesis.bbl [66]
 
 ! LaTeX Error: \newblock undefined.
 
@@ -773,23 +851,24 @@ Type  H <return>  for immediate help.
 l.1 \begin{thebibliography}{10}
                                
 ? 
-[57
+[67
 
-] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68]) [69] (thesis.aux)
+] [68] [69] [70] [71] [72]) [73] (thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5281 strings out of 493335
- 81552 string characters out of 3136683
- 169708 words of memory out of 3000000
- 8655 multiletter control sequences out of 15000+200000
- 12261 words of font info for 44 fonts, out of 3000000 for 9000
+ 5346 strings out of 493335
+ 82917 string characters out of 3136683
+ 173861 words of memory out of 3000000
+ 8710 multiletter control sequences out of 15000+200000
+ 12620 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,23n,46p,1669b,592s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,23n,46p,1887b,592s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Prog
@@ -802,9 +881,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on thesis.pdf (80 pages, 2961137 bytes).
+Output written on thesis.pdf (84 pages, 3702420 bytes).
 PDF statistics:
- 354 PDF objects out of 1000 (max. 8388607)
+ 379 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

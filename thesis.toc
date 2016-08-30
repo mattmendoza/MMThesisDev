@@ -20,38 +20,41 @@
 \contentsline {section}{\numberline {3.2}From Start to Finish}{23}
 \contentsline {section}{\numberline {3.3}The PHENIX Detector}{25}
 \contentsline {subsection}{\numberline {3.3.1}Central Arm}{25}
-\contentsline {subsubsection}{TOF: Time Of Flight Detectors}{27}
-\contentsline {subsubsection}{ACC: Aerogel Cherenkov Counter}{31}
-\contentsline {subsection}{\numberline {3.3.2}Forward Detectors}{33}
-\contentsline {subsubsection}{BBC: Beam-Beam Counter}{34}
-\contentsline {subsubsection}{ZDC/SMD: Zero Degree Calorimeter and Shower Max Detectors}{35}
-\contentsline {subsubsection}{MPC: Muon Piston Calorimeter}{36}
-\contentsline {subsubsection}{RXNP: Reaction Plane Detector}{36}
-\contentsline {chapter}{\numberline {4}Heavy Ion Collisions: A Primer}{38}
-\contentsline {section}{\numberline {4.1}Measurable Quantities}{38}
-\contentsline {section}{\numberline {4.2}Event Characterization}{39}
-\contentsline {subsection}{\numberline {4.2.1}Centrality}{39}
-\contentsline {subsection}{\numberline {4.2.2}Event Vertex and Timing}{41}
-\contentsline {section}{\numberline {4.3}Track Reconstruction}{43}
-\contentsline {subsection}{\numberline {4.3.1}Variables for Track Selection}{43}
-\contentsline {subsection}{\numberline {4.3.2}Particle Identification}{43}
-\contentsline {section}{\numberline {4.4}Nuclear Modification Factor}{46}
-\contentsline {chapter}{\numberline {5}Anisotropic Flow}{48}
-\contentsline {chapter}{\numberline {6}Event Plane}{51}
-\contentsline {section}{\numberline {6.1}Determination of Event Plane}{51}
-\contentsline {section}{\numberline {6.2}Event Plane "Flattening"}{51}
-\contentsline {section}{\numberline {6.3}Event Plane Resolution Correction}{51}
-\contentsline {chapter}{\numberline {7}Results}{52}
-\contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{52}
-\contentsline {section}{\numberline {7.2}Separating Particle Signals}{52}
-\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{52}
-\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{52}
-\contentsline {subsection}{\numberline {7.2.3}ACC as a Pion Discriminator}{52}
-\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{52}
-\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{52}
-\contentsline {chapter}{\numberline {8}Error Analysis}{53}
-\contentsline {section}{\numberline {8.1}Systematic Errors}{53}
-\contentsline {chapter}{\numberline {9}Summary and Conclusions}{54}
-\contentsline {section}{\numberline {9.1}Discussion}{54}
-\contentsline {section}{\numberline {9.2}Conclusions}{54}
-\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{55}
+\contentsline {subsubsection}{Drift and Pad Chambers}{27}
+\contentsline {subsubsection}{TOF: Time Of Flight Detectors}{30}
+\contentsline {subsubsection}{ACC: Aerogel Cherenkov Counter}{34}
+\contentsline {subsubsection}{EMCal and RICH: Electromagnetic Calorimeter and Ring Imaging Cherenkov Counter}{37}
+\contentsline {subsection}{\numberline {3.3.2}Forward and Global Detectors}{40}
+\contentsline {subsubsection}{BBC: Beam-Beam Counter}{41}
+\contentsline {subsubsection}{ZDC/SMD: Zero Degree Calorimeter and Shower Max Detectors}{42}
+\contentsline {subsubsection}{MPC: Muon Piston Calorimeter}{43}
+\contentsline {subsubsection}{RXNP: Reaction Plane Detector}{43}
+\contentsline {section}{\numberline {3.4}The DAQ}{45}
+\contentsline {chapter}{\numberline {4}Heavy Ion Collisions: A Primer}{48}
+\contentsline {section}{\numberline {4.1}Measurable Quantities}{48}
+\contentsline {section}{\numberline {4.2}Event Characterization}{49}
+\contentsline {subsection}{\numberline {4.2.1}Centrality}{49}
+\contentsline {subsection}{\numberline {4.2.2}Event Vertex and Timing}{51}
+\contentsline {section}{\numberline {4.3}Track Reconstruction}{53}
+\contentsline {subsection}{\numberline {4.3.1}Variables for Track Selection}{53}
+\contentsline {subsection}{\numberline {4.3.2}Particle Identification}{53}
+\contentsline {section}{\numberline {4.4}Nuclear Modification Factor}{56}
+\contentsline {chapter}{\numberline {5}Anisotropic Flow}{58}
+\contentsline {chapter}{\numberline {6}Event Plane}{61}
+\contentsline {section}{\numberline {6.1}Determination of Event Plane}{61}
+\contentsline {section}{\numberline {6.2}Event Plane "Flattening"}{61}
+\contentsline {section}{\numberline {6.3}Event Plane Resolution Correction}{61}
+\contentsline {chapter}{\numberline {7}Results}{62}
+\contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{62}
+\contentsline {section}{\numberline {7.2}Separating Particle Signals}{62}
+\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{62}
+\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{62}
+\contentsline {subsection}{\numberline {7.2.3}ACC as a Pion Discriminator}{62}
+\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{62}
+\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{62}
+\contentsline {chapter}{\numberline {8}Error Analysis}{63}
+\contentsline {section}{\numberline {8.1}Systematic Errors}{63}
+\contentsline {chapter}{\numberline {9}Summary and Conclusions}{64}
+\contentsline {section}{\numberline {9.1}Discussion}{64}
+\contentsline {section}{\numberline {9.2}Conclusions}{64}
+\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{65}

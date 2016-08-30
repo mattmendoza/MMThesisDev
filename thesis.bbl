@@ -200,6 +200,11 @@ Jean Barrette.
   Au collisions at 11.5/A-GeV/c}.
 \newblock {\em Nucl. Phys.}, A661:329--332, 1999.
 
+\bibitem{RXNPfocus}
+Abby Bickley.
+\newblock The physics of the reaction plane detector.
+\newblock {\em FOCUS Talk}, February 2007.
+
 \bibitem{RHICaccel}
 CAD~@ BNL.
 \newblock Rhic accelerators.
@@ -391,6 +396,16 @@ J.~T. Mitchell et~al.
 Anders Oskarsson.
 \newblock The pad chambers.
 \newblock {\em FOCUS Talk}, January 2003.
+
+\bibitem{DAQfocus}
+Eric Richardson.
+\newblock The phenix trigger system.
+\newblock {\em FOCUS Talk}, April 2004.
+
+\bibitem{RXNPfocusER}
+Eric Richardson.
+\newblock The reaction plane detector.
+\newblock {\em FOCUS Talk}, January 2007.
 
 \bibitem{ROBINSON857}
 ARTHUR~L. ROBINSON.
