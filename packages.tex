@@ -1,6 +1,42 @@
 % add packages you want to use, and LaTex functions here
 \usepackage{booktabs}
+\usepackage{setspace}
 \usepackage{scrextend}
-\usepackage{caption}
-\usepackage{subcaption}
+\usepackage[labelfont={bf,it},textfont={it}]{caption}
+\setlength{\captionmargin}{33 pt}
+\captionsetup{font={stretch=1.3}}
+\usepackage[labelfont={bf,it},textfont={it}]{subcaption}
 \usepackage[square, numbers, comma, sort&compress]{natbib}
+
+\makeatletter
+% taken from uct12.clo and adapted to LaTeX2e nomenclature
+\renewcommand{\normalsize}{\@setfontsize\normalsize\@xipt{14.5}%
+\abovedisplayskip 12\p@ plus3\p@ minus7\p@
+\belowdisplayskip \abovedisplayskip
+\abovedisplayshortskip  \z@ plus3\p@   
+\belowdisplayshortskip  6.5\p@ plus3.5\p@ minus3\p@
+\let\@listi\@listI}   % Setting of \@listi added 9 Jun 87
+\renewcommand{\small}{\@setfontsize\small\@xpt{12}%
+\abovedisplayskip 11\p@ plus3\p@ minus6\p@
+\belowdisplayskip \abovedisplayskip
+\abovedisplayshortskip  \z@ plus3\p@   
+\belowdisplayshortskip  6.5\p@ plus3\p@ minus3\p@
+\def\@listi{\leftmargin\leftmargini %% Added 22 Dec 87
+\topsep 9\p@ plus3\p@ minus5\p@\parsep 4.5\p@ plus2\p@ minus\p@
+\itemsep \parsep}}
+\renewcommand{\footnotesize}{\@setfontsize\footnotesize\@ixpt{11}%
+\abovedisplayskip 10\p@ plus2\p@ minus5\p@
+\belowdisplayskip \abovedisplayskip
+\abovedisplayshortskip \z@ plus3\p@
+\belowdisplayshortskip 6\p@ plus2\p@ minus2\p@
+\def\@listi{\leftmargin\leftmargini %% Added 22 Dec 87
+\topsep 6\p@ plus2\p@ minus2\p@\parsep 3\p@ plus\p@ minus\p@
+\itemsep \parsep}}
+\renewcommand{\scriptsize}{\@setfontsize\scriptsize\@viiipt{9.5pt}} 
+\renewcommand{\tiny}{\@setfontsize\tiny\@vipt{7pt}} 
+\renewcommand{\large}{\@setfontsize\large\@xiipt{18pt}} 
+\renewcommand{\Large}{\@setfontsize\Large\@xivpt{22pt}} 
+\renewcommand{\LARGE}{\@setfontsize\LARGE\@xviipt{25pt}} 
+\renewcommand{\huge}{\@setfontsize\huge\@xxpt{30pt}} 
+\renewcommand{\Huge}{\@setfontsize\Huge\@xxvpt{30pt}} 
+\makeatother

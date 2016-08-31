@@ -1,7 +1,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Proton vs pion yield ratio from the Cronin paper}}{7}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Illustration of Initial State Multiple Scattering}}{8}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Illustration of Initial State Multiple Scattering}}{9}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Feynman diagram of Drell-Yan production of dileptons.}}{9}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Planarity of jets created with protons incident on Pb targets vs H targets.}}{11}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of Final State Multiple Scattering}}{12}
@@ -15,7 +15,7 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces An Aerial view of BNL}}{22}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Illustration of all the accelerators used to boost ions to relativistic speeds at RHIC}}{23}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces PHENIX Detector Configuration for RHIC Run 8 (2008)}}{26}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Wire net configuration in the DC}}{28}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Wire net configuration in the DC}}{29}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Schematic of the Pad Chambers}}{30}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces A schematic of the slat layout in the TOFE}}{31}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces An illustration of a single slat in the TOFE}}{32}
@@ -26,8 +26,8 @@
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Chart of Particle Identification capabilities over a range of transverse momentum}}{37}
 \contentsline {figure}{\numberline {3.13}{\ignorespaces A diagram of the RICH}}{38}
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Schematics of EMCal components}}{39}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces A drawing of example ERT events}}{41}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces The Beam Beam Counter}}{42}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces A drawing of example ERT events}}{40}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces The Beam Beam Counter}}{41}
 \contentsline {figure}{\numberline {3.17}{\ignorespaces Centrality bins as determined by ZDC energy versus BBC charge sum}}{43}
 \contentsline {figure}{\numberline {3.18}{\ignorespaces Schematic of the MPC}}{44}
 \contentsline {figure}{\numberline {3.19}{\ignorespaces Cross sectional diagram of RXNP layers}}{45}
@@ -36,14 +36,17 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Spectators and participant nucleons in a heavy ion collision}}{50}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Central versus peripheral ion collisions}}{51}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Diagram of BBC event characterization}}{52}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Particle separation in the TOF}}{54}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces $m^{2}$ vs $p_{T}$ showing clear constant separation of particle signatures.}}{56}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Hits in the DC matched to tracks using a Hough transform}}{54}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagram of track reconstruction by the DC/PC1 projected linearly onto the TOF/PC3}}{56}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Particle separation in the TOF}}{57}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces $m^{2}$ vs $p_{T}$ showing clear constant separation of particle signatures.}}{59}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Plots of the first four harmonics of a cosine series}}{59}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Plots of the first four harmonics of a cosine series}}{62}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces PHENIX coordinate system}}{64}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces PHENIX coordinate system}}{68}
+\addvspace {10\p@ }
 \addvspace {10\p@ }

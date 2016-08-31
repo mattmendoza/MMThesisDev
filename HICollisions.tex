@@ -1,5 +1,5 @@
 \chapter{Heavy Ion Collisions: A Primer} % Main chapter title
-
+\label{hicollisions}
 %----------------------------------------------------------------------------------------
 \section{Measurable Quantities}
 Due to the complexity inherent in colliding large nuclei containing a large number of nucleons (for instance 197 nucleons in Au) there is a multitude of metrics we can use to quantify the collision and the evolution of what happens after. For clarification, when talking about high energy physics analyses we refer to all data gathered from a single collision of two nucleons as an \textit{event}. The location where the collision takes place is called the \textit{event vertex} or often in collaboration literature since the z-axis is along the beam axis, the \textit{z vertex}. The high luminosity of heavy ion collisions (437 $nb^{-1}$ in 9 weeks for the data used in this analysis: Run 8 d+Au), produces a plethora of particles. As these particles travel from the event vertex through the various layers of detectors under the influence of the PHENIX magnetic field it leaves its own signature on each detector it passes through. These signatures for each given particle can be matched to form a trajectory from the event vertex through PHENIX. The set of data corresponding to location, kinematic, and detector specific variables (i.e. charge deposited, clusters fired, Cherenkov photons, etc) is called a \textit{track}. The determination of these variables is the topic of this chapter.
@@ -51,12 +51,29 @@ This initial time is used to start the stopwatch of the event and is used in con
 \end{figure}
 
 \section{Track Reconstruction}
-
+\label{trkrecosect}
 \subsection{Variables for Track Selection}
 After the collision, particles fly outward from the vertex under the various mechanisms that take place within the formation and evolution of the QGP. Due to the high multiplicity of tracks resulting from a heavy ion collision and the various complexities that arise when using a multifaceted complicated detector system to reconstruct track trajectories, it is important to come up with a metric by which to measure the quality of the tracks in order to discern which tracks are able to be reconstructed cleanly versus those which, for whatever anomalous reasons, would not be advantageous to analyze.
+\subsubsection{Track Matching: DC and PC1}
+The process of determining the track trajectory through the PHENIX detector is called \textit{track matching} and it utilizes the various layers of the Drift Chamber and Pad Chambers in concert to determine track momentum due to the varying curvature of tracks of different momenta traveling through a magnetic field. Tracks are reconstructed in the DC and PC1 using an algorithm called a \textit{combinatorial Hough Transform} (CHT) which works very well for particles whos $p_T$ is $>$200 MeV/c \citep{Mitchell:2002wu}. CHT is a methodical continuation of a \textit{Hough Transform} which is a reconstruction algorithm used on a set of points that we know were created by single linear tracks in order to fit them with likely linear track candidates\citep{OHLSSON199277}. We use a parameter called track \textit{quality} in order to quantify our confidence that a CHT reconstructed track is a likely fit and it is a function of how well a reconstruction fits hits in the different tracking detector layers (X1, X2, and UVs in the DC, PC1). Since this is a combinatorial reconstruction, and since PHENIX doesn't exist in a vacuum, it is possible that other tracks such as cosmic events and background events are reconstructed.  Because of this we also make the assumption that the origin of all probable tracks is the event vertex as determined by the BBC. This analysis uses tracks whose quality is $>10$ which means that the accepted reconstructions contain at least one hit in X1 and X2 nets in the DC and a hit in PC1.
 
-The process of determining the track trajectory through the PHENIX detector is called \textit{track matching} and it utilizes the various layers of the Drift Chamber and Pad Chambers in concert to determine track momentum due to the varying curvature of tracks of different momenta traveling through a magnetic field. Tracks are reconstructed in the DC and PC1 using an algorithm called a combinatorial Hough Transform which works very well for particles whos $p_T$ is $>$200 MeV/c \citep{Mitchell:2002wu}. 
-track quality
+\begin{figure}[htbp!]
+  \centering
+    \includegraphics[width=0.7\textwidth]{Figures/houghtransformcartoon.JPG}
+    \rule{35em}{0.5pt}
+  \caption[Hits in the DC matched to tracks using a Hough transform]{Hits in the DC matched to tracks using a Hough transform. Note that if we were to ignore the track lines it would just be a collection of points. CHT aims to provide these matched track lines by weighting combinatoric solutions by probability of it being a physical track.}
+  \label{fig:houghtransform}
+\end{figure}
+
+\subsubsection{Track Matching: TOF and PC3}
+The magnetic field in PHENIX is strongest in the IR where $R<2$ and negilgible within the central arms\citep{rolnickthesis}. Therefore once tracks are matched in the DC and through the PC1 we can project the track linearly through the rest of the central arms. We can then match these projections with hits in the PC3 and TOF as illustrated in figure \ref{fig:pc3tofmatching} and assign variables (called \textit{residuals}) to the difference between where a hit landed in the TOF/PC3 versus where it was projected to be, one in azimuthal angle ($d\phi$) and one along beam axis ($dz$). Therefore, track purity can be increased by setting limits to how large a track's residuals can be, usually in multiples of standard deviations from a probability distribution around the projected TOF/PC3 hit. For this analysis, the maximum residual allowed for both TOF and PC3 in both $z$ and $\phi$ is three standard deviations ($3\sigma$) to allow for more statistics needed due to the lower multiplicity d+Au system (compared to larger systems) while still maintaining good track reconstruction purity.
+\begin{figure}[htbp!]
+  \centering
+    \includegraphics[width=0.9\textwidth]{Figures/pc3tofmatching.JPG}
+    \rule{35em}{0.5pt}
+  \caption[Diagram of track reconstruction by the DC/PC1 projected linearly onto the TOF/PC3]{Diagram of track reconstruction by the DC/PC1 projected linearly onto the TOF/PC3. \citep{schaeferthesis}}
+  \label{fig:pc3tofmatching}
+\end{figure}
 
 \subsection{Particle Identification}
 Using the TOF detectors' high resolution timing measurements I am able to identify particles which have long lifetime relative to the event duration i.e. particles whose lifetimes are long enough such that they do not decay before leaving the detector. For this analysis, these particles of interest are the charged pions ($\pi^{\pm}$), charged kaons ($k^{\pm}$), and protons/antiprotons ($p/\bar{p}$). Since the masses of these particles are distinct, plotting the momentum vs time of flight can show clear separation between pion, kaon, and proton signals (see fig \ref{fig:tofchargemom}). 
@@ -69,7 +86,7 @@ Using the TOF detectors' high resolution timing measurements I am able to identi
   \label{fig:tofchargemom}
 \end{figure}
 
-While visually the individual particle signatures are easily identifiable, computationally it is advantageous to convert units so that the signatures only depend on a single variable. After the collision, the QGP fireball is expanding rapidly however the constituent outgoing tracks traversing the distance scales in the detector do not experience appreciable deceleration. We know from basic kinematics that we can calculate the velocity, v, of an object traveling at a constant speed:
+While visually the individual particle signatures are easily identifiable in this plot, computationally it is advantageous to convert units so that the signatures only depend on a single variable. After the collision, the QGP fireball is expanding rapidly however the constituent outgoing tracks traversing the distance scales in the detector do not experience appreciable deceleration. We know from basic kinematics that we can calculate the velocity, v, of an object traveling at a constant speed:
 
 \begin{equation}
 v=\frac{L}{t} \implies t=\frac{L}{v},

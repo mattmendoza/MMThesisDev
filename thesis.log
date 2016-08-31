@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  29 AUG 2016 21:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  30 AUG 2016 17:18
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -177,7 +177,9 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count108
 \@thisrulewidth=\dimen138
 )
-(scrextend.sty
+(setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (scrextend.sty
 Package: scrextend 2012/07/29 v3.11b KOMA-Script KOMA-Script package (extend ot
 her classes with features of KOMA-Script classes)
  (scrkbase.sty
@@ -232,14 +234,14 @@ Package caption Info: \@makecaption = \long macro:#1#2->\par \ifdim \prevdepth
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count110
 \c@subtable=\count111
-))
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip46
 \bibsep=\skip47
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count112
-)
+))
 
 LaTeX Warning: Unused global option(s):
     [letterpaper].
@@ -420,22 +422,22 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
  [6]) (thesis.toc [7
 
-])
+] [8])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [8] (thesis.lof [9
+ [9] (thesis.lof [10
 
 ])
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
- [10]
-(thesis.lot)
+
+[11] (thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
- [11
+ [12
 
 ] (Introduction.tex
 Chapter 1.
@@ -452,7 +454,7 @@ Missing character: There is no √ in font cmr10!
 Missing character: There is no © in font cmr10!
  [3] [4]) (NuclearMatter.tex [5]
 Chapter 2.
-<prevplots/croninratio.JPG, id=63, 383.18156pt x 455.45157pt>
+<prevplots/croninratio.JPG, id=66, 383.18156pt x 455.45157pt>
 File: prevplots/croninratio.JPG Graphic file (type jpg)
 
 <use prevplots/croninratio.JPG>
@@ -464,14 +466,14 @@ Package pdftex.def Info: prevplots/croninratio.JPG used on input line 13.
 Missing character: There is no √ in font cmr10!
 Missing character: There is no º in font cmr10!
 
-<Figures/ISIscattering.jpg, id=70, 631.35875pt x 298.11375pt>
+<Figures/ISIscattering.jpg, id=75, 631.35875pt x 298.11375pt>
 File: Figures/ISIscattering.jpg Graphic file (type jpg)
 
 <use Figures/ISIscattering.jpg>
 Package pdftex.def Info: Figures/ISIscattering.jpg used on input line 25.
 (pdftex.def)             Requested size: 346.89731pt x 163.7993pt.
- [8 <./Figures/ISIscattering.jpg>]
-<Figures/DYfeynman.png, id=75, 1927.2pt x 963.6pt>
+
+<Figures/DYfeynman.png, id=76, 1927.2pt x 963.6pt>
 File: Figures/DYfeynman.png Graphic file (type png)
  <use Figures/DYfeynman.png>
 Package pdftex.def Info: Figures/DYfeynman.png used on input line 35.
@@ -480,8 +482,8 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-[9 <./Figures/DYfeynman.png>]
-<prevplots/e609planarity.jpg, id=81, 470.75874pt x 332.24126pt>
+[8] [9 <./Figures/ISIscattering.jpg> <./Figures/DYfeynman.png>] [10]
+<prevplots/e609planarity.jpg, id=88, 470.75874pt x 332.24126pt>
 File: prevplots/e609planarity.jpg Graphic file (type jpg)
 
 <use prevplots/e609planarity.jpg>
@@ -494,14 +496,14 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-<Figures/FSIscattering.jpg, id=82, 489.83pt x 374.39874pt>
+<Figures/FSIscattering.jpg, id=89, 489.83pt x 374.39874pt>
 File: Figures/FSIscattering.jpg Graphic file (type jpg)
 
 <use Figures/FSIscattering.jpg>
 Package pdftex.def Info: Figures/FSIscattering.jpg used on input line 64.
 (pdftex.def)             Requested size: 303.53267pt x 232.01056pt.
- [10] [11 <./prevplots/e609planarity.jpg>]
-<prevplots/ppiratiocentvsperiph.JPG, id=89, 534.99875pt x 291.0875pt>
+ [11 <./prevplots/e609planarity.jpg>]
+<prevplots/ppiratiocentvsperiph.JPG, id=93, 534.99875pt x 291.0875pt>
 File: prevplots/ppiratiocentvsperiph.JPG Graphic file (type jpg)
 
 <use prevplots/ppiratiocentvsperiph.JPG>
@@ -509,7 +511,7 @@ Package pdftex.def Info: prevplots/ppiratiocentvsperiph.JPG used on input line
 79.
 (pdftex.def)             Requested size: 303.53267pt x 165.15762pt.
 
-<prevplots/Rcpcentvsperiph.jpg, id=90, 680.5425pt x 273.02pt>
+<prevplots/Rcpcentvsperiph.jpg, id=94, 680.5425pt x 273.02pt>
 File: prevplots/Rcpcentvsperiph.jpg Graphic file (type jpg)
 
 <use prevplots/Rcpcentvsperiph.jpg>
@@ -517,58 +519,57 @@ Package pdftex.def Info: prevplots/Rcpcentvsperiph.jpg used on input line 85.
 (pdftex.def)             Requested size: 346.89731pt x 139.16753pt.
  [12 <./Figures/FSIscattering.jpg>] [13]
 [14 <./prevplots/ppiratiocentvsperiph.JPG> <./prevplots/Rcpcentvsperiph.jpg>]
-<prevplots/piyieldrecomb.JPG, id=103, 407.27156pt x 312.41719pt>
+<prevplots/piyieldrecomb.JPG, id=107, 407.27156pt x 312.41719pt>
 File: prevplots/piyieldrecomb.JPG Graphic file (type jpg)
 
 <use prevplots/piyieldrecomb.JPG>
 Package pdftex.def Info: prevplots/piyieldrecomb.JPG used on input line 105.
 (pdftex.def)             Requested size: 138.76157pt x 106.44449pt.
 
-<prevplots/kyieldrecomb.JPG, id=104, 402.00188pt x 317.68687pt>
+<prevplots/kyieldrecomb.JPG, id=108, 402.00188pt x 317.68687pt>
 File: prevplots/kyieldrecomb.JPG Graphic file (type jpg)
 
 <use prevplots/kyieldrecomb.JPG>
 Package pdftex.def Info: prevplots/kyieldrecomb.JPG used on input line 111.
 (pdftex.def)             Requested size: 138.76157pt x 109.6554pt.
 
-<prevplots/pyieldrecomb.JPG, id=105, 404.26031pt x 304.88907pt>
+<prevplots/pyieldrecomb.JPG, id=109, 404.26031pt x 304.88907pt>
 File: prevplots/pyieldrecomb.JPG Graphic file (type jpg)
 
 <use prevplots/pyieldrecomb.JPG>
 Package pdftex.def Info: prevplots/pyieldrecomb.JPG used on input line 117.
 (pdftex.def)             Requested size: 138.76157pt x 104.65182pt.
 
-<prevplots/ppiratiorecomb.JPG, id=106, 420.06938pt x 314.67563pt>
+<prevplots/ppiratiorecomb.JPG, id=110, 420.06938pt x 314.67563pt>
 File: prevplots/ppiratiorecomb.JPG Graphic file (type jpg)
 
 <use prevplots/ppiratiorecomb.JPG>
 Package pdftex.def Info: prevplots/ppiratiorecomb.JPG used on input line 123.
 (pdftex.def)             Requested size: 216.81pt x 162.41266pt.
 
-<Figures/fragmentationdiag.JPG, id=107, 338.01282pt x 232.61906pt>
+<Figures/fragmentationdiag.JPG, id=111, 338.01282pt x 232.61906pt>
 File: Figures/fragmentationdiag.JPG Graphic file (type jpg)
 
 <use Figures/fragmentationdiag.JPG>
 Package pdftex.def Info: Figures/fragmentationdiag.JPG used on input line 134.
 (pdftex.def)             Requested size: 216.81pt x 149.21288pt.
-
-<prevplots/pPbflowLHC.JPG, id=108, 411.78844pt x 213.04594pt>
+ [15] [16 <./prevplots/piyieldrecomb.JPG> <./prevplots/kyieldrecomb.JPG> <./pre
+vplots/pyieldrecomb.JPG> <./prevplots/ppiratiorecomb.JPG>] <prevplots/pPbflowLH
+C.JPG, id=118, 411.78844pt x 213.04594pt>
 File: prevplots/pPbflowLHC.JPG Graphic file (type jpg)
 
 <use prevplots/pPbflowLHC.JPG>
 Package pdftex.def Info: prevplots/pPbflowLHC.JPG used on input line 145.
 (pdftex.def)             Requested size: 303.53267pt x 157.03711pt.
- [15] [16 <./prevplots/piyieldrecomb.JPG> <./prevplots/kyieldrecomb.JPG> <./pre
-vplots/pyieldrecomb.JPG> <./prevplots/ppiratiorecomb.JPG>] [17 <./Figures/fragm
-entationdiag.JPG>] [18 <./prevplots/pPbflowLHC.JPG>] <prevplots/dAvsAAratios.JP
-G, id=121, 505.89pt x 370.38374pt>
+ [17 <./Figures/fragmentationdiag.JPG>] [18 <./prevplots/pPbflowLHC.JPG>]
+<prevplots/dAvsAAratios.JPG, id=125, 505.89pt x 370.38374pt>
 File: prevplots/dAvsAAratios.JPG Graphic file (type jpg)
 
 <use prevplots/dAvsAAratios.JPG>
 Package pdftex.def Info: prevplots/dAvsAAratios.JPG used on input line 158.
 (pdftex.def)             Requested size: 303.53267pt x 222.23195pt.
  [19 <./prevplots/dAvsAAratios.JPG>]
-<prevplots/daurecomb.JPG, id=125, 310.91156pt x 238.64156pt>
+<prevplots/daurecomb.JPG, id=130, 310.91156pt x 238.64156pt>
 File: prevplots/daurecomb.JPG Graphic file (type jpg)
 
 <use prevplots/daurecomb.JPG>
@@ -577,7 +578,7 @@ Package pdftex.def Info: prevplots/daurecomb.JPG used on input line 169.
  [20 <./prevplots/daurecomb.JPG>] [21])
 (Apparatus.tex
 Chapter 3.
-<Figures/RHIC-aerial-HR.jpg, id=133, 308.352pt x 186.39638pt>
+<Figures/RHIC-aerial-HR.jpg, id=137, 308.352pt x 186.39638pt>
 File: Figures/RHIC-aerial-HR.jpg Graphic file (type jpg)
 
 <use Figures/RHIC-aerial-HR.jpg>
@@ -586,77 +587,77 @@ Package pdftex.def Info: Figures/RHIC-aerial-HR.jpg used on input line 10.
  [22
 
  <./Figures/RHIC-aerial-HR.jpg>]
-<Figures/RHICdiagram.JPG, id=137, 437.38406pt x 310.15875pt>
+<Figures/RHICdiagram.JPG, id=141, 437.38406pt x 310.15875pt>
 File: Figures/RHICdiagram.JPG Graphic file (type jpg)
 
 <use Figures/RHICdiagram.JPG>
 Package pdftex.def Info: Figures/RHICdiagram.JPG used on input line 20.
 (pdftex.def)             Requested size: 346.89731pt x 245.9929pt.
  [23 <./Figures/RHICdiagram.JPG>] [24]
-<Figures/Phenix_2008.jpg, id=144, 579.16376pt x 753.81625pt>
+<Figures/Phenix_2008.jpg, id=148, 579.16376pt x 753.81625pt>
 File: Figures/Phenix_2008.jpg Graphic file (type jpg)
 
 <use Figures/Phenix_2008.jpg>
 Package pdftex.def Info: Figures/Phenix_2008.jpg used on input line 37.
 (pdftex.def)             Requested size: 346.89731pt x 451.5111pt.
  [25] [26 <./Figures/Phenix_2008.jpg>] [27]
-<Figures/dcdiagram.jpg, id=156, 809.0225pt x 582.175pt>
+<Figures/dcdiagram.jpg, id=159, 809.0225pt x 582.175pt>
 File: Figures/dcdiagram.jpg Graphic file (type jpg)
 
 <use Figures/dcdiagram.jpg>
 Package pdftex.def Info: Figures/dcdiagram.jpg used on input line 53.
 (pdftex.def)             Requested size: 260.17464pt x 187.22366pt.
 
-<Figures/pcdiagram.jpg, id=157, 503.8825pt x 566.115pt>
+<Figures/pcdiagram.jpg, id=160, 503.8825pt x 566.115pt>
 File: Figures/pcdiagram.jpg Graphic file (type jpg)
 
 <use Figures/pcdiagram.jpg>
 Package pdftex.def Info: Figures/pcdiagram.jpg used on input line 62.
 (pdftex.def)             Requested size: 260.17464pt x 292.30832pt.
- [28 <./Figures/dcdiagram.jpg>] [29]
-<Figures/TOFEschematic.jpg, id=164, 730.73pt x 552.0625pt>
+ [28] [29 <./Figures/dcdiagram.jpg>] [30 <./Figures/pcdiagram.jpg>] <Figures/TO
+FEschematic.jpg, id=170, 730.73pt x 552.0625pt>
 File: Figures/TOFEschematic.jpg Graphic file (type jpg)
 
 <use Figures/TOFEschematic.jpg>
 Package pdftex.def Info: Figures/TOFEschematic.jpg used on input line 74.
 (pdftex.def)             Requested size: 346.89731pt x 262.08078pt.
- [30 <./Figures/pcdiagram.jpg>] [31 <./Figures/TOFEschematic.jpg>]
-<Figures/TOFEcartoon.jpg, id=171, 938.50626pt x 294.09875pt>
+ [31 <./Figures/TOFEschematic.jpg>]
+<Figures/TOFEcartoon.jpg, id=175, 938.50626pt x 294.09875pt>
 File: Figures/TOFEcartoon.jpg Graphic file (type jpg)
 
 <use Figures/TOFEcartoon.jpg>
 Package pdftex.def Info: Figures/TOFEcartoon.jpg used on input line 90.
 (pdftex.def)             Requested size: 346.89731pt x 108.70712pt.
  [32 <./Figures/TOFEcartoon.jpg>]
-<Figures/RPClayers.jpg, id=176, 447.6725pt x 181.67876pt>
+<Figures/RPClayers.jpg, id=179, 447.6725pt x 181.67876pt>
 File: Figures/RPClayers.jpg Graphic file (type jpg)
 
 <use Figures/RPClayers.jpg>
 Package pdftex.def Info: Figures/RPClayers.jpg used on input line 100.
 (pdftex.def)             Requested size: 346.89731pt x 140.7857pt.
- [33 <./Figures/RPClayers.jpg>]
+
 <Figures/MRPC_TOFW.jpg, id=180, 921.4425pt x 443.6575pt>
 File: Figures/MRPC_TOFW.jpg Graphic file (type jpg)
 
 <use Figures/MRPC_TOFW.jpg>
 Package pdftex.def Info: Figures/MRPC_TOFW.jpg used on input line 110.
 (pdftex.def)             Requested size: 346.89731pt x 167.02103pt.
- [34 <./Figures/MRPC_TOFW.jpg>]
-<Figures/ACCschematic.jpg, id=184, 937.5025pt x 369.38pt>
+ [33 <./Figures/RPClayers.jpg>] [34 <./Figures/MRPC_TOFW.jpg>] <Figures/ACCsche
+matic.jpg, id=187, 937.5025pt x 369.38pt>
 File: Figures/ACCschematic.jpg Graphic file (type jpg)
 
 <use Figures/ACCschematic.jpg>
 Package pdftex.def Info: Figures/ACCschematic.jpg used on input line 121.
 (pdftex.def)             Requested size: 346.89731pt x 136.67409pt.
  [35 <./Figures/ACCschematic.jpg>]
-<Figures/aerogelchannel.JPG, id=188, 655.69969pt x 221.32687pt>
+<Figures/aerogelchannel.JPG, id=191, 655.69969pt x 221.32687pt>
 File: Figures/aerogelchannel.JPG Graphic file (type jpg)
 
 <use Figures/aerogelchannel.JPG>
 Package pdftex.def Info: Figures/aerogelchannel.JPG used on input line 131.
 (pdftex.def)             Requested size: 346.89731pt x 117.09328pt.
 
-<Figures/accrange.jpg, id=189, 813.0375pt x 429.605pt>
+<Figures/accrange.jpg, id=192, 813.0375pt x 429.605pt>
 File: Figures/accrange.jpg Graphic file (type jpg)
 
 <use Figures/accrange.jpg>
@@ -666,13 +667,16 @@ Package pdftex.def Info: Figures/accrange.jpg used on input line 141.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[36 <./Figures/aerogelchannel.JPG>] [37 <./Figures/accrange.jpg>]
+[36 <./Figures/aerogelchannel.JPG>]
 <Figures/RICHdiagram.jpg, id=196, 782.925pt x 448.67625pt>
 File: Figures/RICHdiagram.jpg Graphic file (type jpg)
 
 <use Figures/RICHdiagram.jpg>
 Package pdftex.def Info: Figures/RICHdiagram.jpg used on input line 154.
 (pdftex.def)             Requested size: 346.89731pt x 198.8011pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <Figures/PbScschematic.jpg, id=197, 663.47874pt x 269.005pt>
 File: Figures/PbScschematic.jpg Graphic file (type jpg)
@@ -694,32 +698,31 @@ File: Figures/pbglsupermodule.JPG Graphic file (type jpg)
 <use Figures/pbglsupermodule.JPG>
 Package pdftex.def Info: Figures/pbglsupermodule.JPG used on input line 176.
 (pdftex.def)             Requested size: 260.17464pt x 196.00822pt.
- [38 <./Figures/RICHdiagram.jpg>] [39 <./Figures/PbScschematic.jpg> <./Figures/
-PbGlmodules.jpg> <./Figures/pbglsupermodule.JPG>] <Figures/ERT.jpg, id=207, 508
-.90125pt x 340.27126pt>
+ [37 <./Figures/accrange.jpg>] [38 <./Figures/RICHdiagram.jpg>] [39 <./Figures/
+PbScschematic.jpg> <./Figures/PbGlmodules.jpg> <./Figures/pbglsupermodule.JPG>]
+
+<Figures/ERT.jpg, id=210, 508.90125pt x 340.27126pt>
 File: Figures/ERT.jpg Graphic file (type jpg)
  <use Figures/ERT.jpg>
 Package pdftex.def Info: Figures/ERT.jpg used on input line 193.
 (pdftex.def)             Requested size: 216.81pt x 144.96902pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[40] <Figures/bbcrender.JPG, id=211, 359.09157pt x 271.76532pt>
+[40 <./Figures/ERT.jpg>]
+<Figures/bbcrender.JPG, id=214, 359.09157pt x 271.76532pt>
 File: Figures/bbcrender.JPG Graphic file (type jpg)
 
 <use Figures/bbcrender.JPG>
 Package pdftex.def Info: Figures/bbcrender.JPG used on input line 208.
 (pdftex.def)             Requested size: 173.44534pt x 131.26692pt.
 
-<Figures/bbcsinglechannel.JPG, id=212, 355.3275pt x 266.49562pt>
+<Figures/bbcsinglechannel.JPG, id=215, 355.3275pt x 266.49562pt>
 File: Figures/bbcsinglechannel.JPG Graphic file (type jpg)
 
 <use Figures/bbcsinglechannel.JPG>
 Package pdftex.def Info: Figures/bbcsinglechannel.JPG used on input line 214.
 (pdftex.def)             Requested size: 173.44534pt x 130.08789pt.
- [41 <./Figures/ERT.jpg>]
-<prevplots/bbczdcanaresponse.JPG, id=216, 375.65344pt x 245.41687pt>
+ [41 <./Figures/bbcrender.JPG> <./Figures/bbcsinglechannel.JPG>]
+<prevplots/bbczdcanaresponse.JPG, id=219, 375.65344pt x 245.41687pt>
 File: prevplots/bbczdcanaresponse.JPG Graphic file (type jpg)
 
 <use prevplots/bbczdcanaresponse.JPG>
@@ -730,8 +733,7 @@ Package pdftex.def Info: prevplots/bbczdcanaresponse.JPG used on input line 227
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[42 <./Figures/bbcrender.JPG> <./Figures/bbcsinglechannel.JPG>]
-<Figures/mpcschematic.JPG, id=220, 383.18156pt x 503.63156pt>
+[42] <Figures/mpcschematic.JPG, id=223, 383.18156pt x 503.63156pt>
 File: Figures/mpcschematic.JPG Graphic file (type jpg)
 
 <use Figures/mpcschematic.JPG>
@@ -741,26 +743,29 @@ Package pdftex.def Info: Figures/mpcschematic.JPG used on input line 238.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[43 <./prevplots/bbczdcanaresponse.JPG>]
 <Figures/RXNPschem.jpg, id=224, 938.50626pt x 348.30125pt>
 File: Figures/RXNPschem.jpg Graphic file (type jpg)
 
 <use Figures/RXNPschem.jpg>
 Package pdftex.def Info: Figures/RXNPschem.jpg used on input line 249.
 (pdftex.def)             Requested size: 303.53267pt x 112.64383pt.
- [44 <./Figures/mpcschematic.JPG>] [45 <./Figures/RXNPschem.jpg>] [46] <Figures
-/DAQ.jpg, id=235, 721.19438pt x 387.69844pt>
-File: Figures/DAQ.jpg Graphic file (type jpg)
+ [43 <./prevplots/bbczdcanaresponse.JPG>]
 
-<use Figures/DAQ.jpg>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[44 <./Figures/mpcschematic.JPG>] [45 <./Figures/RXNPschem.jpg>] [46]
+<Figures/DAQ.jpg, id=238, 721.19438pt x 387.69844pt>
+File: Figures/DAQ.jpg Graphic file (type jpg)
+ <use Figures/DAQ.jpg>
 Package pdftex.def Info: Figures/DAQ.jpg used on input line 262.
 (pdftex.def)             Requested size: 433.62pt x 233.10594pt.
- [47 <./Figures/DAQ.jpg>]) (HICollisions.tex
+
+[47 <./Figures/DAQ.jpg>]) (HICollisions.tex
 Chapter 4.
 [48
 
 ] [49]
-<Figures/spectatorsvsparticipants.jpg, id=245, 702.625pt x 284.06125pt>
+<Figures/spectatorsvsparticipants.jpg, id=249, 702.625pt x 284.06125pt>
 File: Figures/spectatorsvsparticipants.jpg Graphic file (type jpg)
 
 <use Figures/spectatorsvsparticipants.jpg>
@@ -768,7 +773,7 @@ Package pdftex.def Info: Figures/spectatorsvsparticipants.jpg used on input lin
 e 15.
 (pdftex.def)             Requested size: 433.62pt x 175.30994pt.
  [50 <./Figures/spectatorsvsparticipants.jpg>] <Figures/centralvsperipheral.jpg
-, id=250, 1104.125pt x 612.2875pt>
+, id=253, 1104.125pt x 612.2875pt>
 File: Figures/centralvsperipheral.jpg Graphic file (type jpg)
 
 <use Figures/centralvsperipheral.jpg>
@@ -782,68 +787,88 @@ Package pdftex.def Info: Figures/centralvsperipheral.jpg used on input line 29.
 (pdftex.def)             Requested size: 173.44865pt x 96.18353pt.
 
 [51 <./Figures/centralvsperipheral.jpg>]
-<Figures/BBCevtchar.JPG, id=254, 781.41937pt x 295.85532pt>
+<Figures/BBCevtchar.JPG, id=257, 781.41937pt x 295.85532pt>
 File: Figures/BBCevtchar.JPG Graphic file (type jpg)
 
 <use Figures/BBCevtchar.JPG>
 Package pdftex.def Info: Figures/BBCevtchar.JPG used on input line 47.
 (pdftex.def)             Requested size: 433.62pt x 164.17455pt.
  [52 <./Figures/BBCevtchar.JPG>] [53]
-<Figures/tofchargemom.JPG, id=261, 426.84468pt x 400.49625pt>
+<Figures/houghtransformcartoon.JPG, id=264, 426.84468pt x 326.72063pt>
+File: Figures/houghtransformcartoon.JPG Graphic file (type jpg)
+
+<use Figures/houghtransformcartoon.JPG>
+Package pdftex.def Info: Figures/houghtransformcartoon.JPG used on input line 6
+2.
+(pdftex.def)             Requested size: 303.53267pt x 232.34715pt.
+
+<Figures/pc3tofmatching.JPG, id=265, 579.66562pt x 446.41782pt>
+File: Figures/pc3tofmatching.JPG Graphic file (type jpg)
+
+<use Figures/pc3tofmatching.JPG>
+Package pdftex.def Info: Figures/pc3tofmatching.JPG used on input line 72.
+(pdftex.def)             Requested size: 390.25534pt x 300.54929pt.
+ [54 <./Figures/houghtransformcartoon.JPG>]
+[55] [56 <./Figures/pc3tofmatching.JPG>]
+<Figures/tofchargemom.JPG, id=276, 426.84468pt x 400.49625pt>
 File: Figures/tofchargemom.JPG Graphic file (type jpg)
 
 <use Figures/tofchargemom.JPG>
-Package pdftex.def Info: Figures/tofchargemom.JPG used on input line 66.
+Package pdftex.def Info: Figures/tofchargemom.JPG used on input line 83.
 (pdftex.def)             Requested size: 303.53267pt x 284.81265pt.
- [54 <./Figures/tofchargemom.JPG>]
-<Figures/m2tofvspt.jpg, id=265, 427.5975pt x 395.22656pt>
+ [57 <./Figures/tofchargemom.JPG>]
+<Figures/m2tofvspt.jpg, id=280, 427.5975pt x 395.22656pt>
 File: Figures/m2tofvspt.jpg Graphic file (type jpg)
 
 <use Figures/m2tofvspt.jpg>
-Package pdftex.def Info: Figures/m2tofvspt.jpg used on input line 93.
+Package pdftex.def Info: Figures/m2tofvspt.jpg used on input line 110.
 (pdftex.def)             Requested size: 303.53267pt x 280.5525pt.
- [55] [56 <./Figures/m2tofvspt.jpg>]) (Flow.tex
+ [58] [59 <./Figures/m2tofvspt.jpg>]) (Flow.tex
 Chapter 5.
-[57
+[60
 
-] <Figures/fouriercosines.jpg, id=277, 521.7894pt x 321.1197pt>
+] [61] <Figures/fouriercosines.jpg, id=295, 521.7894pt x 321.1197pt>
 File: Figures/fouriercosines.jpg Graphic file (type jpg)
 
 <use Figures/fouriercosines.jpg>
 Package pdftex.def Info: Figures/fouriercosines.jpg used on input line 47.
 (pdftex.def)             Requested size: 346.89731pt x 213.488pt.
- [58] [59 <./Figures/fouriercosines.jpg>])
+ [62 <./Figures/fouriercosines.jpg>] [63])
 (EventPlane.tex
 Chapter 6.
-) (Results.tex [60
+) (Results.tex [64
 
 ]
 Chapter 7.
-[61
+[65
 
 ]) (Systematics.tex
 Chapter 8.
-[62
+[66
 
 ]) (Conclusions.tex
 Chapter 9.
-[63
+[67
 
 ]) (appendix_coords.tex
 Appendix A.
-<Figures/coord2.jpg, id=297, 607.26875pt x 570.13pt>
+<Figures/coord2.jpg, id=315, 607.26875pt x 570.13pt>
 File: Figures/coord2.jpg Graphic file (type jpg)
  <use Figures/coord2.jpg>
 Package pdftex.def Info: Figures/coord2.jpg used on input line 6.
 (pdftex.def)             Requested size: 130.08731pt x 122.12318pt.
 
-[64
+[68
 
- <./Figures/coord2.jpg>]) (appendix_nuclmodfact.tex [65]
+ <./Figures/coord2.jpg>]) (appendix_nuclmodfact.tex [69]
 Appendix B.
-[66
+[70
 
-]) (thesis.bbl [67]
+]) (appendix_cuts.tex [71]
+Appendix C.
+) (thesis.bbl [72
+
+]
 
 ! LaTeX Error: \newblock undefined.
 
@@ -854,21 +879,23 @@ Type  H <return>  for immediate help.
 l.1 \begin{thebibliography}{10}
                                
 ? 
-[68
+[73
 
-] [69] [70] [71] [72] [73]) [74] (thesis.aux)
+] [74] [75] [76] [77] [78]
+Missing character: There is no ó in font cmr10!
+ [79]) [80] (thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5353 strings out of 493335
- 83083 string characters out of 3136683
- 173870 words of memory out of 3000000
- 8714 multiletter control sequences out of 15000+200000
- 12620 words of font info for 45 fonts, out of 3000000 for 9000
+ 5413 strings out of 493335
+ 84208 string characters out of 3136683
+ 170343 words of memory out of 3000000
+ 8766 multiletter control sequences out of 15000+200000
+ 13633 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,23n,46p,1904b,592s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,23n,46p,2261b,605s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C
@@ -884,9 +911,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on thesis.pdf (85 pages, 3703963 bytes).
+Output written on thesis.pdf (92 pages, 3808280 bytes).
 PDF statistics:
- 383 PDF objects out of 1000 (max. 8388607)
+ 407 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 236 words of extra memory for PDF output out of 10000 (max. 10000000)
 

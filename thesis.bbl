@@ -392,6 +392,11 @@ J.~T. Mitchell et~al.
 \newblock {Event reconstruction in the PHENIX central arm spectrometers}.
 \newblock {\em Nucl. Instrum. Meth.}, A482:491--512, 2002.
 
+\bibitem{OHLSSON199277}
+Mattias Ohlsson, Carsten Peterson, and Alan~L. Yuille.
+\newblock Track finding with deformable templates — the elastic arms approach.
+\newblock {\em Computer Physics Communications}, 71(1):77 -- 98, 1992.
+
 \bibitem{PCfocus}
 Anders Oskarsson.
 \newblock The pad chambers.
@@ -411,6 +416,19 @@ Eric Richardson.
 ARTHUR~L. ROBINSON.
 \newblock Nuclear squeeze at lawrence berkeley lab.
 \newblock {\em Science}, 224(4651):857--858, 1984.
+
+\bibitem{rolnickthesis}
+Sky~Deva Rolnick.
+\newblock {\em Measurement of Dielectron Continuum in p + p at sqrt(s) = 200
+  GeV as a Baseline study for Chiral Symmetry Restoration}.
+\newblock PhD thesis, University of California, Riverside, 2015.
+
+\bibitem{schaeferthesis}
+Brennan~C. Schaefer.
+\newblock {\em Measurements of directed, elliptic, and triangular flow of
+  charged hadrons from Cu+Au collisions at sqrt(s) = 200 GeV with PHENIX at
+  RHIC}.
+\newblock PhD thesis, Vanderbilt University, 2016.
 
 \bibitem{Shuryak:1980tp}
 Edward~V. Shuryak.

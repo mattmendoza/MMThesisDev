@@ -1,11 +1,11 @@
-\contentsline {chapter}{List of Figures}{ix}
-\contentsline {chapter}{List of Tables}{xi}
+\contentsline {chapter}{List of Figures}{x}
+\contentsline {chapter}{List of Tables}{xii}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Introduction}{1}
 \contentsline {section}{\numberline {1.2}Early Experiments: An Overview}{3}
 \contentsline {chapter}{\numberline {2}Nuclear Matter: Hot and Cold}{6}
 \contentsline {section}{\numberline {2.1}Hot versus Cold Nuclear Matter}{6}
-\contentsline {section}{\numberline {2.2}The Cronin Effect}{6}
+\contentsline {section}{\numberline {2.2}The Cronin Effect}{7}
 \contentsline {subsection}{\numberline {2.2.1}Initial State Multiple Scattering}{8}
 \contentsline {subsection}{\numberline {2.2.2}Final State Multiple Scattering}{10}
 \contentsline {section}{\numberline {2.3}Hot Nuclear Matter: QGP}{12}
@@ -14,20 +14,20 @@
 \contentsline {subsubsection}{Recombination}{13}
 \contentsline {subsubsection}{Fragmentation}{15}
 \contentsline {section}{\numberline {2.4}Flow at the LHC}{17}
-\contentsline {section}{\numberline {2.5}Recombination and Fragmentation for All?}{18}
+\contentsline {section}{\numberline {2.5}Recombination and Fragmentation for All?}{19}
 \contentsline {chapter}{\numberline {3}Experimental Apparatus}{22}
 \contentsline {section}{\numberline {3.1}The Relativistic Heavy Ion Collider}{22}
 \contentsline {section}{\numberline {3.2}From Start to Finish}{23}
 \contentsline {section}{\numberline {3.3}The PHENIX Detector}{25}
-\contentsline {subsection}{\numberline {3.3.1}Central Arm}{25}
+\contentsline {subsection}{\numberline {3.3.1}Central Arm}{27}
 \contentsline {subsubsection}{Drift and Pad Chambers}{27}
-\contentsline {subsubsection}{TOF: Time Of Flight Detectors}{30}
+\contentsline {subsubsection}{TOF: Time Of Flight Detectors}{29}
 \contentsline {subsubsection}{ACC: Aerogel Cherenkov Counter}{34}
-\contentsline {subsubsection}{EMCal and RICH: Electromagnetic Calorimeter and Ring Imaging Cherenkov Counter}{37}
+\contentsline {subsubsection}{EMCal and RICH: Electromagnetic Calorimeter and Ring Imaging Cherenkov Counter}{36}
 \contentsline {subsection}{\numberline {3.3.2}Forward and Global Detectors}{40}
 \contentsline {subsubsection}{BBC: Beam-Beam Counter}{41}
 \contentsline {subsubsection}{ZDC/SMD: Zero Degree Calorimeter and Shower Max Detectors}{42}
-\contentsline {subsubsection}{MPC: Muon Piston Calorimeter}{43}
+\contentsline {subsubsection}{MPC: Muon Piston Calorimeter}{42}
 \contentsline {subsubsection}{RXNP: Reaction Plane Detector}{43}
 \contentsline {section}{\numberline {3.4}The DAQ}{45}
 \contentsline {chapter}{\numberline {4}Heavy Ion Collisions: A Primer}{48}
@@ -37,25 +37,28 @@
 \contentsline {subsection}{\numberline {4.2.2}Event Vertex and Timing}{51}
 \contentsline {section}{\numberline {4.3}Track Reconstruction}{53}
 \contentsline {subsection}{\numberline {4.3.1}Variables for Track Selection}{53}
-\contentsline {subsection}{\numberline {4.3.2}Particle Identification}{53}
-\contentsline {chapter}{\numberline {5}Anisotropic Flow}{57}
-\contentsline {chapter}{\numberline {6}Event Plane}{60}
-\contentsline {section}{\numberline {6.1}Determination of Event Plane}{60}
-\contentsline {section}{\numberline {6.2}Event Plane "Flattening"}{60}
-\contentsline {section}{\numberline {6.3}Event Plane Resolution Correction}{60}
-\contentsline {chapter}{\numberline {7}Results}{61}
-\contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{61}
-\contentsline {section}{\numberline {7.2}Separating Particle Signals}{61}
-\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{61}
-\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{61}
-\contentsline {subsection}{\numberline {7.2.3}ACC as a Pion Discriminator}{61}
-\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{61}
-\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{61}
-\contentsline {chapter}{\numberline {8}Error Analysis}{62}
-\contentsline {section}{\numberline {8.1}Systematic Errors}{62}
-\contentsline {chapter}{\numberline {9}Summary and Conclusions}{63}
-\contentsline {section}{\numberline {9.1}Discussion}{63}
-\contentsline {section}{\numberline {9.2}Conclusions}{63}
-\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{64}
-\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{66}
-\contentsline {section}{\numberline {B.1}Nuclear Modification Factor}{66}
+\contentsline {subsubsection}{Track Matching: DC and PC1}{53}
+\contentsline {subsubsection}{Track Matching: TOF and PC3}{55}
+\contentsline {subsection}{\numberline {4.3.2}Particle Identification}{55}
+\contentsline {chapter}{\numberline {5}Anisotropic Flow}{60}
+\contentsline {chapter}{\numberline {6}Event Plane}{64}
+\contentsline {section}{\numberline {6.1}Determination of Event Plane}{64}
+\contentsline {section}{\numberline {6.2}Event Plane "Flattening"}{64}
+\contentsline {section}{\numberline {6.3}Event Plane Resolution Correction}{64}
+\contentsline {chapter}{\numberline {7}Results}{65}
+\contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{65}
+\contentsline {section}{\numberline {7.2}Separating Particle Signals}{65}
+\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{65}
+\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{65}
+\contentsline {subsection}{\numberline {7.2.3}ACC as a Pion Discriminator}{65}
+\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{65}
+\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{65}
+\contentsline {chapter}{\numberline {8}Error Analysis}{66}
+\contentsline {section}{\numberline {8.1}Systematic Errors}{66}
+\contentsline {chapter}{\numberline {9}Summary and Conclusions}{67}
+\contentsline {section}{\numberline {9.1}Discussion}{67}
+\contentsline {section}{\numberline {9.2}Conclusions}{67}
+\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{68}
+\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{70}
+\contentsline {section}{\numberline {B.1}Nuclear Modification Factor}{70}
+\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{72}
