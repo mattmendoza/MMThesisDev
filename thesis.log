@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  30 AUG 2016 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  30 AUG 2016 21:05
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -836,37 +836,37 @@ Package pdftex.def Info: Figures/fouriercosines.jpg used on input line 47.
  [62 <./Figures/fouriercosines.jpg>] [63])
 (EventPlane.tex
 Chapter 6.
-) (Results.tex [64
+[64
 
-]
+]) (Results.tex [65]
 Chapter 7.
-[65
+[66
 
 ]) (Systematics.tex
 Chapter 8.
-[66
+[67
 
 ]) (Conclusions.tex
 Chapter 9.
-[67
+[68
 
 ]) (appendix_coords.tex
 Appendix A.
-<Figures/coord2.jpg, id=315, 607.26875pt x 570.13pt>
+<Figures/coord2.jpg, id=318, 607.26875pt x 570.13pt>
 File: Figures/coord2.jpg Graphic file (type jpg)
  <use Figures/coord2.jpg>
 Package pdftex.def Info: Figures/coord2.jpg used on input line 6.
 (pdftex.def)             Requested size: 130.08731pt x 122.12318pt.
 
-[68
+[69
 
- <./Figures/coord2.jpg>]) (appendix_nuclmodfact.tex [69]
+ <./Figures/coord2.jpg>]) (appendix_nuclmodfact.tex [70]
 Appendix B.
-[70
+[71
 
-]) (appendix_cuts.tex [71]
+]) (appendix_cuts.tex [72]
 Appendix C.
-) (thesis.bbl [72
+) (thesis.bbl [73
 
 ]
 
@@ -879,11 +879,11 @@ Type  H <return>  for immediate help.
 l.1 \begin{thebibliography}{10}
                                
 ? 
-[73
+[74
 
-] [74] [75] [76] [77] [78]
+] [75] [76] [77] [78] [79]
 Missing character: There is no — in font cmr10!
- [79]) [80] (thesis.aux)
+ [80]) [81] (thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -911,9 +911,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on thesis.pdf (92 pages, 3808280 bytes).
+Output written on thesis.pdf (93 pages, 3809683 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
+ 410 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  236 words of extra memory for PDF output out of 10000 (max. 10000000)
 

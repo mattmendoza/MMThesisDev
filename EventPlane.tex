@@ -5,10 +5,16 @@
 \section{Determination of Event Plane}
 \section{Event Plane "Flattening"}
 \section{Event Plane Resolution Correction}
+So we correct this resolution error by some multiplicative scaling such that:
+\begin{equation}
+v_2^{res corr} = \frac{\langle cos (2(\phi - \Psi_2)) \rangle}{Res(\Psi_2)}
+\end{equation}
+where $\phi$ is the azimuthal angle, $\Psi_2$ is the 2nd order Fourier harmonic event plane, and $Res(\Psi_2)$ is a single valued correction factor for a $v_2$ measurement using a specific detector and a single bin in centrality. Since device resolution is independent of particle species, we do not need to calculate a different correction for each particle flow. 
+
 The method used for this analysis is called the \textit{Three Subevent Method} and can be calculated by comparing the event plane measured with one detector to measurements made by two other detectors.
 %----------------------------------------------------------------------------------------
 \begin{equation}
-Res\{2k \Psi^{A}\} = \sqrt{\frac{\langle cos(2k[\Psi^{A} \Psi^{B}])\rangle \langle cos(2k[\Psi^{A} \Psi^{C}])\rangle}{\langle cos(2k[\Psi^{B} \Psi^{C}])\rangle}}
+Res\{2k \Psi^{A}\} = \sqrt{\frac{\langle cos(2k[\Psi^{A}-\Psi^{B}])\rangle \langle cos(2k[\Psi^{A}-\Psi^{C}])\rangle}{\langle cos(2k[\Psi^{B}-\Psi^{C}])\rangle}}
 \end{equation} 
 \pagebreak
 \pagebreak
