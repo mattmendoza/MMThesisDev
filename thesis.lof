@@ -28,25 +28,27 @@
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Schematics of EMCal components}}{39}
 \contentsline {figure}{\numberline {3.15}{\ignorespaces A drawing of example ERT events}}{40}
 \contentsline {figure}{\numberline {3.16}{\ignorespaces The Beam Beam Counter}}{41}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Centrality bins as determined by ZDC energy versus BBC charge sum}}{43}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Schematic of the MPC}}{44}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Cross sectional diagram of RXNP layers}}{45}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces A diagram of the data flow of PHENIX data through the DAQ}}{47}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Schematic showing the layout of fiber optics in the ZDC}}{42}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Centrality bins as determined by ZDC energy versus BBC charge sum}}{43}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Schematic of the MPC}}{44}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Cross sectional diagram of RXNP layers}}{45}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces A diagram of the data flow of PHENIX data through the DAQ}}{48}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Spectators and participant nucleons in a heavy ion collision}}{50}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Central versus peripheral ion collisions}}{51}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagram of BBC event characterization}}{52}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Hits in the DC matched to tracks using a Hough transform}}{54}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagram of track reconstruction by the DC/PC1 projected linearly onto the TOF/PC3}}{56}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Particle separation in the TOF}}{57}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces $m^{2}$ vs $p_{T}$ showing clear constant separation of particle signatures.}}{59}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Central versus peripheral ion collisions, BBC vs ZDC determination of}}{52}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagram of BBC event characterization}}{54}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Hits in the DC matched to tracks using a Hough transform}}{56}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagram of track reconstruction by the DC/PC1 projected linearly onto the TOF/PC3}}{57}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Particle separation in the TOF}}{58}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces $m^{2}$ vs $p_{T}$ showing clear constant separation of particle signatures.}}{60}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Plots of the first four harmonics of a cosine series}}{62}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Plots of the first four harmonics of a cosine series}}{63}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Illustrations of the event plane in heavy ion collisions}}{66}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Cartoon of Event Plane determination with forward detectors}}{67}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces PHENIX coordinate system}}{69}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces PHENIX coordinate system}}{73}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

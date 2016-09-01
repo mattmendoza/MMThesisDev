@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  30 AUG 2016 21:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  31 AUG 2016 17:29
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -285,6 +285,15 @@ LaTeX Warning: Label `sub@fig:Rcpcentvsperiph' multiply defined.
 
 
 LaTeX Warning: Label `fig:baryonenhancementAA' multiply defined.
+
+
+LaTeX Warning: Label `fig:zdcvsbbc' multiply defined.
+
+
+LaTeX Warning: Label `fig:cernfireball' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:cernfireball' multiply defined.
 
 )
 \openout1 = `thesis.aux'.
@@ -575,8 +584,8 @@ File: prevplots/daurecomb.JPG Graphic file (type jpg)
 <use prevplots/daurecomb.JPG>
 Package pdftex.def Info: prevplots/daurecomb.JPG used on input line 169.
 (pdftex.def)             Requested size: 216.81pt x 166.41434pt.
- [20 <./prevplots/daurecomb.JPG>] [21])
-(Apparatus.tex
+ [20 <./prevplots/daurecomb.JPG>]) (Apparatus.tex
+[21]
 Chapter 3.
 <Figures/RHIC-aerial-HR.jpg, id=137, 308.352pt x 186.39638pt>
 File: Figures/RHIC-aerial-HR.jpg Graphic file (type jpg)
@@ -721,152 +730,177 @@ File: Figures/bbcsinglechannel.JPG Graphic file (type jpg)
 <use Figures/bbcsinglechannel.JPG>
 Package pdftex.def Info: Figures/bbcsinglechannel.JPG used on input line 214.
 (pdftex.def)             Requested size: 173.44534pt x 130.08789pt.
- [41 <./Figures/bbcrender.JPG> <./Figures/bbcsinglechannel.JPG>]
-<prevplots/bbczdcanaresponse.JPG, id=219, 375.65344pt x 245.41687pt>
+
+<Figures/ZDCschematic.JPG, id=216, 523.9575pt x 489.32813pt>
+File: Figures/ZDCschematic.JPG Graphic file (type jpg)
+
+<use Figures/ZDCschematic.JPG>
+Package pdftex.def Info: Figures/ZDCschematic.JPG used on input line 226.
+(pdftex.def)             Requested size: 303.53267pt x 283.4745pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[41 <./Figures/bbcrender.JPG> <./Figures/bbcsinglechannel.JPG>] [42 <./Figures/
+ZDCschematic.JPG>]
+<prevplots/bbczdcanaresponse.JPG, id=223, 375.65344pt x 245.41687pt>
 File: prevplots/bbczdcanaresponse.JPG Graphic file (type jpg)
 
 <use prevplots/bbczdcanaresponse.JPG>
-Package pdftex.def Info: prevplots/bbczdcanaresponse.JPG used on input line 227
+Package pdftex.def Info: prevplots/bbczdcanaresponse.JPG used on input line 236
 .
 (pdftex.def)             Requested size: 216.81pt x 141.64536pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[42] <Figures/mpcschematic.JPG, id=223, 383.18156pt x 503.63156pt>
+ [43 <./prevplots/bbczdcanaresponse.JPG>]
+<Figures/mpcschematic.JPG, id=228, 383.18156pt x 503.63156pt>
 File: Figures/mpcschematic.JPG Graphic file (type jpg)
 
 <use Figures/mpcschematic.JPG>
-Package pdftex.def Info: Figures/mpcschematic.JPG used on input line 238.
+Package pdftex.def Info: Figures/mpcschematic.JPG used on input line 247.
 (pdftex.def)             Requested size: 303.53267pt x 398.96349pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/RXNPschem.jpg, id=224, 938.50626pt x 348.30125pt>
+ [44 <./Figures/mpcschematic.JPG>]
+<Figures/RXNPschem.jpg, id=232, 938.50626pt x 348.30125pt>
 File: Figures/RXNPschem.jpg Graphic file (type jpg)
 
 <use Figures/RXNPschem.jpg>
-Package pdftex.def Info: Figures/RXNPschem.jpg used on input line 249.
+Package pdftex.def Info: Figures/RXNPschem.jpg used on input line 258.
 (pdftex.def)             Requested size: 303.53267pt x 112.64383pt.
- [43 <./prevplots/bbczdcanaresponse.JPG>]
+ [45 <./Figures/RXNPschem.jpg>] [46]
+<Figures/DAQ.jpg, id=239, 721.19438pt x 387.69844pt>
+File: Figures/DAQ.jpg Graphic file (type jpg)
+ <use Figures/DAQ.jpg>
+Package pdftex.def Info: Figures/DAQ.jpg used on input line 271.
+(pdftex.def)             Requested size: 433.62pt x 233.10594pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[44 <./Figures/mpcschematic.JPG>] [45 <./Figures/RXNPschem.jpg>] [46]
-<Figures/DAQ.jpg, id=238, 721.19438pt x 387.69844pt>
-File: Figures/DAQ.jpg Graphic file (type jpg)
- <use Figures/DAQ.jpg>
-Package pdftex.def Info: Figures/DAQ.jpg used on input line 262.
-(pdftex.def)             Requested size: 433.62pt x 233.10594pt.
-
-[47 <./Figures/DAQ.jpg>]) (HICollisions.tex
+[47]) (HICollisions.tex [48 <./Figures/DAQ.jpg>]
 Chapter 4.
-[48
+[49
 
-] [49]
-<Figures/spectatorsvsparticipants.jpg, id=249, 702.625pt x 284.06125pt>
+] [50]
+<Figures/spectatorsvsparticipants.jpg, id=253, 702.625pt x 284.06125pt>
 File: Figures/spectatorsvsparticipants.jpg Graphic file (type jpg)
 
 <use Figures/spectatorsvsparticipants.jpg>
 Package pdftex.def Info: Figures/spectatorsvsparticipants.jpg used on input lin
-e 15.
+e 16.
 (pdftex.def)             Requested size: 433.62pt x 175.30994pt.
- [50 <./Figures/spectatorsvsparticipants.jpg>] <Figures/centralvsperipheral.jpg
-, id=253, 1104.125pt x 612.2875pt>
+
+<Figures/centralvsperipheral.jpg, id=254, 1104.125pt x 612.2875pt>
 File: Figures/centralvsperipheral.jpg Graphic file (type jpg)
 
 <use Figures/centralvsperipheral.jpg>
-Package pdftex.def Info: Figures/centralvsperipheral.jpg used on input line 26.
+Package pdftex.def Info: Figures/centralvsperipheral.jpg used on input line 21.
 
-(pdftex.def)             Requested size: 173.44865pt x 96.18353pt.
-File: Figures/centralvsperipheral.jpg Graphic file (type jpg)
- <use Figures/centralvsperipheral.jpg>
-Package pdftex.def Info: Figures/centralvsperipheral.jpg used on input line 29.
-
-(pdftex.def)             Requested size: 173.44865pt x 96.18353pt.
-
-[51 <./Figures/centralvsperipheral.jpg>]
-<Figures/BBCevtchar.JPG, id=257, 781.41937pt x 295.85532pt>
+(pdftex.def)             Requested size: 433.62pt x 240.46352pt.
+ [51] [52 <./Figures/spectatorsvsparticipants.jpg> <./Figures/centralvsperipher
+al.jpg>]
+<Figures/BBCevtchar.JPG, id=261, 781.41937pt x 295.85532pt>
 File: Figures/BBCevtchar.JPG Graphic file (type jpg)
 
 <use Figures/BBCevtchar.JPG>
-Package pdftex.def Info: Figures/BBCevtchar.JPG used on input line 47.
+Package pdftex.def Info: Figures/BBCevtchar.JPG used on input line 44.
 (pdftex.def)             Requested size: 433.62pt x 164.17455pt.
- [52 <./Figures/BBCevtchar.JPG>] [53]
-<Figures/houghtransformcartoon.JPG, id=264, 426.84468pt x 326.72063pt>
+ [53] [54 <./Figures/BBCevtchar.JPG>]
+<Figures/houghtransformcartoon.JPG, id=268, 426.84468pt x 326.72063pt>
 File: Figures/houghtransformcartoon.JPG Graphic file (type jpg)
 
 <use Figures/houghtransformcartoon.JPG>
-Package pdftex.def Info: Figures/houghtransformcartoon.JPG used on input line 6
-2.
+Package pdftex.def Info: Figures/houghtransformcartoon.JPG used on input line 5
+9.
 (pdftex.def)             Requested size: 303.53267pt x 232.34715pt.
 
-<Figures/pc3tofmatching.JPG, id=265, 579.66562pt x 446.41782pt>
+<Figures/pc3tofmatching.JPG, id=269, 579.66562pt x 446.41782pt>
 File: Figures/pc3tofmatching.JPG Graphic file (type jpg)
 
 <use Figures/pc3tofmatching.JPG>
-Package pdftex.def Info: Figures/pc3tofmatching.JPG used on input line 72.
+Package pdftex.def Info: Figures/pc3tofmatching.JPG used on input line 69.
 (pdftex.def)             Requested size: 390.25534pt x 300.54929pt.
- [54 <./Figures/houghtransformcartoon.JPG>]
-[55] [56 <./Figures/pc3tofmatching.JPG>]
-<Figures/tofchargemom.JPG, id=276, 426.84468pt x 400.49625pt>
+ [55] [56 <./Figures/houghtransformcartoon.JPG>] [57 <./Figures/pc3tofmatching.
+JPG>]
+<Figures/tofchargemom.JPG, id=280, 426.84468pt x 400.49625pt>
 File: Figures/tofchargemom.JPG Graphic file (type jpg)
 
 <use Figures/tofchargemom.JPG>
-Package pdftex.def Info: Figures/tofchargemom.JPG used on input line 83.
+Package pdftex.def Info: Figures/tofchargemom.JPG used on input line 80.
 (pdftex.def)             Requested size: 303.53267pt x 284.81265pt.
- [57 <./Figures/tofchargemom.JPG>]
-<Figures/m2tofvspt.jpg, id=280, 427.5975pt x 395.22656pt>
+ [58 <./Figures/tofchargemom.JPG>] [59]
+<Figures/m2tofvspt.jpg, id=288, 427.5975pt x 395.22656pt>
 File: Figures/m2tofvspt.jpg Graphic file (type jpg)
 
 <use Figures/m2tofvspt.jpg>
-Package pdftex.def Info: Figures/m2tofvspt.jpg used on input line 110.
+Package pdftex.def Info: Figures/m2tofvspt.jpg used on input line 107.
 (pdftex.def)             Requested size: 303.53267pt x 280.5525pt.
- [58] [59 <./Figures/m2tofvspt.jpg>]) (Flow.tex
+ [60 <./Figures/m2tofvspt.jpg>]) (Flow.tex
 Chapter 5.
-[60
+[61
 
-] [61] <Figures/fouriercosines.jpg, id=295, 521.7894pt x 321.1197pt>
+] [62] <Figures/fouriercosines.jpg, id=299, 521.7894pt x 321.1197pt>
 File: Figures/fouriercosines.jpg Graphic file (type jpg)
 
 <use Figures/fouriercosines.jpg>
 Package pdftex.def Info: Figures/fouriercosines.jpg used on input line 47.
 (pdftex.def)             Requested size: 346.89731pt x 213.488pt.
- [62 <./Figures/fouriercosines.jpg>] [63])
+ [63 <./Figures/fouriercosines.jpg>] [64])
 (EventPlane.tex
 Chapter 6.
-[64
+<Figures/Flow_Plane.jpg, id=306, 424.2249pt x 291.9708pt>
+File: Figures/Flow_Plane.jpg Graphic file (type jpg)
 
-]) (Results.tex [65]
+<use Figures/Flow_Plane.jpg>
+Package pdftex.def Info: Figures/Flow_Plane.jpg used on input line 10.
+(pdftex.def)             Requested size: 303.53267pt x 208.90454pt.
+
+<Figures/flowcartoon.jpg, id=307, 534.65297pt x 347.57277pt>
+File: Figures/flowcartoon.jpg Graphic file (type jpg)
+
+<use Figures/flowcartoon.jpg>
+Package pdftex.def Info: Figures/flowcartoon.jpg used on input line 15.
+(pdftex.def)             Requested size: 303.53267pt x 197.32831pt.
+
+
+LaTeX Warning: Float too large for page by 13.96156pt on input line 21.
+
+[65
+
+] [66 <./Figures/Flow_Plane.jpg> <./Figures/flowcartoon.jpg>]
+<Figures/reactionplaneexpcartoon.jpg, id=314, 776.9025pt x 283.0575pt>
+File: Figures/reactionplaneexpcartoon.jpg Graphic file (type jpg)
+
+<use Figures/reactionplaneexpcartoon.jpg>
+Package pdftex.def Info: Figures/reactionplaneexpcartoon.jpg used on input line
+ 29.
+(pdftex.def)             Requested size: 433.62pt x 157.9885pt.
+ [67 <./Figures/reactionplaneexpcartoon.jpg>] [68]) (Results.tex [69]
 Chapter 7.
-[66
+[70
 
 ]) (Systematics.tex
 Chapter 8.
-[67
+[71
 
 ]) (Conclusions.tex
 Chapter 9.
-[68
+[72
 
 ]) (appendix_coords.tex
 Appendix A.
-<Figures/coord2.jpg, id=318, 607.26875pt x 570.13pt>
+<Figures/coord2.jpg, id=334, 607.26875pt x 570.13pt>
 File: Figures/coord2.jpg Graphic file (type jpg)
  <use Figures/coord2.jpg>
 Package pdftex.def Info: Figures/coord2.jpg used on input line 6.
 (pdftex.def)             Requested size: 130.08731pt x 122.12318pt.
 
-[69
+[73
 
- <./Figures/coord2.jpg>]) (appendix_nuclmodfact.tex [70]
+ <./Figures/coord2.jpg>]) (appendix_nuclmodfact.tex [74]
 Appendix B.
-[71
+[75
 
-]) (appendix_cuts.tex [72]
+]) (appendix_cuts.tex [76]
 Appendix C.
-) (thesis.bbl [73
+) (thesis.bbl [77
 
 ]
 
@@ -879,23 +913,23 @@ Type  H <return>  for immediate help.
 l.1 \begin{thebibliography}{10}
                                
 ? 
-[74
+[78
 
-] [75] [76] [77] [78] [79]
+] [79] [80] [81] [82] [83]
 Missing character: There is no — in font cmr10!
- [80]) [81] (thesis.aux)
+ [84]) [85] (thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5413 strings out of 493335
- 84208 string characters out of 3136683
- 170343 words of memory out of 3000000
- 8766 multiletter control sequences out of 15000+200000
+ 5439 strings out of 493335
+ 84898 string characters out of 3136683
+ 170391 words of memory out of 3000000
+ 8788 multiletter control sequences out of 15000+200000
  13633 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,23n,46p,2261b,605s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,23n,46p,2261b,606s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C
@@ -911,9 +945,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on thesis.pdf (93 pages, 3809683 bytes).
+Output written on thesis.pdf (97 pages, 4783813 bytes).
 PDF statistics:
- 410 PDF objects out of 1000 (max. 8388607)
+ 427 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 256 words of extra memory for PDF output out of 10000 (max. 10000000)
 

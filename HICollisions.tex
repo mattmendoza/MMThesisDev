@@ -5,33 +5,30 @@
 Due to the complexity inherent in colliding large nuclei containing a large number of nucleons (for instance 197 nucleons in Au) there is a multitude of metrics we can use to quantify the collision and the evolution of what happens after. For clarification, when talking about high energy physics analyses we refer to all data gathered from a single collision of two nucleons as an \textit{event}. The location where the collision takes place is called the \textit{event vertex} or often in collaboration literature since the z-axis is along the beam axis, the \textit{z vertex}. The high luminosity of heavy ion collisions (437 $nb^{-1}$ in 9 weeks for the data used in this analysis: Run 8 d+Au), produces a plethora of particles. As these particles travel from the event vertex through the various layers of detectors under the influence of the PHENIX magnetic field it leaves its own signature on each detector it passes through. These signatures for each given particle can be matched to form a trajectory from the event vertex through PHENIX. The set of data corresponding to location, kinematic, and detector specific variables (i.e. charge deposited, clusters fired, Cherenkov photons, etc) is called a \textit{track}. The determination of these variables is the topic of this chapter.
 
 \section{Event Characterization}
-When describing a heavy ion collision it is useful to introduce quantities that describe the initial conditions of the interacting nucleons. The set of variables that correspond to these conditions are called the \textit{event} or \textit{global} variables. They are used to accurately locate where the event took place inside the detector and the geometric configuration of the nuclei at the time of collision. These event variables are reconstructed largely by the extremely forward detectors: the \textit{Beam-Beam Counters} (BBC) and the \textit{Zero Degree Calorimeters}. 
+When describing a heavy ion collision it is useful to introduce quantities that describe the initial conditions of the interacting nucleons. The set of variables that correspond to these conditions are called the \textit{event} or \textit{global} variables. They are used to accurately locate where the event took place inside the detector and the geometric configuration of the nuclei at the time of collision. Since we are accelerating the ions to ultra relativistic speeds, by Heisenberg uncertainty we have very little idea before the collision what event parameters such as centrality and event plane will be. In practice, we use the remnants of the collisions to determine these event parameters and since the particles that are largely unperturbed by the collision are the ones that do not interact but rather continue down the beam pipe, these event variables reconstructed mostly by the extremely forward detectors: the \textit{Beam-Beam Counters} (BBC) and the \textit{Zero Degree Calorimeters}. 
 
 \subsection{Centrality}
 One such variable is \textit{centrality} and is used to describe how "head-on" two ions collide, that is, do they collide with complete cross sectional overlap or do they just barely glance each other. It is useful to quantify this overlap with a quantity called the \textit{impact parameter}, \textbf{b}. We define this impact parameter by measuring the distance between ion centers as depicted on the left-hand side of figure \ref{fig:cernfireball}. Note that the ions in this illustration appear squished in the x axis due to Lorentz contraction. Therefore, small impact parameters correspond to large ion-ion overlap in the collision and large impact parameters refer to glancing collisions. In heavy ion physics we call collisions with small impact parameters \textit{central collisions} and those with large impact parameters \textit{peripheral collisions}. Experimentally it is impossible to measure the distance between the two ion centers. In practice, centrality can also be quantified by the number of \textit{participants}, or the number of nucleons that collide/interact with each other, versus the number of \textit{spectators}, or the number of nucleons that do not collide. Since we know the number of total nucleons in each ion we can determine the number of participants by counting the number of spectators and subtracting them from the total number of nucleons. Colliding nucleons will produce particles in all directions however spectating nucleons will continue to travel down the beam pipe. We therefore can count the number of spectators by placing detectors at very high rapidity.
 
 \begin{figure}[htbp!]
   \centering
+    \begin{subfigure}[p]{1\textwidth}
     \includegraphics[width=1\textwidth]{Figures/spectatorsvsparticipants.jpg}
+    \caption[Diagram showing impact parameter versus $N_spectators$ and $N_participants$]{Diagram showing impact parameter versus $N_spectators$ and $N_participants$\citep{cernhifireball}}
+    \label{fig:cernfireball}
+    \end{subfigure}
+    \begin{subfigure}[p]{1\textwidth}
+    \includegraphics[width=1\textwidth]{Figures/centralvsperipheral.jpg}
+	\caption[Central vs Peripheral collisions, geometry of initial conditions]{Central vs Peripheral collisions, geometry of initial conditions.}
+    \end{subfigure}
     \rule{35em}{0.5pt}
-  \caption[Spectators and participant nucleons in a heavy ion collision]{Spectators and participant nucleons in a heavy ion collision \citep{cernhifireball}}
-  \label{fig:cernfireball}
+  \caption[Central versus peripheral ion collisions, BBC vs ZDC determination of]{Central versus peripheral ion collisions, BBC vs ZDC determination of}
+  \label{fig:centralvsperipheral}
 \end{figure}
 
 Extending the terminology from impact parameters, we then define a collision with a large number of participants to be a \textit{central} collision and a collision with a small number of participants: a \textit{peripheral} collision. These are quantified in percents, 0$\%$ being most central collisions i.e. highest number of participants, $b=0$, two colliding ions overlap completely, and 100$\%$: ions completely miss each other, i.e. there are no participants, $b > R_{nucleus}$. Since ions are spherical in shape, centrality can be used as a way of describing the geometry of the collision region, central collisions have a more circular shape whereas peripheral collisions have a more almond-like shape.
 
-\begin{figure}[htbp!]
-  \centering
-  \begin{subfigure}[b]{0.8\textwidth}
-    \includegraphics[width=0.5\textwidth]{Figures/centralvsperipheral.jpg}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.8\textwidth}
-    \includegraphics[width=0.5\textwidth]{Figures/centralvsperipheral.jpg}
-    \end{subfigure}
-    \rule{35em}{0.5pt}
-  \caption[Central versus peripheral ion collisions]{Spectators and participant nucleons in a heavy ion collisions.}
-  \label{fig:centralvsperipheral}
-\end{figure}
+
 
 \subsection{Event Vertex and Timing}
 The event vertex is the location along the beam axis where the collision happened relative to the equidistant point between the two beam beam counters. That is, an event vertex value of 0 would be exactly in the center of the PHENIX detector, at equal distance from both BBCs. When a collision happens, the non colliding nucleons (spectators) continue to travel through the interaction region and are detected on the other side by the two BBCs. The time at which each cluster of spectators hits an individual BBC is measured. These two times, $T_1$ and $T_2$ respectively, can be used to calculate both the event vertex ($z_{vtx}$) and the initial time the collision takes place ($T_0$) as follows\citep{Mitchell:2002wu}:

@@ -27,38 +27,38 @@
 \contentsline {subsection}{\numberline {3.3.2}Forward and Global Detectors}{40}
 \contentsline {subsubsection}{BBC: Beam-Beam Counter}{41}
 \contentsline {subsubsection}{ZDC/SMD: Zero Degree Calorimeter and Shower Max Detectors}{42}
-\contentsline {subsubsection}{MPC: Muon Piston Calorimeter}{42}
-\contentsline {subsubsection}{RXNP: Reaction Plane Detector}{43}
+\contentsline {subsubsection}{MPC: Muon Piston Calorimeter}{43}
+\contentsline {subsubsection}{RXNP: Reaction Plane Detector}{45}
 \contentsline {section}{\numberline {3.4}The DAQ}{45}
-\contentsline {chapter}{\numberline {4}Heavy Ion Collisions: A Primer}{48}
-\contentsline {section}{\numberline {4.1}Measurable Quantities}{48}
-\contentsline {section}{\numberline {4.2}Event Characterization}{49}
-\contentsline {subsection}{\numberline {4.2.1}Centrality}{49}
-\contentsline {subsection}{\numberline {4.2.2}Event Vertex and Timing}{51}
-\contentsline {section}{\numberline {4.3}Track Reconstruction}{53}
-\contentsline {subsection}{\numberline {4.3.1}Variables for Track Selection}{53}
-\contentsline {subsubsection}{Track Matching: DC and PC1}{53}
+\contentsline {chapter}{\numberline {4}Heavy Ion Collisions: A Primer}{49}
+\contentsline {section}{\numberline {4.1}Measurable Quantities}{49}
+\contentsline {section}{\numberline {4.2}Event Characterization}{50}
+\contentsline {subsection}{\numberline {4.2.1}Centrality}{50}
+\contentsline {subsection}{\numberline {4.2.2}Event Vertex and Timing}{53}
+\contentsline {section}{\numberline {4.3}Track Reconstruction}{54}
+\contentsline {subsection}{\numberline {4.3.1}Variables for Track Selection}{54}
+\contentsline {subsubsection}{Track Matching: DC and PC1}{54}
 \contentsline {subsubsection}{Track Matching: TOF and PC3}{55}
-\contentsline {subsection}{\numberline {4.3.2}Particle Identification}{55}
-\contentsline {chapter}{\numberline {5}Anisotropic Flow}{60}
-\contentsline {chapter}{\numberline {6}Event Plane}{64}
-\contentsline {section}{\numberline {6.1}Determination of Event Plane}{64}
-\contentsline {section}{\numberline {6.2}Event Plane "Flattening"}{64}
-\contentsline {section}{\numberline {6.3}Event Plane Resolution Correction}{64}
-\contentsline {chapter}{\numberline {7}Results}{66}
-\contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{66}
-\contentsline {section}{\numberline {7.2}Separating Particle Signals}{66}
-\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{66}
-\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{66}
-\contentsline {subsection}{\numberline {7.2.3}ACC as a Pion Discriminator}{66}
-\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{66}
-\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{66}
-\contentsline {chapter}{\numberline {8}Error Analysis}{67}
-\contentsline {section}{\numberline {8.1}Systematic Errors}{67}
-\contentsline {chapter}{\numberline {9}Summary and Conclusions}{68}
-\contentsline {section}{\numberline {9.1}Discussion}{68}
-\contentsline {section}{\numberline {9.2}Conclusions}{68}
-\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{69}
-\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{71}
-\contentsline {section}{\numberline {B.1}Nuclear Modification Factor}{71}
-\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{73}
+\contentsline {subsection}{\numberline {4.3.2}Particle Identification}{58}
+\contentsline {chapter}{\numberline {5}Anisotropic Flow}{61}
+\contentsline {chapter}{\numberline {6}Event Plane}{65}
+\contentsline {section}{\numberline {6.1}Determination of Event Plane}{65}
+\contentsline {section}{\numberline {6.2}Event Plane "Flattening"}{67}
+\contentsline {section}{\numberline {6.3}Event Plane Resolution Correction}{67}
+\contentsline {chapter}{\numberline {7}Results}{70}
+\contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{70}
+\contentsline {section}{\numberline {7.2}Separating Particle Signals}{70}
+\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{70}
+\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{70}
+\contentsline {subsection}{\numberline {7.2.3}ACC as a Pion Discriminator}{70}
+\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{70}
+\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{70}
+\contentsline {chapter}{\numberline {8}Error Analysis}{71}
+\contentsline {section}{\numberline {8.1}Systematic Errors}{71}
+\contentsline {chapter}{\numberline {9}Summary and Conclusions}{72}
+\contentsline {section}{\numberline {9.1}Discussion}{72}
+\contentsline {section}{\numberline {9.2}Conclusions}{72}
+\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{73}
+\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{75}
+\contentsline {section}{\numberline {B.1}Nuclear Modification Factor}{75}
+\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{77}
