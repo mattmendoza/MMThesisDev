@@ -44,21 +44,21 @@
 \contentsline {chapter}{\numberline {6}Event Plane}{65}
 \contentsline {section}{\numberline {6.1}Determination of Event Plane}{65}
 \contentsline {section}{\numberline {6.2}Event Plane "Flattening"}{67}
-\contentsline {section}{\numberline {6.3}Event Plane Resolution Correction}{67}
+\contentsline {section}{\numberline {6.3}Event Plane Resolution Correction}{68}
 \contentsline {chapter}{\numberline {7}Results}{70}
 \contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{70}
-\contentsline {section}{\numberline {7.2}Separating Particle Signals}{70}
-\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{70}
-\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{70}
-\contentsline {subsection}{\numberline {7.2.3}ACC as a Pion Discriminator}{70}
-\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{70}
-\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{70}
-\contentsline {chapter}{\numberline {8}Error Analysis}{71}
-\contentsline {section}{\numberline {8.1}Systematic Errors}{71}
-\contentsline {chapter}{\numberline {9}Summary and Conclusions}{72}
-\contentsline {section}{\numberline {9.1}Discussion}{72}
-\contentsline {section}{\numberline {9.2}Conclusions}{72}
-\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{73}
-\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{75}
-\contentsline {section}{\numberline {B.1}Nuclear Modification Factor}{75}
-\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{77}
+\contentsline {section}{\numberline {7.2}Separating Particle Signals}{71}
+\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{77}
+\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{77}
+\contentsline {subsection}{\numberline {7.2.3}ACC as a Pion Discriminator}{77}
+\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{77}
+\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{77}
+\contentsline {chapter}{\numberline {8}Error Analysis}{78}
+\contentsline {section}{\numberline {8.1}Systematic Errors}{78}
+\contentsline {chapter}{\numberline {9}Summary and Conclusions}{79}
+\contentsline {section}{\numberline {9.1}Discussion}{79}
+\contentsline {section}{\numberline {9.2}Conclusions}{79}
+\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{80}
+\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{82}
+\contentsline {section}{\numberline {B.1}Nuclear Modification Factor}{82}
+\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{84}
