@@ -50,15 +50,22 @@
 \contentsline {section}{\numberline {7.2}Separating Particle Signals}{71}
 \contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{77}
 \contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{77}
-\contentsline {subsection}{\numberline {7.2.3}ACC as a Pion Discriminator}{77}
-\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{77}
-\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{77}
-\contentsline {chapter}{\numberline {8}Error Analysis}{78}
-\contentsline {section}{\numberline {8.1}Systematic Errors}{78}
-\contentsline {chapter}{\numberline {9}Summary and Conclusions}{79}
-\contentsline {section}{\numberline {9.1}Discussion}{79}
-\contentsline {section}{\numberline {9.2}Conclusions}{79}
-\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{80}
-\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{82}
-\contentsline {section}{\numberline {B.1}Nuclear Modification Factor}{82}
-\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{84}
+\contentsline {subsection}{\numberline {7.2.3}ACC as a Pion Discriminator}{78}
+\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{78}
+\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{78}
+\contentsline {chapter}{\numberline {8}Error Analysis}{79}
+\contentsline {section}{\numberline {8.1}Systematic Errors}{79}
+\contentsline {subsection}{\numberline {8.1.1}Event Plane Resolution}{79}
+\contentsline {subsection}{\numberline {8.1.2}Centrality Resolution}{79}
+\contentsline {subsection}{\numberline {8.1.3}Particle Identification Methods}{79}
+\contentsline {subsection}{\numberline {8.1.4}Detector Acceptance}{79}
+\contentsline {subsection}{\numberline {8.1.5}Quality Assurance}{79}
+\contentsline {subsubsection}{TOF Timing}{79}
+\contentsline {subsubsection}{TOF/PC3 Track Matching}{79}
+\contentsline {chapter}{\numberline {9}Summary and Conclusions}{80}
+\contentsline {section}{\numberline {9.1}Discussion}{80}
+\contentsline {section}{\numberline {9.2}Conclusions}{80}
+\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{81}
+\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{83}
+\contentsline {section}{\numberline {B.1}Nuclear Modification Factor}{83}
+\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{85}
