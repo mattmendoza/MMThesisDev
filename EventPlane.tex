@@ -32,12 +32,38 @@ In practice this plane is determined by detecting the spectator nucleons or high
   \label{fig:rxnpexpcartoon}
 \end{figure}
 
-\section{Event Plane "Flattening"}
-Since we have little control over the precise impact parameter and event plane orientation, event plane orientations populate a distribution statistically and this distribution is non uniform. The process of making this distribution uniform in azimuth is called \textit{flattening}.
+\section{Event Plane ``Flattening"}
+Since we have little control over the precise impact parameter and event plane orientation for each collision, instead, data is taken and event plane orientations populate a distribution statistically and this distribution is non uniform. The process of making this distribution uniform in azimuth is called \textit{flattening}.
 
+\begin{figure}[htbp!]
+  \centering
+    \begin{subfigure}[p]{0.4\textwidth}
+    \includegraphics[width=1\textwidth]{EPflattening/flatbbcn.jpg}
+    \end{subfigure}
+    \begin{subfigure}[p]{0.4\textwidth}
+    \includegraphics[width=1\textwidth]{EPflattening/flatbbcs.jpg}
+    \end{subfigure}
+    \begin{subfigure}[p]{0.4\textwidth}
+    \includegraphics[width=1\textwidth]{EPflattening/flatmpcn.jpg}
+    \end{subfigure}
+    \begin{subfigure}[p]{0.4\textwidth}
+    \includegraphics[width=1\textwidth]{EPflattening/flatmpcs.jpg}
+    \end{subfigure}
+    \begin{subfigure}[p]{0.4\textwidth}
+    \includegraphics[width=1\textwidth]{EPflattening/flatrxncmbn.jpg}
+    \end{subfigure}
+    \begin{subfigure}[p]{0.4\textwidth}
+    \includegraphics[width=1\textwidth]{EPflattening/flatrxncmbs.jpg}
+    \end{subfigure}
+    \rule{35em}{0.5pt}
+  \caption[Flattened event plane distributions in the BBC, MPC, and RXNP]{Flattened event plane distributions in the BBC, MPC, and RXNP. Note that this flattening is significantly better in the ``gold-going'' south arm.}
+  \label{fig:evtpln}
+\end{figure}
+
+Because the d+Au system is asymmetric by construction, track multiplicities on the north and south detectors are not the same. Rather, since gold ions have a considerably larger amount of nucleons than deuterons, it therefore has higher forward track multiplicity, and its event plane signature in the forward detectors is much stronger. In practice, the north side is the deuteron going side, and the south side is the gold going side. This can be seen clearly in figure \ref{fig:evtpln} where the event plane is much easier to flatten in the south than in the north regardless of which detector subsystem is chosen. I will be using the event plane as determined by the BBC in the south arm because of this and additionally because the event plane is flattest with it. However, additional independent measurements of the event plane are still useful as they can be used to correct resolution limitations.
 
 \section{Event Plane Resolution Correction}
-Since we have a finite number of readout channels in any of the chosen detectors capable of measuring the event plane, our track multiplicity distribution is not smooth and continuous, rather there is an associated resolution limitation for each measurement made with a specific detector. This resolution limitation affects how well we can measure flow anisotropies, and because of the nature and shape of verious Fourier harmonics, higher harmonics are more strongly affected by resolution limitations since their shape is quickly varying over the azimuthal distribution compared to lower harmonics. Because of this, resolution corrections must be calculated for each harmonic separately. The apparatus make different measurements of the event plane using different Fourier harmonics and so the resolution corretions made for each detector are coupled to the Fourier harmonic used by the detector to find the event plane, that is to say, the Harmonic dependence and detector resolution dependence of the resolution correction are not seperable. Additionally, by collision geometry, the ability to determine each correction is dependent on event centrality, implying that these corrections must be made for each centrality bin as well. The measured flow anisotropy decreases as the ability to resolve changes in flow decreases so we correct this resolution error by defining some multiplicative scaling such that:
+Since we have a finite number of readout channels in any of the chosen detectors capable of measuring the event plane, our track multiplicity distribution is not smooth and continuous, rather there is an associated resolution limitation for each measurement made with a specific detector. This resolution limitation affects how well we can measure flow anisotropies, and because of the nature and shape of various Fourier harmonics, higher harmonics are more strongly affected by resolution limitations since their shape is quickly varying over the azimuthal distribution compared to lower harmonics. Because of this, resolution corrections must be calculated for each harmonic separately. The apparatus make different measurements of the event plane using different Fourier harmonics and so the resolution corrections made for each detector are coupled to the Fourier harmonic used by the detector to find the event plane, that is to say, the Harmonic dependence and detector resolution dependence of the resolution correction are not separable. Additionally, by collision geometry, the ability to determine each correction is dependent on event centrality, implying that these corrections must be made for each centrality bin as well. The measured flow anisotropy decreases as the ability to resolve changes in flow decreases so we correct this resolution error by defining some multiplicative scaling such that:
 \begin{equation}
 v_n = \frac{v_n^{A}}{Res(\Psi_n^A)}
 \end{equation}
