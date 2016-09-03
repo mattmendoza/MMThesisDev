@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  2 SEP 2016 21:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  2 SEP 2016 21:51
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -992,7 +992,7 @@ Appendix A.
 File: Figures/coord2.jpg Graphic file (type jpg)
  <use Figures/coord2.jpg>
 Package pdftex.def Info: Figures/coord2.jpg used on input line 6.
-(pdftex.def)             Requested size: 130.08731pt x 122.12318pt.
+(pdftex.def)             Requested size: 303.53267pt x 284.97731pt.
 
 [83
 
@@ -1031,7 +1031,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  5510 strings out of 493335
  86843 string characters out of 3136683
- 169479 words of memory out of 3000000
+ 170479 words of memory out of 3000000
  8843 multiletter control sequences out of 15000+200000
  13633 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1054,7 +1054,7 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX
 onts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb>
-Output written on thesis.pdf (108 pages, 6679577 bytes).
+Output written on thesis.pdf (108 pages, 6679825 bytes).
 PDF statistics:
  484 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
