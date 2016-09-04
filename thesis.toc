@@ -23,28 +23,28 @@
 \contentsline {subsubsection}{Drift and Pad Chambers}{27}
 \contentsline {subsubsection}{TOF: Time Of Flight Detectors}{29}
 \contentsline {subsubsection}{ACC: Aerogel Cherenkov Counter}{34}
-\contentsline {subsubsection}{EMCal and RICH: Electromagnetic Calorimeter and Ring Imaging Cherenkov Counter}{36}
+\contentsline {subsubsection}{EMCal and RICH: Electromagnetic Calorimeter and Ring Imaging Cherenkov Counter}{37}
 \contentsline {subsection}{\numberline {3.3.2}Forward and Global Detectors}{40}
 \contentsline {subsubsection}{BBC: Beam-Beam Counter}{41}
 \contentsline {subsubsection}{ZDC/SMD: Zero Degree Calorimeter and Shower Max Detectors}{42}
-\contentsline {subsubsection}{MPC: Muon Piston Calorimeter}{43}
-\contentsline {subsubsection}{RXNP: Reaction Plane Detector}{45}
+\contentsline {subsubsection}{MPC: Muon Piston Calorimeter}{44}
+\contentsline {subsubsection}{RXNP: Reaction Plane Detector}{44}
 \contentsline {section}{\numberline {3.4}The DAQ}{45}
 \contentsline {chapter}{\numberline {4}Heavy Ion Collisions: A Primer}{49}
 \contentsline {section}{\numberline {4.1}Measurable Quantities}{49}
 \contentsline {section}{\numberline {4.2}Event Characterization}{50}
 \contentsline {subsection}{\numberline {4.2.1}Centrality}{50}
 \contentsline {subsection}{\numberline {4.2.2}Event Vertex and Timing}{53}
-\contentsline {section}{\numberline {4.3}Track Reconstruction}{54}
-\contentsline {subsection}{\numberline {4.3.1}Variables for Track Selection}{54}
-\contentsline {subsubsection}{Track Matching: DC and PC1}{54}
-\contentsline {subsubsection}{Track Matching: TOF and PC3}{55}
+\contentsline {section}{\numberline {4.3}Track Reconstruction}{55}
+\contentsline {subsection}{\numberline {4.3.1}Variables for Track Selection}{55}
+\contentsline {subsubsection}{Track Matching: DC and PC1}{55}
+\contentsline {subsubsection}{Track Matching: TOF and PC3}{57}
 \contentsline {subsection}{\numberline {4.3.2}Particle Identification}{58}
-\contentsline {chapter}{\numberline {5}Anisotropic Flow}{61}
-\contentsline {chapter}{\numberline {6}Event Plane}{65}
-\contentsline {section}{\numberline {6.1}Determination of Event Plane}{65}
-\contentsline {section}{\numberline {6.2}Event Plane ``Flattening"}{67}
-\contentsline {section}{\numberline {6.3}Event Plane Resolution Correction}{69}
+\contentsline {chapter}{\numberline {5}Anisotropic Flow}{62}
+\contentsline {chapter}{\numberline {6}Event Plane}{66}
+\contentsline {section}{\numberline {6.1}Determination of Event Plane}{66}
+\contentsline {section}{\numberline {6.2}Event Plane ``Flattening"}{68}
+\contentsline {section}{\numberline {6.3}Event Plane Resolution Correction}{70}
 \contentsline {chapter}{\numberline {7}Results}{72}
 \contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{72}
 \contentsline {section}{\numberline {7.2}Separating Particle Signals}{73}
@@ -53,21 +53,20 @@
 \contentsline {subsection}{\numberline {7.2.3}ACC as a Particle Discriminator}{80}
 \contentsline {section}{\numberline {7.3}Yield vs Event Plane}{80}
 \contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{80}
-\contentsline {chapter}{\numberline {8}Error Analysis}{81}
+\contentsline {chapter}{\numberline {8}Error Analysis and Quality Assurance}{81}
 \contentsline {section}{\numberline {8.1}Systematic Errors}{81}
 \contentsline {subsection}{\numberline {8.1.1}Event Plane Resolution}{81}
-\contentsline {subsection}{\numberline {8.1.2}Centrality Resolution}{81}
-\contentsline {subsection}{\numberline {8.1.3}Particle Identification Methods}{81}
-\contentsline {subsection}{\numberline {8.1.4}Detector Acceptance}{81}
-\contentsline {subsection}{\numberline {8.1.5}Quality Assurance}{81}
-\contentsline {subsubsection}{TOF Timing}{81}
-\contentsline {subsubsection}{TOF/PC3 Track Matching}{81}
-\contentsline {chapter}{\numberline {9}Summary and Conclusions}{82}
-\contentsline {section}{\numberline {9.1}Discussion}{82}
-\contentsline {section}{\numberline {9.2}Conclusions}{82}
-\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{83}
-\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{85}
-\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{87}
-\contentsline {chapter}{\numberline {D}Data Tables}{88}
-\contentsline {section}{\numberline {D.1}Charged Track Elliptic Flow}{88}
-\contentsline {section}{\numberline {D.2}Identified Particle Elliptic Flow}{88}
+\contentsline {subsection}{\numberline {8.1.2}Centrality Resolution}{82}
+\contentsline {subsection}{\numberline {8.1.3}Particle Identification Methods}{82}
+\contentsline {subsection}{\numberline {8.1.4}Detector Acceptance}{82}
+\contentsline {section}{\numberline {8.2}Quality Assurance}{82}
+\contentsline {subsection}{\numberline {8.2.1}TOF Strip by Strip QA}{82}
+\contentsline {chapter}{\numberline {9}Summary and Conclusions}{85}
+\contentsline {section}{\numberline {9.1}Discussion}{85}
+\contentsline {section}{\numberline {9.2}Conclusions}{85}
+\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{86}
+\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{88}
+\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{90}
+\contentsline {chapter}{\numberline {D}Data Tables}{91}
+\contentsline {section}{\numberline {D.1}Charged Track Elliptic Flow}{91}
+\contentsline {section}{\numberline {D.2}Identified Particle Elliptic Flow}{91}

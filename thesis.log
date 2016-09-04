@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  2 SEP 2016 21:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  3 SEP 2016 20:48
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -288,6 +288,9 @@ LaTeX Warning: Label `fig:baryonenhancementAA' multiply defined.
 
 
 LaTeX Warning: Label `fig:zdcvsbbc' multiply defined.
+
+
+LaTeX Warning: Label `fig:bbcvtx' multiply defined.
 
 
 LaTeX Warning: Label `fig:cernfireball' multiply defined.
@@ -659,98 +662,100 @@ matic.jpg, id=186, 937.5025pt x 369.38pt>
 File: Figures/ACCschematic.jpg Graphic file (type jpg)
 
 <use Figures/ACCschematic.jpg>
-Package pdftex.def Info: Figures/ACCschematic.jpg used on input line 121.
+Package pdftex.def Info: Figures/ACCschematic.jpg used on input line 127.
 (pdftex.def)             Requested size: 346.89731pt x 136.67409pt.
  [35 <./Figures/ACCschematic.jpg>]
 <Figures/aerogelchannel.JPG, id=190, 655.69969pt x 221.32687pt>
 File: Figures/aerogelchannel.JPG Graphic file (type jpg)
 
 <use Figures/aerogelchannel.JPG>
-Package pdftex.def Info: Figures/aerogelchannel.JPG used on input line 131.
+Package pdftex.def Info: Figures/aerogelchannel.JPG used on input line 137.
 (pdftex.def)             Requested size: 346.89731pt x 117.09328pt.
 
 <Figures/accrange.jpg, id=191, 813.0375pt x 429.605pt>
 File: Figures/accrange.jpg Graphic file (type jpg)
 
 <use Figures/accrange.jpg>
-Package pdftex.def Info: Figures/accrange.jpg used on input line 141.
+Package pdftex.def Info: Figures/accrange.jpg used on input line 147.
 (pdftex.def)             Requested size: 346.89731pt x 183.2975pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[36 <./Figures/aerogelchannel.JPG>]
-<Figures/RICHdiagram.jpg, id=195, 782.925pt x 448.67625pt>
+[36 <./Figures/aerogelchannel.JPG>] [37 <./Figures/accrange.jpg>]
+<Figures/RICHdiagram.jpg, id=199, 782.925pt x 448.67625pt>
 File: Figures/RICHdiagram.jpg Graphic file (type jpg)
 
 <use Figures/RICHdiagram.jpg>
-Package pdftex.def Info: Figures/RICHdiagram.jpg used on input line 154.
+Package pdftex.def Info: Figures/RICHdiagram.jpg used on input line 160.
 (pdftex.def)             Requested size: 346.89731pt x 198.8011pt.
+
+<Figures/PbScschematic.jpg, id=200, 663.47874pt x 269.005pt>
+File: Figures/PbScschematic.jpg Graphic file (type jpg)
+
+<use Figures/PbScschematic.jpg>
+Package pdftex.def Info: Figures/PbScschematic.jpg used on input line 170.
+(pdftex.def)             Requested size: 216.81pt x 87.90582pt.
+
+<Figures/PbGlmodules.jpg, id=201, 665.48625pt x 465.74pt>
+File: Figures/PbGlmodules.jpg Graphic file (type jpg)
+
+<use Figures/PbGlmodules.jpg>
+Package pdftex.def Info: Figures/PbGlmodules.jpg used on input line 176.
+(pdftex.def)             Requested size: 260.17464pt x 182.08559pt.
+
+<Figures/pbglsupermodule.JPG, id=202, 445.665pt x 335.75438pt>
+File: Figures/pbglsupermodule.JPG Graphic file (type jpg)
+
+<use Figures/pbglsupermodule.JPG>
+Package pdftex.def Info: Figures/pbglsupermodule.JPG used on input line 182.
+(pdftex.def)             Requested size: 260.17464pt x 196.00822pt.
+ [38 <./Figures/RICHdiagram.jpg>] [39 <./Figures/PbScschematic.jpg> <./Figures/
+PbGlmodules.jpg> <./Figures/pbglsupermodule.JPG>] <Figures/ERT.jpg, id=209, 508
+.90125pt x 340.27126pt>
+File: Figures/ERT.jpg Graphic file (type jpg)
+ <use Figures/ERT.jpg>
+Package pdftex.def Info: Figures/ERT.jpg used on input line 199.
+(pdftex.def)             Requested size: 216.81pt x 144.96902pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/PbScschematic.jpg, id=196, 663.47874pt x 269.005pt>
-File: Figures/PbScschematic.jpg Graphic file (type jpg)
-
-<use Figures/PbScschematic.jpg>
-Package pdftex.def Info: Figures/PbScschematic.jpg used on input line 164.
-(pdftex.def)             Requested size: 216.81pt x 87.90582pt.
-
-<Figures/PbGlmodules.jpg, id=197, 665.48625pt x 465.74pt>
-File: Figures/PbGlmodules.jpg Graphic file (type jpg)
-
-<use Figures/PbGlmodules.jpg>
-Package pdftex.def Info: Figures/PbGlmodules.jpg used on input line 170.
-(pdftex.def)             Requested size: 260.17464pt x 182.08559pt.
-
-<Figures/pbglsupermodule.JPG, id=198, 445.665pt x 335.75438pt>
-File: Figures/pbglsupermodule.JPG Graphic file (type jpg)
-
-<use Figures/pbglsupermodule.JPG>
-Package pdftex.def Info: Figures/pbglsupermodule.JPG used on input line 176.
-(pdftex.def)             Requested size: 260.17464pt x 196.00822pt.
- [37 <./Figures/accrange.jpg>] [38 <./Figures/RICHdiagram.jpg>] [39 <./Figures/
-PbScschematic.jpg> <./Figures/PbGlmodules.jpg> <./Figures/pbglsupermodule.JPG>]
-
-<Figures/ERT.jpg, id=209, 508.90125pt x 340.27126pt>
-File: Figures/ERT.jpg Graphic file (type jpg)
- <use Figures/ERT.jpg>
-Package pdftex.def Info: Figures/ERT.jpg used on input line 193.
-(pdftex.def)             Requested size: 216.81pt x 144.96902pt.
-
-[40 <./Figures/ERT.jpg>]
-<Figures/bbcrender.JPG, id=213, 359.09157pt x 271.76532pt>
+[40] <Figures/bbcrender.JPG, id=213, 359.09157pt x 271.76532pt>
 File: Figures/bbcrender.JPG Graphic file (type jpg)
 
 <use Figures/bbcrender.JPG>
-Package pdftex.def Info: Figures/bbcrender.JPG used on input line 208.
+Package pdftex.def Info: Figures/bbcrender.JPG used on input line 214.
 (pdftex.def)             Requested size: 173.44534pt x 131.26692pt.
 
 <Figures/bbcsinglechannel.JPG, id=214, 355.3275pt x 266.49562pt>
 File: Figures/bbcsinglechannel.JPG Graphic file (type jpg)
 
 <use Figures/bbcsinglechannel.JPG>
-Package pdftex.def Info: Figures/bbcsinglechannel.JPG used on input line 214.
+Package pdftex.def Info: Figures/bbcsinglechannel.JPG used on input line 220.
 (pdftex.def)             Requested size: 173.44534pt x 130.08789pt.
 
 <Figures/ZDCschematic.JPG, id=215, 523.9575pt x 489.32813pt>
 File: Figures/ZDCschematic.JPG Graphic file (type jpg)
 
 <use Figures/ZDCschematic.JPG>
-Package pdftex.def Info: Figures/ZDCschematic.JPG used on input line 226.
+Package pdftex.def Info: Figures/ZDCschematic.JPG used on input line 232.
 (pdftex.def)             Requested size: 303.53267pt x 283.4745pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[41 <./Figures/bbcrender.JPG> <./Figures/bbcsinglechannel.JPG>] [42 <./Figures/
-ZDCschematic.JPG>]
+[41 <./Figures/ERT.jpg>]
+Overfull \vbox (3.39166pt too high) has occurred while \output is active []
+
+
+[42 <./Figures/bbcrender.JPG> <./Figures/bbcsinglechannel.JPG> <./Figures/ZDCsc
+hematic.JPG>]
 <prevplots/bbczdcanaresponse.JPG, id=222, 375.65344pt x 245.41687pt>
 File: prevplots/bbczdcanaresponse.JPG Graphic file (type jpg)
 
 <use prevplots/bbczdcanaresponse.JPG>
-Package pdftex.def Info: prevplots/bbczdcanaresponse.JPG used on input line 236
+Package pdftex.def Info: prevplots/bbczdcanaresponse.JPG used on input line 242
 .
 (pdftex.def)             Requested size: 216.81pt x 141.64536pt.
  [43 <./prevplots/bbczdcanaresponse.JPG>]
@@ -758,20 +763,27 @@ Package pdftex.def Info: prevplots/bbczdcanaresponse.JPG used on input line 236
 File: Figures/mpcschematic.JPG Graphic file (type jpg)
 
 <use Figures/mpcschematic.JPG>
-Package pdftex.def Info: Figures/mpcschematic.JPG used on input line 247.
+Package pdftex.def Info: Figures/mpcschematic.JPG used on input line 253.
 (pdftex.def)             Requested size: 303.53267pt x 398.96349pt.
- [44 <./Figures/mpcschematic.JPG>]
-<Figures/RXNPschem.jpg, id=231, 938.50626pt x 348.30125pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Figures/RXNPschem.jpg, id=228, 938.50626pt x 348.30125pt>
 File: Figures/RXNPschem.jpg Graphic file (type jpg)
 
 <use Figures/RXNPschem.jpg>
-Package pdftex.def Info: Figures/RXNPschem.jpg used on input line 258.
+Package pdftex.def Info: Figures/RXNPschem.jpg used on input line 264.
 (pdftex.def)             Requested size: 303.53267pt x 112.64383pt.
- [45 <./Figures/RXNPschem.jpg>] [46]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[44] [45 <./Figures/mpcschematic.JPG>] [46 <./Figures/RXNPschem.jpg>]
 <Figures/DAQ.jpg, id=238, 721.19438pt x 387.69844pt>
 File: Figures/DAQ.jpg Graphic file (type jpg)
  <use Figures/DAQ.jpg>
-Package pdftex.def Info: Figures/DAQ.jpg used on input line 271.
+Package pdftex.def Info: Figures/DAQ.jpg used on input line 277.
 (pdftex.def)             Requested size: 433.62pt x 233.10594pt.
 
 
@@ -805,57 +817,71 @@ File: Figures/BBCevtchar.JPG Graphic file (type jpg)
 <use Figures/BBCevtchar.JPG>
 Package pdftex.def Info: Figures/BBCevtchar.JPG used on input line 44.
 (pdftex.def)             Requested size: 433.62pt x 164.17455pt.
- [53] [54 <./Figures/BBCevtchar.JPG>]
-<Figures/houghtransformcartoon.JPG, id=267, 426.84468pt x 326.72063pt>
+
+<evtQA/zvtxdist.JPG, id=261, 341.02406pt x 292.09125pt>
+File: evtQA/zvtxdist.JPG Graphic file (type jpg)
+
+<use evtQA/zvtxdist.JPG>
+Package pdftex.def Info: evtQA/zvtxdist.JPG used on input line 53.
+(pdftex.def)             Requested size: 216.81pt x 185.70317pt.
+ [53] [54 <./Figures/BBCevtchar.JPG> <./evtQA/zvtxdist.JPG>] [55]
+<Figures/houghtransformcartoon.JPG, id=272, 426.84468pt x 326.72063pt>
 File: Figures/houghtransformcartoon.JPG Graphic file (type jpg)
 
 <use Figures/houghtransformcartoon.JPG>
-Package pdftex.def Info: Figures/houghtransformcartoon.JPG used on input line 5
-9.
+Package pdftex.def Info: Figures/houghtransformcartoon.JPG used on input line 6
+8.
 (pdftex.def)             Requested size: 303.53267pt x 232.34715pt.
 
-<Figures/pc3tofmatching.JPG, id=268, 579.66562pt x 446.41782pt>
+<evtQA/trackqualitydist.JPG, id=273, 405.01312pt x 365.86688pt>
+File: evtQA/trackqualitydist.JPG Graphic file (type jpg)
+
+<use evtQA/trackqualitydist.JPG>
+Package pdftex.def Info: evtQA/trackqualitydist.JPG used on input line 76.
+(pdftex.def)             Requested size: 216.81pt x 195.85687pt.
+
+<Figures/pc3tofmatching.JPG, id=274, 579.66562pt x 446.41782pt>
 File: Figures/pc3tofmatching.JPG Graphic file (type jpg)
 
 <use Figures/pc3tofmatching.JPG>
-Package pdftex.def Info: Figures/pc3tofmatching.JPG used on input line 69.
+Package pdftex.def Info: Figures/pc3tofmatching.JPG used on input line 86.
 (pdftex.def)             Requested size: 390.25534pt x 300.54929pt.
- [55] [56 <./Figures/houghtransformcartoon.JPG>] [57 <./Figures/pc3tofmatching.
-JPG>]
-<Figures/tofchargemom.JPG, id=279, 426.84468pt x 400.49625pt>
+ [56 <./Figures/houghtransformcartoon.JPG>]
+[57 <./evtQA/trackqualitydist.JPG>] [58 <./Figures/pc3tofmatching.JPG>]
+<Figures/tofchargemom.JPG, id=284, 426.84468pt x 400.49625pt>
 File: Figures/tofchargemom.JPG Graphic file (type jpg)
 
 <use Figures/tofchargemom.JPG>
-Package pdftex.def Info: Figures/tofchargemom.JPG used on input line 81.
+Package pdftex.def Info: Figures/tofchargemom.JPG used on input line 98.
 (pdftex.def)             Requested size: 303.53267pt x 284.81265pt.
- [58 <./Figures/tofchargemom.JPG>] [59]
-<Figures/m2tofvspt.jpg, id=287, 427.5975pt x 395.22656pt>
+ [59 <./Figures/tofchargemom.JPG>]
+<Figures/m2tofvspt.jpg, id=288, 427.5975pt x 395.22656pt>
 File: Figures/m2tofvspt.jpg Graphic file (type jpg)
 
 <use Figures/m2tofvspt.jpg>
-Package pdftex.def Info: Figures/m2tofvspt.jpg used on input line 108.
+Package pdftex.def Info: Figures/m2tofvspt.jpg used on input line 125.
 (pdftex.def)             Requested size: 303.53267pt x 280.5525pt.
- [60 <./Figures/m2tofvspt.jpg>]) (Flow.tex
+ [60] [61 <./Figures/m2tofvspt.jpg>]) (Flow.tex
 Chapter 5.
-[61
+[62
 
-] [62] <Figures/fouriercosines.jpg, id=298, 521.7894pt x 321.1197pt>
+] [63] <Figures/fouriercosines.jpg, id=303, 521.7894pt x 321.1197pt>
 File: Figures/fouriercosines.jpg Graphic file (type jpg)
 
 <use Figures/fouriercosines.jpg>
 Package pdftex.def Info: Figures/fouriercosines.jpg used on input line 47.
 (pdftex.def)             Requested size: 346.89731pt x 213.488pt.
- [63 <./Figures/fouriercosines.jpg>] [64])
+ [64 <./Figures/fouriercosines.jpg>] [65])
 (EventPlane.tex
 Chapter 6.
-<Figures/Flow_Plane.jpg, id=305, 424.2249pt x 291.9708pt>
+<Figures/Flow_Plane.jpg, id=310, 424.2249pt x 291.9708pt>
 File: Figures/Flow_Plane.jpg Graphic file (type jpg)
 
 <use Figures/Flow_Plane.jpg>
 Package pdftex.def Info: Figures/Flow_Plane.jpg used on input line 10.
 (pdftex.def)             Requested size: 303.53267pt x 208.90454pt.
 
-<Figures/flowcartoon.jpg, id=306, 534.65297pt x 347.57277pt>
+<Figures/flowcartoon.jpg, id=311, 534.65297pt x 347.57277pt>
 File: Figures/flowcartoon.jpg Graphic file (type jpg)
 
 <use Figures/flowcartoon.jpg>
@@ -865,10 +891,10 @@ Package pdftex.def Info: Figures/flowcartoon.jpg used on input line 15.
 
 LaTeX Warning: Float too large for page by 13.96156pt on input line 21.
 
-[65
+[66
 
-] [66 <./Figures/Flow_Plane.jpg> <./Figures/flowcartoon.jpg>]
-<Figures/reactionplaneexpcartoon.jpg, id=313, 776.9025pt x 283.0575pt>
+] [67 <./Figures/Flow_Plane.jpg> <./Figures/flowcartoon.jpg>]
+<Figures/reactionplaneexpcartoon.jpg, id=319, 776.9025pt x 283.0575pt>
 File: Figures/reactionplaneexpcartoon.jpg Graphic file (type jpg)
 
 <use Figures/reactionplaneexpcartoon.jpg>
@@ -876,55 +902,55 @@ Package pdftex.def Info: Figures/reactionplaneexpcartoon.jpg used on input line
  29.
 (pdftex.def)             Requested size: 433.62pt x 157.9885pt.
 
-<EPflattening/flatbbcn.jpg, id=314, 999.735pt x 975.645pt>
+<EPflattening/flatbbcn.jpg, id=320, 999.735pt x 975.645pt>
 File: EPflattening/flatbbcn.jpg Graphic file (type jpg)
 
 <use EPflattening/flatbbcn.jpg>
 Package pdftex.def Info: EPflattening/flatbbcn.jpg used on input line 41.
 (pdftex.def)             Requested size: 173.44534pt x 169.2666pt.
 
-<EPflattening/flatbbcs.jpg, id=315, 999.735pt x 975.645pt>
+<EPflattening/flatbbcs.jpg, id=321, 999.735pt x 975.645pt>
 File: EPflattening/flatbbcs.jpg Graphic file (type jpg)
 
 <use EPflattening/flatbbcs.jpg>
 Package pdftex.def Info: EPflattening/flatbbcs.jpg used on input line 44.
 (pdftex.def)             Requested size: 173.44534pt x 169.2666pt.
 
-<EPflattening/flatmpcn.jpg, id=316, 999.735pt x 975.645pt>
+<EPflattening/flatmpcn.jpg, id=322, 999.735pt x 975.645pt>
 File: EPflattening/flatmpcn.jpg Graphic file (type jpg)
 
 <use EPflattening/flatmpcn.jpg>
 Package pdftex.def Info: EPflattening/flatmpcn.jpg used on input line 47.
 (pdftex.def)             Requested size: 173.44534pt x 169.2666pt.
 
-<EPflattening/flatmpcs.jpg, id=317, 999.735pt x 975.645pt>
+<EPflattening/flatmpcs.jpg, id=323, 999.735pt x 975.645pt>
 File: EPflattening/flatmpcs.jpg Graphic file (type jpg)
 
 <use EPflattening/flatmpcs.jpg>
 Package pdftex.def Info: EPflattening/flatmpcs.jpg used on input line 50.
 (pdftex.def)             Requested size: 173.44534pt x 169.2666pt.
 
-<EPflattening/flatrxncmbn.jpg, id=318, 999.735pt x 975.645pt>
+<EPflattening/flatrxncmbn.jpg, id=324, 999.735pt x 975.645pt>
 File: EPflattening/flatrxncmbn.jpg Graphic file (type jpg)
 
 <use EPflattening/flatrxncmbn.jpg>
 Package pdftex.def Info: EPflattening/flatrxncmbn.jpg used on input line 53.
 (pdftex.def)             Requested size: 173.44534pt x 169.2666pt.
 
-<EPflattening/flatrxncmbs.jpg, id=319, 999.735pt x 975.645pt>
+<EPflattening/flatrxncmbs.jpg, id=325, 999.735pt x 975.645pt>
 File: EPflattening/flatrxncmbs.jpg Graphic file (type jpg)
 
 <use EPflattening/flatrxncmbs.jpg>
 Package pdftex.def Info: EPflattening/flatrxncmbs.jpg used on input line 56.
 (pdftex.def)             Requested size: 173.44534pt x 169.2666pt.
- [67 <./Figures/reactionplaneexpcartoon.jpg>] [68 <./EPflattening/flatbbcn.jpg>
+ [68 <./Figures/reactionplaneexpcartoon.jpg>] [69 <./EPflattening/flatbbcn.jpg>
  <./EPflattening/flatbbcs.jpg> <./EPflattening/flatmpcn.jpg> <./EPflattening/fl
 atmpcs.jpg> <./EPflattening/flatrxncmbn.jpg> <./EPflattening/flatrxncmbs.jpg>] 
-[69]) (Results.tex [70] [71]
+[70]) (Results.tex [71]
 Chapter 7.
 [72
 
-] <chargedtrackv2/htrkdphi2bbcs_0.jpg, id=340, 3007.235pt x 3986.895pt>
+] <chargedtrackv2/htrkdphi2bbcs_0.jpg, id=342, 3007.235pt x 3986.895pt>
 File: chargedtrackv2/htrkdphi2bbcs_0.jpg Graphic file (type jpg)
 
 <use chargedtrackv2/htrkdphi2bbcs_0.jpg>
@@ -935,7 +961,7 @@ Package pdftex.def Info: chargedtrackv2/htrkdphi2bbcs_0.jpg used on input line
 
 LaTeX Warning: Float too large for page by 29.80869pt on input line 22.
 
-<chargedtrackv2/htrkdphi2bbcs_1.jpg, id=341, 3007.235pt x 3986.895pt>
+<chargedtrackv2/htrkdphi2bbcs_1.jpg, id=343, 3007.235pt x 3986.895pt>
 File: chargedtrackv2/htrkdphi2bbcs_1.jpg Graphic file (type jpg)
 
 <use chargedtrackv2/htrkdphi2bbcs_1.jpg>
@@ -946,7 +972,7 @@ Package pdftex.def Info: chargedtrackv2/htrkdphi2bbcs_1.jpg used on input line
 
 LaTeX Warning: Float too large for page by 29.80869pt on input line 30.
 
-<chargedtrackv2/htrkdphi2bbcs_2.jpg, id=342, 3007.235pt x 3986.895pt>
+<chargedtrackv2/htrkdphi2bbcs_2.jpg, id=344, 3007.235pt x 3986.895pt>
 File: chargedtrackv2/htrkdphi2bbcs_2.jpg Graphic file (type jpg)
 
 <use chargedtrackv2/htrkdphi2bbcs_2.jpg>
@@ -957,7 +983,7 @@ Package pdftex.def Info: chargedtrackv2/htrkdphi2bbcs_2.jpg used on input line
 
 LaTeX Warning: Float too large for page by 29.80869pt on input line 37.
 
-<chargedtrackv2/htrkdphi2bbcs_3.jpg, id=343, 3007.235pt x 3986.895pt>
+<chargedtrackv2/htrkdphi2bbcs_3.jpg, id=345, 3007.235pt x 3986.895pt>
 File: chargedtrackv2/htrkdphi2bbcs_3.jpg Graphic file (type jpg)
 
 <use chargedtrackv2/htrkdphi2bbcs_3.jpg>
@@ -968,7 +994,7 @@ Package pdftex.def Info: chargedtrackv2/htrkdphi2bbcs_3.jpg used on input line
 
 LaTeX Warning: Float too large for page by 29.80869pt on input line 44.
 
-<chargedtrackv2/rawtrackv2_bbcNS.jpg, id=344, 999.735pt x 975.645pt>
+<chargedtrackv2/rawtrackv2_bbcNS.jpg, id=346, 999.735pt x 975.645pt>
 File: chargedtrackv2/rawtrackv2_bbcNS.jpg Graphic file (type jpg)
 
 <use chargedtrackv2/rawtrackv2_bbcNS.jpg>
@@ -980,33 +1006,50 @@ i2bbcs_1.jpg>] [76 <./chargedtrackv2/htrkdphi2bbcs_2.jpg>] [77 <./chargedtrackv
 2/htrkdphi2bbcs_3.jpg>] [78 <./chargedtrackv2/rawtrackv2_bbcNS.jpg>] [79] [80])
  (Systematics.tex
 Chapter 8.
+
+LaTeX Warning: Reference `evtpln' on page 81 undefined on input line 7.
+
 [81
 
-]) (Conclusions.tex
+] [82] <evtQA/ttofedist.JPG, id=382, 352.31625pt x 345.54094pt>
+File: evtQA/ttofedist.JPG Graphic file (type jpg)
+
+<use evtQA/ttofedist.JPG>
+Package pdftex.def Info: evtQA/ttofedist.JPG used on input line 30.
+(pdftex.def)             Requested size: 216.81pt x 212.64085pt.
+
+<evtQA/ttofwdist.JPG, id=383, 356.83313pt x 352.31625pt>
+File: evtQA/ttofwdist.JPG Graphic file (type jpg)
+
+<use evtQA/ttofwdist.JPG>
+Package pdftex.def Info: evtQA/ttofwdist.JPG used on input line 37.
+(pdftex.def)             Requested size: 216.81pt x 214.0632pt.
+ [83 <./evtQA/ttofedist.JPG>]) (Conclusions.tex
+[84 <./evtQA/ttofwdist.JPG>]
 Chapter 9.
-[82
+[85
 
 ]) (appendix_coords.tex
 Appendix A.
-<Figures/coord2.jpg, id=380, 607.26875pt x 570.13pt>
+<Figures/coord2.jpg, id=394, 607.26875pt x 570.13pt>
 File: Figures/coord2.jpg Graphic file (type jpg)
  <use Figures/coord2.jpg>
 Package pdftex.def Info: Figures/coord2.jpg used on input line 6.
 (pdftex.def)             Requested size: 303.53267pt x 284.97731pt.
 
-[83
+[86
 
- <./Figures/coord2.jpg>]) (appendix_nuclmodfact.tex [84]
+ <./Figures/coord2.jpg>]) (appendix_nuclmodfact.tex [87]
 Appendix B.
-[85
+[88
 
-]) (appendix_cuts.tex [86]
+]) (appendix_cuts.tex [89]
 Appendix C.
-) (appendix_data.tex [87
+) (appendix_data.tex [90
 
 ]
 Appendix D.
-) (thesis.bbl [88
+) (thesis.bbl [91
 
 ]
 
@@ -1019,20 +1062,23 @@ Type  H <return>  for immediate help.
 l.1 \begin{thebibliography}{10}
                                
 ? 
-[89
+[92
 
-] [90] [91] [92] [93] [94]
+] [93] [94] [95] [96] [97]
 Missing character: There is no — in font cmr10!
- [95]) [96] (thesis.aux)
+ [98]) [99] (thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5510 strings out of 493335
- 86843 string characters out of 3136683
- 170479 words of memory out of 3000000
- 8843 multiletter control sequences out of 15000+200000
+ 5537 strings out of 493335
+ 87388 string characters out of 3136683
+ 170523 words of memory out of 3000000
+ 8865 multiletter control sequences out of 15000+200000
  13633 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,23n,46p,2261b,606s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1054,9 +1100,9 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX
 onts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb>
-Output written on thesis.pdf (108 pages, 6679825 bytes).
+Output written on thesis.pdf (111 pages, 6974803 bytes).
 PDF statistics:
- 484 PDF objects out of 1000 (max. 8388607)
+ 499 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 311 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 331 words of extra memory for PDF output out of 10000 (max. 10000000)
 
