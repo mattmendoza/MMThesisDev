@@ -1,5 +1,5 @@
 \contentsline {chapter}{List of Figures}{x}
-\contentsline {chapter}{List of Tables}{xii}
+\contentsline {chapter}{List of Tables}{xiii}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Introduction}{1}
 \contentsline {section}{\numberline {1.2}Early Experiments: An Overview}{3}
@@ -47,26 +47,30 @@
 \contentsline {section}{\numberline {6.3}Event Plane Resolution Correction}{70}
 \contentsline {chapter}{\numberline {7}Results}{72}
 \contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{72}
-\contentsline {section}{\numberline {7.2}Separating Particle Signals}{73}
+\contentsline {section}{\numberline {7.2}Separating Particle Signals}{79}
 \contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{79}
-\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{79}
-\contentsline {subsection}{\numberline {7.2.3}ACC as a Particle Discriminator}{80}
-\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{80}
-\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{80}
-\contentsline {chapter}{\numberline {8}Error Analysis and Quality Assurance}{81}
-\contentsline {section}{\numberline {8.1}Systematic Errors}{81}
-\contentsline {subsection}{\numberline {8.1.1}Event Plane Resolution}{81}
-\contentsline {subsection}{\numberline {8.1.2}Centrality Resolution}{82}
-\contentsline {subsection}{\numberline {8.1.3}Particle Identification Methods}{82}
-\contentsline {subsection}{\numberline {8.1.4}Detector Acceptance}{82}
-\contentsline {section}{\numberline {8.2}Quality Assurance}{82}
-\contentsline {subsection}{\numberline {8.2.1}TOF Strip by Strip QA}{82}
-\contentsline {chapter}{\numberline {9}Summary and Conclusions}{85}
-\contentsline {section}{\numberline {9.1}Discussion}{85}
-\contentsline {section}{\numberline {9.2}Conclusions}{85}
-\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{86}
-\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{88}
-\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{90}
-\contentsline {chapter}{\numberline {D}Data Tables}{91}
-\contentsline {section}{\numberline {D.1}Charged Track Elliptic Flow}{91}
-\contentsline {section}{\numberline {D.2}Identified Particle Elliptic Flow}{91}
+\contentsline {subsubsection}{Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, negative charged tracks}{82}
+\contentsline {subsubsection}{Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, positive charged tracks}{86}
+\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{90}
+\contentsline {subsubsection}{Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, negative charged tracks}{92}
+\contentsline {subsubsection}{Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, positive charged tracks}{96}
+\contentsline {subsection}{\numberline {7.2.3}ACC as a Particle Discriminator}{100}
+\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{100}
+\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{100}
+\contentsline {chapter}{\numberline {8}Error Analysis and Quality Assurance}{101}
+\contentsline {section}{\numberline {8.1}Systematic Errors}{101}
+\contentsline {subsection}{\numberline {8.1.1}Event Plane Resolution}{101}
+\contentsline {subsection}{\numberline {8.1.2}Centrality Resolution}{102}
+\contentsline {subsection}{\numberline {8.1.3}Particle Identification Methods}{102}
+\contentsline {subsection}{\numberline {8.1.4}Detector Acceptance}{102}
+\contentsline {section}{\numberline {8.2}Quality Assurance}{102}
+\contentsline {subsection}{\numberline {8.2.1}TOF Strip by Strip QA}{102}
+\contentsline {chapter}{\numberline {9}Summary and Conclusions}{105}
+\contentsline {section}{\numberline {9.1}Discussion}{105}
+\contentsline {section}{\numberline {9.2}Conclusions}{105}
+\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{106}
+\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{108}
+\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{110}
+\contentsline {chapter}{\numberline {D}Data Tables}{111}
+\contentsline {section}{\numberline {D.1}Charged Track Elliptic Flow}{111}
+\contentsline {section}{\numberline {D.2}Identified Particle Elliptic Flow}{111}
