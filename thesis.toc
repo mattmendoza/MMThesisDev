@@ -47,32 +47,32 @@
 \contentsline {section}{\numberline {6.3}Event Plane Resolution Correction}{70}
 \contentsline {chapter}{\numberline {7}Results}{72}
 \contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{72}
-\contentsline {section}{\numberline {7.2}Separating Particle Signals}{79}
-\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{79}
-\contentsline {subsubsection}{Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, negative charged tracks}{82}
-\contentsline {subsubsection}{Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, positive charged tracks}{86}
-\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{90}
-\contentsline {subsubsection}{Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, negative charged tracks}{92}
-\contentsline {subsubsection}{Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, positive charged tracks}{96}
-\contentsline {subsection}{\numberline {7.2.3}ACC as a Particle Discriminator}{100}
-\contentsline {subsubsection}{TOF.W and ACC, $p_T$=2.1-3.5 GeV, negative charged tracks}{102}
-\contentsline {subsection}{\numberline {7.2.4}High $p_T$: Fixed Width and Mean}{104}
-\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{104}
-\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{104}
-\contentsline {chapter}{\numberline {8}Error Analysis and Quality Assurance}{105}
-\contentsline {section}{\numberline {8.1}Systematic Errors}{105}
-\contentsline {subsection}{\numberline {8.1.1}Event Plane Resolution}{105}
-\contentsline {subsection}{\numberline {8.1.2}Centrality Resolution}{106}
-\contentsline {subsection}{\numberline {8.1.3}Particle Identification Methods}{106}
-\contentsline {subsection}{\numberline {8.1.4}Detector Acceptance}{106}
-\contentsline {section}{\numberline {8.2}Quality Assurance}{106}
-\contentsline {subsection}{\numberline {8.2.1}TOF Strip by Strip QA}{106}
-\contentsline {chapter}{\numberline {9}Summary and Conclusions}{109}
-\contentsline {section}{\numberline {9.1}Discussion}{109}
-\contentsline {section}{\numberline {9.2}Conclusions}{109}
-\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{110}
-\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{112}
-\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{114}
-\contentsline {chapter}{\numberline {D}Data Tables}{115}
-\contentsline {section}{\numberline {D.1}Charged Track Elliptic Flow}{115}
-\contentsline {section}{\numberline {D.2}Identified Particle Elliptic Flow}{115}
+\contentsline {section}{\numberline {7.2}Separating Particle Signals}{75}
+\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{75}
+\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{76}
+\contentsline {subsection}{\numberline {7.2.3}ACC as a Particle Discriminator}{76}
+\contentsline {subsection}{\numberline {7.2.4}High $p_T$: Fixed Width and Mean}{77}
+\contentsline {section}{\numberline {7.3}Identified Particle $v_{2}$}{78}
+\contentsline {chapter}{\numberline {8}Error Analysis and Quality Assurance}{79}
+\contentsline {section}{\numberline {8.1}Systematic Errors}{79}
+\contentsline {subsection}{\numberline {8.1.1}Event Plane Resolution}{79}
+\contentsline {subsection}{\numberline {8.1.2}Centrality Resolution}{80}
+\contentsline {subsection}{\numberline {8.1.3}Particle Identification Methods}{80}
+\contentsline {subsection}{\numberline {8.1.4}Detector Acceptance}{80}
+\contentsline {section}{\numberline {8.2}Quality Assurance}{80}
+\contentsline {subsection}{\numberline {8.2.1}TOF Strip by Strip QA}{80}
+\contentsline {chapter}{\numberline {9}Summary and Conclusions}{83}
+\contentsline {section}{\numberline {9.1}Discussion}{83}
+\contentsline {section}{\numberline {9.2}Conclusions}{83}
+\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{84}
+\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{86}
+\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{88}
+\contentsline {chapter}{\numberline {D}Analysis Data and Plots}{89}
+\contentsline {section}{\numberline {D.1}Charged Track Elliptic Flow}{89}
+\contentsline {section}{\numberline {D.2}Particle Identification: TOFW}{94}
+\contentsline {subsection}{\numberline {D.2.1}Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, negative charged tracks}{94}
+\contentsline {subsection}{\numberline {D.2.2}Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, positive charged tracks}{98}
+\contentsline {subsection}{\numberline {D.2.3}Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, negative charged tracks}{102}
+\contentsline {subsubsection}{Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, positive charged tracks}{106}
+\contentsline {subsection}{\numberline {D.2.4}TOF.W and ACC, $p_T$=2.1-3.5 GeV, negative charged tracks}{110}
+\contentsline {subsection}{\numberline {D.2.5}TOF.W and ACC, $p_T$=2.1-3.5 GeV, positive charged tracks}{125}
