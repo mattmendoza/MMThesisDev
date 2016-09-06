@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  5 SEP 2016 12:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  5 SEP 2016 22:40
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -305,6 +305,12 @@ LaTeX Warning: Label `sub@fig:cernfireball' multiply defined.
 
 
 LaTeX Warning: Label `fig:evtpln' multiply defined.
+
+
+LaTeX Warning: Label `fig:fits13-15neg' multiply defined.
+
+
+LaTeX Warning: Label `fig:fits13-15neg' multiply defined.
 
 )
 \openout1 = `thesis.aux'.
@@ -1383,52 +1389,134 @@ n input line 286.
 ms_tof1_cent0_ch1_pT-17-19.jpg>] [99 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT
 -19-21.jpg> <./lowptfits/fitParams_tof1_cent0_ch1_pT-19-21.jpg>] [100
 
+]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(56.9055pt, 642.66711pt, 95.39737pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=642.66711pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+<hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin8.jpg, id=474, 6018.485pt
+ x 3986.895pt>
+File: hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin8.jpg Graphic file (
+type jpg)
+
+<use hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin8.jpg>
+Package pdftex.def Info: hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin8
+.jpg used on input line 303.
+(pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
+
+<hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin8.jpg, id=475, 6018.485pt x 3986.89
+5pt>
+File: hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin8.jpg Graphic file (type jpg)
+ <use hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin8.jpg>
+Package pdftex.def Info: hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin8.jpg used 
+on input line 307.
+(pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
+ [101
+
+]
+Overfull \vbox (3.39328pt too high) has occurred while \output is active []
+
+
+[102 <./hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin8.jpg> <./hiptfits
+/neg/PSm2_cent0_ich0_accfire0_ptbin8.jpg>]
+<hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin8.jpg, id=484, 6018.485pt x 3986.89
+5pt>
+File: hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin8.jpg Graphic file (type jpg)
+ <use hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin8.jpg>
+Package pdftex.def Info: hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin8.jpg used 
+on input line 316.
+(pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
+
+<hiptfits/neg/fitParams_tof2_cent0_ch0_pT-21-23.jpg, id=485, 3007.235pt x 1979.
+395pt>
+File: hiptfits/neg/fitParams_tof2_cent0_ch0_pT-21-23.jpg Graphic file (type jpg
+)
+ <use hiptfits/neg/fitParams_tof2_cent0_ch0_pT-21-23.jpg>
+Package pdftex.def Info: hiptfits/neg/fitParams_tof2_cent0_ch0_pT-21-23.jpg use
+d on input line 320.
+(pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
+
+Overfull \vbox (18.59587pt too high) has occurred while \output is active []
+
+
+[103 <./hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin8.jpg> <./hiptfits/neg/fitPa
+rams_tof2_cent0_ch0_pT-21-23.jpg>] [104
+
 ]) (Systematics.tex
 Chapter 8.
 
-LaTeX Warning: Reference `evtpln' on page 101 undefined on input line 7.
+LaTeX Warning: Reference `evtpln' on page 105 undefined on input line 7.
 
-[101
+[105
 
-] [102] <evtQA/ttofedist.JPG, id=481, 352.31625pt x 345.54094pt>
+] [106] <evtQA/ttofedist.JPG, id=498, 352.31625pt x 345.54094pt>
 File: evtQA/ttofedist.JPG Graphic file (type jpg)
 
 <use evtQA/ttofedist.JPG>
 Package pdftex.def Info: evtQA/ttofedist.JPG used on input line 30.
 (pdftex.def)             Requested size: 216.81pt x 212.64085pt.
 
-<evtQA/ttofwdist.JPG, id=482, 356.83313pt x 352.31625pt>
+<evtQA/ttofwdist.JPG, id=499, 356.83313pt x 352.31625pt>
 File: evtQA/ttofwdist.JPG Graphic file (type jpg)
 
 <use evtQA/ttofwdist.JPG>
 Package pdftex.def Info: evtQA/ttofwdist.JPG used on input line 37.
 (pdftex.def)             Requested size: 216.81pt x 214.0632pt.
- [103 <./evtQA/ttofedist.JPG>]) (Conclusions.tex
-[104 <./evtQA/ttofwdist.JPG>]
+ [107 <./evtQA/ttofedist.JPG>]) (Conclusions.tex
+[108 <./evtQA/ttofwdist.JPG>]
 Chapter 9.
-[105
+[109
 
 ]) (appendix_coords.tex
 Appendix A.
-<Figures/coord2.jpg, id=492, 607.26875pt x 570.13pt>
+<Figures/coord2.jpg, id=510, 607.26875pt x 570.13pt>
 File: Figures/coord2.jpg Graphic file (type jpg)
  <use Figures/coord2.jpg>
 Package pdftex.def Info: Figures/coord2.jpg used on input line 6.
 (pdftex.def)             Requested size: 303.53267pt x 284.97731pt.
 
-[106
+[110
 
- <./Figures/coord2.jpg>]) (appendix_nuclmodfact.tex [107]
+ <./Figures/coord2.jpg>]) (appendix_nuclmodfact.tex [111]
 Appendix B.
-) (appendix_cuts.tex [108
+) (appendix_cuts.tex [112
 
-] [109]
+] [113]
 Appendix C.
-) (appendix_data.tex [110
+) (appendix_data.tex [114
 
 ]
 Appendix D.
-) (thesis.bbl [111
+) (thesis.bbl [115
 
 ]
 
@@ -1441,11 +1529,11 @@ Type  H <return>  for immediate help.
 l.1 \begin{thebibliography}{10}
                                
 ? 
-[112
+[116
 
-] [113] [114] [115] [116] [117]
+] [117] [118] [119] [120] [121]
 Missing character: There is no — in font cmr10!
- [118]) [119] (thesis.aux)
+ [122]) [123] (thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1454,10 +1542,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5771 strings out of 493335
- 96357 string characters out of 3136683
- 172094 words of memory out of 3000000
- 9062 multiletter control sequences out of 15000+200000
+ 5795 strings out of 493335
+ 97477 string characters out of 3136683
+ 171095 words of memory out of 3000000
+ 9081 multiletter control sequences out of 15000+200000
  13633 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,23n,46p,2261b,610s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1473,15 +1561,16 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmti10.pfb>
-Output written on thesis.pdf (132 pages, 21492627 bytes).
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmti10.pfb>
+Output written on thesis.pdf (136 pages, 24131581 bytes).
 PDF statistics:
- 597 PDF objects out of 1000 (max. 8388607)
+ 618 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 491 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 511 words of extra memory for PDF output out of 10000 (max. 10000000)
 

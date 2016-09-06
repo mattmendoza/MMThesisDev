@@ -55,22 +55,24 @@
 \contentsline {subsubsection}{Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, negative charged tracks}{92}
 \contentsline {subsubsection}{Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, positive charged tracks}{96}
 \contentsline {subsection}{\numberline {7.2.3}ACC as a Particle Discriminator}{100}
-\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{100}
-\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{100}
-\contentsline {chapter}{\numberline {8}Error Analysis and Quality Assurance}{101}
-\contentsline {section}{\numberline {8.1}Systematic Errors}{101}
-\contentsline {subsection}{\numberline {8.1.1}Event Plane Resolution}{101}
-\contentsline {subsection}{\numberline {8.1.2}Centrality Resolution}{102}
-\contentsline {subsection}{\numberline {8.1.3}Particle Identification Methods}{102}
-\contentsline {subsection}{\numberline {8.1.4}Detector Acceptance}{102}
-\contentsline {section}{\numberline {8.2}Quality Assurance}{102}
-\contentsline {subsection}{\numberline {8.2.1}TOF Strip by Strip QA}{102}
-\contentsline {chapter}{\numberline {9}Summary and Conclusions}{105}
-\contentsline {section}{\numberline {9.1}Discussion}{105}
-\contentsline {section}{\numberline {9.2}Conclusions}{105}
-\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{106}
-\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{108}
-\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{110}
-\contentsline {chapter}{\numberline {D}Data Tables}{111}
-\contentsline {section}{\numberline {D.1}Charged Track Elliptic Flow}{111}
-\contentsline {section}{\numberline {D.2}Identified Particle Elliptic Flow}{111}
+\contentsline {subsubsection}{TOF.W and ACC, $p_T$=2.1-3.5 GeV, negative charged tracks}{102}
+\contentsline {subsection}{\numberline {7.2.4}High $p_T$: Fixed Width and Mean}{104}
+\contentsline {section}{\numberline {7.3}Yield vs Event Plane}{104}
+\contentsline {section}{\numberline {7.4}Identified Particle $v_{2}$}{104}
+\contentsline {chapter}{\numberline {8}Error Analysis and Quality Assurance}{105}
+\contentsline {section}{\numberline {8.1}Systematic Errors}{105}
+\contentsline {subsection}{\numberline {8.1.1}Event Plane Resolution}{105}
+\contentsline {subsection}{\numberline {8.1.2}Centrality Resolution}{106}
+\contentsline {subsection}{\numberline {8.1.3}Particle Identification Methods}{106}
+\contentsline {subsection}{\numberline {8.1.4}Detector Acceptance}{106}
+\contentsline {section}{\numberline {8.2}Quality Assurance}{106}
+\contentsline {subsection}{\numberline {8.2.1}TOF Strip by Strip QA}{106}
+\contentsline {chapter}{\numberline {9}Summary and Conclusions}{109}
+\contentsline {section}{\numberline {9.1}Discussion}{109}
+\contentsline {section}{\numberline {9.2}Conclusions}{109}
+\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{110}
+\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{112}
+\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{114}
+\contentsline {chapter}{\numberline {D}Data Tables}{115}
+\contentsline {section}{\numberline {D.1}Charged Track Elliptic Flow}{115}
+\contentsline {section}{\numberline {D.2}Identified Particle Elliptic Flow}{115}

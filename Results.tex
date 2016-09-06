@@ -292,7 +292,41 @@ where $N_{x}$, $\mu_x$, and $\sigma_x$ are the parameters that describe the shap
 \restoregeometry
 
 \subsection{ACC as a Particle Discriminator}
-Above $p_T=2.3$ pion/kaon mixing becomes inseparable. In this region I utilize the ACC to trigger and veto pion and kaon events respectively by setting Cherenkov radiation threshold which is done by counting the number of photoelectrons collected by the two PMTs on each channel of the ACC. This utilization of the ACC therefore sorts tracks into two separate histograms, one with an \textit{ACC fire} condition that contains mostly pions with minimal kaon contamination, and another with an \textit{ACC veto} condition that contains the remaining kaons and protons with minimal pion contamination. These two histograms can then be analyzed with single Gaussians since the distributions are now separate.
+Above $p_T=2.3$ pion/kaon mixing becomes inseparable. In this region I utilize the ACC to trigger and veto pion and kaon events respectively by setting Cherenkov radiation threshold which is done by counting the number of photoelectrons collected by the two PMTs on each channel of the ACC. This utilization of the ACC therefore sorts tracks into two separate histograms, one with an \textit{ACC fire} condition that contains mostly pions with minimal kaon contamination, and another with an \textit{ACC veto} condition that contains the remaining kaons and protons with minimal pion contamination. These two histograms can then be analyzed with single Gaussians since the distributions are now separate. This ACC threshold is the sum of the number of photoelectrons ($N_{p.e.}$) in both PMTs. The total number of $N_{p.e.}$ is plotted versus $m^2$ in a 2-d histogram and a threshold is set in order for there to be a maximum separation between pion and kaon signals. This 2-d histogram is then projected from the threshold up to the highest $N_{p.e.}$ bin for the pions and projected from the threshold down to the lowest $N_{p.e.}$ bin for kaons and protons. These 1-d projections can then be modeled with either single Gaussians (pions) or mixed Gaussians (kaons and protons).
+
+\newgeometry{top=2cm} 
+\subsubsection{TOF.W and ACC, $p_T$=2.1-3.5 GeV, negative charged tracks}
+
+\begin{figure}[H]
+  \centering
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin8.jpg}
+    \caption{$N_{p.e.}$ vs $m^2$}
+    \end{subfigure}
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin8.jpg}
+    \caption{$m^2$ for ACC vetoed tracks}
+    \end{subfigure}
+  \label{fig:fits13-15neg}
+\end{figure}
+
+\begin{figure}[H]
+  \ContinuedFloat
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin8.jpg}
+    \caption{$m^2$ for ACC fired tracks}
+    \end{subfigure}  
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/neg/fitParams_tof2_cent0_ch0_pT-21-23.jpg}
+    \caption{$m^2$ for ACC fired tracks}
+    \end{subfigure}    
+    \rule{35em}{0.5pt}
+  \caption[PID fits and Yield vs $d\phi$ for $p_T$=1.3-1.5 GeV/c, TOF.W, negative particles ]{$m^2$ Gaussian fits for PID and resulting Yield vs $d\phi$ for $p_T$=1.3-1.5 GeV/c, TOF.W, negative particles}
+  \label{fig:fits13-15neg}
+\end{figure}
+\restoregeometry
+
+\subsection{High $p_T$: Fixed Width and Mean}
 
 \section{Yield vs Event Plane}
 Here the yield vs $d\phi$ plots can be treated like the $dN/d\phi$ vs $d\phi$ plots that provided the charged track $v_2$ measurement which was acquired by fitting with the functional form of equation \ref{v2fitfn}. 
