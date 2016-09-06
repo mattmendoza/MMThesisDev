@@ -42,6 +42,15 @@ where $N_{x}$, $\mu_x$, and $\sigma_x$ are the parameters that describe the shap
 (full fits and data in Appendix \ref{app:mixgauss})
 
 \subsection{ACC as a Particle Discriminator}
+\hspace{-1cm}
+\begin{figure}[htbp!]
+  \centering
+    \includegraphics[width=1\textwidth]{hiptfits/nphotvsm2.jpg}
+    \rule{35em}{0.5pt}
+  \caption[Number of ACC photoelectrons vs $m^2$ in bins of $p_T$]{Number of ACC photoelectrons vs $m^2$ in bins of $p_T$}
+  \label{fig:accspread}
+\end{figure}
+
 Above $p_T=2.3$ pion/kaon mixing becomes inseparable. In this region I utilize the ACC to trigger and veto pion and kaon events respectively by setting Cherenkov radiation threshold which is done by counting the number of photoelectrons collected by the two PMTs on each channel of the ACC. This utilization of the ACC therefore sorts tracks into two separate histograms, one with an \textit{ACC fire} condition that contains mostly pions with minimal kaon contamination, and another with an \textit{ACC veto} condition that contains the remaining kaons and protons with minimal pion contamination. These two histograms can then be analyzed with single Gaussians since the distributions are now separate. This ACC threshold is the sum of the number of photoelectrons ($N_{p.e.}$) in both PMTs. The total number of $N_{p.e.}$ is plotted versus $m^2$ in a 2-d histogram and a threshold is set in order for there to be a maximum separation between pion and kaon signals. This 2-d histogram is then projected from the threshold up to the highest $N_{p.e.}$ bin for the pions and projected from the threshold down to the lowest $N_{p.e.}$ bin for kaons and protons. These 1-d projections can then be modeled with either single Gaussians (pions) or mixed Gaussians (kaons and protons). (full fits and data in Appendix \ref{app:accdata})
 
 \subsection{High $p_T$: Fixed Width and Mean}
