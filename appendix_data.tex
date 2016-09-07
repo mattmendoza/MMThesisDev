@@ -1,36 +1,51 @@
 \newgeometry{top=2cm} 
 \chapter{Analysis Data and Plots} % Main appendix title\
 \label{app:data}
-\section{Charged Track Elliptic Flow}
-All data and plots pertaining to the results in \ref{sect:alltracks}.
 
-\begin{figure}[htbp!]
+\section{Event Plane Resolution}
+\begin{table}[H]
+\centering
+\caption{Event Plane Resolution for MPC, BBC, and RXNP. Resolution calculation by Takao Sakaguchi\citep{pi0v2run8dau}}
+\label{EPrestable}
+\begin{tabular}{lllll}
+\textbf{}                                    & \multicolumn{4}{c}{{\ul \textbf{Centrality}}}                                                                                                              \\ \hline
+\multicolumn{1}{|l|}{\textbf{E.P. Detector}} & \multicolumn{1}{c|}{\textbf{0-5\%}} & \multicolumn{1}{c|}{\textbf{5-10\%}} & \multicolumn{1}{c|}{\textbf{10-15\%}} & \multicolumn{1}{c|}{\textbf{15-20\%}} \\ \hline
+\multicolumn{1}{|l|}{\textbf{BBC}}           & \multicolumn{1}{l|}{0.1134$\pm$0.0011}  & \multicolumn{1}{l|}{0.0905$\pm$0.0009}   & \multicolumn{1}{l|}{0.0664$\pm$0.0007}    & \multicolumn{1}{l|}{0.0664$\pm$0.0007}    \\ \hline
+\multicolumn{1}{|l|}{\textbf{MPC}}           & \multicolumn{1}{l|}{0.1591$\pm$0.0016}  & \multicolumn{1}{l|}{0.1104$\pm$0.0011}   & \multicolumn{1}{l|}{0.1095$\pm$0.0011}    & \multicolumn{1}{l|}{0.0979$\pm$0.0010}    \\ \hline
+\multicolumn{1}{|l|}{\textbf{RXN.IN}}        & \multicolumn{1}{l|}{0.1250$\pm$0.0165}  & \multicolumn{1}{l|}{0.0886$\pm$0.0200}   & \multicolumn{1}{l|}{0.0985$\pm$0.0198}    & \multicolumn{1}{l|}{0.0967$\pm$0.0177}    \\ \hline
+\multicolumn{1}{|l|}{\textbf{RXN.OUT}}       & \multicolumn{1}{l|}{0.0937$\pm$0.0161}  & \multicolumn{1}{l|}{0.1012$\pm$0.0153}   & \multicolumn{1}{l|}{0.0573$\pm$0.0215}    & \multicolumn{1}{l|}{0.0572$\pm$0.0176}    \\ \hline
+\multicolumn{1}{|l|}{\textbf{RXN.CMB}}       & \multicolumn{1}{l|}{0.1282$\pm$0.0185}  & \multicolumn{1}{l|}{0.1238$\pm$0.0190}   & \multicolumn{1}{l|}{0.0991$\pm$0.0218}    & \multicolumn{1}{l|}{0.0919$\pm$0.0195}    \\ \hline
+\end{tabular}
+\end{table}
+
+\section{Charged Track Elliptic Flow}
+\begin{figure}[H]
   \centering
-    \includegraphics[width=1\textwidth]{chargedtrackv2/htrkdphi2bbcs_0.jpg}
-    \rule{35em}{0.5pt}
   \caption[$\frac{dN}{d\phi}$ vs $d\phi$, 0-5\% centrality.]{$\frac{d^N}{d\phi}$ vs $d\phi$, 0-5\% centrality, each plot represents a 0.2 GeV slice in transverse momentum space.}
+  \rule{35em}{0.5pt}
+    \includegraphics[width=1\textwidth]{chargedtrackv2/htrkdphi2bbcs_0.jpg}
   \label{fig:Ndphicent0}
 \end{figure}
 
-\begin{figure}[htbp!]
+\begin{figure}[H]
   \centering
-    \includegraphics[width=1\textwidth]{chargedtrackv2/htrkdphi2bbcs_1.jpg}
-    \rule{35em}{0.5pt}
   \caption[$\frac{dN}{d\phi}$ vs $d\phi$, 5-10\% centrality.]{$\frac{d^N}{d\phi}$ vs $d\phi$, 5-10\% centrality, each plot represents a 0.2 GeV slice in transverse momentum space.}
+  \rule{35em}{0.5pt}
+  \includegraphics[width=1\textwidth]{chargedtrackv2/htrkdphi2bbcs_1.jpg}
   \label{fig:Ndphicent1}
 \end{figure}
-\begin{figure}[htbp!]
+\begin{figure}[H]
   \centering
-    \includegraphics[width=1\textwidth]{chargedtrackv2/htrkdphi2bbcs_2.jpg}
-    \rule{35em}{0.5pt}
   \caption[$\frac{dN}{d\phi}$ vs $d\phi$, 10-15\% centrality.]{$\frac{d^N}{d\phi}$ vs $d\phi$, 10-15\% centrality, each plot represents a 0.2 GeV slice in transverse momentum space.}
+    \rule{35em}{0.5pt}
+    \includegraphics[width=1\textwidth]{chargedtrackv2/htrkdphi2bbcs_2.jpg}  
   \label{fig:Ndphicent2}
 \end{figure}
-\begin{figure}[htbp!]
+\begin{figure}[H]
   \centering
-    \includegraphics[width=1\textwidth]{chargedtrackv2/htrkdphi2bbcs_3.jpg}
-    \rule{35em}{0.5pt}
   \caption[$\frac{dN}{d\phi}$ vs $d\phi$, 15-25\% centrality.]{$\frac{d^N}{d\phi}$ vs $d\phi$, 15-25\% centrality, each plot represents a 0.2 GeV slice in transverse momentum space.}
+  \rule{35em}{0.5pt}
+  \includegraphics[width=1\textwidth]{chargedtrackv2/htrkdphi2bbcs_3.jpg}
   \label{fig:Ndphicent3}
 \end{figure}
 

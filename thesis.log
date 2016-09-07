@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  6 SEP 2016 00:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.26)  6 SEP 2016 16:27
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -249,6 +249,52 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box28
 \@float@everytoks=\toks22
 \@floatcapt=\box29
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen146
+\extrarowheight=\dimen147
+\NC@list=\toks23
+\extratabsurround=\skip48
+\backup@length=\skip49
+)
+\everycr=\toks24
+\minrowclearance=\skip50
+)
+LaTeX Info: Redefining \color on input line 709.
+\rownum=\count114
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
+\UL@box=\box30
+\UL@hyphenbox=\box31
+\UL@skip=\skip51
+\UL@hook=\toks25
+\UL@height=\dimen148
+\UL@pe=\count115
+\UL@pixel=\dimen149
+\ULC@box=\box32
+Package: ulem 2012/05/18
+\ULdepth=\dimen150
 ))
 
 LaTeX Warning: Unused global option(s):
@@ -358,17 +404,17 @@ LaTeX Font Info:    ... okay on input line 35.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count114
-\scratchdimen=\dimen146
-\scratchbox=\box30
-\nofMPsegments=\count115
-\nofMParguments=\count116
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count117
-\MPscratchDim=\dimen147
-\MPnumerator=\count118
-\makeMPintoPDFobject=\count119
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count116
+\scratchdimen=\dimen151
+\scratchbox=\box33
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen152
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
+\everyMPtoPDFconversion=\toks27
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -415,16 +461,16 @@ Configuring pdfsync
 \PDFSYNC@ut=\write3
 \openout3 = `thesis.pdfsync'.
 
-\PDFSYNCf@li@=\count120
-\PDFSYNC@rder=\count121
+\PDFSYNCf@li@=\count122
+\PDFSYNC@rder=\count123
 **** pdfsync.sty: Synchronizing at \everypar
-\PDFSYNCeveryp@r=\toks25
+\PDFSYNCeveryp@r=\toks28
 **** pdfsync.sty: Synchronizing at \everymath
-\PDFSYNCeverym@th=\toks26
+\PDFSYNCeverym@th=\toks29
 **** pdfsync.sty: Synchronizing at \everyhbox
-\PDFSYNCeveryhb@x=\toks27
+\PDFSYNCeveryhb@x=\toks30
 **** pdfsync.sty: Synchronizing at \everyvbox
-\PDFSYNCeveryvb@x=\toks28
+\PDFSYNCeveryvb@x=\toks31
 **** pdfsync.sty: started
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -979,46 +1025,42 @@ Package pdftex.def Info: v2all.jpg used on input line 64.
 (pdftex.def)             Requested size: 433.62pt x 285.38905pt.
  [78] [79 <./v2all.jpg>]) (Systematics.tex
 Chapter 8.
+<evtQA/EPresr8da.jpg, id=374, 2003.485pt x 1979.395pt>
+File: evtQA/EPresr8da.jpg Graphic file (type jpg)
 
-LaTeX Warning: Reference `evtpln' on page 80 undefined on input line 7.
+<use evtQA/EPresr8da.jpg>
+Package pdftex.def Info: evtQA/EPresr8da.jpg used on input line 9.
+(pdftex.def)             Requested size: 303.53267pt x 299.85634pt.
+ [80
 
-[80
-
-] [81] <evtQA/ttofedist.JPG, id=380, 352.31625pt x 345.54094pt>
-File: evtQA/ttofedist.JPG Graphic file (type jpg)
-
-<use evtQA/ttofedist.JPG>
-Package pdftex.def Info: evtQA/ttofedist.JPG used on input line 30.
-(pdftex.def)             Requested size: 216.81pt x 212.64085pt.
-
-<evtQA/ttofwdist.JPG, id=381, 356.83313pt x 352.31625pt>
+] [81 <./evtQA/EPresr8da.jpg>] [82] [83]
+<evtQA/ttofwdist.JPG, id=387, 356.83313pt x 352.31625pt>
 File: evtQA/ttofwdist.JPG Graphic file (type jpg)
 
 <use evtQA/ttofwdist.JPG>
-Package pdftex.def Info: evtQA/ttofwdist.JPG used on input line 37.
+Package pdftex.def Info: evtQA/ttofwdist.JPG used on input line 39.
 (pdftex.def)             Requested size: 216.81pt x 214.0632pt.
- [82 <./evtQA/ttofedist.JPG>]) (Conclusions.tex
-[83 <./evtQA/ttofwdist.JPG>]
+ [84 <./evtQA/ttofwdist.JPG>] [85]) (Conclusions.tex
 Chapter 9.
-[84
+[86
 
 ]) (appendix_coords.tex
 Appendix A.
-<Figures/coord2.jpg, id=392, 607.26875pt x 570.13pt>
+<Figures/coord2.jpg, id=398, 607.26875pt x 570.13pt>
 File: Figures/coord2.jpg Graphic file (type jpg)
  <use Figures/coord2.jpg>
 Package pdftex.def Info: Figures/coord2.jpg used on input line 6.
 (pdftex.def)             Requested size: 303.53267pt x 284.97731pt.
 
-[85
-
- <./Figures/coord2.jpg>]) (appendix_nuclmodfact.tex [86]
-Appendix B.
 [87
 
-]) (appendix_cuts.tex [88]
+ <./Figures/coord2.jpg>]) (appendix_nuclmodfact.tex [88]
+Appendix B.
+[89
+
+]) (appendix_cuts.tex [90]
 Appendix C.
-) (appendix_data.tex [89
+) (appendix_data.tex [91
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1055,863 +1097,877 @@ Appendix C.
 
 
 Appendix D.
-<chargedtrackv2/htrkdphi2bbcs_0.jpg, id=408, 3007.235pt x 3986.895pt>
+<chargedtrackv2/htrkdphi2bbcs_0.jpg, id=415, 3007.235pt x 3986.895pt>
 File: chargedtrackv2/htrkdphi2bbcs_0.jpg Graphic file (type jpg)
 
 <use chargedtrackv2/htrkdphi2bbcs_0.jpg>
 Package pdftex.def Info: chargedtrackv2/htrkdphi2bbcs_0.jpg used on input line 
-9.
+26.
 (pdftex.def)             Requested size: 430.00462pt x 570.08517pt.
+ [92
 
-<chargedtrackv2/htrkdphi2bbcs_1.jpg, id=409, 3007.235pt x 3986.895pt>
+
+]
+Overfull \vbox (41.26163pt too high) has occurred while \output is active []
+
+
+[93 <./chargedtrackv2/htrkdphi2bbcs_0.jpg>]
+<chargedtrackv2/htrkdphi2bbcs_1.jpg, id=422, 3007.235pt x 3986.895pt>
 File: chargedtrackv2/htrkdphi2bbcs_1.jpg Graphic file (type jpg)
 
 <use chargedtrackv2/htrkdphi2bbcs_1.jpg>
 Package pdftex.def Info: chargedtrackv2/htrkdphi2bbcs_1.jpg used on input line 
-17.
+34.
 (pdftex.def)             Requested size: 430.00462pt x 570.08517pt.
 
-<chargedtrackv2/htrkdphi2bbcs_2.jpg, id=410, 3007.235pt x 3986.895pt>
+<chargedtrackv2/htrkdphi2bbcs_2.jpg, id=423, 3007.235pt x 3986.895pt>
 File: chargedtrackv2/htrkdphi2bbcs_2.jpg Graphic file (type jpg)
 
 <use chargedtrackv2/htrkdphi2bbcs_2.jpg>
 Package pdftex.def Info: chargedtrackv2/htrkdphi2bbcs_2.jpg used on input line 
-24.
+41.
 (pdftex.def)             Requested size: 430.00462pt x 570.08517pt.
 
-<chargedtrackv2/htrkdphi2bbcs_3.jpg, id=411, 3007.235pt x 3986.895pt>
+Overfull \vbox (5.61812pt too high) has occurred while \output is active []
+
+
+[94 <./chargedtrackv2/htrkdphi2bbcs_1.jpg>]
+<chargedtrackv2/htrkdphi2bbcs_3.jpg, id=427, 3007.235pt x 3986.895pt>
 File: chargedtrackv2/htrkdphi2bbcs_3.jpg Graphic file (type jpg)
 
 <use chargedtrackv2/htrkdphi2bbcs_3.jpg>
 Package pdftex.def Info: chargedtrackv2/htrkdphi2bbcs_3.jpg used on input line 
-31.
+48.
 (pdftex.def)             Requested size: 430.00462pt x 570.08517pt.
 
-<lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-5-7.jpg, id=412, 6018.485pt x 3986.895
+Overfull \vbox (5.61812pt too high) has occurred while \output is active []
+
+
+[95 <./chargedtrackv2/htrkdphi2bbcs_2.jpg>]
+Overfull \vbox (5.61812pt too high) has occurred while \output is active []
+
+
+[96 <./chargedtrackv2/htrkdphi2bbcs_3.jpg>]
+<lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-5-7.jpg, id=435, 6018.485pt x 3986.895
 pt>
 File: lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-5-7.jpg Graphic file (type jpg)
  <use lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-5-7.jpg>
 Package pdftex.def Info: lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-5-7.jpg used o
-n input line 44.
+n input line 59.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<lowptfits/fitParams_tof1_cent0_ch0_pT-5-7.jpg, id=413, 3007.235pt x 1979.395pt
+<lowptfits/fitParams_tof1_cent0_ch0_pT-5-7.jpg, id=436, 3007.235pt x 1979.395pt
 >
 File: lowptfits/fitParams_tof1_cent0_ch0_pT-5-7.jpg Graphic file (type jpg)
  <use lowptfits/fitParams_tof1_cent0_ch0_pT-5-7.jpg>
 Package pdftex.def Info: lowptfits/fitParams_tof1_cent0_ch0_pT-5-7.jpg used on 
-input line 47.
+input line 62.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [90
 
-
-] [91 <./chargedtrackv2/htrkdphi2bbcs_0.jpg>] [92 <./chargedtrackv2/htrkdphi2bb
-cs_1.jpg>] [93 <./chargedtrackv2/htrkdphi2bbcs_2.jpg>] [94 <./chargedtrackv2/ht
-rkdphi2bbcs_3.jpg>]
 Overfull \vbox (87.3112pt too high) has occurred while \output is active []
 
 
-[95 <./lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-5-7.jpg> <./lowptfits/fitParams_
+[97 <./lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-5-7.jpg> <./lowptfits/fitParams_
 tof1_cent0_ch0_pT-5-7.jpg>]
-<lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-7-9.jpg, id=433, 6018.485pt x 3986.895
+<lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-7-9.jpg, id=440, 6018.485pt x 3986.895
 pt>
 File: lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-7-9.jpg Graphic file (type jpg)
  <use lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-7-9.jpg>
 Package pdftex.def Info: lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-7-9.jpg used o
-n input line 57.
+n input line 72.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<lowptfits/fitParams_tof1_cent0_ch0_pT-7-9.jpg, id=434, 3007.235pt x 1979.395pt
+<lowptfits/fitParams_tof1_cent0_ch0_pT-7-9.jpg, id=441, 3007.235pt x 1979.395pt
 >
 File: lowptfits/fitParams_tof1_cent0_ch0_pT-7-9.jpg Graphic file (type jpg)
  <use lowptfits/fitParams_tof1_cent0_ch0_pT-7-9.jpg>
 Package pdftex.def Info: lowptfits/fitParams_tof1_cent0_ch0_pT-7-9.jpg used on 
-input line 60.
+input line 75.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
 
-<lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-9-11.jpg, id=435, 6018.485pt x 3986.89
+<lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-9-11.jpg, id=442, 6018.485pt x 3986.89
 5pt>
 File: lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-9-11.jpg Graphic file (type jpg)
  <use lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-9-11.jpg>
 Package pdftex.def Info: lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-9-11.jpg used 
-on input line 70.
+on input line 85.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<lowptfits/fitParams_tof1_cent0_ch0_pT-9-11.jpg, id=436, 3007.235pt x 1979.395p
+<lowptfits/fitParams_tof1_cent0_ch0_pT-9-11.jpg, id=443, 3007.235pt x 1979.395p
 t>
 File: lowptfits/fitParams_tof1_cent0_ch0_pT-9-11.jpg Graphic file (type jpg)
  <use lowptfits/fitParams_tof1_cent0_ch0_pT-9-11.jpg>
 Package pdftex.def Info: lowptfits/fitParams_tof1_cent0_ch0_pT-9-11.jpg used on
- input line 73.
+ input line 88.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [96 <./lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-7-9.jpg> <./lowptfits/fitParams
+ [98 <./lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-7-9.jpg> <./lowptfits/fitParams
 _tof1_cent0_ch0_pT-7-9.jpg>]
-<lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-11-13.jpg, id=441, 6018.485pt x 3986.8
+<lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-11-13.jpg, id=447, 6018.485pt x 3986.8
 95pt>
 File: lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-11-13.jpg Graphic file (type jpg)
 
  <use lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-11-13.jpg>
 Package pdftex.def Info: lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-11-13.jpg used
- on input line 83.
+ on input line 98.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<lowptfits/fitParams_tof1_cent0_ch0_pT-11-13.jpg, id=442, 3007.235pt x 1979.395
+<lowptfits/fitParams_tof1_cent0_ch0_pT-11-13.jpg, id=448, 3007.235pt x 1979.395
 pt>
 File: lowptfits/fitParams_tof1_cent0_ch0_pT-11-13.jpg Graphic file (type jpg)
  <use lowptfits/fitParams_tof1_cent0_ch0_pT-11-13.jpg>
 Package pdftex.def Info: lowptfits/fitParams_tof1_cent0_ch0_pT-11-13.jpg used o
-n input line 86.
+n input line 101.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [97 <./lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-9-11.jpg> <./lowptfits/fitParam
+ [99 <./lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-9-11.jpg> <./lowptfits/fitParam
 s_tof1_cent0_ch0_pT-9-11.jpg>]
-<lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-5-7.jpg, id=446, 6018.485pt x 3986.895
+<lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-5-7.jpg, id=452, 6018.485pt x 3986.895
 pt>
 File: lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-5-7.jpg Graphic file (type jpg)
  <use lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-5-7.jpg>
 Package pdftex.def Info: lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-5-7.jpg used o
-n input line 98.
+n input line 113.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<lowptfits/fitParams_tof1_cent0_ch1_pT-5-7.jpg, id=447, 3007.235pt x 1979.395pt
+<lowptfits/fitParams_tof1_cent0_ch1_pT-5-7.jpg, id=453, 3007.235pt x 1979.395pt
 >
 File: lowptfits/fitParams_tof1_cent0_ch1_pT-5-7.jpg Graphic file (type jpg)
  <use lowptfits/fitParams_tof1_cent0_ch1_pT-5-7.jpg>
 Package pdftex.def Info: lowptfits/fitParams_tof1_cent0_ch1_pT-5-7.jpg used on 
-input line 101.
+input line 116.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [98 <./lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-11-13.jpg> <./lowptfits/fitPara
-ms_tof1_cent0_ch0_pT-11-13.jpg>]
+ [100 <./lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-11-13.jpg> <./lowptfits/fitPar
+ams_tof1_cent0_ch0_pT-11-13.jpg>]
 Overfull \vbox (40.46768pt too high) has occurred while \output is active []
 
 
-[99 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-5-7.jpg> <./lowptfits/fitParams_
-tof1_cent0_ch1_pT-5-7.jpg>]
-<lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-7-9.jpg, id=454, 6018.485pt x 3986.895
+[101 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-5-7.jpg> <./lowptfits/fitParams
+_tof1_cent0_ch1_pT-5-7.jpg>]
+<lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-7-9.jpg, id=460, 6018.485pt x 3986.895
 pt>
 File: lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-7-9.jpg Graphic file (type jpg)
  <use lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-7-9.jpg>
 Package pdftex.def Info: lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-7-9.jpg used o
-n input line 111.
+n input line 126.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<lowptfits/fitParams_tof1_cent0_ch1_pT-7-9.jpg, id=455, 3007.235pt x 1979.395pt
+<lowptfits/fitParams_tof1_cent0_ch1_pT-7-9.jpg, id=461, 3007.235pt x 1979.395pt
 >
 File: lowptfits/fitParams_tof1_cent0_ch1_pT-7-9.jpg Graphic file (type jpg)
  <use lowptfits/fitParams_tof1_cent0_ch1_pT-7-9.jpg>
 Package pdftex.def Info: lowptfits/fitParams_tof1_cent0_ch1_pT-7-9.jpg used on 
-input line 114.
+input line 129.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
 
-<lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-9-11.jpg, id=456, 6018.485pt x 3986.89
+<lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-9-11.jpg, id=462, 6018.485pt x 3986.89
 5pt>
 File: lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-9-11.jpg Graphic file (type jpg)
  <use lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-9-11.jpg>
 Package pdftex.def Info: lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-9-11.jpg used 
-on input line 124.
+on input line 139.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<lowptfits/fitParams_tof1_cent0_ch1_pT-9-11.jpg, id=457, 3007.235pt x 1979.395p
+<lowptfits/fitParams_tof1_cent0_ch1_pT-9-11.jpg, id=463, 3007.235pt x 1979.395p
 t>
 File: lowptfits/fitParams_tof1_cent0_ch1_pT-9-11.jpg Graphic file (type jpg)
  <use lowptfits/fitParams_tof1_cent0_ch1_pT-9-11.jpg>
 Package pdftex.def Info: lowptfits/fitParams_tof1_cent0_ch1_pT-9-11.jpg used on
- input line 127.
+ input line 142.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [100 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-7-9.jpg> <./lowptfits/fitParam
+ [102 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-7-9.jpg> <./lowptfits/fitParam
 s_tof1_cent0_ch1_pT-7-9.jpg>]
-<lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-11-13.jpg, id=461, 6018.485pt x 3986.8
+<lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-11-13.jpg, id=468, 6018.485pt x 3986.8
 95pt>
 File: lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-11-13.jpg Graphic file (type jpg)
 
  <use lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-11-13.jpg>
 Package pdftex.def Info: lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-11-13.jpg used
- on input line 137.
+ on input line 152.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<lowptfits/fitParams_tof1_cent0_ch1_pT-11-13.jpg, id=462, 3007.235pt x 1979.395
+<lowptfits/fitParams_tof1_cent0_ch1_pT-11-13.jpg, id=469, 3007.235pt x 1979.395
 pt>
 File: lowptfits/fitParams_tof1_cent0_ch1_pT-11-13.jpg Graphic file (type jpg)
  <use lowptfits/fitParams_tof1_cent0_ch1_pT-11-13.jpg>
 Package pdftex.def Info: lowptfits/fitParams_tof1_cent0_ch1_pT-11-13.jpg used o
-n input line 140.
+n input line 155.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [101 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-9-11.jpg> <./lowptfits/fitPara
+ [103 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-9-11.jpg> <./lowptfits/fitPara
 ms_tof1_cent0_ch1_pT-9-11.jpg>]
-<lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-13-15.jpg, id=466, 6018.485pt x 3986.8
+<lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-13-15.jpg, id=473, 6018.485pt x 3986.8
 95pt>
 File: lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-13-15.jpg Graphic file (type jpg)
 
  <use lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-13-15.jpg>
 Package pdftex.def Info: lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-13-15.jpg used
- on input line 153.
+ on input line 168.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<lowptfits/fitParams_tof1_cent0_ch0_pT-13-15.jpg, id=467, 3007.235pt x 1979.395
+<lowptfits/fitParams_tof1_cent0_ch0_pT-13-15.jpg, id=474, 3007.235pt x 1979.395
 pt>
 File: lowptfits/fitParams_tof1_cent0_ch0_pT-13-15.jpg Graphic file (type jpg)
  <use lowptfits/fitParams_tof1_cent0_ch0_pT-13-15.jpg>
 Package pdftex.def Info: lowptfits/fitParams_tof1_cent0_ch0_pT-13-15.jpg used o
-n input line 156.
+n input line 171.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [102 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-11-13.jpg> <./lowptfits/fitPar
+ [104 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-11-13.jpg> <./lowptfits/fitPar
 ams_tof1_cent0_ch1_pT-11-13.jpg>]
 Overfull \vbox (40.46768pt too high) has occurred while \output is active []
 
 
-[103 <./lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-13-15.jpg> <./lowptfits/fitPara
+[105 <./lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-13-15.jpg> <./lowptfits/fitPara
 ms_tof1_cent0_ch0_pT-13-15.jpg>]
-<lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-15-17.jpg, id=475, 6018.485pt x 3986.8
+<lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-15-17.jpg, id=481, 6018.485pt x 3986.8
 95pt>
 File: lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-15-17.jpg Graphic file (type jpg)
 
  <use lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-15-17.jpg>
 Package pdftex.def Info: lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-15-17.jpg used
- on input line 166.
+ on input line 181.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<lowptfits/fitParams_tof1_cent0_ch0_pT-15-17.jpg, id=476, 3007.235pt x 1979.395
+<lowptfits/fitParams_tof1_cent0_ch0_pT-15-17.jpg, id=482, 3007.235pt x 1979.395
 pt>
 File: lowptfits/fitParams_tof1_cent0_ch0_pT-15-17.jpg Graphic file (type jpg)
  <use lowptfits/fitParams_tof1_cent0_ch0_pT-15-17.jpg>
 Package pdftex.def Info: lowptfits/fitParams_tof1_cent0_ch0_pT-15-17.jpg used o
-n input line 169.
+n input line 184.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
 
-<lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-17-19.jpg, id=477, 6018.485pt x 3986.8
+<lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-17-19.jpg, id=483, 6018.485pt x 3986.8
 95pt>
 File: lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-17-19.jpg Graphic file (type jpg)
 
  <use lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-17-19.jpg>
 Package pdftex.def Info: lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-17-19.jpg used
- on input line 179.
+ on input line 194.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<lowptfits/fitParams_tof1_cent0_ch0_pT-17-19.jpg, id=478, 3007.235pt x 1979.395
+<lowptfits/fitParams_tof1_cent0_ch0_pT-17-19.jpg, id=484, 3007.235pt x 1979.395
 pt>
 File: lowptfits/fitParams_tof1_cent0_ch0_pT-17-19.jpg Graphic file (type jpg)
  <use lowptfits/fitParams_tof1_cent0_ch0_pT-17-19.jpg>
 Package pdftex.def Info: lowptfits/fitParams_tof1_cent0_ch0_pT-17-19.jpg used o
-n input line 182.
+n input line 197.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [104 <./lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-15-17.jpg> <./lowptfits/fitPar
+ [106 <./lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-15-17.jpg> <./lowptfits/fitPar
 ams_tof1_cent0_ch0_pT-15-17.jpg>]
-<lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-19-21.jpg, id=482, 6018.485pt x 3986.8
+<lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-19-21.jpg, id=488, 6018.485pt x 3986.8
 95pt>
 File: lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-19-21.jpg Graphic file (type jpg)
 
  <use lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-19-21.jpg>
 Package pdftex.def Info: lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-19-21.jpg used
- on input line 192.
+ on input line 207.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<lowptfits/fitParams_tof1_cent0_ch0_pT-19-21.jpg, id=483, 3007.235pt x 1979.395
+<lowptfits/fitParams_tof1_cent0_ch0_pT-19-21.jpg, id=489, 3007.235pt x 1979.395
 pt>
 File: lowptfits/fitParams_tof1_cent0_ch0_pT-19-21.jpg Graphic file (type jpg)
  <use lowptfits/fitParams_tof1_cent0_ch0_pT-19-21.jpg>
 Package pdftex.def Info: lowptfits/fitParams_tof1_cent0_ch0_pT-19-21.jpg used o
-n input line 195.
+n input line 210.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [105 <./lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-17-19.jpg> <./lowptfits/fitPar
+ [107 <./lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-17-19.jpg> <./lowptfits/fitPar
 ams_tof1_cent0_ch0_pT-17-19.jpg>]
-<lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-13-15.jpg, id=487, 6018.485pt x 3986.8
+<lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-13-15.jpg, id=493, 6018.485pt x 3986.8
 95pt>
 File: lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-13-15.jpg Graphic file (type jpg)
 
  <use lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-13-15.jpg>
 Package pdftex.def Info: lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-13-15.jpg used
- on input line 207.
+ on input line 222.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<lowptfits/fitParams_tof1_cent0_ch1_pT-13-15.jpg, id=488, 3007.235pt x 1979.395
+<lowptfits/fitParams_tof1_cent0_ch1_pT-13-15.jpg, id=494, 3007.235pt x 1979.395
 pt>
 File: lowptfits/fitParams_tof1_cent0_ch1_pT-13-15.jpg Graphic file (type jpg)
  <use lowptfits/fitParams_tof1_cent0_ch1_pT-13-15.jpg>
 Package pdftex.def Info: lowptfits/fitParams_tof1_cent0_ch1_pT-13-15.jpg used o
-n input line 210.
+n input line 225.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [106 <./lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-19-21.jpg> <./lowptfits/fitPar
+ [108 <./lowptfits/yieldvsdphi_tof1_cent0_ch0_pT-19-21.jpg> <./lowptfits/fitPar
 ams_tof1_cent0_ch0_pT-19-21.jpg>]
 Overfull \vbox (7.20517pt too high) has occurred while \output is active []
 
 
-[107 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-13-15.jpg> <./lowptfits/fitPara
+[109 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-13-15.jpg> <./lowptfits/fitPara
 ms_tof1_cent0_ch1_pT-13-15.jpg>]
-<lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-15-17.jpg, id=495, 6018.485pt x 3986.8
+<lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-15-17.jpg, id=502, 6018.485pt x 3986.8
 95pt>
 File: lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-15-17.jpg Graphic file (type jpg)
 
  <use lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-15-17.jpg>
 Package pdftex.def Info: lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-15-17.jpg used
- on input line 220.
+ on input line 235.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<lowptfits/fitParams_tof1_cent0_ch1_pT-15-17.jpg, id=496, 3007.235pt x 1979.395
+<lowptfits/fitParams_tof1_cent0_ch1_pT-15-17.jpg, id=503, 3007.235pt x 1979.395
 pt>
 File: lowptfits/fitParams_tof1_cent0_ch1_pT-15-17.jpg Graphic file (type jpg)
  <use lowptfits/fitParams_tof1_cent0_ch1_pT-15-17.jpg>
 Package pdftex.def Info: lowptfits/fitParams_tof1_cent0_ch1_pT-15-17.jpg used o
-n input line 223.
+n input line 238.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
 
-<lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-17-19.jpg, id=497, 6018.485pt x 3986.8
+<lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-17-19.jpg, id=504, 6018.485pt x 3986.8
 95pt>
 File: lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-17-19.jpg Graphic file (type jpg)
 
  <use lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-17-19.jpg>
 Package pdftex.def Info: lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-17-19.jpg used
- on input line 233.
+ on input line 248.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<lowptfits/fitParams_tof1_cent0_ch1_pT-17-19.jpg, id=498, 3007.235pt x 1979.395
+<lowptfits/fitParams_tof1_cent0_ch1_pT-17-19.jpg, id=505, 3007.235pt x 1979.395
 pt>
 File: lowptfits/fitParams_tof1_cent0_ch1_pT-17-19.jpg Graphic file (type jpg)
  <use lowptfits/fitParams_tof1_cent0_ch1_pT-17-19.jpg>
 Package pdftex.def Info: lowptfits/fitParams_tof1_cent0_ch1_pT-17-19.jpg used o
-n input line 236.
+n input line 251.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [108 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-15-17.jpg> <./lowptfits/fitPar
+ [110 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-15-17.jpg> <./lowptfits/fitPar
 ams_tof1_cent0_ch1_pT-15-17.jpg>]
-<lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-19-21.jpg, id=503, 6018.485pt x 3986.8
+<lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-19-21.jpg, id=509, 6018.485pt x 3986.8
 95pt>
 File: lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-19-21.jpg Graphic file (type jpg)
 
  <use lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-19-21.jpg>
 Package pdftex.def Info: lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-19-21.jpg used
- on input line 246.
+ on input line 261.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<lowptfits/fitParams_tof1_cent0_ch1_pT-19-21.jpg, id=504, 3007.235pt x 1979.395
+<lowptfits/fitParams_tof1_cent0_ch1_pT-19-21.jpg, id=510, 3007.235pt x 1979.395
 pt>
 File: lowptfits/fitParams_tof1_cent0_ch1_pT-19-21.jpg Graphic file (type jpg)
  <use lowptfits/fitParams_tof1_cent0_ch1_pT-19-21.jpg>
 Package pdftex.def Info: lowptfits/fitParams_tof1_cent0_ch1_pT-19-21.jpg used o
-n input line 249.
+n input line 264.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [109 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-17-19.jpg> <./lowptfits/fitPar
+ [111 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-17-19.jpg> <./lowptfits/fitPar
 ams_tof1_cent0_ch1_pT-17-19.jpg>]
-<hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin8.jpg, id=508, 6018.485pt
+<hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin8.jpg, id=514, 6018.485pt
  x 3986.895pt>
 File: hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin8.jpg Graphic file (
 type jpg)
 
 <use hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin8.jpg>
 Package pdftex.def Info: hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin8
-.jpg used on input line 261.
+.jpg used on input line 276.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin8.jpg, id=509, 6018.485pt x 3986.89
+<hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin8.jpg, id=515, 6018.485pt x 3986.89
 5pt>
 File: hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin8.jpg Graphic file (type jpg)
  <use hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin8.jpg>
 Package pdftex.def Info: hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin8.jpg used 
-on input line 268.
+on input line 283.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin8.jpg, id=510, 6018.485pt x 3986.89
+<hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin8.jpg, id=516, 6018.485pt x 3986.89
 5pt>
 File: hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin8.jpg Graphic file (type jpg)
  <use hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin8.jpg>
 Package pdftex.def Info: hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin8.jpg used 
-on input line 272.
+on input line 287.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
- [110 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-19-21.jpg> <./lowptfits/fitPar
+ [112 <./lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-19-21.jpg> <./lowptfits/fitPar
 ams_tof1_cent0_ch1_pT-19-21.jpg>]
-<hiptfits/neg/fitParams_tof2_cent0_ch0_pT-21-23.jpg, id=514, 3007.235pt x 1979.
+<hiptfits/neg/fitParams_tof2_cent0_ch0_pT-21-23.jpg, id=520, 3007.235pt x 1979.
 395pt>
 File: hiptfits/neg/fitParams_tof2_cent0_ch0_pT-21-23.jpg Graphic file (type jpg
 )
  <use hiptfits/neg/fitParams_tof2_cent0_ch0_pT-21-23.jpg>
 Package pdftex.def Info: hiptfits/neg/fitParams_tof2_cent0_ch0_pT-21-23.jpg use
-d on input line 280.
+d on input line 295.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
 
-<hiptfits/neg/fitParams_tof3_cent0_ch0_pT-21-23.jpg, id=515, 3007.235pt x 1979.
+<hiptfits/neg/fitParams_tof3_cent0_ch0_pT-21-23.jpg, id=521, 3007.235pt x 1979.
 395pt>
 File: hiptfits/neg/fitParams_tof3_cent0_ch0_pT-21-23.jpg Graphic file (type jpg
 )
  <use hiptfits/neg/fitParams_tof3_cent0_ch0_pT-21-23.jpg>
 Package pdftex.def Info: hiptfits/neg/fitParams_tof3_cent0_ch0_pT-21-23.jpg use
-d on input line 284.
+d on input line 299.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [111 <./hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin8.jpg>] [112 <./h
+ [113 <./hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin8.jpg>] [114 <./h
 iptfits/neg/PSm2_cent0_ich0_accfire0_ptbin8.jpg> <./hiptfits/neg/PSm2_cent0_ich
 0_accfire1_ptbin8.jpg>]
 Overfull \vbox (16.79942pt too high) has occurred while \output is active []
 
 
-[113 <./hiptfits/neg/fitParams_tof2_cent0_ch0_pT-21-23.jpg> <./hiptfits/neg/fit
+[115 <./hiptfits/neg/fitParams_tof2_cent0_ch0_pT-21-23.jpg> <./hiptfits/neg/fit
 Params_tof3_cent0_ch0_pT-21-23.jpg>]
-<hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin9.jpg, id=526, 6018.485pt
+<hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin9.jpg, id=533, 6018.485pt
  x 3986.895pt>
 File: hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin9.jpg Graphic file (
 type jpg)
 
 <use hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin9.jpg>
 Package pdftex.def Info: hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin9
-.jpg used on input line 296.
+.jpg used on input line 311.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin9.jpg, id=527, 6018.485pt x 3986.89
+<hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin9.jpg, id=534, 6018.485pt x 3986.89
 5pt>
 File: hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin9.jpg Graphic file (type jpg)
  <use hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin9.jpg>
 Package pdftex.def Info: hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin9.jpg used 
-on input line 303.
+on input line 318.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin9.jpg, id=528, 6018.485pt x 3986.89
+<hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin9.jpg, id=535, 6018.485pt x 3986.89
 5pt>
 File: hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin9.jpg Graphic file (type jpg)
  <use hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin9.jpg>
 Package pdftex.def Info: hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin9.jpg used 
-on input line 307.
+on input line 322.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/neg/fitParams_tof2_cent0_ch0_pT-23-25.jpg, id=529, 3007.235pt x 1979.
+<hiptfits/neg/fitParams_tof2_cent0_ch0_pT-23-25.jpg, id=536, 3007.235pt x 1979.
 395pt>
 File: hiptfits/neg/fitParams_tof2_cent0_ch0_pT-23-25.jpg Graphic file (type jpg
 )
  <use hiptfits/neg/fitParams_tof2_cent0_ch0_pT-23-25.jpg>
 Package pdftex.def Info: hiptfits/neg/fitParams_tof2_cent0_ch0_pT-23-25.jpg use
-d on input line 314.
+d on input line 329.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
 
-<hiptfits/neg/fitParams_tof3_cent0_ch0_pT-23-25.jpg, id=530, 3007.235pt x 1979.
+<hiptfits/neg/fitParams_tof3_cent0_ch0_pT-23-25.jpg, id=537, 3007.235pt x 1979.
 395pt>
 File: hiptfits/neg/fitParams_tof3_cent0_ch0_pT-23-25.jpg Graphic file (type jpg
 )
  <use hiptfits/neg/fitParams_tof3_cent0_ch0_pT-23-25.jpg>
 Package pdftex.def Info: hiptfits/neg/fitParams_tof3_cent0_ch0_pT-23-25.jpg use
-d on input line 318.
+d on input line 333.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [114 <./hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin9.jpg>] [115 <./h
+ [116 <./hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin9.jpg>] [117 <./h
 iptfits/neg/PSm2_cent0_ich0_accfire0_ptbin9.jpg> <./hiptfits/neg/PSm2_cent0_ich
 0_accfire1_ptbin9.jpg>]
 Overfull \vbox (16.79942pt too high) has occurred while \output is active []
 
 
-[116 <./hiptfits/neg/fitParams_tof2_cent0_ch0_pT-23-25.jpg> <./hiptfits/neg/fit
+[118 <./hiptfits/neg/fitParams_tof2_cent0_ch0_pT-23-25.jpg> <./hiptfits/neg/fit
 Params_tof3_cent0_ch0_pT-23-25.jpg>]
-<hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin10.jpg, id=541, 6018.485p
+<hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin10.jpg, id=547, 6018.485p
 t x 3986.895pt>
 File: hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin10.jpg Graphic file 
 (type jpg)
 
 <use hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin10.jpg>
 Package pdftex.def Info: hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin1
-0.jpg used on input line 330.
+0.jpg used on input line 345.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin10.jpg, id=542, 6018.485pt x 3986.8
+<hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin10.jpg, id=548, 6018.485pt x 3986.8
 95pt>
 File: hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin10.jpg Graphic file (type jpg)
 
  <use hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin10.jpg>
 Package pdftex.def Info: hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin10.jpg used
- on input line 337.
+ on input line 352.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin10.jpg, id=543, 6018.485pt x 3986.8
+<hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin10.jpg, id=549, 6018.485pt x 3986.8
 95pt>
 File: hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin10.jpg Graphic file (type jpg)
 
  <use hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin10.jpg>
 Package pdftex.def Info: hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin10.jpg used
- on input line 341.
+ on input line 356.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/neg/fitParams_tof2_cent0_ch0_pT-25-27.jpg, id=544, 3007.235pt x 1979.
+<hiptfits/neg/fitParams_tof2_cent0_ch0_pT-25-27.jpg, id=550, 3007.235pt x 1979.
 395pt>
 File: hiptfits/neg/fitParams_tof2_cent0_ch0_pT-25-27.jpg Graphic file (type jpg
 )
  <use hiptfits/neg/fitParams_tof2_cent0_ch0_pT-25-27.jpg>
 Package pdftex.def Info: hiptfits/neg/fitParams_tof2_cent0_ch0_pT-25-27.jpg use
-d on input line 348.
+d on input line 363.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
 
-<hiptfits/neg/fitParams_tof3_cent0_ch0_pT-25-27.jpg, id=545, 3007.235pt x 1979.
+<hiptfits/neg/fitParams_tof3_cent0_ch0_pT-25-27.jpg, id=551, 3007.235pt x 1979.
 395pt>
 File: hiptfits/neg/fitParams_tof3_cent0_ch0_pT-25-27.jpg Graphic file (type jpg
 )
  <use hiptfits/neg/fitParams_tof3_cent0_ch0_pT-25-27.jpg>
 Package pdftex.def Info: hiptfits/neg/fitParams_tof3_cent0_ch0_pT-25-27.jpg use
-d on input line 352.
+d on input line 367.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [117 <./hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin10.jpg>] [118 <./
+ [119 <./hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin10.jpg>] [120 <./
 hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin10.jpg> <./hiptfits/neg/PSm2_cent0_i
 ch0_accfire1_ptbin10.jpg>]
 Overfull \vbox (16.79942pt too high) has occurred while \output is active []
 
 
-[119 <./hiptfits/neg/fitParams_tof2_cent0_ch0_pT-25-27.jpg> <./hiptfits/neg/fit
+[121 <./hiptfits/neg/fitParams_tof2_cent0_ch0_pT-25-27.jpg> <./hiptfits/neg/fit
 Params_tof3_cent0_ch0_pT-25-27.jpg>]
-<hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin11.jpg, id=555, 6018.485p
+<hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin11.jpg, id=562, 6018.485p
 t x 3986.895pt>
 File: hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin11.jpg Graphic file 
 (type jpg)
 
 <use hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin11.jpg>
 Package pdftex.def Info: hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin1
-1.jpg used on input line 363.
+1.jpg used on input line 378.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin11.jpg, id=556, 6018.485pt x 3986.8
+<hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin11.jpg, id=563, 6018.485pt x 3986.8
 95pt>
 File: hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin11.jpg Graphic file (type jpg)
 
  <use hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin11.jpg>
 Package pdftex.def Info: hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin11.jpg used
- on input line 370.
+ on input line 385.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin11.jpg, id=557, 6018.485pt x 3986.8
+<hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin11.jpg, id=564, 6018.485pt x 3986.8
 95pt>
 File: hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin11.jpg Graphic file (type jpg)
 
  <use hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin11.jpg>
 Package pdftex.def Info: hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin11.jpg used
- on input line 374.
+ on input line 389.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/neg/fitParams_tof2_cent0_ch0_pT-27-29.jpg, id=558, 3007.235pt x 1979.
+<hiptfits/neg/fitParams_tof2_cent0_ch0_pT-27-29.jpg, id=565, 3007.235pt x 1979.
 395pt>
 File: hiptfits/neg/fitParams_tof2_cent0_ch0_pT-27-29.jpg Graphic file (type jpg
 )
  <use hiptfits/neg/fitParams_tof2_cent0_ch0_pT-27-29.jpg>
 Package pdftex.def Info: hiptfits/neg/fitParams_tof2_cent0_ch0_pT-27-29.jpg use
-d on input line 381.
+d on input line 396.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
 
-<hiptfits/neg/fitParams_tof3_cent0_ch0_pT-27-29.jpg, id=559, 3007.235pt x 1979.
+<hiptfits/neg/fitParams_tof3_cent0_ch0_pT-27-29.jpg, id=566, 3007.235pt x 1979.
 395pt>
 File: hiptfits/neg/fitParams_tof3_cent0_ch0_pT-27-29.jpg Graphic file (type jpg
 )
  <use hiptfits/neg/fitParams_tof3_cent0_ch0_pT-27-29.jpg>
 Package pdftex.def Info: hiptfits/neg/fitParams_tof3_cent0_ch0_pT-27-29.jpg use
-d on input line 385.
+d on input line 400.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [120 <./hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin11.jpg>] [121 <./
+ [122 <./hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin11.jpg>] [123 <./
 hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin11.jpg> <./hiptfits/neg/PSm2_cent0_i
 ch0_accfire1_ptbin11.jpg>]
 Overfull \vbox (16.79942pt too high) has occurred while \output is active []
 
 
-[122 <./hiptfits/neg/fitParams_tof2_cent0_ch0_pT-27-29.jpg> <./hiptfits/neg/fit
+[124 <./hiptfits/neg/fitParams_tof2_cent0_ch0_pT-27-29.jpg> <./hiptfits/neg/fit
 Params_tof3_cent0_ch0_pT-27-29.jpg>]
-<hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin12.jpg, id=570, 6018.485p
+<hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin12.jpg, id=576, 6018.485p
 t x 3986.895pt>
 File: hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin12.jpg Graphic file 
 (type jpg)
 
 <use hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin12.jpg>
 Package pdftex.def Info: hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin1
-2.jpg used on input line 397.
+2.jpg used on input line 412.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin12.jpg, id=571, 6018.485pt x 3986.8
+<hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin12.jpg, id=577, 6018.485pt x 3986.8
 95pt>
 File: hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin12.jpg Graphic file (type jpg)
 
  <use hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin12.jpg>
 Package pdftex.def Info: hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin12.jpg used
- on input line 404.
+ on input line 419.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin12.jpg, id=572, 6018.485pt x 3986.8
+<hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin12.jpg, id=578, 6018.485pt x 3986.8
 95pt>
 File: hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin12.jpg Graphic file (type jpg)
 
  <use hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin12.jpg>
 Package pdftex.def Info: hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin12.jpg used
- on input line 408.
+ on input line 423.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/neg/fitParams_tof2_cent0_ch0_pT-30-35.jpg, id=573, 3007.235pt x 1979.
+<hiptfits/neg/fitParams_tof2_cent0_ch0_pT-30-35.jpg, id=579, 3007.235pt x 1979.
 395pt>
 File: hiptfits/neg/fitParams_tof2_cent0_ch0_pT-30-35.jpg Graphic file (type jpg
 )
  <use hiptfits/neg/fitParams_tof2_cent0_ch0_pT-30-35.jpg>
 Package pdftex.def Info: hiptfits/neg/fitParams_tof2_cent0_ch0_pT-30-35.jpg use
-d on input line 415.
+d on input line 430.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
 
-<hiptfits/neg/fitParams_tof3_cent0_ch0_pT-30-35.jpg, id=574, 3007.235pt x 1979.
+<hiptfits/neg/fitParams_tof3_cent0_ch0_pT-30-35.jpg, id=580, 3007.235pt x 1979.
 395pt>
 File: hiptfits/neg/fitParams_tof3_cent0_ch0_pT-30-35.jpg Graphic file (type jpg
 )
  <use hiptfits/neg/fitParams_tof3_cent0_ch0_pT-30-35.jpg>
 Package pdftex.def Info: hiptfits/neg/fitParams_tof3_cent0_ch0_pT-30-35.jpg use
-d on input line 419.
+d on input line 434.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [123 <./hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin12.jpg>] [124 <./
+ [125 <./hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin12.jpg>] [126 <./
 hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin12.jpg> <./hiptfits/neg/PSm2_cent0_i
 ch0_accfire1_ptbin12.jpg>]
 Overfull \vbox (16.79942pt too high) has occurred while \output is active []
 
 
-[125 <./hiptfits/neg/fitParams_tof2_cent0_ch0_pT-30-35.jpg> <./hiptfits/neg/fit
+[127 <./hiptfits/neg/fitParams_tof2_cent0_ch0_pT-30-35.jpg> <./hiptfits/neg/fit
 Params_tof3_cent0_ch0_pT-30-35.jpg>]
-<hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin8.jpg, id=584, 6018.485pt
+<hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin8.jpg, id=591, 6018.485pt
  x 3986.895pt>
 File: hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin8.jpg Graphic file (
 type jpg)
 
 <use hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin8.jpg>
 Package pdftex.def Info: hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin8
-.jpg used on input line 433.
+.jpg used on input line 448.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin8.jpg, id=585, 6018.485pt x 3986.89
+<hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin8.jpg, id=592, 6018.485pt x 3986.89
 5pt>
 File: hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin8.jpg Graphic file (type jpg)
  <use hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin8.jpg>
 Package pdftex.def Info: hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin8.jpg used 
-on input line 440.
+on input line 455.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin8.jpg, id=586, 6018.485pt x 3986.89
+<hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin8.jpg, id=593, 6018.485pt x 3986.89
 5pt>
 File: hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin8.jpg Graphic file (type jpg)
  <use hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin8.jpg>
 Package pdftex.def Info: hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin8.jpg used 
-on input line 444.
+on input line 459.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/pos/fitParams_tof2_cent0_ch1_pT-21-23.jpg, id=587, 3007.235pt x 1979.
+<hiptfits/pos/fitParams_tof2_cent0_ch1_pT-21-23.jpg, id=594, 3007.235pt x 1979.
 395pt>
 File: hiptfits/pos/fitParams_tof2_cent0_ch1_pT-21-23.jpg Graphic file (type jpg
 )
  <use hiptfits/pos/fitParams_tof2_cent0_ch1_pT-21-23.jpg>
 Package pdftex.def Info: hiptfits/pos/fitParams_tof2_cent0_ch1_pT-21-23.jpg use
-d on input line 451.
+d on input line 466.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
 
-<hiptfits/pos/fitParams_tof3_cent0_ch1_pT-21-23.jpg, id=588, 3007.235pt x 1979.
+<hiptfits/pos/fitParams_tof3_cent0_ch1_pT-21-23.jpg, id=595, 3007.235pt x 1979.
 395pt>
 File: hiptfits/pos/fitParams_tof3_cent0_ch1_pT-21-23.jpg Graphic file (type jpg
 )
  <use hiptfits/pos/fitParams_tof3_cent0_ch1_pT-21-23.jpg>
 Package pdftex.def Info: hiptfits/pos/fitParams_tof3_cent0_ch1_pT-21-23.jpg use
-d on input line 455.
+d on input line 470.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [126 <./hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin8.jpg>] [127 <./h
+ [128 <./hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin8.jpg>] [129 <./h
 iptfits/pos/PSm2_cent0_ich1_accfire0_ptbin8.jpg> <./hiptfits/pos/PSm2_cent0_ich
 1_accfire1_ptbin8.jpg>]
 Overfull \vbox (16.79942pt too high) has occurred while \output is active []
 
 
-[128 <./hiptfits/pos/fitParams_tof2_cent0_ch1_pT-21-23.jpg> <./hiptfits/pos/fit
+[130 <./hiptfits/pos/fitParams_tof2_cent0_ch1_pT-21-23.jpg> <./hiptfits/pos/fit
 Params_tof3_cent0_ch1_pT-21-23.jpg>]
-<hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin9.jpg, id=599, 6018.485pt
+<hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin9.jpg, id=605, 6018.485pt
  x 3986.895pt>
 File: hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin9.jpg Graphic file (
 type jpg)
 
 <use hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin9.jpg>
 Package pdftex.def Info: hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin9
-.jpg used on input line 467.
+.jpg used on input line 482.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin9.jpg, id=600, 6018.485pt x 3986.89
+<hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin9.jpg, id=606, 6018.485pt x 3986.89
 5pt>
 File: hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin9.jpg Graphic file (type jpg)
  <use hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin9.jpg>
 Package pdftex.def Info: hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin9.jpg used 
-on input line 474.
+on input line 489.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin9.jpg, id=601, 6018.485pt x 3986.89
+<hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin9.jpg, id=607, 6018.485pt x 3986.89
 5pt>
 File: hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin9.jpg Graphic file (type jpg)
  <use hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin9.jpg>
 Package pdftex.def Info: hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin9.jpg used 
-on input line 478.
+on input line 493.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/pos/fitParams_tof2_cent0_ch1_pT-23-25.jpg, id=602, 3007.235pt x 1979.
+<hiptfits/pos/fitParams_tof2_cent0_ch1_pT-23-25.jpg, id=608, 3007.235pt x 1979.
 395pt>
 File: hiptfits/pos/fitParams_tof2_cent0_ch1_pT-23-25.jpg Graphic file (type jpg
 )
  <use hiptfits/pos/fitParams_tof2_cent0_ch1_pT-23-25.jpg>
 Package pdftex.def Info: hiptfits/pos/fitParams_tof2_cent0_ch1_pT-23-25.jpg use
-d on input line 485.
+d on input line 500.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
 
-<hiptfits/pos/fitParams_tof3_cent0_ch1_pT-23-25.jpg, id=603, 3007.235pt x 1979.
+<hiptfits/pos/fitParams_tof3_cent0_ch1_pT-23-25.jpg, id=609, 3007.235pt x 1979.
 395pt>
 File: hiptfits/pos/fitParams_tof3_cent0_ch1_pT-23-25.jpg Graphic file (type jpg
 )
  <use hiptfits/pos/fitParams_tof3_cent0_ch1_pT-23-25.jpg>
 Package pdftex.def Info: hiptfits/pos/fitParams_tof3_cent0_ch1_pT-23-25.jpg use
-d on input line 489.
+d on input line 504.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [129 <./hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin9.jpg>] [130 <./h
+ [131 <./hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin9.jpg>] [132 <./h
 iptfits/pos/PSm2_cent0_ich1_accfire0_ptbin9.jpg> <./hiptfits/pos/PSm2_cent0_ich
 1_accfire1_ptbin9.jpg>]
 Overfull \vbox (16.79942pt too high) has occurred while \output is active []
 
 
-[131 <./hiptfits/pos/fitParams_tof2_cent0_ch1_pT-23-25.jpg> <./hiptfits/pos/fit
+[133 <./hiptfits/pos/fitParams_tof2_cent0_ch1_pT-23-25.jpg> <./hiptfits/pos/fit
 Params_tof3_cent0_ch1_pT-23-25.jpg>]
-<hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin10.jpg, id=613, 6018.485p
+<hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin10.jpg, id=620, 6018.485p
 t x 3986.895pt>
 File: hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin10.jpg Graphic file 
 (type jpg)
 
 <use hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin10.jpg>
 Package pdftex.def Info: hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin1
-0.jpg used on input line 501.
+0.jpg used on input line 516.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin10.jpg, id=614, 6018.485pt x 3986.8
+<hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin10.jpg, id=621, 6018.485pt x 3986.8
 95pt>
 File: hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin10.jpg Graphic file (type jpg)
 
  <use hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin10.jpg>
 Package pdftex.def Info: hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin10.jpg used
- on input line 508.
+ on input line 523.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin10.jpg, id=615, 6018.485pt x 3986.8
+<hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin10.jpg, id=622, 6018.485pt x 3986.8
 95pt>
 File: hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin10.jpg Graphic file (type jpg)
 
  <use hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin10.jpg>
 Package pdftex.def Info: hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin10.jpg used
- on input line 512.
+ on input line 527.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/pos/fitParams_tof2_cent0_ch1_pT-25-27.jpg, id=616, 3007.235pt x 1979.
+<hiptfits/pos/fitParams_tof2_cent0_ch1_pT-25-27.jpg, id=623, 3007.235pt x 1979.
 395pt>
 File: hiptfits/pos/fitParams_tof2_cent0_ch1_pT-25-27.jpg Graphic file (type jpg
 )
  <use hiptfits/pos/fitParams_tof2_cent0_ch1_pT-25-27.jpg>
 Package pdftex.def Info: hiptfits/pos/fitParams_tof2_cent0_ch1_pT-25-27.jpg use
-d on input line 519.
+d on input line 534.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
 
-<hiptfits/pos/fitParams_tof3_cent0_ch1_pT-25-27.jpg, id=617, 3007.235pt x 1979.
+<hiptfits/pos/fitParams_tof3_cent0_ch1_pT-25-27.jpg, id=624, 3007.235pt x 1979.
 395pt>
 File: hiptfits/pos/fitParams_tof3_cent0_ch1_pT-25-27.jpg Graphic file (type jpg
 )
  <use hiptfits/pos/fitParams_tof3_cent0_ch1_pT-25-27.jpg>
 Package pdftex.def Info: hiptfits/pos/fitParams_tof3_cent0_ch1_pT-25-27.jpg use
-d on input line 523.
+d on input line 538.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [132 <./hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin10.jpg>] [133 <./
+ [134 <./hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin10.jpg>] [135 <./
 hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin10.jpg> <./hiptfits/pos/PSm2_cent0_i
 ch1_accfire1_ptbin10.jpg>]
 Overfull \vbox (16.79942pt too high) has occurred while \output is active []
 
 
-[134 <./hiptfits/pos/fitParams_tof2_cent0_ch1_pT-25-27.jpg> <./hiptfits/pos/fit
+[136 <./hiptfits/pos/fitParams_tof2_cent0_ch1_pT-25-27.jpg> <./hiptfits/pos/fit
 Params_tof3_cent0_ch1_pT-25-27.jpg>]
-<hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin11.jpg, id=628, 6018.485p
+<hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin11.jpg, id=634, 6018.485p
 t x 3986.895pt>
 File: hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin11.jpg Graphic file 
 (type jpg)
 
 <use hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin11.jpg>
 Package pdftex.def Info: hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin1
-1.jpg used on input line 534.
+1.jpg used on input line 549.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin11.jpg, id=629, 6018.485pt x 3986.8
+<hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin11.jpg, id=635, 6018.485pt x 3986.8
 95pt>
 File: hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin11.jpg Graphic file (type jpg)
 
  <use hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin11.jpg>
 Package pdftex.def Info: hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin11.jpg used
- on input line 541.
+ on input line 556.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin11.jpg, id=630, 6018.485pt x 3986.8
+<hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin11.jpg, id=636, 6018.485pt x 3986.8
 95pt>
 File: hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin11.jpg Graphic file (type jpg)
 
  <use hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin11.jpg>
 Package pdftex.def Info: hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin11.jpg used
- on input line 545.
+ on input line 560.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/pos/fitParams_tof2_cent0_ch1_pT-27-29.jpg, id=631, 3007.235pt x 1979.
+<hiptfits/pos/fitParams_tof2_cent0_ch1_pT-27-29.jpg, id=637, 3007.235pt x 1979.
 395pt>
 File: hiptfits/pos/fitParams_tof2_cent0_ch1_pT-27-29.jpg Graphic file (type jpg
 )
  <use hiptfits/pos/fitParams_tof2_cent0_ch1_pT-27-29.jpg>
 Package pdftex.def Info: hiptfits/pos/fitParams_tof2_cent0_ch1_pT-27-29.jpg use
-d on input line 552.
+d on input line 567.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
 
-<hiptfits/pos/fitParams_tof3_cent0_ch1_pT-27-29.jpg, id=632, 3007.235pt x 1979.
+<hiptfits/pos/fitParams_tof3_cent0_ch1_pT-27-29.jpg, id=638, 3007.235pt x 1979.
 395pt>
 File: hiptfits/pos/fitParams_tof3_cent0_ch1_pT-27-29.jpg Graphic file (type jpg
 )
  <use hiptfits/pos/fitParams_tof3_cent0_ch1_pT-27-29.jpg>
 Package pdftex.def Info: hiptfits/pos/fitParams_tof3_cent0_ch1_pT-27-29.jpg use
-d on input line 556.
+d on input line 571.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [135 <./hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin11.jpg>] [136 <./
+ [137 <./hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin11.jpg>] [138 <./
 hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin11.jpg> <./hiptfits/pos/PSm2_cent0_i
 ch1_accfire1_ptbin11.jpg>]
 Overfull \vbox (16.79942pt too high) has occurred while \output is active []
 
 
-[137 <./hiptfits/pos/fitParams_tof2_cent0_ch1_pT-27-29.jpg> <./hiptfits/pos/fit
+[139 <./hiptfits/pos/fitParams_tof2_cent0_ch1_pT-27-29.jpg> <./hiptfits/pos/fit
 Params_tof3_cent0_ch1_pT-27-29.jpg>]
-<hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin12.jpg, id=642, 6018.485p
+<hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin12.jpg, id=649, 6018.485p
 t x 3986.895pt>
 File: hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin12.jpg Graphic file 
 (type jpg)
 
 <use hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin12.jpg>
 Package pdftex.def Info: hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin1
-2.jpg used on input line 568.
+2.jpg used on input line 583.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin12.jpg, id=643, 6018.485pt x 3986.8
+<hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin12.jpg, id=650, 6018.485pt x 3986.8
 95pt>
 File: hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin12.jpg Graphic file (type jpg)
 
  <use hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin12.jpg>
 Package pdftex.def Info: hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin12.jpg used
- on input line 575.
+ on input line 590.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin12.jpg, id=644, 6018.485pt x 3986.8
+<hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin12.jpg, id=651, 6018.485pt x 3986.8
 95pt>
 File: hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin12.jpg Graphic file (type jpg)
 
  <use hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin12.jpg>
 Package pdftex.def Info: hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin12.jpg used
- on input line 579.
+ on input line 594.
 (pdftex.def)             Requested size: 430.00462pt x 284.82967pt.
 
-<hiptfits/pos/fitParams_tof2_cent0_ch1_pT-30-35.jpg, id=645, 3007.235pt x 1979.
+<hiptfits/pos/fitParams_tof2_cent0_ch1_pT-30-35.jpg, id=652, 3007.235pt x 1979.
 395pt>
 File: hiptfits/pos/fitParams_tof2_cent0_ch1_pT-30-35.jpg Graphic file (type jpg
 )
  <use hiptfits/pos/fitParams_tof2_cent0_ch1_pT-30-35.jpg>
 Package pdftex.def Info: hiptfits/pos/fitParams_tof2_cent0_ch1_pT-30-35.jpg use
-d on input line 586.
+d on input line 601.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
 
-<hiptfits/pos/fitParams_tof3_cent0_ch1_pT-30-35.jpg, id=646, 3007.235pt x 1979.
+<hiptfits/pos/fitParams_tof3_cent0_ch1_pT-30-35.jpg, id=653, 3007.235pt x 1979.
 395pt>
 File: hiptfits/pos/fitParams_tof3_cent0_ch1_pT-30-35.jpg Graphic file (type jpg
 )
  <use hiptfits/pos/fitParams_tof3_cent0_ch1_pT-30-35.jpg>
 Package pdftex.def Info: hiptfits/pos/fitParams_tof3_cent0_ch1_pT-30-35.jpg use
-d on input line 590.
+d on input line 605.
 (pdftex.def)             Requested size: 430.00462pt x 283.03322pt.
- [138 <./hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin12.jpg>] [139 <./
+ [140 <./hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin12.jpg>] [141 <./
 hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin12.jpg> <./hiptfits/pos/PSm2_cent0_i
 ch1_accfire1_ptbin12.jpg>]
 Overfull \vbox (16.79942pt too high) has occurred while \output is active []
 
 
-[140 <./hiptfits/pos/fitParams_tof2_cent0_ch1_pT-30-35.jpg> <./hiptfits/pos/fit
-Params_tof3_cent0_ch1_pT-30-35.jpg>]) (thesis.bbl [141
+[142 <./hiptfits/pos/fitParams_tof2_cent0_ch1_pT-30-35.jpg> <./hiptfits/pos/fit
+Params_tof3_cent0_ch1_pT-30-35.jpg>]) (thesis.bbl [143
 
 ]
 
@@ -1924,26 +1980,23 @@ Type  H <return>  for immediate help.
 l.1 \begin{thebibliography}{10}
                                
 ? 
-[142
+[144
 
-] [143] [144] [145] [146] [147]
+] [145] [146] [147] [148] [149]
 Missing character: There is no — in font cmr10!
- [148]) [149] (thesis.aux)
-
-LaTeX Warning: There were undefined references.
-
+ [150]) [151] (thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6054 strings out of 493335
- 109996 string characters out of 3136683
- 171347 words of memory out of 3000000
- 9290 multiletter control sequences out of 15000+200000
- 13633 words of font info for 48 fonts, out of 3000000 for 9000
+ 6689 strings out of 493335
+ 117369 string characters out of 3136683
+ 183881 words of memory out of 3000000
+ 9908 multiletter control sequences out of 15000+200000
+ 13739 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,23n,46p,2261b,610s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,23n,46p,2261b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C
@@ -1963,9 +2016,9 @@ nts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on thesis.pdf (162 pages, 53629936 bytes).
+Output written on thesis.pdf (164 pages, 53673642 bytes).
 PDF statistics:
- 749 PDF objects out of 1000 (max. 8388607)
+ 756 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  751 words of extra memory for PDF output out of 10000 (max. 10000000)
 
