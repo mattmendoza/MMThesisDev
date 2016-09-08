@@ -2,22 +2,6 @@
 \chapter{Analysis Data and Plots} % Main appendix title\
 \label{app:data}
 
-\section{Event Plane Resolution}
-\begin{table}[H]
-\centering
-\caption{Event Plane Resolution for MPC, BBC, and RXNP. Resolution calculation by Takao Sakaguchi\citep{pi0v2run8dau}}
-\label{EPrestable}
-\begin{tabular}{lllll}
-\textbf{}                                    & \multicolumn{4}{c}{{\ul \textbf{Centrality}}}                                                                                                              \\ \hline
-\multicolumn{1}{|l|}{\textbf{E.P. Detector}} & \multicolumn{1}{c|}{\textbf{0-5\%}} & \multicolumn{1}{c|}{\textbf{5-10\%}} & \multicolumn{1}{c|}{\textbf{10-15\%}} & \multicolumn{1}{c|}{\textbf{15-20\%}} \\ \hline
-\multicolumn{1}{|l|}{\textbf{BBC}}           & \multicolumn{1}{l|}{0.1134$\pm$0.0011}  & \multicolumn{1}{l|}{0.0905$\pm$0.0009}   & \multicolumn{1}{l|}{0.0664$\pm$0.0007}    & \multicolumn{1}{l|}{0.0664$\pm$0.0007}    \\ \hline
-\multicolumn{1}{|l|}{\textbf{MPC}}           & \multicolumn{1}{l|}{0.1591$\pm$0.0016}  & \multicolumn{1}{l|}{0.1104$\pm$0.0011}   & \multicolumn{1}{l|}{0.1095$\pm$0.0011}    & \multicolumn{1}{l|}{0.0979$\pm$0.0010}    \\ \hline
-\multicolumn{1}{|l|}{\textbf{RXN.IN}}        & \multicolumn{1}{l|}{0.1250$\pm$0.0165}  & \multicolumn{1}{l|}{0.0886$\pm$0.0200}   & \multicolumn{1}{l|}{0.0985$\pm$0.0198}    & \multicolumn{1}{l|}{0.0967$\pm$0.0177}    \\ \hline
-\multicolumn{1}{|l|}{\textbf{RXN.OUT}}       & \multicolumn{1}{l|}{0.0937$\pm$0.0161}  & \multicolumn{1}{l|}{0.1012$\pm$0.0153}   & \multicolumn{1}{l|}{0.0573$\pm$0.0215}    & \multicolumn{1}{l|}{0.0572$\pm$0.0176}    \\ \hline
-\multicolumn{1}{|l|}{\textbf{RXN.CMB}}       & \multicolumn{1}{l|}{0.1282$\pm$0.0185}  & \multicolumn{1}{l|}{0.1238$\pm$0.0190}   & \multicolumn{1}{l|}{0.0991$\pm$0.0218}    & \multicolumn{1}{l|}{0.0919$\pm$0.0195}    \\ \hline
-\end{tabular}
-\end{table}
-
 \section{Charged Track Elliptic Flow}
 \begin{figure}[H]
   \centering
@@ -439,6 +423,72 @@
   \label{fig:acc30-35neg}
 \end{figure}
 
+\begin{figure}[H]
+  \centering
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin13.jpg}
+    \caption{$N_{p.e.}$ vs $m^2$}
+    \end{subfigure}
+\end{figure}
+\begin{figure}[H]
+  \ContinuedFloat
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin13.jpg}
+    \caption{$m^2$ for ACC vetoed tracks}
+    \end{subfigure}
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin13.jpg}
+    \caption{$m^2$ for ACC fired tracks}
+    \end{subfigure}  
+\end{figure}
+\begin{figure}[H]
+  \ContinuedFloat
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/neg/fitParams_tof2_cent0_ch0_pT-35-40.jpg}
+    \caption{PID parameters and Yields for ACC vetoed tracks}
+    \end{subfigure}    
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/neg/fitParams_tof3_cent0_ch0_pT-35-40.jpg}
+    \caption{PID parameters and Yields for ACC fired tracks}
+    \end{subfigure} 
+    \rule{35em}{0.5pt}
+  \caption[ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi$ for $p_T$=3.5-4.0 GeV/c, TOF.W, negative particles]{ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi$ for $p_T$=3.5-4.0 GeV/c, TOF.W, negative particles}
+  \label{fig:acc35-40neg}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/neg/PSaccthreshold_cent0_ich0_accfire0_ptbin14.jpg}
+    \caption{$N_{p.e.}$ vs $m^2$}
+    \end{subfigure}
+\end{figure}
+\begin{figure}[H]
+  \ContinuedFloat
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/neg/PSm2_cent0_ich0_accfire0_ptbin14.jpg}
+    \caption{$m^2$ for ACC vetoed tracks}
+    \end{subfigure}
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/neg/PSm2_cent0_ich0_accfire1_ptbin14.jpg}
+    \caption{$m^2$ for ACC fired tracks}
+    \end{subfigure}  
+\end{figure}
+\begin{figure}[H]
+  \ContinuedFloat
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/neg/fitParams_tof2_cent0_ch0_pT-40-45.jpg}
+    \caption{PID parameters and Yields for ACC vetoed tracks}
+    \end{subfigure}    
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/neg/fitParams_tof3_cent0_ch0_pT-40-45.jpg}
+    \caption{PID parameters and Yields for ACC fired tracks}
+    \end{subfigure} 
+    \rule{35em}{0.5pt}
+  \caption[ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi$ for $p_T$=4.0-4.5 GeV/c, TOF.W, negative particles]{ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi$ for $p_T$=4.0-4.5 GeV/c, TOF.W, negative particles}
+  \label{fig:acc40-45neg}
+\end{figure}
+
 
 \subsection{TOF.W and ACC, $p_T$=2.1-3.5 GeV, positive charged tracks}
 
@@ -608,6 +658,72 @@
     \rule{35em}{0.5pt}
   \caption[ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi$ for $p_T$=3.0-3.5 GeV/c, TOF.W, positive particles]{ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi$ for $p_T$=3.0-3.5 GeV/c, TOF.W, positive particles}
   \label{fig:acc30-35pos}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin13.jpg}
+    \caption{$N_{p.e.}$ vs $m^2$}
+    \end{subfigure}
+\end{figure}
+\begin{figure}[H]
+  \ContinuedFloat
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin13.jpg}
+    \caption{$m^2$ for ACC vetoed tracks}
+    \end{subfigure}
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin13.jpg}
+    \caption{$m^2$ for ACC fired tracks}
+    \end{subfigure}  
+\end{figure}
+\begin{figure}[H]
+  \ContinuedFloat
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/pos/fitParams_tof2_cent0_ch1_pT-35-40.jpg}
+    \caption{PID parameters and Yields for ACC vetoed tracks}
+    \end{subfigure}    
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/pos/fitParams_tof3_cent0_ch1_pT-35-40.jpg}
+    \caption{PID parameters and Yields for ACC fired tracks}
+    \end{subfigure} 
+    \rule{35em}{0.5pt}
+  \caption[ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi$ for $p_T$=3.5-4.0 GeV/c, TOF.W, positive particles]{ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi$ for $p_T$=3.5-4.0 GeV/c, TOF.W, positive particles}
+  \label{fig:acc35-40pos}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/pos/PSaccthreshold_cent0_ich1_accfire0_ptbin14.jpg}
+    \caption{$N_{p.e.}$ vs $m^2$}
+    \end{subfigure}
+\end{figure}
+\begin{figure}[H]
+  \ContinuedFloat
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/pos/PSm2_cent0_ich1_accfire0_ptbin14.jpg}
+    \caption{$m^2$ for ACC vetoed tracks}
+    \end{subfigure}
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/pos/PSm2_cent0_ich1_accfire1_ptbin14.jpg}
+    \caption{$m^2$ for ACC fired tracks}
+    \end{subfigure}  
+\end{figure}
+\begin{figure}[H]
+  \ContinuedFloat
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/pos/fitParams_tof2_cent0_ch1_pT-40-45.jpg}
+    \caption{PID parameters and Yields for ACC vetoed tracks}
+    \end{subfigure}    
+    \begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{hiptfits/pos/fitParams_tof3_cent0_ch1_pT-40-45.jpg}
+    \caption{PID parameters and Yields for ACC fired tracks}
+    \end{subfigure} 
+    \rule{35em}{0.5pt}
+  \caption[ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi$ for $p_T$=4.0-4.5 GeV/c, TOF.W, positive particles]{ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi$ for $p_T$=4.0-4.5 GeV/c, TOF.W, positive particles}
+  \label{fig:acc40-45pos}
 \end{figure}
 
 \restoregeometry

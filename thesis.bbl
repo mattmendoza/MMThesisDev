@@ -367,7 +367,9 @@ Rudolph~C. Hwa and C.~B. Yang.
 
 \bibitem{tofchargemom}
 Akio Kiyomichi.
-\newblock PHENIX internal analysis notes, 2002.
+\newblock Identified charged hadron spectra and particle ratios at sqrt(s)=200
+  gev for qm2002.
+\newblock {\em PHENIX internal analysis notes}, AN148, 2002.
 
 \bibitem{kleinjanthesis}
 David~William Kleinjan.
@@ -397,6 +399,11 @@ Hiroshi Masui.
 J.~T. Mitchell et~al.
 \newblock {Event reconstruction in the PHENIX central arm spectrometers}.
 \newblock {\em Nucl. Instrum. Meth.}, A482:491--512, 2002.
+
+\bibitem{phenixcentrality}
+Jamie Nagle, Shawn Beckman, Javier Orjuela-Koop, and Anne Sickles.
+\newblock Phenix run-08 dau a 200 gev centrality categorization: Addendum.
+\newblock {\em PHENIX internal analysis notes}, AN1087, February 2013.
 
 \bibitem{OHLSSON199277}
 Mattias Ohlsson, Carsten Peterson, and Alan~L. Yuille.
@@ -446,6 +453,12 @@ Brennan~C. Schaefer.
 Edward~V. Shuryak.
 \newblock {Quantum Chromodynamics and the Theory of Superdense Matter}.
 \newblock {\em Phys. Rept.}, 61:71--158, 1980.
+
+\bibitem{azianisystematics}
+A.~Taranenko and Roy~A. Lacey.
+\newblock Systematic study of azimuthal anisotropy of charged hadrons in au+au
+  collisions.
+\newblock {\em PHENIX internal analysis notes}, AN957, January 2011.
 
 \bibitem{CMSRPC}
 Lucas Taylor.

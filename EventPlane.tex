@@ -75,6 +75,7 @@ The method of determining resolution correction used for this analysis is called
 %Specifically, we take a measurement of the event plane made by the detector whose resolution we would like to correct (say, detector A) and subtract a measurement of the same event plane made by another detector (detector B) take the cosine of two times that difference, i.e. $\langle cos(2k[\Psi^{A}-\Psi^{B}])\rangle$. This $cos (2 *\Delta \Psi)$ is chosen here since we are calculating the resolution correction for the 2nd harmonic. This gives us one approximation of the resolution correction but it is conceptually still dependent on the resolution limitations of detector B. We then take another approximation of the correction using a different detector (C) so we have the resolution limitation of detector A as measured by B and C. Then we can try to remove the dependence on B and C's resolution by dividing by another resolution approximation made using B and C's measurement. 
 %----------------------------------------------------------------------------------------
 \begin{equation}
+\label{eqn3se}
 Res\{n \Psi_n^{A}\} = \sqrt{\frac{\langle cos(n[\Psi_n^{A}-\Psi_n^{B}])\rangle \langle cos(n[\Psi_n^{A}-\Psi_n^{C}])\rangle}{\langle cos(n[\Psi_n^{B}-\Psi_n^{C}])\rangle}}
 \end{equation} 
 where $\Psi_n^X$ is the event plane as measured with detector X using the n$^{th}$ Fourier harmonic.

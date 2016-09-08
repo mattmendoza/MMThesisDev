@@ -54,27 +54,26 @@
 \contentsline {subsection}{\numberline {7.2.4}High $p_T$: Fixed Width and Mean}{78}
 \contentsline {section}{\numberline {7.3}Identified Particle $v_{2}$}{78}
 \contentsline {chapter}{\numberline {8}Error Analysis and Quality Assurance}{80}
-\contentsline {section}{\numberline {8.1}Systematic Errors}{80}
-\contentsline {subsection}{\numberline {8.1.1}Event Plane Resolution}{80}
-\contentsline {subsection}{\numberline {8.1.2}Centrality Resolution}{82}
-\contentsline {subsection}{\numberline {8.1.3}Particle Identification Methods}{82}
-\contentsline {subsubsection}{Momentum Uncertainty}{83}
-\contentsline {subsubsection}{TOF Timing}{83}
-\contentsline {subsubsection}{Uncertainties from Gaussian Models}{85}
-\contentsline {subsection}{\numberline {8.1.4}Detector Acceptance}{85}
-\contentsline {chapter}{\numberline {9}Summary and Conclusions}{86}
-\contentsline {section}{\numberline {9.1}Discussion}{86}
-\contentsline {section}{\numberline {9.2}Conclusions}{86}
-\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{87}
-\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{89}
-\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{91}
-\contentsline {chapter}{\numberline {D}Analysis Data and Plots}{92}
-\contentsline {section}{\numberline {D.1}Event Plane Resolution}{92}
-\contentsline {section}{\numberline {D.2}Charged Track Elliptic Flow}{93}
-\contentsline {section}{\numberline {D.3}Particle Identification: TOFW}{97}
-\contentsline {subsection}{\numberline {D.3.1}Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, negative charged tracks}{97}
-\contentsline {subsection}{\numberline {D.3.2}Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, positive charged tracks}{101}
-\contentsline {subsection}{\numberline {D.3.3}Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, negative charged tracks}{105}
-\contentsline {subsubsection}{Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, positive charged tracks}{109}
-\contentsline {subsection}{\numberline {D.3.4}TOF.W and ACC, $p_T$=2.1-3.5 GeV, negative charged tracks}{113}
-\contentsline {subsection}{\numberline {D.3.5}TOF.W and ACC, $p_T$=2.1-3.5 GeV, positive charged tracks}{128}
+\contentsline {section}{\numberline {8.1}Event Plane Resolution}{81}
+\contentsline {section}{\numberline {8.2}Centrality Resolution}{82}
+\contentsline {section}{\numberline {8.3}Particle Identification Methods}{82}
+\contentsline {subsection}{\numberline {8.3.1}Momentum Uncertainty}{83}
+\contentsline {subsection}{\numberline {8.3.2}TOF Timing}{83}
+\contentsline {subsection}{\numberline {8.3.3}Uncertainties from Gaussian Models}{85}
+\contentsline {section}{\numberline {8.4}Detector Acceptance}{85}
+\contentsline {section}{\numberline {8.5}Summary}{86}
+\contentsline {chapter}{\numberline {9}Summary and Conclusions}{88}
+\contentsline {section}{\numberline {9.1}Discussion}{88}
+\contentsline {section}{\numberline {9.2}Conclusions}{88}
+\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{89}
+\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{91}
+\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{93}
+\contentsline {chapter}{\numberline {D}Analysis Data and Plots}{94}
+\contentsline {section}{\numberline {D.1}Charged Track Elliptic Flow}{95}
+\contentsline {section}{\numberline {D.2}Particle Identification: TOFW}{99}
+\contentsline {subsection}{\numberline {D.2.1}Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, negative charged tracks}{99}
+\contentsline {subsection}{\numberline {D.2.2}Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, positive charged tracks}{103}
+\contentsline {subsection}{\numberline {D.2.3}Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, negative charged tracks}{107}
+\contentsline {subsubsection}{Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, positive charged tracks}{111}
+\contentsline {subsection}{\numberline {D.2.4}TOF.W and ACC, $p_T$=2.1-3.5 GeV, negative charged tracks}{115}
+\contentsline {subsection}{\numberline {D.2.5}TOF.W and ACC, $p_T$=2.1-3.5 GeV, positive charged tracks}{136}
