@@ -3,28 +3,47 @@
 \chapter{Error Analysis and Quality Assurance} % Main chapter title
 There are various sources of systematic error that could contribute to uncertainty in this measurement. These include certainty in how the event plane was determined (sect. \ref{secteperr}), how well the event centrality can be determined (sect. \ref{sectcenterr}), various uncertainties pertaining to the identification of the particles (sect. \ref{sectpiderr}), and the effects of detector acceptance (sect. \ref{sectaccepterr}). In this chapter I will quantify the uncertainty for each of these contributions and then use these values to find the possible variance in the flow measurement due to these uncertainties. It will be shown that event plane resolution and PID systematics due to Gaussian fitting dominate and other errors are negligible.
 
+Any uncertainty that would affect the value of this flow measurement would do so in one of two ways: either by shifting individual $v_2$ data points (changing inherent shape of the data set) or by changing the overall scaling of the whole measurement in a net direction (simple scaling of entire data set). Errors that would simply shift the value of $v_2$ are the event plane resolution and centrality determination errors. Errors that would shift individual points consist of the various PID uncertainties and detector acceptance effects. The way the uncertainties in this category would shift individual data points is by changing the shape of the particle yield distribution in $d\phi$. Recall that there are two terms that parametrize the shape of the yield in $d\phi$:
+
+\begin{equation}
+yield(d\phi) = v_0 [1 + v_2 \cos 2d\phi]
+\end{equation}
+
+In this equation, $v_0$ corresponds to an overall shift in the function, that is to say it describes the up-and-down displacement of the whole curve and doesn't affect the general shape of it. The remaining parameter, $v_2$, describes the shape of the yield distribution in $d\phi$. Changes to the shape of this distribution happen when yield values are perturbed up or down in individual bins of $d\phi$ which results in a change in the associated $v_2$ . In order to study the strength of $v_2$-affecting uncertainties I will apply the variances discussed in this chapter to individual points in the yield vs $d\phi$ distribution and re-fit in order to see the variances' effect on the flow coefficient. 
+
 \section{Event Plane Resolution}
 \label{secteperr}
 \begin{table}[htbp!]
 \centering
-\caption{Event Plane Resolution for MPC, BBC, and RXNP. Resolution.}
+\caption{Event Plane Resolution for MPC, 0-5\% centrality}
 \label{EPrestable}
-\begin{tabular}{lllll}
-\textbf{}                                    & \multicolumn{4}{c}{{\ul \textbf{Centrality}}}                                                                                                                              \\ \hline
-\multicolumn{1}{|l|}{\textbf{Detector}} & \multicolumn{1}{c|}{\textbf{0-5\%}}      & \multicolumn{1}{c|}{\textbf{5-10\%}}      & \multicolumn{1}{c|}{\textbf{10-15\%}}    & \multicolumn{1}{c|}{\textbf{15-20\%}}    \\ \hline
-\multicolumn{1}{|l|}{\textbf{BBC}}           & \multicolumn{1}{l|}{0.12821$\pm$0.00536} & \multicolumn{1}{l|}{0.19337$\pm$0.005387} & \multicolumn{1}{l|}{0.07522$\pm$0.00538} & \multicolumn{1}{l|}{0.08759$\pm$0.00538} \\ \hline
-\multicolumn{1}{|l|}{\textbf{MPC}}           & \multicolumn{1}{l|}{0.25551$\pm$0.00537} & \multicolumn{1}{l|}{0.10140$\pm$0.005374} & \multicolumn{1}{l|}{0.21927$\pm$0.00537} & \multicolumn{1}{l|}{0.38086$\pm$0.00538} \\ \hline
-\multicolumn{1}{|l|}{\textbf{RXN.IN}}        & \multicolumn{1}{l|}{0.14250$\pm$0.00536} & \multicolumn{1}{l|}{0.05626$\pm$0.005380} & \multicolumn{1}{l|}{0.17503$\pm$0.00538} & \multicolumn{1}{l|}{0.10996$\pm$0.00538} \\ \hline
-\multicolumn{1}{|l|}{\textbf{RXN.OUT}}       & \multicolumn{1}{l|}{0.01691$\pm$0.00536} & \multicolumn{1}{l|}{0.10058$\pm$0.005389} & \multicolumn{1}{l|}{0.12035$\pm$0.00539} & \multicolumn{1}{l|}{0.02571$\pm$0.00538} \\ \hline
-\multicolumn{1}{|l|}{\textbf{RXN.CMB}}       & \multicolumn{1}{l|}{0.09907$\pm$0.00535} & \multicolumn{1}{l|}{0.08638$\pm$0.005387} & \multicolumn{1}{l|}{0.12153$\pm$0.00539} & \multicolumn{1}{l|}{0.02593$\pm$0.00538} \\ \hline
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Detectors Used}     & \textbf{$\Psi_{RES.3SE}$}       \\ \hline
+\textit{MPC, SMD. RXNIN}    & \textit{0.200718 $\pm$ 0.0001312} \\ \hline
+\textit{MPC, SMD, RXNOUT}   & \textit{0.261658 $\pm$ 0.0001312} \\ \hline
+\textit{MPC, SMD, RXNCMB}   & \textit{0.241446 $\pm$ 0.0001311} \\ \hline
+\textbf{$\langle\Psi_{RES.MPC}\rangle$}            & \textbf{0.234607}               \\ \hline
+\textbf{$\sigma_{RES.MPC}$} & \textbf{0.03104}                \\ \hline
 \end{tabular}
 \end{table}
-
-As mentioned in section \ref{sect:epres}, the limitations of the detectors to precisely resolve the event plane result in a weaker anisotropic flow measurement which is exacerbated by the asymmetric nature of the d+Au system. By RHIC convention and PHENIX construction, the north arm is the ``deuteron-going'' side and the south side is the ``gold-going'' side, i.e. spectators from the deuteron beam hit the north arm and spectators from the gold beam hit the south arm. The significant increase in the number of nucleons in a gold nucleus result in higher track multiplicity which is used to determine the event plane. Because of this, the event plane determination using south arm detectors is significantly easier and more accurate, as evident in fig \ref{fig:evtpln}. This combination of higher track multiplicity in the south arm and a smooth flattened event plane distribution in the MPC makes it a good choice for event plane determination. Furthermore, a combinatoric calculation of the event plane resolution in the various detectors shows that the MPC has the best resolution of all the detectors possible. Additional independent measurements of the event plane are used to correct further resolution limitations in the MPC (using the Three Subevent Method, eqn. \ref{eqn3se}). The Event Plane resolution measurements displayed in table \ref{EPrestable} were determined using 5 detectors: the BBC, MPC, inner RXNP, outer RXNP, and the combined RXNP. Since any 3 detectors can be used to determine an event plane resolution correction, this correction can be calculated for the MPC using various detectors as subevent comparisons. Doing so gives a X\% variance on the MPC resolution correction.
+As mentioned in section \ref{sect:epres}, the limitations of the detectors to precisely resolve the event plane result in a weaker anisotropic flow measurement which is exacerbated by the asymmetric nature of the d+Au system. By RHIC convention and PHENIX construction, the north arm is the ``deuteron-going'' side and the south side is the ``gold-going'' side, i.e. spectators from the deuteron beam hit the north arm and spectators from the gold beam hit the south arm. The significant increase in the number of nucleons in a gold nucleus result in higher track multiplicity which is used to determine the event plane. Because of this, the event plane determination using south arm detectors is significantly easier and more accurate, as evident in fig \ref{fig:evtpln}. This combination of higher track multiplicity in the south arm and a smooth flattened event plane distribution in the MPC makes it a good choice for event plane determination. Furthermore, a combinatoric calculation of the event plane resolution in the various detectors shows that the MPC has the best resolution of all the detectors possible. Additional independent measurements of the event plane are used to correct further resolution limitations in the MPC (using the Three Subevent Method, eqn. \ref{eqn3se}). The Event Plane resolution measurements displayed in table \ref{EPrestable} were determined using 5 detectors: the SMD, MPC, inner RXNP, outer RXNP, and the combined RXNP. Since any 3 detectors can be used to determine an event plane resolution correction, this correction can be calculated for the MPC using various detectors as subevent comparisons. Doing so gives a 3\% variance on the MPC resolution correction.
 
 \section{Centrality Resolution}
 \label{sectcenterr}
-Flow is at its strongest in most central collisions, therefore we must address the uncertainty in the centrality determination. Nagle, et al. addressed the centrality categorization in Run-8 d+Au in AN1087\citep{phenixcentrality} by correlating the charge sum in the BBC to the number of binary collisions ($\langle N_{coll} \rangle$). They found a systematic uncertainty of 7\% on the determination of $\langle N_{coll} \rangle$ for this data set for centralities from 0-20\%.
+Flow is at its strongest in most central collisions and uncertainty in the determination of centrality could affect the flow measurement. Collaborators have addressed the centrality categorization in Run 8 d+Au\citep{phenixcentrality} by correlating the charge sum in the BBC to the number of binary collisions ($\langle N_{coll} \rangle$). They found a systematic uncertainty of 7\% on the determination of $\langle N_{coll} \rangle$ for this data set for centralities from 0-20\%. Furthermore, centrality systematic do little to change the shape of the yield vs $d\phi$ distribution and only increase the statistics. As a check, I performed the flow measurement on a centrality range from 0-4\% and 0-6\% to see if the value was changed appreciably or not. In figure \ref{fig:centsys} I have plotted the fractional deviation:
+\begin{equation}
+\sigma_{sys}^{centrality} = \left| \frac{v_{2}^{0-5\%}-v_{2}^{0-4\%(6\%)}}{v_{2}^{0-5\%}} \right|,
+\end{equation}
+as a measure of the effect of varying size of the centrality bin on the flow measurement. This deviation was maximally 5\% and appeared to have no correlation to the $p_T$ of the tracks.
+
+\begin{figure}[htbp]
+  \centering
+    \includegraphics[width=0.8\textwidth]{evtQA/CentSysErrs.jpg}
+    \rule{35em}{0.5pt}
+  \caption[Centrality uncertainty contribution to Systematic Error]{Centrality uncertainty contribution to Systematic Error}
+  \label{fig:centsys}
+\end{figure}
 
 \section{Particle Identification Methods}
 \label{sectpiderr}
@@ -40,32 +59,78 @@ Since the TOF boasts a very high timing resolution and since the preamplifier ga
 t_{\pi} = \sqrt{\frac{m_{\pi}}{p^2} + \frac{1}{c^2}}.
 \end{equation}
 
-We then subtract this offset from our measured time to set the average track incidence time to around 0.
+Each strip is then fit with a normal distribution and the distance from the mean to $t=0$ is the timing offset ($\Deltat$) for the strip. This offset is then applied to each track's measured time:
 
 \begin{equation}
-\Delta t = t_{TOF measured} - t_{collision} - t_{\pi} 
+\Delta t = t_{TOF measured} - t_{collision/BBC} - t_{\pi} 
 \end{equation}
  
 \begin{figure}[htbp]
   \centering
-    \includegraphics[width=0.5\textwidth]{evtQA/ttofwdist.JPG}
+    \includegraphics[width=0.7\textwidth]{evtQA/ttofwdist.JPG}
     \rule{35em}{0.5pt}
   \caption[Timing QA in the TOF.W]{Timing QA in the TOF.W, $\Delta$t vs TOF.W strip id}
   \label{fig:tofwdist}
 \end{figure}
 
-Furthermore, the TOF.W has a known resolution of $\sim 80 ps$. Propagating this error through eqn \ref{eqn:m2tof} with the known distance from the vertex of the TOF.W and a maximal value for this analysis of $p_T=5$ GeV/c, the maximum variance in $m$ due to timing capabilities is $\pm 2$ eV/c$^2$) which, when compared to the smallest mass measured ($m_{\pi}\approx$139 MeV/c$^2$), is negligible. 
+\begin{figure}[htbp]
+  \centering
+    \includegraphics[width=0.7\textwidth]{evtQA/deltattofwdist.jpg}
+    \rule{35em}{0.5pt}
+  \caption[Systematic Offset in TOF.W]{Systematic Timing Offset in the TOF.W}
+  \label{fig:tofwsyst}
+\end{figure}
+
+Given the TOFW's known resolution of $\sim 80 ps$, if we propagate this error through eqn. \ref{eqn:m2tof} with the known distance from the vertex of the TOF.W and a maximal $p_T$ value for this analysis of 5 GeV/c, the maximum variance in $m$ due to resolution is $\pm 2$ eV/c$^2$) which, when compared to the smallest mass measured ($m_{\pi}\approx$139 MeV/c$^2$), is negligible. Furthermore, the systematic offset of the detector after calibration is 21 ps, well below the TOFW's resolution limitation (fig. \ref{fig:tofwsyst}).
 
 \subsection{Uncertainties from Gaussian Models}
-Species purity is integrated out to $2\sigma$ which accounts for 95.45\% of particles about the mean of their distribution. Therefore systematics due to mixing in the tails of the particle distributions is at most 4.55\%. Gaussian distributions do not perfectly match the particle distributions, however it can be shown that and over and under counting done by the models is uniform across each bin in $d\phi$ for a given bin of $p_T$ and only serves to shift the y-position of the flow curve a net value up or down without changing the value of the harmonic for the range $p_T \leq 3$ GeV/c. For $p_T \geq 3$ GeV/c greater systematics are evident as the widths and means of the particle distributions appear to change across different bins of $d\phi$. 
+\subsubsection{Single and Mixed Gaussians, no ACC, $p_T\leq2.1$ GeV/c}
+Species purity is integrated out to $2\sigma$ which accounts for 95.45\% of particles about the mean of their distribution. Therefore systematics due to mixing in the tails of the particle distributions is at most 4.55\%. Gaussian distributions do not perfectly match the particle distributions, often there is a trade off between fitting the shape of the peak or the shape of the tails. Given the the $2-\sigma$ integration of the Gaussians, fitting the shape of the peaks took priority as the tails would contribute very minimally. This systematic uncertainty in the tails always \textit{under} counts the number of particles in a distribution, however it can be seen from inspection (see App. \ref{app:data}) that and over and under counting done by the models is uniform across each bin in $d\phi$ for within the same bin of $p_T$. Any systematic over/under counting such as this only serves to shift the y-position of the flow curve a net value up or down without changing the value of the harmonic. This appears to remain true for $p_T \leq 2.1$ GeV/c. There are a few instances where fitting algorithms appear to have not matched the shape of the peaks perfectly but the functions fit nicely through the waist of the distribution. Each of these bins were inspected and allowed to vary by hand to fit various misshapen regions of the distributions. The maximal variance in the yield from the fit functions was 2\% for the pions and kaons and $<$1\% for the protons in this range of $p_T$.
+
+\subsubsection{ACC Meson Separation and Gaussian Tail Cross Contamination, $2.1\leq p_T \leq 2.9$}
+For $p_T \geq 2.1 GeV/c$, the ACC is used to separate pions from kaons and protons. Over/under counting in the tails is still the most likely place for systematic errors to accrue and this effect is strongest in the kaons since the ACC threshold still allows some pion contamination. Because of this, fitting the peaks and the right side waist and tail of the kaon distributions for ACC vetoed tracks took priority. In the lower bound of this $p_T$ range, kaons maintain good separation from protons, however as the $p_T$ increases there is some species contamination in the tails. This is accounted for in two ways. Firstly, as with the low $p_T$ $\pi / k$, mixing happens in the extremes of the tails and particle counting stops at $2-\sigma$. Secondly. A two peak, Mixed Gaussian model is used to fit the kaon and proton peaks which allows for the additive overlap in the tails to be visualized and accounted for. This accounts for a 5\% maximum systematic error for the kaons and 2\% max for the protons. Since the ACC operates on Cherenkov radiation, the ``ACC fire'' condition is far more selective since it requires particles to be traveling fast enough to radiate. This leads to a very pure pion signal with negligible contamination, attributing $<1\%$ systematic uncertainty.
+
+\subsubsection{Fixed Width/Mean Gaussians and Background Effects}
+For $p_T \geq 3$ GeV/c, low statistics cause the means and widths of particle distributions to vary across bins in $d\phi$. Because of this, all $d\phi$ bins are summed for a given $p_T$ bin and are fit as a whole in order to fix a constant mean and width for each particle species. In doing so, only the heights of the Gaussians are allowed to vary. In practice, this method tends to undercount particles. When the means of particle distributions deviate from the model-fixed values of the Gaussian models it causes only the regions that fall under the Gaussians to be counted, largely missing regions of the distribution that are not encompassed by the curve. This accounts for a 7\% under-counting in these bins.
+
+Additionally, background tracks for the very last $p_T$ bin are strong enough to contribute to error. The TOFW along with the PC3 allows for very strong background rejection thanks to the two detectors' high precision tracking and distance from the event vertex. Only tracks with five matching points are accepted for analysis, that is: 2 hits in the DC, 1 matched hit in the PC1 within $2-\sigma$, 1 matched hit in the TOFW within $3-\sigma$, and 1 matched hit in the PC3 to $3-\sigma$. This leads to a negligible background for high statistics analyses. For $4\leq p_T \leq4.5$, the numbers of detected particles are low enough that the background may contribute 1 out of every 10 tracks counted for each particle species. This leads to a 10\% systematic error for this last bin from background.
 
 \section{Detector Acceptance}
 \label{sectaccepterr}
 Detectors occupy a limited and constant range in space. The ability of a detector to cover a range in space is called its \textit{acceptance}. Additionally, detectors are imperfect, there are dead channels, hot channels, edge effects, and other phenomena that can ruin the efficiency of a detector and add holes to its acceptance. Because of this, acceptance limitations of detectors can affect measurements in various analyses, however, for reasons I will discuss, a flow analysis is at best negligibly affected by detector acceptance effects. Analyses where acceptance effects are strongest are those where the coordinate system is ``static''. By this I mean that the production of analyzed tracks are studied in the lab frame coordinate system and any repeatedly missed tracks in a hole in acceptance are missed indefinitely and completely. Since event characteristics are random, by the necessity of event plane determination there is a statistical ``smearing'' that happens from the Q-vector normalization and the event plane flattening. Any holes in azimuthal coverage due to detector limitations in the lab coordinate system are smeared over by this normalization and flattening since we are performing the analysis in the event plane coordinate system which is statistically distributed and normalized. Furthermore, collaborators have studied the systematics of acceptance on $v_2$ measurements\citep{azianisystematics} by comparing $v_2$ measurements made with charged hadrons detected in TOF.E and TOF.W ($45^{\circ}$ per arm) with charged hadrons detected in full central arm acceptance ($90^{\circ}$ per arm). They found that a two-fold increase in azimuthal acceptance resulted in less than 2\% difference in flow measurements. 
 
 \section{Summary}
-Any uncertainty that would affect the value of this flow measurement would do so in one of two ways: either by shifting individual $v_2$ data points (changing inherent shape of the data set) or by changing the overall scaling of every data point in a net direction (simple scaling of entire data set). Errors that would simply shift the value of $v_2$ are the event plane resolution and centrality determination errors. Errors that would shift individual points consist of the various PID uncertainties and detector acceptance effects. The way the uncertainties in this category would shift individual data points is by changing the shape of the particle yield distribution in $d\phi$. Recall that there are two terms that parametrize the shape of the yield in $d\phi$: $yield(d\phi) = v_0 [1 + v_2 \cos 2d\phi]$. In this equation, $v_0$ corresponds to an overall shift in the function, that is to say it describes the up-and-down displacement of the whole curve and doesn't affect the general shape of it. Apart from the offset, the remaining parameter, $v_2$ describes the shape of the yield distribution in $d\phi$. Changes to the shape of this distribution that result in a change in associated $v_2$ happen when yield values are perturbed up or down in individual bins of $d\phi$. In order to study the strength of $v_2$-affecting uncertainties I will apply the variances discussed earlier in this chapter to individual points in the yield vs $d\phi$ distribution and re-fit in order to see the variances' effect on the flow coefficient. 
+The particle yield is binned in six bins of $d\phi$ which therefore means that there are six points that can be perturbed systematically. In order to study the propagation of the yield uncertainty to the measured flow coefficient I take the known values of yield in $d\phi$ and perturb them up or down by the percentages quantified in this chapter. The changed yield vs $d\phi$ distribution is re-fit and a new flow coefficient is calculated. This new $v_2$ is compared to the original one in order to determine systematic errors on the final measurement which are caused by sources within the process of measuring it. Since the identified track flow follows the behavior of the individual particle flows I will use it for this study and for completeness, perturbations both up and down were be studied. 
 
-The particle yield is binned in six bins of $d\phi$ which therefore means that there are six points that can be perturbed systematically. Of these six points, four contribute strongly to the overall shape of the yield distribution, these are: the two end points and the two center points. In order to study the propagation of uncertainty in yield on the measured flow coefficient I created a program that can take the known values of yield in $d\phi$ and perturb them up or down by some percentage. 
+\advance\headheight-2.5cm
+\advance\footskip2cm
+\begin{figure}[hbtp]
+    \caption[Effects of Systematic Shifts in Yield on $v_2$.]{Effects of Systematic Shifts in Yield on $v_2$. 1\%, 2\%, 4\%, 5\%, 7\%, and 10\% perturbations are applied to each yield for a particular bin of $d\phi$ and the corresponding $v_2$ is calculated. Closed circles are downward perturbations, open circles, upward perturbations.}
+    \rule{35em}{0.5pt}
+    \centerline{\includegraphics[width=1\textwidth]{evtQA/plusminusstudy.jpg}}
+    \label{fig:wiggleupdown}
+\end{figure}
+
+In practice, of these six points, four contribute strongly to the overall shape of the yield distribution, these are: the two end points and the two center points. This is shown by the significantly smaller systematic error in bins 1 and 4 in fig \ref{fig:wiggleupdown}. Additionally, the direction of perturbation makes a negligible difference; up and down perturbations line up very well on the plots. Yield systematics have the strongest effect on the lower $p_T$ bins. This is because their significantly higher statistics correspond to a larger loss or gain of counted particles with which to skew the flow coefficient.
+
+\begin{table}[]
+\centering
+\caption{My caption}
+\label{my-label}
+\begin{tabular}{llllllllllllllll}
+                                  & \multicolumn{15}{l}{\textbf{Transverse Momentum Bin Range (GeV/c)}}                                                                                                                                                                                                                        \\
+\rowcolor[HTML]{C0C0C0} 
+\textbf{Source of Error}          & \textbf{0.5-0.7} & \textbf{0.7-0.9} & \textbf{0.9-1.1} & \textbf{1.1-1.3} & \textbf{1.3-1.5} & \textbf{1.5-1.7} & \textbf{1.7-1.9} & \textbf{1.9-2.1} & \textbf{2.1-2.3} & \textbf{2.3-2.5} & \textbf{2.5-2.7} & \textbf{2.7-2.9} & \textbf{3.0-3.5} & \textbf{3.5-4.0} & \textbf{4.0-4.5} \\
+\textbf{Event Plane Resolution}   & 23.40\%          & 23.40\%          & 23.40\%          & 23.40\%          & 23.40\%          & 23.40\%          & 23.40\%          & 23.40\%          & 23.40\%          & 23.40\%          & 23.40\%          & 23.40\%          & 23.40\%          & 23.40\%          & 23.40\%          \\
+\textbf{Detector Acceptance}      & \textless2\%     & \textless2\%     & \textless2\%     & \textless2\%     & \textless2\%     & \textless2\%     & \textless2\%     & \textless2\%     & \textless2\%     & \textless2\%     & \textless2\%     & \textless2\%     & \textless2\%     & \textless2\%     & \textless2\%     \\
+\textbf{Centrality Determination} & 5\%              & 5\%              & 5\%              & 5\%              & 5\%              & 5\%              & 5\%              & 5\%              & 5\%              & 5\%              & 5\%              & 5\%              & 5\%              & 5\%              & 5\%              \\
+\textbf{PID uncertainty (pion)}   & 22\%             & 20\%             & 14\%             & 11\%             & 9\%              & 17\%             & 16\%             & 15\%             & 7\%              & 7\%              & 8\%              & 8\%              & 40\%             & 40\%             & 90\%             \\
+\textbf{PID uncertainty (kaon)}   & 22\%             & 20\%             & 14\%             & 11\%             & 9\%              & 17\%             & 16\%             & 15\%             & 35\%             & 35\%             & 35\%             & 35\%             & 55\%             & 7\%              & 90\%             \\
+\textbf{PID uncertainty (proton)} & 22\%             & 20\%             & 14\%             & 10\%             & 9\%              & 8\%              & 8\%              & 7\%              & 15\%             & 15\%             & 16\%             & 16\%             & 55\%             & 7\%              & 90\%            
+\end{tabular}
+\end{table}
+
+
+
 \pagebreak
 \pagebreak
