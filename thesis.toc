@@ -43,40 +43,41 @@
 \contentsline {chapter}{\numberline {5}Anisotropic Flow}{62}
 \contentsline {chapter}{\numberline {6}Event Plane}{66}
 \contentsline {section}{\numberline {6.1}Determination of Event Plane}{66}
-\contentsline {section}{\numberline {6.2}Event Plane ``Flattening"}{68}
-\contentsline {section}{\numberline {6.3}Event Plane Resolution Correction}{70}
-\contentsline {chapter}{\numberline {7}Results}{72}
-\contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{72}
-\contentsline {section}{\numberline {7.2}Separating Particle Signals}{75}
-\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{75}
-\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{76}
-\contentsline {subsection}{\numberline {7.2.3}ACC as a Particle Discriminator}{76}
-\contentsline {subsection}{\numberline {7.2.4}High $p_T$: Fixed Width and Mean}{78}
-\contentsline {section}{\numberline {7.3}Identified Particle $v_{2}$}{78}
-\contentsline {chapter}{\numberline {8}Error Analysis and Quality Assurance}{80}
-\contentsline {section}{\numberline {8.1}Event Plane Resolution}{82}
-\contentsline {section}{\numberline {8.2}Centrality Resolution}{83}
-\contentsline {section}{\numberline {8.3}Particle Identification Methods}{84}
-\contentsline {subsection}{\numberline {8.3.1}Momentum Uncertainty}{84}
-\contentsline {subsection}{\numberline {8.3.2}TOF Timing}{85}
-\contentsline {subsection}{\numberline {8.3.3}Uncertainties from Gaussian Models}{88}
-\contentsline {subsubsection}{Single and Mixed Gaussians, no ACC, $p_T\leq 2.1$ GeV/c}{88}
-\contentsline {subsubsection}{ACC Meson Separation and Gaussian Tail Cross Contamination, $2.1\leq p_T \leq 2.9$}{89}
-\contentsline {subsubsection}{Fixed Width/Mean Gaussians and Background Effects}{89}
-\contentsline {section}{\numberline {8.4}Detector Acceptance}{90}
-\contentsline {section}{\numberline {8.5}Summary}{91}
-\contentsline {chapter}{\numberline {9}Summary and Conclusions}{94}
-\contentsline {section}{\numberline {9.1}Discussion}{94}
-\contentsline {section}{\numberline {9.2}Conclusions}{94}
-\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{95}
-\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{97}
-\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{99}
-\contentsline {chapter}{\numberline {D}Analysis Data and Plots}{100}
-\contentsline {section}{\numberline {D.1}Charged Track Elliptic Flow}{101}
-\contentsline {section}{\numberline {D.2}Particle Identification: TOFW}{105}
-\contentsline {subsection}{\numberline {D.2.1}Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, negative charged tracks}{105}
-\contentsline {subsection}{\numberline {D.2.2}Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, positive charged tracks}{109}
-\contentsline {subsection}{\numberline {D.2.3}Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, negative charged tracks}{113}
-\contentsline {subsubsection}{Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, positive charged tracks}{117}
-\contentsline {subsection}{\numberline {D.2.4}TOF.W and ACC, $p_T$=2.1-3.5 GeV, negative charged tracks}{121}
-\contentsline {subsection}{\numberline {D.2.5}TOF.W and ACC, $p_T$=2.1-3.5 GeV, positive charged tracks}{142}
+\contentsline {section}{\numberline {6.2}Q-vector Recentering}{68}
+\contentsline {section}{\numberline {6.3}Event Plane ``Flattening"}{69}
+\contentsline {section}{\numberline {6.4}Event Plane Resolution Correction}{71}
+\contentsline {chapter}{\numberline {7}Results}{73}
+\contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{73}
+\contentsline {section}{\numberline {7.2}Separating Particle Signals}{76}
+\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{76}
+\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{77}
+\contentsline {subsection}{\numberline {7.2.3}ACC as a Particle Discriminator}{77}
+\contentsline {subsection}{\numberline {7.2.4}High $p_T$: Fixed Width and Mean}{79}
+\contentsline {section}{\numberline {7.3}Identified Particle $v_{2}$}{79}
+\contentsline {chapter}{\numberline {8}Error Analysis and Quality Assurance}{81}
+\contentsline {section}{\numberline {8.1}Event Plane Resolution}{83}
+\contentsline {section}{\numberline {8.2}Centrality Resolution}{84}
+\contentsline {section}{\numberline {8.3}Particle Identification Methods}{85}
+\contentsline {subsection}{\numberline {8.3.1}Momentum Uncertainty}{85}
+\contentsline {subsection}{\numberline {8.3.2}TOF Timing}{86}
+\contentsline {subsection}{\numberline {8.3.3}Uncertainties from Gaussian Models}{89}
+\contentsline {subsubsection}{Single and Mixed Gaussians, no ACC, $p_T\leq 2.1$ GeV/c}{89}
+\contentsline {subsubsection}{ACC Meson Separation and Gaussian Tail Cross Contamination, $2.1\leq p_T \leq 2.9$}{90}
+\contentsline {subsubsection}{Fixed Width/Mean Gaussians and Background Effects}{90}
+\contentsline {section}{\numberline {8.4}Detector Acceptance}{91}
+\contentsline {section}{\numberline {8.5}Summary}{92}
+\contentsline {chapter}{\numberline {9}Summary and Conclusions}{95}
+\contentsline {section}{\numberline {9.1}Discussion}{95}
+\contentsline {section}{\numberline {9.2}Conclusions}{95}
+\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{96}
+\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{98}
+\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{100}
+\contentsline {chapter}{\numberline {D}Analysis Data and Plots}{101}
+\contentsline {section}{\numberline {D.1}Charged Track Elliptic Flow}{102}
+\contentsline {section}{\numberline {D.2}Particle Identification: TOFW}{106}
+\contentsline {subsection}{\numberline {D.2.1}Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, negative charged tracks}{106}
+\contentsline {subsection}{\numberline {D.2.2}Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, positive charged tracks}{110}
+\contentsline {subsection}{\numberline {D.2.3}Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, negative charged tracks}{114}
+\contentsline {subsubsection}{Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, positive charged tracks}{118}
+\contentsline {subsection}{\numberline {D.2.4}TOF.W and ACC, $p_T$=2.1-3.5 GeV, negative charged tracks}{122}
+\contentsline {subsection}{\numberline {D.2.5}TOF.W and ACC, $p_T$=2.1-3.5 GeV, positive charged tracks}{143}
