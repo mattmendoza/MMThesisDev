@@ -454,6 +454,14 @@ Edward~V. Shuryak.
 \newblock {Quantum Chromodynamics and the Theory of Superdense Matter}.
 \newblock {\em Phys. Rept.}, 61:71--158, 1980.
 
+\bibitem{jetfeynmancredit}
+Flip Tanedo.
+\newblock When feynman diagrams fail, 2010.
+
+\bibitem{jetdiagramcredit}
+Flip Tanedo.
+\newblock When you’re a jet, you’re a jet all the way, 2011.
+
 \bibitem{azianisystematics}
 A.~Taranenko and Roy~A. Lacey.
 \newblock Systematic study of azimuthal anisotropy of charged hadrons in au+au
@@ -477,6 +485,6 @@ Sebastian White.
 \bibitem{wojciechphenomenology}
 F.~Wojciech.
 \newblock {\em Phenomenology of Ultra-relativistic Heavy-ion Collisions}.
-\newblock World Scientific.
+\newblock World Scientific, 2010.
 
 \end{thebibliography}
