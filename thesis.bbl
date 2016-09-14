@@ -173,6 +173,12 @@ K.~Adcox et~al.
   collisions at RHIC: Experimental evaluation by the PHENIX collaboration}.
 \newblock {\em Nucl. Phys.}, A757:184--283, 2005.
 
+\bibitem{Adler:2003kt}
+S.~S. Adler et~al.
+\newblock {Elliptic flow of identified hadrons in Au+Au collisions at
+  s(NN)**(1/2) = 200-GeV}.
+\newblock {\em Phys. Rev. Lett.}, 91:182301, 2003.
+
 \bibitem{Akindinov:2000rq}
 A.~Akindinov et~al.
 \newblock {The multigap resistive plate chamber as a time-of-flight detector}.
@@ -336,6 +342,11 @@ Judy Goldhaber.
 \newblock Bevalac had 40-year record of historic discoveries.
 \newblock {\em Berkeley Lab Science Articles Archive}, October 1992.
 
+\bibitem{PhysRevD.8.3633}
+David~J. Gross and Frank Wilczek.
+\newblock Asymptotically free gauge theories. i.
+\newblock {\em Phys. Rev. D}, 8:3633--3652, Nov 1973.
+
 \bibitem{PhysRevLett.52.1590}
 H.~A. Gustafsson, H.~H. Gutbrod, B.~Kolb, H.~L\"ohner, B.~Ludewigt, A.~M.
   Poskanzer, T.~Renner, H.~Riedesel, H.~G. Ritter, A.~Warwick, F.~Weik, and
@@ -419,6 +430,11 @@ Mattias Ohlsson, Carsten Peterson, and Alan~L. Yuille.
 Anders Oskarsson.
 \newblock The pad chambers.
 \newblock {\em FOCUS Talk}, January 2003.
+
+\bibitem{PhysRevLett.30.1346}
+H.~David Politzer.
+\newblock Reliable perturbative results for strong interactions?
+\newblock {\em Phys. Rev. Lett.}, 30:1346--1349, Jun 1973.
 
 \bibitem{PhysRevC.58.1671}
 A.~M. Poskanzer and S.~A. Voloshin.
