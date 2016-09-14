@@ -45,6 +45,7 @@ It consists of a collection of various detectors assembled into four spectromete
 Covering a rapidity range(see app. \ref{app:coordinates}) of $\eta$ = $<|0.375|$, the central arm consists of an east and a west arm that cover the azimuth $90^{\circ}$ each \citep{EMCfocus}and is a complex, multi-layered, multi-system spectrometer capable of measuring a variety of particle probes. It is shown on the upper image labeled ``Beam View'' on figure \ref{fig:run8config} with individual subsystem detectors labeled. No single device is ideal for measuring every aspect of a collision event and as such, different device technologies, ideal for measuring specific quantities, can be used in concert to gather clean and precise data. Here I will discuss the various individual detectors in the central arm that I use in this analysis.
 
 \subsubsection{Drift and Pad Chambers}
+\label{sect:dcpc}
 Particle trajectories are tracked using the Drift Chamber (DC) and the Pad Chambers (PC 1,2, and 3)\citep{DCfocus}. The DC is a multiwire jet-type drift chamber located between 2.02 and 2.46 m radially from the interaction point, constructed from 6 modules comprised of networks of wires or \textit{nets} in each arm. In principle the DC is similar to a wire chamber: when a charged particle travels through the gas in the DC, the gas atoms are ionized and these ions and electrons are accelerated to anode wires which collect this ionization and sends a signal proportional to the ionization effect of the traveling particle. The DC is filled with a gas that is selected to have a uniform drift velocity close to the anode wires, i.e. a gas where the ions and electrons created by outgoing charged particles have a linear relation in position and time such that $x(t) = v_{drift} * t$ within the active region. The gas chosen is a mixture of equal parts Argon and Methane, also chosen for the mixture's high gas gain amplification and low diffusion coefficient. In doing so and when combined with high accuracy timing calculation we are able to achieve a more accurate position and trajectory of outgoing particles. The wire nets in the DC are arranged in different predetermined ways with respect to the beam axis. The six modules containing the wire nets are designated names: X1, U1, V1, X2, U2, and V2. There are 12 anode wires in each X net and the wires are configured to be parallel to the beam axis so that they can be used to measure the azimuthal angle: $\phi$. The U and V nets are stereo pairs with 4 anode wires in each net and are tilted by an angle of 4.5$^\circ$ with respect to the beam axis. This angular bias allows us to use these nets to measure the track's z-component with high resolution. Furthermore, all wire nets are oriented in layers radially such that outgoing tracks deposit linear, correlatable signals in the DC. Additionally, since the DC is the first detector subsystem that outgoing particles created in a collision pass through, it is also used in conjunction with other detectors in order to accurately determine track trajectory through all of the detectors in the central arm. I will discuss the method of track reconstruction in section \ref{trkrecosect}.
 
 \begin{figure}[htbp]
@@ -113,13 +114,13 @@ A MRPC is a version of a RPC with alternating layers of the resistive material a
 \end{figure}
 
 \subsubsection{ACC: Aerogel Cherenkov Counter}
-As measured track momentum increases the timing resolution of the TOF detectors causes greater uncertainty in the timing measurements leading to a statistically ``wider'' particle signal and eventually the widths of these particle signals overlap. The high resolution capabilities of the TOF detectors only allow them to separate $\pi^{\pm}$, $k^{\pm}$, and $p$ / $\bar{p}$ signals up to certain transverse momentum $p_{T}$ thresholds ($\pi/k$ separation becomes difficult above $p_T$ = 2.1 GeV/c impossible above 2.8 GeV/c, k/P separation is possible only up to 4 GeV/c). The distinct masses of the particles of interest do provide an additional method of separating particle signals since if you were to give two particles of different mass the same momentum they would have distinct velocities. This is the principle with which a Cherenkov detector works. Cherenkov radiation is light that is emitted in a material when a charged particle travels through it with a velocity faster than the speed of light in that medium. This medium, called a Cherenkov radiator, can be carefully selected such that its intrinsic speed of light is such that lighter particles with higher velocities cause Cherenkov radiation but heavier particles which travel slower given the same momentum will not. This threshold is given by:
+As measured track momentum increases, the timing resolution of the TOF detectors causes greater uncertainty in the timing measurements, leading to a statistically ``wider'' particle signal and eventually the widths of individual particle signals overlap. The high resolution capabilities of the TOF detectors only allow them to separate $\pi^{\pm}$, $k^{\pm}$, and $p$ / $\bar{p}$ signals up to certain transverse momentum $p_{T}$ thresholds ($\pi/k$ separation becomes difficult above $p_T$ = 2.1 GeV/c impossible above 2.8 GeV/c, k/P separation is possible only up to 4 GeV/c). The distinct masses of the particles of interest do provide an additional method of separating particle signals since if you were to give two particles of different mass the same momentum they would have distinct velocities. This is the principle with which a Cherenkov detector works. Cherenkov radiation is light that is emitted in a material when a charged particle travels through it with a velocity faster than the speed of light in that medium. This medium, called a Cherenkov radiator, can be carefully selected such that its intrinsic speed of light is such that lighter particles with higher velocities cause Cherenkov radiation but heavier particles which travel slower given the same momentum will not. This threshold is given by:
 
 \begin{equation}
 E_{threshold} = \frac{nm}{\sqrt{n^2-1}}
 \end{equation}
 where n is the index of refraction in the Cherenkov radiator and m is the mass of the particle.
-Using this, a Cherenkov detector acts as a logic detector categorizing tracks as those that either "fire" or "veto", that is to say tracks that radiate versus tracks that don't. In the case of separating $\pi^{\pm}$ mesons from $k^{\pm}$ mesons for $p_{T}$ tracks where their mass signals overlap so strongly that they cannot be uncorrelated, the radiator was chosen such that the pions will fire the detector and the kaons will not. Pions and kaons are indistinguishable for $p_{T} > 2.8$ GeV/c, so the radiator chosen to separate the signals is a silica aerogel ($n \approx 1.011$).
+Using this, a Cherenkov detector acts as a logic detector categorizing tracks as those that either "fire" or "veto", that is to say tracks that radiate versus tracks that don't. In the case of separating $\pi^{\pm}$ mesons from $k^{\pm}$ mesons for $p_{T}$ tracks where their mass signals overlap so strongly that they cannot be uncorrelated, the radiator was chosen such that the pions will radiate in the detector but the kaons will not. Pions and kaons are indistinguishable for $p_{T} > 2.8$ GeV/c, so the radiator chosen to separate the signals is a silica aerogel ($n \approx 1.011$).
 
 \begin{figure}[htbp!]
   \centering
@@ -139,7 +140,7 @@ The Aerogel Cherenkov Counter (ACC) is comprised of 160 tiles of silica aerogel.
   \label{fig:accchannel}
 \end{figure}
 
-The ACC is located in the west arm covering the half of the azimuthal coverage that the TOFW covers and with the same rapidity coverage. When used in conjunction with the TOFW it can provide pion/kaon separation for $p_{T} < 4$ GeV/c and can discriminate protons for $p_{T} < 7$ GeV/c.  The total capabilities of the combination of the TOFW + ACC is shown in the following chart.
+The ACC is located in the west arm covering the half of the azimuthal coverage that the TOFW covers and with the same rapidity coverage (see fig. \ref{fig:run8config}). When used in conjunction with the TOFW it can provide pion/kaon separation for $p_{T} < 4$ GeV/c and can discriminate protons for $p_{T} < 7$ GeV/c.  The total particle identification capabilities of the combination of the TOFW + ACC is shown in figure \ref{fig:PIDrange}.
 
 \begin{figure}[h!]
   \centering
@@ -150,9 +151,9 @@ The ACC is located in the west arm covering the half of the azimuthal coverage t
 \end{figure}
 
 \subsubsection{EMCal and RICH: Electromagnetic Calorimeter and Ring Imaging Cherenkov Counter}
-Two other detectors that provide important track data are the \textit{Electromagnetic Calorimeter} (EMCal) and the \textit{Ring Imaging Cherenkov Counter} (RICH). Each arm has full coverage with both the RICH and the EMCal and they are often used together in order to study electrons via the EMCal/RICH Trigger (ERT).
+Two other detectors that provide important track data are the \textit{Electromagnetic Calorimeter} (EMCal) and the \textit{Ring Imaging Cherenkov Counter} (RICH). Each arm has full coverage with both the RICH and the EMCal and they are often used together in order to study electrons via the EMCal/RICH Trigger (ERT). For the scope of this analysis, only the RICH is used in order to reject electron tracks which can contaminate the pion signal, I will discuss the EMCal for completeness.
 
-As evident from it's name, the RICH is a Cherenkov counter that is used in a similar fashion as the ACC: to discriminate between particle species using Cherekov radiation as a logic trigger. In the case of RICH, we are interested in separating pion and electron signals. It is filled with CO$_2$ which was chosen because it would allow electrons to radiate at very low $p_T$ ($>$ 0.018 GeV/c) while pions will not until the relatively high $p_T$ of 4.87 GeV/c. Cherenkov radiated photons are emmitted parallel to each other along the track path as electrons move through the detector. The outer surface of the RICH is a series of mirrors arranged to form a spherical mirror which focusses that Cherenkov light onto the 2560 PMTs/arm which line the inner surface of the RICH. This results in a ring shaped Cherenkov signature as measured by the PMTs, hence the name: Ring Imaging Cherenkov Counter. 
+As evident from it's name, the RICH (fig \ref{fig:RICHdiagram})is a Cherenkov counter that is used in a similar fashion as the ACC: to discriminate between particle species using Cherekov radiation as a logic trigger. In the case of RICH, we are interested in separating pion and electron signals. It is filled with CO$_2$ which was chosen because it would allow electrons to radiate at very low $p_T$ ($>$ 0.018 GeV/c) while pions will not until the relatively high $p_T$ of 4.87 GeV/c. Cherenkov radiated photons are emitted parallel to each other along the track path as electrons move through the detector. The outer surface of the RICH is a series of mirrors arranged to form a spherical mirror which focuses that Cherenkov light onto the 2560 PMTs/arm which line the inner surface of the RICH. This results in a ring shaped Cherenkov signature as measured by the PMTs, hence the name: Ring Imaging Cherenkov Counter. 
 
 \begin{figure}[h!]
   \centering
@@ -168,36 +169,35 @@ As evident from it's name, the RICH is a Cherenkov counter that is used in a sim
     \centering
     \includegraphics[width=\textwidth]{Figures/PbScschematic.jpg}\ssp
     \caption{Schematic of a PbSc module. Pb layers cause EM showers which create light in the scintillators and are detected by the light collectors.}
-
+\label{fig:pbsc}
 \end{subfigure}
 \begin{subfigure}[b]{0.6\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Figures/PbGlmodules.jpg}
     \caption{Construction of PbGl modules.}
-
+\label{fig:pbglmodule}
 \end{subfigure}
 \begin{subfigure}[b]{0.6\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Figures/pbglsupermodule.JPG}
     \caption{One PbGl super module}
-
+\label{fig:pbglsupmodule}
 \end{subfigure}
 \caption[Schematics of EMCal components]{Schematics of EMCal components}
 \label{fig:EMCalcomponents}
 \end{figure}
 \dsp
 
-The EMCal provides an energy measurement for charged tracks and is broken up into eight sectors, four sectors in each arm \citep{EMCfocus}. Six of the sectors (all four of the west arm and the top two in the east arm) are made of channels comprised of alternating layers of lead and scintillator (PbSc) material. The lead layers cause incoming particles to shower into the scintillator layers which generate light that is detected by PMTs. The lower two sectors in the east arm are comprised of 10,080 uniform lead glass Cherenkov radiator towers (PbGl). These towers have PMTs attached on one end and are wrapped individually in reflective mylar and shrink wrapped to form \textit{modules}. They are then placed in grid-like networks and each 16 module x 12 module structure is read out by one photodiode/preamplifier combination. 
+The EMCal provides an energy measurement for charged tracks and is broken up into eight sectors, four sectors in each arm \citep{EMCfocus}. Six of the sectors (all four of the west arm and the top two in the east arm) are made of channels comprised of alternating layers of lead and scintillator (PbSc) material (fig \ref{fig:pbsc}). The lead layers cause incoming particles to shower into the scintillator layers which generate light that is detected by PMTs. The lower two sectors in the east arm are comprised of 10,080 uniform lead glass Cherenkov radiator towers (PbGl) (fig \ref{fig:pbglmodule} \& \ref{fig:pbglsupmodule}). These towers have PMTs attached on one end and are wrapped individually in reflective mylar and shrink wrapped to form \textit{modules}. They are then placed in grid-like networks and each 16 module x 12 module structure is read out by one photodiode/preamplifier combination. 
 
 Though it may seem odd to have two types of detectors in the EMCal, there is a method to the madness. Both have their own strengths, PbSc is more linear in response and is better at timing than PbGl thanks to its alternating layers, whereas PbGl is a tried and true design used in previous experiments such as WA98 at the SPS at CERN for it's exceptional granularity and accurate energy measurement. Because they are two separate systems, they have different systematics and therefore we have a higher confidence level for the physics results from the EMCal. 
 
-As mentioned, the EMCal and RICH are used together to form a level 1 trigger to classify charged tracks. Since the RICH is tuned to radiate with electron tracks and the EMCal measures all charged tracks, we know that tracks that result in signals in both the EMCal and the RICH are most likely electrons, whereas tracks that only have signals in the EMCal are likely charged hadrons.
-
+As mentioned, the EMCal and RICH are used together to form a level 1 trigger to classify charged tracks. Since the RICH is tuned to radiate with electron tracks and the EMCal measures all charged tracks, we know that tracks that result in signals in both the EMCal and the RICH are most likely electrons, whereas tracks that only have signals in the EMCal are likely charged hadrons (fig \ref{fig:ERT}).
 \begin{figure}[h!]
   \centering
     \includegraphics[width=0.5\textwidth]{Figures/ERT.jpg}
     \rule{35em}{0.5pt}
-  \caption[A drawing of example ERT events]{A drawing of example ERT events}
+  \caption[A drawing of ERT event discrimination.]{A drawing of ERT event discrimination.}
   \label{fig:ERT}
 \end{figure}
 
@@ -205,7 +205,7 @@ As mentioned, the EMCal and RICH are used together to form a level 1 trigger to 
 Though the bulk of this analysis is dependent on the central arm detectors, many aspects of reconstruction, namely event characterization (start of the event timer, the event vertex, centrality, and event reaction plane) is dependent on a handful of forward detectors which I will briefly discuss here.
 
 \subsubsection{BBC: Beam-Beam Counter}
-Of the forward detectors, the \textit{Beam-Beam Counter} (BBC) is probably the most important because of its ability to measure the various global event parameters. There are two BBCs, one on the north side and one on the south side of PHENIX both equidistant from the center of the interaction region (IR). The constituent detector elements are made of quartz Cherenkov radiators attached to meshed dynode PMTs housed in hexagonal encasement. These elements are arranged in a toroidal shape in order to allow the ion beams to pass through the center while still getting full $2\pi$ azimuthal coverage. The BBCs cover 3.1$\leq \Delta \eta \leq<$4 in pseudorapidity.
+Of the forward detectors, the \textit{Beam-Beam Counter} (BBC) \citep{BBCfocus} is probably the most important because of its ability to measure the various global event parameters. There are two BBCs, one on the north side and one on the south side of PHENIX both equidistant (144 cm) from the center of the interaction region (IR). The constituent detector (fig \ref{fig:BBCillustrations}) elements are made of quartz Cherenkov radiators attached to meshed dynode PMTs housed in hexagonal encasements. These elements are arranged in a toroidal shape (5 cm inner radius, 30 cm outer) in order to allow the ion beams to pass through the center while still getting full $2\pi$ azimuthal coverage. The BBCs cover 3.1$\leq \Delta \eta \leq$4 in pseudorapidity. 
 \begin{figure}
 \centering
 \begin{subfigure}[b]{0.4\textwidth}
@@ -224,7 +224,7 @@ Of the forward detectors, the \textit{Beam-Beam Counter} (BBC) is probably the m
 \end{figure}
 
 \subsubsection{ZDC/SMD: Zero Degree Calorimeter and Shower Max Detectors}
-
+\label{sect:ZDC}
 %\begin{figure}[h!]
 %  \centering
 %    \includegraphics[width=0.7\textwidth]{Figures/ZDCschematic.JPG}
@@ -233,18 +233,10 @@ Of the forward detectors, the \textit{Beam-Beam Counter} (BBC) is probably the m
 %  \label{fig:zdcvsbbc}
 %\end{figure}
 
-Crucial to the determination of event centrality is the ability to count the number of spectator particles. Since neutrons are have no charge we can place a calorimeter at high rapidity behind an IR dipole magnet which we can use to "sweep" away charged particles like proton spectators and other charged track noise. The \textit{Zero Degree Calorimeter}\citep{ZDCfocus} is comprised of a ribbon of acrylic fiber optic strands sandwiched between two tungsten plates. The tungsten plates act as a dense absorber for the neutrons to hit and shower into resulting in detectable photon yield in the fiber optic ribbon. Sandwiched between modules of the ZDC is a hodoscope called the \textit{Shower Max Detector} (SMD). The SMD is comprised of 21 0.5 cm x 0.5 cm scintillators and is used to measure the centroid of the shower in cartesian coordinates since the ZDC only measures energy\citep{phenixzdc}. The ZDC is used in conjunction with the BBC in order to determine centrality. Since more peripheral collisions mean more spectators and therefore more neutrons to hit the ZDC, the higher the energy measured by the ZDC the more peripheral the event (see fig \ref{fig:zdcvsbbc}\citep{Ghosh2001}).
-
-\begin{figure}[h!]
-  \centering
-    \includegraphics[width=0.5\textwidth]{prevplots/bbczdcanaresponse.JPG}
-    \rule{35em}{0.5pt}
-  \caption[Centrality bins as determined by ZDC energy versus BBC charge sum]{Centrality bins as determined by ZDC energy versus BBC charge sum\citep{Ghosh2001}}
-  \label{fig:zdcvsbbc}
-\end{figure}
+Crucial to the determination of event centrality is the ability to count the number of spectator particles. Since neutrons have no charge we can place a calorimeter at high rapidity behind an IR dipole magnet (18 m away from the nominal event vertex) which we can use to ``sweep'' away charged particles like proton spectators and other charged track noise. The \textit{Zero Degree Calorimeter}\citep{ZDCfocus} is comprised of a ribbon of acrylic fiber optic strands sandwiched between two tungsten plates. The tungsten plates act as a dense absorber for the neutrons to hit and shower into resulting in detectable photon yield in the fiber optic ribbon. Sandwiched between modules of the ZDC is a hodoscope called the \textit{Shower Max Detector} (SMD). The SMD is comprised of 21 0.5 cm x 0.5 cm scintillators and is used to measure the centroid of the shower in cartesian coordinates since the ZDC only measures energy\citep{phenixzdc}. This shower location determination of the SMD makes it useful as another detector with which to determine the \textit{reaction plane}(see sect. \ref{sect:eventplane}. The ZDC is used in conjunction with the BBC in order to determine centrality. Since more peripheral collisions mean more spectators and therefore more neutrons to hit the ZDC, the higher the energy measured by the ZDC the more peripheral the event (see fig \ref{fig:zdcvsbbc}\citep{Ghosh2001}).
 
 \subsubsection{MPC: Muon Piston Calorimeter}
-The \textit{Muon Piston Calorimeter} (MPC) was a needed upgrade to PHENIX that provided calorimetry at very high rapidity\citep{kleinjanthesis}. It was installed in two parts: first in the south in 2005, then in the north in 2006 and was commisioned to reconstruct $\pi^{0}$ and $\eta$ mesons for various forward physics analyses. Nestled in a gap in the piston of the Muon Magnet Arms, it provides full azimuthal coverage at $3.1 \leq  | \eta | \leq 3.7$ ($3.9$ in the north) and is comprised of 196 (220 in the north) Lead Tungstate $PbWO_4$ crystal scintillator towers attached to avalanche photodiodes with preamplifiers to measure the electromagnetic shower photons. For this analysis, the MPC is used as a another measurement point for determining the reaction plane resolution correction. 
+The \textit{Muon Piston Calorimeter} (MPC) was a needed upgrade to PHENIX that provided calorimetry at very high rapidity\citep{kleinjanthesis}. It was installed in two parts: first in the south in 2005, then in the north in 2006 and was commisioned to reconstruct $\pi^{0}$ and $\eta$ mesons for various forward physics analyses, however it's forward location ($3.1 \leq  | \eta | \leq 3.7$ ($3.9$ in the north)) and full azimuthal coverage make it another ideal detector for determining the reaction plane. Nestled in a gap in the piston of the Muon Magnet Arms, the MPC is comprised of 196 (220 in the north) Lead Tungstate $PbWO_4$ crystal scintillator towers attached to avalanche photodiodes with preamplifiers to measure the electromagnetic shower photons.  
 
 \begin{figure}[h!]
   \centering
@@ -254,27 +246,38 @@ The \textit{Muon Piston Calorimeter} (MPC) was a needed upgrade to PHENIX that p
   \label{fig:mpcschematic}
 \end{figure}
 
+
 \subsubsection{RXNP: Reaction Plane Detector}
 Of particular interest for this analysis is the determination of the reaction plane. This will be discussed in further detail in a later chapter but I will cover the basics of the technical specifications here. The \textit{Reaction Plane Detector} (RXNP) is a forward detector subsystem \citep{RXNPfocus} with full azimuthal coverage in 12 segments. It has two segments in rapidity: an inner segment that covers $1.5 \leq \eta \leq 2.8$ and an outer segment that covers $1.0 \leq \eta \leq 1.5$. There are two RXNP detectors, one on each muon arm and all the segments are made of 2 cm thick plastic scintillators with a 2 cm layer of lead placed directly in front that acts as a converter causing all tracks to shower before hitting the scintillators \citep{RXNPfocusER}.  
+\begin{figure}
+\begin{subfigure}[b]{1\textwidth}
+    \centering
+    \includegraphics[width=0.5\textwidth]{Figures/RXNPdiagram.JPG}
+    \caption{A picture of the RXNP installed in PHENIX}
 
-\begin{figure}[h!]
-  \centering
-    \includegraphics[width=0.7\textwidth]{Figures/RXNPschem.jpg}
-    \rule{35em}{0.5pt}
-  \caption[Cross sectional diagram of RXNP layers]{Cross sectional diagram of RXNP layers}
-  \label{fig:RXNP}
+\end{subfigure}
+\begin{subfigure}[b]{1\textwidth}
+\centering
+  \includegraphics[width=0.5\textwidth]{Figures/RXNPschem.jpg}
+  \caption{Cross sectional diagram of RXNP layers}
+\end{subfigure}
+
+  \rule{35em}{0.5pt}
+\caption[Diagram and picture of the RXNP detector]{Diagram and picture of the RXNP detector}
+      \label{fig:RXNP}
 \end{figure}
 
+
 \section{The DAQ}
-Each of these detector subsystems captures large amounts of data per event, and with the high luminosity of RHIC collisions in the millions of events per second, the events don't stop and wait for our computation systems, reconstruction, or network storage capabilities to catch up. The process of optimizing data collection created from a high-event-rate, high track multiplicity experiment, in the form of dozens and dozens of event and track variables collected by thousands of individual readout channels in a handful of individual subsystems, all funneled through a single data acquisition system that organizes everything and prepares the data for analysis is an intricate and chaotic symphony \citep{DAQfocus}. In order to do this, the DAQ breaks up the dataflow into smaller groups called \textit{partitions} which are assembled from the smallest collection of data channels that can collect coherent data which we call \textit{granules}. This partition model with granules allows PHENIX to collect even if some subsystems are down for whatever reason, an ability of great importance since funding for RHIC runs only allows us to have collisions for a few months a year, meaning that during data taking runs it is of utmost importance that we collect as much data as possible, stopping only to maintain the machinery. In practice this results in three 8 hour manned shifts a day, 7 days a week, for the duration of the run, where data taking only stops to re-inject RHIC with ions or on machine-wide agreed upon "access days" where all collaborations and the Collider-Accelerator Department agree to do their maintenance and repair work with no beam in RHIC.
+Each of these detector subsystems captures large amounts of data per event, and with the high luminosity of RHIC collisions in the millions of events per second, the events don't stop and wait for our computation systems, reconstruction, or network storage capabilities to catch up. The process of optimizing data collection created from a high-event-rate, high track multiplicity experiment, in the form of dozens and dozens of event and track variables collected by thousands of individual readout channels in a handful of individual subsystems, all funneled through a single data acquisition system that organizes everything and prepares the data for analysis is an intricate and chaotic symphony \citep{DAQfocus}. In order to do this, the Data Acquisition system or \textit{DAQ} breaks up the data flow into smaller groups called \textit{partitions} which are assembled from the small collection of data channels called \textit{granules}, typically consisting of sectors of detector subsystems. RHIC is authorized to take data for only a few months out of the year. In practice, this results in three 8 hour manned shifts a day, 7 days a week, for the duration of the run, where data taking only stops to re-inject RHIC with ions or on machine-wide agreed upon "access days" where all collaborations and the Collider-Accelerator Department agree to do their maintenance and repair work with no beam in RHIC.
 
-Each granule consists of a Granule Timing Module (GTM), a Front End Module (FEM), and a Data Collection Module (DCM).  The GTM synchronizes with the overall DAQ clock which is also synchronized with the RHIC clocks. These clocks optimize the amount of time the DAQ is actively processing data (called its \textit{livetime}) so that the DAQ is live when bunches of ions are colliding at a maximum rate. The FEMs take the raw output from the preamplifiers in the individual readout channels of a detector subsystem and organizes them into coherent data packets which are transferred over fiber optics to the DCMs which act as a sort of stop light regulating the flow of data into buffers with the GTM clock so that data packets from various subsystems are in sync with each other from the same event as they go into the buffer boxes before being transferred to storage. Even with this timing and granule optimization, RHIC's event rate is so high that it is impossible to collect every track that passes through its subsystems. The means of making sure the only events we capture are events that contain rare processes is called \textit{triggering}. There are many triggers at different levels of the DAQ, for example the aforementioned ERT is a trigger that allows us to only collect data on electron events, events that are of interest for dilepton analyses such as Drell-Yan and J/Psi measurements. The master trigger that sets the timing for the whole DAQ is called the Global Level 1 trigger or the GL1. It synchronizes large track multiplicity signal coincidence collected by the ZDC to the start of the event and checks to see if the buffers in each granule are clear. Other triggers such as \textit{Local Level 1} (LL1) utilize data from the BBCs to ensure the event vertex happens within a region that will result in acceptable track acceptance.
+Each granule consists of a Granule Timing Module (GTM), a Front End Module (FEM), and a Data Collection Module (DCM).  The GTM synchronizes with the overall DAQ clock which is also synchronized with the RHIC clocks. These clocks optimize the amount of time the DAQ is actively processing data (called its \textit{livetime}) so that the DAQ is live when bunches of ions are colliding at a maximum rate. The FEMs take the raw output from the preamplifiers in the individual readout channels of a detector subsystem and organizes them into coherent data packets which are transferred over fiber optics to the DCMs which act as a sort of stop light regulating the flow of data into buffers with the GTM clock so that data packets from various subsystems are in sync with each other from the same event as they go into the buffer boxes before being transferred to storage. Even with this timing and granule optimization, RHIC's event rate is so high that it is impossible to collect every track that passes through its subsystems. The process of utilizing real time detector data to discern which events should be kept and what should be rejected is called \textit{triggering}. There are many triggers at different levels of the DAQ, for example the aforementioned ERT is a trigger that allows us to only collect electron events (or vice versa, reject electron events), events that are of interest for dilepton analyses such as Drell-Yan and J/Psi measurements (or to remove electron noise from charged pion analyses such as this one). The master trigger that sets the timing for the whole DAQ is called the Global Level 1 trigger or the GL1. It synchronizes large track multiplicity signal coincidence collected by the ZDC to the start of the event and checks to see if the buffers in each granule are clear. Other triggers such as \textit{Local Level 1} (LL1) utilize data from the BBCs to ensure the event vertex happens within a region that will result in acceptable track acceptance and scale down the overall event collection rate so that the buffers have time to clear between event data processing cycles.
 
-\begin{figure}[h!]
+\begin{figure}[h!]\captionsetup{width=1.1\linewidth}
   \centering
     \includegraphics[width=1\textwidth]{Figures/DAQ.jpg}
     \rule{35em}{0.5pt}
-  \caption[A diagram of the data flow of PHENIX data through the DAQ]{A diagram of the data flow of PHENIX data through the DAQ}
+  \caption[A diagram of the data flow of PHENIX data through the DAQ]{A flow chart of the data collection, triggering, and processing through PHENIX's DAQ. Collisions happen in the left side of the chart. The ZDCs calculate the start time of the event and tells the Global Level 1 (GL1) trigger that an event has started. Concurrently, particles created in the collision fly out of the IR and deposit track data into detector subsystems. These subsystems send raw analog data to the Front End Modules (FEM) which convert the signals to digital packets of data. This data is sent to Data Collection Modules (DCM) and is associated with a specific collision event via the Granule Timing Modules (GTM) which interface with the GL1. When the GL1 confirms the start of the event, data coming through the DCMs is sent to the Sub Event Buffers (SEB) which throttles the flow of data and stores data short term from all the subsystem granules so that it can all be transferred to the RHIC Computing Facility (RCF) for storage. This last stage of data flow is controlled by the Assembly Trigger Processors (ATP) which not only manages the data flow from the SEBs to RCF but also sends real time diagnostic information about the status of various detector subsystems, buffer size, data rate, etc. to the Control Room (Online Monitoring).}
   \label{fig:DAQ}
 \end{figure}
 
