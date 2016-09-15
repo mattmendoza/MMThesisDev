@@ -47,14 +47,36 @@ Covering a rapidity range(see app. \ref{app:coordinates}) of $\eta$ = $<|0.375|$
 \label{sect:dcpc}
 Particle trajectories are tracked using the Drift Chamber (DC) and the Pad Chambers (PC 1,2, and 3)\citep{DCfocus} (labeled DC, PC1, PC2, and PC3 in fig. \ref{fig:run8config}). The DC is a multiwire jet-type drift chamber located between 2.02 and 2.48 m radially from the interaction point, constructed from 6 modules comprised of networks of wires or \textit{nets} in each arm. In principle the DC is similar to a wire chamber: when a charged particle travels through the gas in the DC, the gas atoms are ionized and these ions and electrons are accelerated to anode wires which collect this ionization and sends a signal proportional to the ionization effect of the traveling particle. The DC is filled with a gas that is selected to have a uniform drift velocity close to the anode wires, i.e. a gas where the ions and electrons created by outgoing charged particles have a linear relation in position and time such that $x(t) = v_{drift} * t$ within the active region. The gas chosen is a mixture of equal parts Argon and Methane, also chosen for the mixture's high gas gain amplification and low diffusion coefficient. The wire nets in the DC are arranged in different predetermined ways with respect to the beam axis. The six modules containing the wire nets are designated names: X1, U1, V1, X2, U2, and V2 (see fig. \ref{fig:dcdiagram}). There are 12 anode wires in each X net and the wires are configured to be parallel to the beam axis so that they can be used to measure the azimuthal angle: $\phi$. The U and V nets are stereo pairs with 4 anode wires in each net and are tilted by an angle of 4.5$^\circ$ with respect to the beam axis. This angular bias allows us to use these nets to measure the track's z-component with high resolution. Furthermore, all wire nets are oriented in layers radially such that outgoing tracks deposit linear, correlatable signals in the DC. Additionally, since the DC is the first detector subsystem that outgoing particles created in a collision pass through, it is also used in conjunction with other detectors in order to accurately determine track trajectory through all of the detectors in the central arm. I will discuss the method of track reconstruction in section \ref{trkrecosect}.
 
-\begin{figure}[htbp]
+\begin{figure}[p]
   \centering
-    \includegraphics[width=0.6\textwidth]{Figures/dcdiagram.jpg}
-    \rule{35em}{0.5pt}
-  \caption[Wire net configuration in the DC]{A diagram showing the configuration of the wire nets in the DC}
-  \label{fig:dcdiagram}
+\begin{subfigure}[p]{1\textwidth}
+  \centering
+    \includegraphics[width=1\textwidth]{Figures/dcdiagram.jpg}
+  \caption{A diagram showing the radial configuration of the various wire nets in the DC. X1 is the innermost radius DC wire network, followed by the stereo pair U1 and V1, X1, and another stereo UV pair.}
+  \label{fig:radialdcdiagram}
+\end{subfigure}
 \end{figure}
+\begin{figure}[H]
+    \ContinuedFloat % continue from previous page
+\begin{subfigure}[p]{1\textwidth}
+  \centering
+    \includegraphics[width=1\textwidth]{Figures/DCX1net.jpg}
 
+  \caption{The radial configuration the X-type wire nets. Each X-type wire net consists of 12 anode wires.}
+  \label{fig:X1dcdiagram}
+\end{subfigure}
+
+\begin{subfigure}[p]{1\textwidth}
+  \centering
+    \includegraphics[width=1\textwidth]{Figures/DCU1net.jpg}
+    
+  \caption{The radial configuration the U-type (and V-type) wire nets. Each V-type wire net consists of 4 anode wires and are paired with a radially following identical V-type wire net. }
+  \label{fig:U1dcdiagram}
+\end{subfigure}
+\rule{35em}{0.5pt}
+\caption[Diagrams of DC wire configurations.]{Diagrams of DC wire configurations.}
+\label{fig:dcdiagram}
+\end{figure}
 The Pad Chambers\citep{PCfocus} (PC) are three individual layers of pixel detectors. The PCs has the same azimuthal coverage as the DC and the rest of the central arm and are located at increasing concentric distances from the collision vertex, the DC being the inner most detector, followed immediately by PC1 (see fig. \ref{fig:pcdiagram}). PC2 only exists in the west arm however PC3 exists in both arms. The one closest to the IR is named PC1 followed by PC2 (only in the west arm) and finally PC3 at the furthest distance from the collision. The pixels in these detectors are arranged into 9 pixel clusters called ``pads'' which are readout by a single channel. The pads in the innermost radius PC (PC1) are 8.4 mm x 8.45 mm and the pads in PC2 and PC3 are sized to maintain the same angular resolution at farther radial distances. The small size of the individual pads allows for a large pixel density important for maintaining the separation of individual track signals in a high luminosity, high multiplicity event such as that of central heavy ion collisions. Since we can use these detectors to accurately determine particle track trajectories, and since charged particles under the influence of a magnetic field curve, the track curvature can be used to determine the particle's momentum. This track location data is also used to match with other detector data such as calorimetry, time of flight, and Cherenkov counters.
 \begin{figure}[htbp]
   \centering
