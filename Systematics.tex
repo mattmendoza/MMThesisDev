@@ -1,9 +1,9 @@
 % Chapter 7
 
-\chapter{Error Analysis and Quality Assurance} % Main chapter title
+\chapter{Error Analysis} % Main chapter title
 There are various sources of systematic error that could contribute to uncertainty in this measurement. These include certainty in how the event plane was determined (sect. \ref{secteperr}), how well the event centrality can be determined (sect. \ref{sectcenterr}), various uncertainties pertaining to the identification of the particles (sect. \ref{sectpiderr}), and the effects of detector acceptance (sect. \ref{sectaccepterr}). In this chapter I will quantify the uncertainty for each of these contributions and then use these values to find the possible variance in the flow measurement due to these uncertainties. It will be shown that event plane resolution and PID systematics due to Gaussian fitting dominate and other errors are negligible.
 
-Any uncertainty that would affect the value of this flow measurement would do so in one of two ways: either by shifting individual $v_2$ data points (changing inherent shape of the data set) or by changing the overall scaling of the whole measurement in a net direction (simple scaling of entire data set). Errors that would simply shift the value of $v_2$ are the event plane resolution and centrality determination errors. Errors that would shift individual points consist of the various PID uncertainties and detector acceptance effects. The way the uncertainties in this category would shift individual data points is by changing the shape of the particle yield distribution in $d\phi$. Recall that there are two terms that parametrize the shape of the yield in $d\phi$:
+Any uncertainty that would affect the value of this flow measurement would do so in one of two ways: either by shifting individual $v_2$ data points (changing inherent shape of the data set) or by changing the overall scaling of the whole measurement in a net direction (simple scaling of entire data set). Errors that would simply shift all values of $v_2$ are the event plane resolution and centrality determination errors. Errors that would shift individual points consist of the various PID uncertainties and detector acceptance effects. The way the uncertainties in this category would shift individual data points is by changing the shape of the particle yield distribution in $d\phi$. Recall that there are two terms that parametrize the shape of the yield in $d\phi$:
 
 \begin{equation}
 yield(d\phi) = v_0 [1 + v_2 \cos 2d\phi]
@@ -11,23 +11,27 @@ yield(d\phi) = v_0 [1 + v_2 \cos 2d\phi]
 
 In this equation, $v_0$ corresponds to an overall shift in the function, that is to say it describes the up-and-down displacement of the whole curve and doesn't affect the general shape of it. The remaining parameter, $v_2$, describes the shape of the yield distribution in $d\phi$. Changes to the shape of this distribution happen when yield values are perturbed up or down in individual bins of $d\phi$ which results in a change in the associated $v_2$ . In order to study the strength of $v_2$-affecting uncertainties I will apply the variances discussed in this chapter to individual points in the yield vs $d\phi$ distribution and re-fit in order to see the variances' effect on the flow coefficient. 
 
-\section{Event Plane Resolution}
+\section{Event Plane Resolution Correction}
 \label{secteperr}
 \begin{table}[htbp!]
 \centering
-\caption{Event Plane Resolution for MPC, 0-5\% centrality}
+\caption[Event Plane Resolution Corrections for MPC, 0-5\% centrality]{Event Plane Resolution Corrections for MPC, 0-5\% centrality, calculated using the Three Sub Event method (see sect. \ref{sect:epres})}
 \label{EPrestable}
 \begin{tabular}{|l|l|}
 \hline
 \textbf{Detectors Used}     & \textbf{$\Psi_{RES.3SE}$}       \\ \hline
-\textit{MPC, SMD. RXNIN}    & \textit{0.200718 $\pm$ 0.0001312} \\ \hline
+\textit{MPC, SMD, RXNIN}    & \textit{0.200718 $\pm$ 0.0001312} \\ \hline
 \textit{MPC, SMD, RXNOUT}   & \textit{0.261658 $\pm$ 0.0001312} \\ \hline
 \textit{MPC, SMD, RXNCMB}   & \textit{0.241446 $\pm$ 0.0001311} \\ \hline
 \textbf{$\langle\Psi_{RES.MPC}\rangle$}            & \textbf{0.234607}               \\ \hline
 \textbf{$\sigma_{RES.MPC}$} & \textbf{0.03104}                \\ \hline
 \end{tabular}
 \end{table}
-As mentioned in section \ref{sect:epres}, the limitations of the detectors to precisely resolve the event plane result in a weaker anisotropic flow measurement which is exacerbated by the asymmetric nature of the d+Au system. By RHIC convention and PHENIX construction, the north arm is the ``deuteron-going'' side and the south side is the ``gold-going'' side, i.e. spectators from the deuteron beam hit the north arm and spectators from the gold beam hit the south arm. The significant increase in the number of nucleons in a gold nucleus result in higher track multiplicity which is used to determine the event plane. Because of this, the event plane determination using south arm detectors is significantly easier and more accurate, as evident in fig \ref{fig:evtpln}. This combination of higher track multiplicity in the south arm and a smooth flattened event plane distribution in the MPC makes it a good choice for event plane determination. Furthermore, a combinatoric calculation of the event plane resolution in the various detectors shows that the MPC has the best resolution of all the detectors possible. Additional independent measurements of the event plane are used to correct further resolution limitations in the MPC (using the Three Subevent Method, eqn. \ref{eqn3se}). The Event Plane resolution measurements displayed in table \ref{EPrestable} were determined using 5 detectors: the SMD, MPC, inner RXNP, outer RXNP, and the combined RXNP. Since any 3 detectors can be used to determine an event plane resolution correction, this correction can be calculated for the MPC using various detectors as subevent comparisons. Doing so gives a 3\% variance on the MPC resolution correction.
+As mentioned in section \ref{sect:epres}, the limitations of the detectors to precisely resolve the event plane result in a weaker anisotropic flow measurement. We therefore define a resolution correction to the overall $v_2$ measurment such that:
+\begin{equation}
+v_n = \frac{v_n^{A}}{Res(\Psi_n^A)}
+\end{equation}
+where Res($\Psi_n^A$) is the resolution correction for the n-th order event plane determined using detector A. Because of this definition, detectors that are able to resolve the event plane more precisely require less of a correction, so larger values of resolution correction would come from detectors that are better suited to measure the event plane. These resolution limitations are exacerbated by the asymmetric nature of the d+Au system. From the way ions are fed into RHIC and the orientation of PHENIX in the RHIC ring, the north arm is the ``deuteron-going'' side and the south side is the ``gold-going'' side, i.e. deuteron remnants and forward produced particles hit the north arm and spectators and particles produced from the gold beam hit the south arm. The significant increase in the number of nucleons in a gold nucleus result in higher track multiplicity in the south arm which, in turn, makes the determination the event plane using south arm detectors significantly easier for the d+Au system. This can be seen by comparing the event flattening plots for the north and south detectors in fig \ref{fig:evtpln}. This combination of higher track multiplicity in the south arm and a smooth flattened event plane distribution in the MPC makes it a good choice for event plane determination. Furthermore, because each of the sub event terms inthe three sub event method for determining the resolution correction is calculated using the average values for the differences of event plane measurements for two detectors, these average values can be calculated for all combinations of detectors which can, in turn, be used to combinatorially determine the resolution correction for every detector. In doing so, it was seen that the MPC has the best resolution of all the detectors possible. Additional independent measurements of the event plane are used to correct further resolution limitations in the MPC (using the Three Subevent Method, eqn. \ref{eqn3se}). The resolution correction measurements displayed in table \ref{EPrestable} were determined using 5 detectors: the SMD, MPC, inner RXNP, outer RXNP, and the combined RXNP. Since any 3 detectors can be used to determine an event plane resolution correction, this correction can be calculated for the MPC using various detectors as subevent comparisons. Doing so gives a 3\% systematic variance on the MPC resolution correction.
 
 \section{Centrality Resolution}
 \label{sectcenterr}
