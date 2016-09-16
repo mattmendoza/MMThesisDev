@@ -1,7 +1,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Proton vs pion yield ratio from the Cronin paper}}{9}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Illustration of Initial State Multiple Scattering}}{10}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Illustration of Initial State Multiple Scattering}}{11}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Feynman and Cartoon diagrams of Jet Formation}}{12}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Planarity of jets created with protons incident on Pb targets vs H targets.}}{13}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of Final State Multiple Scattering}}{14}
@@ -48,53 +48,56 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Illustrations of the event plane in heavy ion collisions}}{77}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Cartoon of Event Plane determination with forward detectors}}{78}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Flattened event plane distributions in the BBC, MPC, and RXNP}}{80}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Flattened event plane distributions in the BBC, MPC, and RXNP}}{81}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Charged track elliptic flow,$\sqrt {s_{NN}}=$200 GeV d+Au collisions}}{85}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Number of ACC photoelectrons vs $m^2$ in bins of $p_T$}}{88}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces $\pi ^{\pm }$, $k^{\pm }$, $p/\mathaccentV {bar}016{p}$ elliptic flow,$\sqrt {s_{NN}}=$200 GeV d+Au collisions}}{90}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Track $p_T$ vs $m^2$ determined by the TOF.W showing separation of $\pi $, k, and proton particle signals.}}{86}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Example single Gaussian fits of $m^2$ for $p_T\leq 1.3$ GeV/c in 6 bins of $\Delta \phi $.}}{88}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Particle distribution fit mean and width QA. $\pi $, k, p yield vs $\Delta \phi $ and corresponding Fourier fits for $p_T\leq 1.3$ GeV/c.}}{89}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Example mixed Gaussian fits of $m^2$ for $1.3 \leq p_T\leq 2.1$ GeV/c in 6 bins of $\Delta \phi $.}}{89}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Number of ACC photoelectrons vs $m^2$ in bins of $p_T$.}}{91}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces $\pi ^{\pm }$, $k^{\pm }$, $p/\mathaccentV {bar}016{p}$ elliptic flow,$\sqrt {s_{NN}}=$200 GeV d+Au collisions}}{93}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Centrality uncertainty contribution to Systematic Error}}{95}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Timing QA in the TOF.W}}{98}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Systematic Offset in TOF.W}}{99}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Effects of Systematic Shifts in Yield on $v_2$.}}{105}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Centrality uncertainty contribution to Systematic Error}}{98}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Timing QA in the TOF.W}}{101}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Systematic Offset in TOF.W}}{102}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Effects of Systematic Shifts in Yield on $v_2$.}}{108}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces PHENIX coordinate system}}{108}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces PHENIX coordinate system}}{111}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces $\frac {dN}{d\phi }$ vs $d\phi $, 0-5\% centrality.}}{114}
-\contentsline {figure}{\numberline {D.2}{\ignorespaces $\frac {dN}{d\phi }$ vs $d\phi $, 5-10\% centrality.}}{115}
-\contentsline {figure}{\numberline {D.3}{\ignorespaces $\frac {dN}{d\phi }$ vs $d\phi $, 10-15\% centrality.}}{116}
-\contentsline {figure}{\numberline {D.4}{\ignorespaces $\frac {dN}{d\phi }$ vs $d\phi $, 15-25\% centrality.}}{117}
-\contentsline {figure}{\numberline {D.5}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=0.5-0.7 GeV/c, TOF.W, negative particles }}{118}
-\contentsline {figure}{\numberline {D.6}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=0.7-0.9 GeV/c, TOF.W, negative particles }}{119}
-\contentsline {figure}{\numberline {D.7}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=0.9-1.1 GeV/c, TOF.W, negative particles }}{120}
-\contentsline {figure}{\numberline {D.8}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.1-1.3 GeV/c, TOF.W, negative particles }}{121}
-\contentsline {figure}{\numberline {D.9}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=0.5-0.7 GeV/c, TOF.W, positive particles }}{122}
-\contentsline {figure}{\numberline {D.10}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=0.7-0.9 GeV/c, TOF.W, positive particles }}{123}
-\contentsline {figure}{\numberline {D.11}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=0.9-1.1 GeV/c, TOF.W, positive particles }}{124}
-\contentsline {figure}{\numberline {D.12}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.1-1.3 GeV/c, TOF.W, positive particles }}{125}
-\contentsline {figure}{\numberline {D.13}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.3-1.5 GeV/c, TOF.W, negative particles }}{126}
-\contentsline {figure}{\numberline {D.14}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.5-1.7 GeV/c, TOF.W, negative particles }}{127}
-\contentsline {figure}{\numberline {D.15}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.7-1.9 GeV/c, TOF.W, negative particles }}{128}
-\contentsline {figure}{\numberline {D.16}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.9-2.1 GeV/c, TOF.W, negative particles }}{129}
-\contentsline {figure}{\numberline {D.17}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.3-1.5 GeV/c, TOF.W, positive particles }}{130}
-\contentsline {figure}{\numberline {D.18}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.5-1.7 GeV/c, TOF.W, positive particles }}{131}
-\contentsline {figure}{\numberline {D.19}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.7-1.9 GeV/c, TOF.W, positive particles }}{132}
-\contentsline {figure}{\numberline {D.20}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.9-2.1 GeV/c, TOF.W, positive particles }}{133}
-\contentsline {figure}{\numberline {D.21}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=2.1-2.3 GeV/c, TOF.W, negative particles}}{136}
-\contentsline {figure}{\numberline {D.22}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=2.3-2.5 GeV/c, TOF.W, negative particles}}{139}
-\contentsline {figure}{\numberline {D.23}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=2.5-2.7 GeV/c, TOF.W, negative particles}}{142}
-\contentsline {figure}{\numberline {D.24}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=2.7-2.9 GeV/c, TOF.W, negative particles}}{145}
-\contentsline {figure}{\numberline {D.25}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=3.0-3.5 GeV/c, TOF.W, negative particles}}{148}
-\contentsline {figure}{\numberline {D.26}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=3.5-4.0 GeV/c, TOF.W, negative particles}}{151}
-\contentsline {figure}{\numberline {D.27}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=4.0-4.5 GeV/c, TOF.W, negative particles}}{154}
-\contentsline {figure}{\numberline {D.28}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=2.1-2.3 GeV/c, TOF.W, positive particles}}{157}
-\contentsline {figure}{\numberline {D.29}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=2.3-2.5 GeV/c, TOF.W, positive particles}}{160}
-\contentsline {figure}{\numberline {D.30}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=2.5-2.7 GeV/c, TOF.W, negative particles}}{163}
-\contentsline {figure}{\numberline {D.31}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=2.7-2.9 GeV/c, TOF.W, positive particles}}{166}
-\contentsline {figure}{\numberline {D.32}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=3.0-3.5 GeV/c, TOF.W, positive particles}}{169}
-\contentsline {figure}{\numberline {D.33}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=3.5-4.0 GeV/c, TOF.W, positive particles}}{172}
-\contentsline {figure}{\numberline {D.34}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=4.0-4.5 GeV/c, TOF.W, positive particles}}{175}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces $\frac {dN}{d\phi }$ vs $d\phi $, 0-5\% centrality.}}{117}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces $\frac {dN}{d\phi }$ vs $d\phi $, 5-10\% centrality.}}{118}
+\contentsline {figure}{\numberline {D.3}{\ignorespaces $\frac {dN}{d\phi }$ vs $d\phi $, 10-15\% centrality.}}{119}
+\contentsline {figure}{\numberline {D.4}{\ignorespaces $\frac {dN}{d\phi }$ vs $d\phi $, 15-25\% centrality.}}{120}
+\contentsline {figure}{\numberline {D.5}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=0.5-0.7 GeV/c, TOF.W, negative particles }}{121}
+\contentsline {figure}{\numberline {D.6}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=0.7-0.9 GeV/c, TOF.W, negative particles }}{122}
+\contentsline {figure}{\numberline {D.7}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=0.9-1.1 GeV/c, TOF.W, negative particles }}{123}
+\contentsline {figure}{\numberline {D.8}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.1-1.3 GeV/c, TOF.W, negative particles }}{124}
+\contentsline {figure}{\numberline {D.9}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=0.5-0.7 GeV/c, TOF.W, positive particles }}{125}
+\contentsline {figure}{\numberline {D.10}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=0.7-0.9 GeV/c, TOF.W, positive particles }}{126}
+\contentsline {figure}{\numberline {D.11}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=0.9-1.1 GeV/c, TOF.W, positive particles }}{127}
+\contentsline {figure}{\numberline {D.12}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.1-1.3 GeV/c, TOF.W, positive particles }}{128}
+\contentsline {figure}{\numberline {D.13}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.3-1.5 GeV/c, TOF.W, negative particles }}{129}
+\contentsline {figure}{\numberline {D.14}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.5-1.7 GeV/c, TOF.W, negative particles }}{130}
+\contentsline {figure}{\numberline {D.15}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.7-1.9 GeV/c, TOF.W, negative particles }}{131}
+\contentsline {figure}{\numberline {D.16}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.9-2.1 GeV/c, TOF.W, negative particles }}{132}
+\contentsline {figure}{\numberline {D.17}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.3-1.5 GeV/c, TOF.W, positive particles }}{133}
+\contentsline {figure}{\numberline {D.18}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.5-1.7 GeV/c, TOF.W, positive particles }}{134}
+\contentsline {figure}{\numberline {D.19}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.7-1.9 GeV/c, TOF.W, positive particles }}{135}
+\contentsline {figure}{\numberline {D.20}{\ignorespaces PID fits and Yield vs $d\phi $ for $p_T$=1.9-2.1 GeV/c, TOF.W, positive particles }}{136}
+\contentsline {figure}{\numberline {D.21}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=2.1-2.3 GeV/c, TOF.W, negative particles}}{139}
+\contentsline {figure}{\numberline {D.22}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=2.3-2.5 GeV/c, TOF.W, negative particles}}{142}
+\contentsline {figure}{\numberline {D.23}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=2.5-2.7 GeV/c, TOF.W, negative particles}}{145}
+\contentsline {figure}{\numberline {D.24}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=2.7-2.9 GeV/c, TOF.W, negative particles}}{148}
+\contentsline {figure}{\numberline {D.25}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=3.0-3.5 GeV/c, TOF.W, negative particles}}{151}
+\contentsline {figure}{\numberline {D.26}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=3.5-4.0 GeV/c, TOF.W, negative particles}}{154}
+\contentsline {figure}{\numberline {D.27}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=4.0-4.5 GeV/c, TOF.W, negative particles}}{157}
+\contentsline {figure}{\numberline {D.28}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=2.1-2.3 GeV/c, TOF.W, positive particles}}{160}
+\contentsline {figure}{\numberline {D.29}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=2.3-2.5 GeV/c, TOF.W, positive particles}}{163}
+\contentsline {figure}{\numberline {D.30}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=2.5-2.7 GeV/c, TOF.W, negative particles}}{166}
+\contentsline {figure}{\numberline {D.31}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=2.7-2.9 GeV/c, TOF.W, positive particles}}{169}
+\contentsline {figure}{\numberline {D.32}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=3.0-3.5 GeV/c, TOF.W, positive particles}}{172}
+\contentsline {figure}{\numberline {D.33}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=3.5-4.0 GeV/c, TOF.W, positive particles}}{175}
+\contentsline {figure}{\numberline {D.34}{\ignorespaces ACC $N_{p.e.}$ vs $m_2$, PID fits, and Yield vs $d\phi $ for $p_T$=4.0-4.5 GeV/c, TOF.W, positive particles}}{178}
