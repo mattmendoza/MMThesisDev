@@ -1,5 +1,59 @@
 \begin{thebibliography}{10}
 
+\bibitem{PhysRevD.8.3633}
+David~J. Gross and Frank Wilczek.
+\newblock Asymptotically free gauge theories. i.
+\newblock {\em Phys. Rev. D}, 8:3633--3652, Nov 1973.
+
+\bibitem{PhysRevLett.30.1346}
+H.~David Politzer.
+\newblock Reliable perturbative results for strong interactions?
+\newblock {\em Phys. Rev. Lett.}, 30:1346--1349, Jun 1973.
+
+\bibitem{Collins:1974ky}
+John~C. Collins and M.~J. Perry.
+\newblock {Superdense Matter: Neutrons Or Asymptotically Free Quarks?}
+\newblock {\em Phys. Rev. Lett.}, 34:1353, 1975.
+
+\bibitem{Shuryak:1980tp}
+Edward~V. Shuryak.
+\newblock {Quantum Chromodynamics and the Theory of Superdense Matter}.
+\newblock {\em Phys. Rept.}, 61:71--158, 1980.
+
+\bibitem{Fries:2006pv}
+R.~J. Fries, J.~I. Kapusta, and Y.~Li.
+\newblock {Near-fields and initial energy density in the color glass condensate
+  model}.
+\newblock 2006.
+
+\bibitem{bevalac9lives}
+Judy Goldhaber.
+\newblock Bevalac had 40-year record of historic discoveries.
+\newblock {\em Berkeley Lab Science Articles Archive}, October 1992.
+
+\bibitem{ROBINSON857}
+ARTHUR~L. ROBINSON.
+\newblock Nuclear squeeze at lawrence berkeley lab.
+\newblock {\em Science}, 224(4651):857--858, 1984.
+
+\bibitem{PhysRevLett.52.1590}
+H.~A. Gustafsson, H.~H. Gutbrod, B.~Kolb, H.~L\"ohner, B.~Ludewigt, A.~M.
+  Poskanzer, T.~Renner, H.~Riedesel, H.~G. Ritter, A.~Warwick, F.~Weik, and
+  H.~Wieman.
+\newblock Collective flow observed in relativistic nuclear collisions.
+\newblock {\em Phys. Rev. Lett.}, 52:1590--1593, Apr 1984.
+
+\bibitem{wojciechphenomenology}
+F.~Wojciech.
+\newblock {\em Phenomenology of Ultra-relativistic Heavy-ion Collisions}.
+\newblock World Scientific, 2010.
+
+\bibitem{Barrette:1999rx}
+Jean Barrette.
+\newblock {Anisotropic azimuthal distributions of identified particles in Au +
+  Au collisions at 11.5/A-GeV/c}.
+\newblock {\em Nucl. Phys.}, A661:329--332, 1999.
+
 \bibitem{PhysRevLett.64.847}
 T.~Abbott, Y.~Akiba, D.~Alburger, D.~Beavis, R.~R. Betts, L.~Birstein, M.~A.
   Bloomer, P.~D. Bond, C.~Chasman, Y.~Y. Chu, B.~A. Cole, J.~B. Costales, H.~J.
@@ -15,6 +69,76 @@ T.~Abbott, Y.~Akiba, D.~Alburger, D.~Beavis, R.~R. Betts, L.~Birstein, M.~A.
 \newblock Kaon and pion production in central si+au collisions at 14.6
   \textit{A} gev/ \textit{c}.
 \newblock {\em Phys. Rev. Lett.}, 64:847--850, Feb 1990.
+
+\bibitem{Hohne:1999jf}
+C.~Hohne.
+\newblock {Strangeness production in nuclear collisions: Recent results from
+  experiment NA49}.
+\newblock {\em Nucl. Phys.}, A661:485--488, 1999.
+
+\bibitem{Abreu:2000ni}
+M.~C. Abreu et~al.
+\newblock {Evidence for deconfinement of quarks and gluons from the J / psi
+  suppression pattern measured in Pb + Pb collisions at the CERN SPS}.
+\newblock {\em Phys. Lett.}, B477:28--36, 2000.
+
+\bibitem{Heinz:1999rw}
+Ulrich~W. Heinz and Barbara~V. Jacak.
+\newblock {Two particle correlations in relativistic heavy ion collisions}.
+\newblock {\em Ann. Rev. Nucl. Part. Sci.}, 49:529--579, 1999.
+
+\bibitem{BraunMunzinger:1998cg}
+Peter Braun-Munzinger and Johanna Stachel.
+\newblock {Dynamics of ultrarelativistic nuclear collisions with heavy beams:
+  An Experimental overview}.
+\newblock {\em Nucl. Phys.}, A638:3--18, 1998.
+
+\bibitem{croninpaper}
+J.~W. Cronin, H.~J. Frisch, M.~J. Shochet, J.~P. Boymond, P.~A. Pirou\'e, and
+  R.~L. Sumner.
+\newblock Production of hadrons at large transverse momentum at 200, 300, and
+  400 gev.
+\newblock {\em Phys. Rev. D}, 11:3105--3123, Jun 1975.
+
+\bibitem{PhysRevD.13.2948}
+J.~H. K\"uhn.
+\newblock Nucleon-number dependence of large-transverse-momentum reactions and
+  multiple scattering.
+\newblock {\em Phys. Rev. D}, 13:2948--2953, Jun 1976.
+
+\bibitem{PhysRevLett.66.2285}
+D.~M. Alde, H.~W. Baer, T.~A. Carey, G.~T. Garvey, A.~Klein, C.~Lee, M.~J.
+  Leitch, J.~W. Lillberg, P.~L. McGaughey, C.~S. Mishra, J.~M. Moss, J.~C.
+  Peng, C.~N. Brown, W.~E. Cooper, Y.~B. Hsiung, M.~R. Adams, R.~Guo, D.~M.
+  Kaplan, R.~L. McCarthy, G.~Danner, M.~J. Wang, M.~L. Barlett, and G.~W.
+  Hoffmann.
+\newblock Nuclear dependence of the production of \ensuremath{\Upsilon}
+  resonances at 800 gev.
+\newblock {\em Phys. Rev. Lett.}, 66:2285--2288, May 1991.
+
+\bibitem{jetfeynmancredit}
+Flip Tanedo.
+\newblock When feynman diagrams fail, 2010.
+
+\bibitem{jetdiagramcredit}
+Flip Tanedo.
+\newblock When you’re a jet, you’re a jet all the way, 2011.
+
+\bibitem{Corcoran:1990vq}
+M.~D. Corcoran et~al.
+\newblock {Evidence for multiple scattering of high-energy partons in nuclei}.
+\newblock {\em Phys. Lett.}, B259:209--215, 1991.
+
+\bibitem{PhysRevLett.70.143}
+T.~Fields and M.~D. Corcoran.
+\newblock Nuclear rescattering effects in massive dihadron production.
+\newblock {\em Phys. Rev. Lett.}, 70:143--145, Jan 1993.
+
+\bibitem{Adler:2003kt}
+S.~S. Adler et~al.
+\newblock {Elliptic flow of identified hadrons in Au+Au collisions at
+  s(NN)**(1/2) = 200-GeV}.
+\newblock {\em Phys. Rev. Lett.}, 91:182301, 2003.
 
 \bibitem{PhysRevLett.97.152301}
 B.~I. Abelev, M.~M. Aggarwal, Z.~Ahammed, B.~D. Anderson, M.~Anderson,
@@ -87,70 +211,17 @@ B.~I. Abelev, M.~M. Aggarwal, Z.~Ahammed, B.~D. Anderson, M.~Anderson,
   }\text{ }\mathrm{GeV}$.
 \newblock {\em Phys. Rev. Lett.}, 97:152301, Oct 2006.
 
-\bibitem{Abramowicz2015}
-H.~Abramowicz, I.~Abt, L.~Adamczyk, M.~Adamus, V.~Andreev, S.~Antonelli,
-  B.~Antunovi{\'{c}}, V.~Aushev, Y.~Aushev, A.~Baghdasaryan, K.~Begzsuren,
-  O.~Behnke, A.~Behrendt~Dubak, U.~Behrens, A.~Belousov, P.~Belov, A.~Bertolin,
-  I.~Bloch, E.~G. Boos, K.~Borras, V.~Boudry, G.~Brandt, V.~Brisson,
-  D.~Britzger, I.~Brock, N.~H. Brook, R.~Brugnera, A.~Bruni, A.~Buniatyan,
-  P.~J. Bussey, A.~Bylinkin, L.~Bystritskaya, A.~Caldwell, A.~J. Campbell,
-  K.~B. Cantun~Avila, M.~Capua, C.~D. Catterall, F.~Ceccopieri, K.~Cerny,
-  V.~Chekelian, J.~Chwastowski, J.~Ciborowski, R.~Ciesielski, J.~G. Contreras,
-  A.~M. Cooper-Sarkar, M.~Corradi, F.~Corriveau, J.~Cvach, J.~B. Dainton,
-  K.~Daum, R.~K. Dementiev, R.~C.~E. Devenish, C.~Diaconu, M.~Dobre,
-  V.~Dodonov, G.~Dolinska, S.~Dusini, G.~Eckerlin, S.~Egli, E.~Elsen,
-  L.~Favart, A.~Fedotov, J.~Feltesse, J.~Ferencei, J.~Figiel, M.~Fleischer,
-  A.~Fomenko, B.~Foster, E.~Gabathuler, G.~Gach, E.~Gallo, A.~Garfagnini,
-  J.~Gayler, A.~Geiser, S.~Ghazaryan, A.~Gizhko, L.~K. Gladilin, L.~Goerlich,
-  N.~Gogitidze, Yu.~A. Golubkov, M.~Gouzevitch, C.~Grab, A.~Grebenyuk,
-  J.~Grebenyuk, T.~Greenshaw, I.~Gregor, G.~Grindhammer, G.~Grzelak, O.~Gueta,
-  M.~Guzik, C.~Gwenlan, D.~Haidt, W.~Hain, R.~C.~W. Henderson, P.~Henkenjohann,
-  J.~Hladkỳ, D.~Hochman, D.~Hoffmann, R.~Hori, R.~Horisberger, T.~Hreus,
-  F.~Huber, Z.~A. Ibrahim, Y.~Iga, M.~Ishitsuka, A.~Iudin, M.~Jacquet,
-  X.~Janssen, F.~Januschek, N.~Z. Jomhari, H.~Jung, I.~Kadenko, S.~Kananov,
-  M.~Kapichine, U.~Karshon, J.~Katzy, M.~Kaur, P.~Kaur, C.~Kiesling,
-  D.~Kisielewska, R.~Klanner, M.~Klein, U.~Klein, C.~Kleinwort, R.~Kogler,
-  N.~Kondrashova, O.~Kononenko, Ie. Korol, I.~A. Korzhavina, P.~Kostka,
-  A.~Kota{\'{n}}ski, U.~K{\"o}tz, N.~Kovalchuk, H.~Kowalski, J.~Kretzschmar,
-  D.~Kr{\"u}cker, K.~Kr{\"u}ger, B.~Krupa, O.~Kuprash, M.~Kuze, M.~P.~J.
-  Landon, W.~Lange, P.~Laycock, A.~Lebedev, B.~B. Levchenko, S.~Levonian,
-  A.~Levy, V.~Libov, S.~Limentani, K.~Lipka, M.~Lisovyi, B.~List, J.~List,
-  E.~Lobodzinska, B.~Lobodzinski, B.~L{\"o}hr, E.~Lohrmann, A.~Longhin,
-  D.~Lontkovskyi, O.~Yu. Lukina, I.~Makarenko, E.~Malinovski, J.~Malka, H.-U.
-  Martyn, S.~J. Maxfield, A.~Mehta, S.~Mergelmeyer, A.~B. Meyer, H.~Meyer,
-  J.~Meyer, S.~Mikocki, F.~Mohamad~Idris, A.~Morozov, N.~Muhammad~Nasir,
-  K.~M{\"u}ller, V.~Myronenko, K.~Nagano, Th. Naumann, P.~R. Newman,
-  C.~Niebuhr, A.~Nikiforov, T.~Nobe, D.~Notz, G.~Nowak, R.~J. Nowak, J.~E.
-  Olsson, Yu. Onishchuk, D.~Ozerov, P.~Pahl, C.~Pascaud, G.~D. Patel, E.~Paul,
-  E.~Perez, W.~Perla{\'{n}}ski, A.~Petrukhin, I.~Picuric, H.~Pirumov, D.~Pitzl,
-  B.~Pokorny, N.~S. Pokrovskiy, R.~Polifka, M.~Przybycie{\'{n}}, V.~Radescu,
-  N.~Raicevic, T.~Ravdandorj, P.~Reimer, E.~Rizvi, P.~Robmann, P.~Roloff,
-  R.~Roosen, A.~Rostovtsev, M.~Rotaru, I.~Rubinsky, S.~Rusakov, M.~Ruspa,
-  D.~{\v{S}}{\'a}lek, D.~P.~C. Sankey, M.~Sauter, E.~Sauvan, D.~H. Saxon,
-  M.~Schioppa, W.~B. Schmidke, S.~Schmitt, U.~Schneekloth, L.~Schoeffel,
-  A.~Sch{\"o}ning, T.~Sch{\"o}rner-Sadenius, F.~Sefkow, L.~M. Shcheglova,
-  R.~Shevchenko, O.~Shkola, S.~Shushkevich, Yu. Shyrma, I.~Singh, I.~O.
-  Skillicorn, W.~S{\l}omi{\'{n}}ski, A.~Solano, Y.~Soloviev, P.~Sopicki,
-  D.~South, V.~Spaskov, A.~Specka, L.~Stanco, M.~Steder, N.~Stefaniuk,
-  B.~Stella, A.~Stern, P.~Stopa, U.~Straumann, T.~Sykora, J.~Sztuk-Dambietz,
-  D.~Szuba, J.~Szuba, E.~Tassi, P.~D. Thompson, K.~Tokushuku, J.~Tomaszewska,
-  D.~Traynor, A.~Trofymov, P.~Tru{\"o}l, I.~Tsakov, B.~Tseepeldorj,
-  T.~Tsurugai, M.~Turcato, O.~Turkot, J.~Turnau, T.~Tymieniecka,
-  A.~Valk{\'a}rov{\'a}, C.~Vall{\'e}e, P.~Van~Mechelen, Y.~Vazdik,
-  A.~Verbytskyi, O.~Viazlo, R.~Walczak, W.~A.~T. Wan~Abdullah, D.~Wegener,
-  K.~Wichmann, M.~Wing, G.~Wolf, E.~W{\"u}nsch, S.~Yamada, Y.~Yamazaki,
-  J.~{\v{Z}}{\'a}{\v{c}}ek, N.~Zakharchuk, A.~F. {\.{Z}}arnecki, L.~Zawiejski,
-  O.~Zenaiev, Z.~Zhang, B.~O. Zhautykov, N.~Zhmak, R.~{\v{Z}}leb{\v{c}}{\'i}k,
-  H.~Zohrabyan, F.~Zomer, and D.~S. Zotkin.
-\newblock Combination of measurements of inclusive deep inelastic e$^\pm$ p
-  scattering cross sections and qcd analysis of hera data.
-\newblock {\em The European Physical Journal C}, 75(12):1--98, 2015.
+\bibitem{PhysRevC.70.024905}
+Rudolph~C. Hwa and C.~B. Yang.
+\newblock Recombination of shower partons at high ${p}_{T}$ in heavy-ion
+  collisions.
+\newblock {\em Phys. Rev. C}, 70:024905, Aug 2004.
 
-\bibitem{Abreu:2000ni}
-M.~C. Abreu et~al.
-\newblock {Evidence for deconfinement of quarks and gluons from the J / psi
-  suppression pattern measured in Pb + Pb collisions at the CERN SPS}.
-\newblock {\em Phys. Lett.}, B477:28--36, 2000.
+\bibitem{Khachatryan:2015waa}
+Vardan Khachatryan et~al.
+\newblock {Evidence for Collective Multiparticle Correlations in p-Pb
+  Collisions}.
+\newblock {\em Phys. Rev. Lett.}, 115(1):012301, 2015.
 
 \bibitem{PhysRevC.88.024906}
 A.~Adare, S.~Afanasiev, C.~Aidala, N.~N. Ajitanand, Y.~Akiba, H.~Al-Bataineh,
@@ -226,60 +297,134 @@ A.~Adare, S.~Afanasiev, C.~Aidala, N.~N. Ajitanand, Y.~Akiba, H.~Al-Bataineh,
   collisions at $\sqrt{{s}_{NN}}=200$ gev.
 \newblock {\em Phys. Rev. C}, 88:024906, Aug 2013.
 
-\bibitem{Adcox:2004mh}
-K.~Adcox et~al.
-\newblock {Formation of dense partonic matter in relativistic nucleus-nucleus
-  collisions at RHIC: Experimental evaluation by the PHENIX collaboration}.
-\newblock {\em Nucl. Phys.}, A757:184--283, 2005.
+\bibitem{PhysRevLett.93.082302}
+Rudolph~C. Hwa and C.~B. Yang.
+\newblock Final-state interaction as the origin of the cronin effect.
+\newblock {\em Phys. Rev. Lett.}, 93:082302, Aug 2004.
 
-\bibitem{Adler:2003kt}
-S.~S. Adler et~al.
-\newblock {Elliptic flow of identified hadrons in Au+Au collisions at
-  s(NN)**(1/2) = 200-GeV}.
-\newblock {\em Phys. Rev. Lett.}, 91:182301, 2003.
+\bibitem{Abramowicz2015}
+H.~Abramowicz, I.~Abt, L.~Adamczyk, M.~Adamus, V.~Andreev, S.~Antonelli,
+  B.~Antunovi{\'{c}}, V.~Aushev, Y.~Aushev, A.~Baghdasaryan, K.~Begzsuren,
+  O.~Behnke, A.~Behrendt~Dubak, U.~Behrens, A.~Belousov, P.~Belov, A.~Bertolin,
+  I.~Bloch, E.~G. Boos, K.~Borras, V.~Boudry, G.~Brandt, V.~Brisson,
+  D.~Britzger, I.~Brock, N.~H. Brook, R.~Brugnera, A.~Bruni, A.~Buniatyan,
+  P.~J. Bussey, A.~Bylinkin, L.~Bystritskaya, A.~Caldwell, A.~J. Campbell,
+  K.~B. Cantun~Avila, M.~Capua, C.~D. Catterall, F.~Ceccopieri, K.~Cerny,
+  V.~Chekelian, J.~Chwastowski, J.~Ciborowski, R.~Ciesielski, J.~G. Contreras,
+  A.~M. Cooper-Sarkar, M.~Corradi, F.~Corriveau, J.~Cvach, J.~B. Dainton,
+  K.~Daum, R.~K. Dementiev, R.~C.~E. Devenish, C.~Diaconu, M.~Dobre,
+  V.~Dodonov, G.~Dolinska, S.~Dusini, G.~Eckerlin, S.~Egli, E.~Elsen,
+  L.~Favart, A.~Fedotov, J.~Feltesse, J.~Ferencei, J.~Figiel, M.~Fleischer,
+  A.~Fomenko, B.~Foster, E.~Gabathuler, G.~Gach, E.~Gallo, A.~Garfagnini,
+  J.~Gayler, A.~Geiser, S.~Ghazaryan, A.~Gizhko, L.~K. Gladilin, L.~Goerlich,
+  N.~Gogitidze, Yu.~A. Golubkov, M.~Gouzevitch, C.~Grab, A.~Grebenyuk,
+  J.~Grebenyuk, T.~Greenshaw, I.~Gregor, G.~Grindhammer, G.~Grzelak, O.~Gueta,
+  M.~Guzik, C.~Gwenlan, D.~Haidt, W.~Hain, R.~C.~W. Henderson, P.~Henkenjohann,
+  J.~Hladkỳ, D.~Hochman, D.~Hoffmann, R.~Hori, R.~Horisberger, T.~Hreus,
+  F.~Huber, Z.~A. Ibrahim, Y.~Iga, M.~Ishitsuka, A.~Iudin, M.~Jacquet,
+  X.~Janssen, F.~Januschek, N.~Z. Jomhari, H.~Jung, I.~Kadenko, S.~Kananov,
+  M.~Kapichine, U.~Karshon, J.~Katzy, M.~Kaur, P.~Kaur, C.~Kiesling,
+  D.~Kisielewska, R.~Klanner, M.~Klein, U.~Klein, C.~Kleinwort, R.~Kogler,
+  N.~Kondrashova, O.~Kononenko, Ie. Korol, I.~A. Korzhavina, P.~Kostka,
+  A.~Kota{\'{n}}ski, U.~K{\"o}tz, N.~Kovalchuk, H.~Kowalski, J.~Kretzschmar,
+  D.~Kr{\"u}cker, K.~Kr{\"u}ger, B.~Krupa, O.~Kuprash, M.~Kuze, M.~P.~J.
+  Landon, W.~Lange, P.~Laycock, A.~Lebedev, B.~B. Levchenko, S.~Levonian,
+  A.~Levy, V.~Libov, S.~Limentani, K.~Lipka, M.~Lisovyi, B.~List, J.~List,
+  E.~Lobodzinska, B.~Lobodzinski, B.~L{\"o}hr, E.~Lohrmann, A.~Longhin,
+  D.~Lontkovskyi, O.~Yu. Lukina, I.~Makarenko, E.~Malinovski, J.~Malka, H.-U.
+  Martyn, S.~J. Maxfield, A.~Mehta, S.~Mergelmeyer, A.~B. Meyer, H.~Meyer,
+  J.~Meyer, S.~Mikocki, F.~Mohamad~Idris, A.~Morozov, N.~Muhammad~Nasir,
+  K.~M{\"u}ller, V.~Myronenko, K.~Nagano, Th. Naumann, P.~R. Newman,
+  C.~Niebuhr, A.~Nikiforov, T.~Nobe, D.~Notz, G.~Nowak, R.~J. Nowak, J.~E.
+  Olsson, Yu. Onishchuk, D.~Ozerov, P.~Pahl, C.~Pascaud, G.~D. Patel, E.~Paul,
+  E.~Perez, W.~Perla{\'{n}}ski, A.~Petrukhin, I.~Picuric, H.~Pirumov, D.~Pitzl,
+  B.~Pokorny, N.~S. Pokrovskiy, R.~Polifka, M.~Przybycie{\'{n}}, V.~Radescu,
+  N.~Raicevic, T.~Ravdandorj, P.~Reimer, E.~Rizvi, P.~Robmann, P.~Roloff,
+  R.~Roosen, A.~Rostovtsev, M.~Rotaru, I.~Rubinsky, S.~Rusakov, M.~Ruspa,
+  D.~{\v{S}}{\'a}lek, D.~P.~C. Sankey, M.~Sauter, E.~Sauvan, D.~H. Saxon,
+  M.~Schioppa, W.~B. Schmidke, S.~Schmitt, U.~Schneekloth, L.~Schoeffel,
+  A.~Sch{\"o}ning, T.~Sch{\"o}rner-Sadenius, F.~Sefkow, L.~M. Shcheglova,
+  R.~Shevchenko, O.~Shkola, S.~Shushkevich, Yu. Shyrma, I.~Singh, I.~O.
+  Skillicorn, W.~S{\l}omi{\'{n}}ski, A.~Solano, Y.~Soloviev, P.~Sopicki,
+  D.~South, V.~Spaskov, A.~Specka, L.~Stanco, M.~Steder, N.~Stefaniuk,
+  B.~Stella, A.~Stern, P.~Stopa, U.~Straumann, T.~Sykora, J.~Sztuk-Dambietz,
+  D.~Szuba, J.~Szuba, E.~Tassi, P.~D. Thompson, K.~Tokushuku, J.~Tomaszewska,
+  D.~Traynor, A.~Trofymov, P.~Tru{\"o}l, I.~Tsakov, B.~Tseepeldorj,
+  T.~Tsurugai, M.~Turcato, O.~Turkot, J.~Turnau, T.~Tymieniecka,
+  A.~Valk{\'a}rov{\'a}, C.~Vall{\'e}e, P.~Van~Mechelen, Y.~Vazdik,
+  A.~Verbytskyi, O.~Viazlo, R.~Walczak, W.~A.~T. Wan~Abdullah, D.~Wegener,
+  K.~Wichmann, M.~Wing, G.~Wolf, E.~W{\"u}nsch, S.~Yamada, Y.~Yamazaki,
+  J.~{\v{Z}}{\'a}{\v{c}}ek, N.~Zakharchuk, A.~F. {\.{Z}}arnecki, L.~Zawiejski,
+  O.~Zenaiev, Z.~Zhang, B.~O. Zhautykov, N.~Zhmak, R.~{\v{Z}}leb{\v{c}}{\'i}k,
+  H.~Zohrabyan, F.~Zomer, and D.~S. Zotkin.
+\newblock Combination of measurements of inclusive deep inelastic e$^\pm$ p
+  scattering cross sections and qcd analysis of hera data.
+\newblock {\em The European Physical Journal C}, 75(12):1--98, 2015.
 
-\bibitem{Akindinov:2000rq}
-A.~Akindinov et~al.
-\newblock {The multigap resistive plate chamber as a time-of-flight detector}.
-\newblock {\em Nucl. Instrum. Meth.}, A456:16--22, 2000.
+\bibitem{PDGcrosssection}
+K.A.~Olive et~al. (Particle Data~Group).
+\newblock Data files and plots of cross-sections and related quantities in the
+  2014 review of particle physics.
+\newblock {\em Chin. Phys. C}, 38(090001), 2014.
 
-\bibitem{PhysRevLett.66.2285}
-D.~M. Alde, H.~W. Baer, T.~A. Carey, G.~T. Garvey, A.~Klein, C.~Lee, M.~J.
-  Leitch, J.~W. Lillberg, P.~L. McGaughey, C.~S. Mishra, J.~M. Moss, J.~C.
-  Peng, C.~N. Brown, W.~E. Cooper, Y.~B. Hsiung, M.~R. Adams, R.~Guo, D.~M.
-  Kaplan, R.~L. McCarthy, G.~Danner, M.~J. Wang, M.~L. Barlett, and G.~W.
-  Hoffmann.
-\newblock Nuclear dependence of the production of \ensuremath{\Upsilon}
-  resonances at 800 gev.
-\newblock {\em Phys. Rev. Lett.}, 66:2285--2288, May 1991.
+\bibitem{Itakura2012}
+Kazu Itakura.
+\newblock Introduction to the color glass condensate.
+\newblock October 2012.
 
-\bibitem{Antinori:1999hy}
-F.~Antinori et~al.
-\newblock {Production of strange and multistrange hadrons in nucleus nucleus
-  collisions at the SPS}.
-\newblock {\em Nucl. Phys.}, A661:130--139, 1999.
+\bibitem{McLerran:2001sr}
+Larry~D. McLerran.
+\newblock {The Color glass condensate and small x physics: Four lectures}.
+\newblock {\em Lect. Notes Phys.}, 583:291--334, 2002.
 
-\bibitem{Barrette:1999rx}
-Jean Barrette.
-\newblock {Anisotropic azimuthal distributions of identified particles in Au +
-  Au collisions at 11.5/A-GeV/c}.
-\newblock {\em Nucl. Phys.}, A661:329--332, 1999.
+\bibitem{HemmickRHIClecture}
+Thomas~K Hemmick.
+\newblock A pederstrian's guide to rhic and its experiments.
+\newblock {\em CERN-Fermilab HCP Summer School}, June 2011.
 
-\bibitem{RXNPfocus}
-Abby Bickley.
-\newblock The physics of the reaction plane detector.
-\newblock {\em FOCUS Talk}, February 2007.
+\bibitem{McLerran:2008es}
+Larry McLerran.
+\newblock {A Brief Introduction to the Color Glass Condensate and the Glasma}.
+\newblock In {\em {Proceedings, 38th International Symposium on Multiparticle
+  Dynamics (ISMD08): Hamburg, Germany, September 15-20, 2008}}, pages 3--18,
+  2008.
+
+\bibitem{Fujii:2008dd}
+Hirotsugu Fujii and Kazunori Itakura.
+\newblock {Expanding color flux tubes and instabilities}.
+\newblock {\em Nucl. Phys.}, A809:88--109, 2008.
+
+\bibitem{PhysRevLett.48.1066}
+Johann Rafelski and Berndt M\"uller.
+\newblock Strangeness production in the quark-gluon plasma.
+\newblock {\em Phys. Rev. Lett.}, 48:1066--1069, Apr 1982.
 
 \bibitem{RHICaccel}
 CAD~@ BNL.
 \newblock Rhic accelerators.
 \newblock {\em BNL website}, July 2016.
 
-\bibitem{BraunMunzinger:1998cg}
-Peter Braun-Munzinger and Johanna Stachel.
-\newblock {Dynamics of ultrarelativistic nuclear collisions with heavy beams:
-  An Experimental overview}.
-\newblock {\em Nucl. Phys.}, A638:3--18, 1998.
+\bibitem{EBISupgrade}
+A.~Pikin et~al.
+\newblock Rhic ebis: basics of design and status of commissioning.
+\newblock {\em Journal of Instrumentation}, 5(C09003), September 2010.
+
+\bibitem{RHIClum}
+J.~M.~Brennan M.~Blaskiewicz and K.~Mernick.
+\newblock Three-dimensional stochastic cooling in the relativistic heavy ion
+  collider.
+\newblock {\em Phys. Rev. Lett.}, 105(094801), August 2010.
+
+\bibitem{rapidityref}
+K.F.~Read for PHENIX~collab.
+\newblock {\em 15th Winter Workshop on Nuclear Dynamics}, Park City, Utah,
+  January 1999.
+
+\bibitem{rolnickthesis}
+Sky~Deva Rolnick.
+\newblock {\em Measurement of Dielectron Continuum in p + p at sqrt(s) = 200
+  GeV as a Baseline study for Chiral Symmetry Restoration}.
+\newblock PhD thesis, University of California, Riverside, 2015.
 
 \bibitem{EMCfocus}
 Henner Buesching.
@@ -291,60 +436,39 @@ Sergey Butsyk.
 \newblock Phenix drift chamber operation principles.
 \newblock {\em FOCUS Talk}, January 2003.
 
-\bibitem{pi0v2run8dau}
-Chin-Hao Chen, Gabor David, Shengli Huang, and Takao Sakaguchi.
-\newblock Measurement of second-order fourier coefficients of the emission
-  angle dependent pi0 yields in run8 d+au collisions.
-\newblock {\em PHENIX Internal Analysis Note}, AN1164, April 2014.
+\bibitem{PCfocus}
+Anders Oskarsson.
+\newblock The pad chambers.
+\newblock {\em FOCUS Talk}, January 2003.
+
+\bibitem{TOFfocus}
+Hiroshi Masui.
+\newblock Phenix focus: Time of flight.
+\newblock {\em FOCUS Talk}, February 2004.
+
+\bibitem{CMSRPC}
+Lucas Taylor.
+\newblock Resistive plate chambers.
+\newblock {\em CMS Detectors Web Page}, November 2011.
+
+\bibitem{Akindinov:2000rq}
+A.~Akindinov et~al.
+\newblock {The multigap resistive plate chamber as a time-of-flight detector}.
+\newblock {\em Nucl. Instrum. Meth.}, A456:16--22, 2000.
+
+\bibitem{BBCfocus}
+Tomoaki Nakamura.
+\newblock Introduction to phenix beam beam counter (bbc).
+\newblock {\em FOCUS Talk}, December 2002.
 
 \bibitem{ZDCfocus}
 Mickey Chiu.
 \newblock Phenix focus: Zero degree calorimeter.
 \newblock {\em FOCUS Talk}, December 2003.
 
-\bibitem{Collins:1974ky}
-John~C. Collins and M.~J. Perry.
-\newblock {Superdense Matter: Neutrons Or Asymptotically Free Quarks?}
-\newblock {\em Phys. Rev. Lett.}, 34:1353, 1975.
-
-\bibitem{Corcoran:1990vq}
-M.~D. Corcoran et~al.
-\newblock {Evidence for multiple scattering of high-energy partons in nuclei}.
-\newblock {\em Phys. Lett.}, B259:209--215, 1991.
-
-\bibitem{croninpaper}
-J.~W. Cronin, H.~J. Frisch, M.~J. Shochet, J.~P. Boymond, P.~A. Pirou\'e, and
-  R.~L. Sumner.
-\newblock Production of hadrons at large transverse momentum at 200, 300, and
-  400 gev.
-\newblock {\em Phys. Rev. D}, 11:3105--3123, Jun 1975.
-
-\bibitem{PhysRevLett.25.316}
-Sidney~D. Drell and Tung-Mow Yan.
-\newblock Massive lepton-pair production in hadron-hadron collisions at high
-  energies.
-\newblock {\em Phys. Rev. Lett.}, 25:316--320, Aug 1970.
-
-\bibitem{EBISupgrade}
-A.~Pikin et~al.
-\newblock Rhic ebis: basics of design and status of commissioning.
-\newblock {\em Journal of Instrumentation}, 5(C09003), September 2010.
-
-\bibitem{PDGcrosssection}
-K.A.~Olive et~al. (Particle Data~Group).
-\newblock Data files and plots of cross-sections and related quantities in the
-  2014 review of particle physics.
-\newblock {\em Chin. Phys. C}, 38(090001), 2014.
-
-\bibitem{PhysRevLett.70.143}
-T.~Fields and M.~D. Corcoran.
-\newblock Nuclear rescattering effects in massive dihadron production.
-\newblock {\em Phys. Rev. Lett.}, 70:143--145, Jan 1993.
-
-\bibitem{rapidityref}
-K.F.~Read for PHENIX~collab.
-\newblock {\em 15th Winter Workshop on Nuclear Dynamics}, Park City, Utah,
-  January 1999.
+\bibitem{phenixzdc}
+Sebastian White.
+\newblock RHIC/PHENIX hosted group page, 2003.
 
 \bibitem{Ghosh2001}
 Tarun~Kanti Ghosh, K.~Adcox, S.~S. Adler, N.~Ajitanand, Y.~Akiba, J.~Alexander,
@@ -402,57 +526,6 @@ Tarun~Kanti Ghosh, K.~Adcox, S.~S. Adler, N.~Ajitanand, Y.~Akiba, J.~Alexander,
 \newblock First results from rhic-phenix.
 \newblock {\em Pramana}, 57(2):355--369, 2001.
 
-\bibitem{bevalac9lives}
-Judy Goldhaber.
-\newblock Bevalac had 40-year record of historic discoveries.
-\newblock {\em Berkeley Lab Science Articles Archive}, October 1992.
-
-\bibitem{PhysRevD.8.3633}
-David~J. Gross and Frank Wilczek.
-\newblock Asymptotically free gauge theories. i.
-\newblock {\em Phys. Rev. D}, 8:3633--3652, Nov 1973.
-
-\bibitem{PhysRevLett.52.1590}
-H.~A. Gustafsson, H.~H. Gutbrod, B.~Kolb, H.~L\"ohner, B.~Ludewigt, A.~M.
-  Poskanzer, T.~Renner, H.~Riedesel, H.~G. Ritter, A.~Warwick, F.~Weik, and
-  H.~Wieman.
-\newblock Collective flow observed in relativistic nuclear collisions.
-\newblock {\em Phys. Rev. Lett.}, 52:1590--1593, Apr 1984.
-
-\bibitem{Heinz:1999rw}
-Ulrich~W. Heinz and Barbara~V. Jacak.
-\newblock {Two particle correlations in relativistic heavy ion collisions}.
-\newblock {\em Ann. Rev. Nucl. Part. Sci.}, 49:529--579, 1999.
-
-\bibitem{Hohne:1999jf}
-C.~Hohne.
-\newblock {Strangeness production in nuclear collisions: Recent results from
-  experiment NA49}.
-\newblock {\em Nucl. Phys.}, A661:485--488, 1999.
-
-\bibitem{PhysRevLett.93.082302}
-Rudolph~C. Hwa and C.~B. Yang.
-\newblock Final-state interaction as the origin of the cronin effect.
-\newblock {\em Phys. Rev. Lett.}, 93:082302, Aug 2004.
-
-\bibitem{PhysRevC.70.024905}
-Rudolph~C. Hwa and C.~B. Yang.
-\newblock Recombination of shower partons at high ${p}_{T}$ in heavy-ion
-  collisions.
-\newblock {\em Phys. Rev. C}, 70:024905, Aug 2004.
-
-\bibitem{Khachatryan:2015waa}
-Vardan Khachatryan et~al.
-\newblock {Evidence for Collective Multiparticle Correlations in p-Pb
-  Collisions}.
-\newblock {\em Phys. Rev. Lett.}, 115(1):012301, 2015.
-
-\bibitem{tofchargemom}
-Akio Kiyomichi.
-\newblock Identified charged hadron spectra and particle ratios at sqrt(s)=200
-  gev for qm2002.
-\newblock {\em PHENIX internal analysis notes}, AN148, 2002.
-
 \bibitem{kleinjanthesis}
 David~William Kleinjan.
 \newblock {\em Measurement of the Transverse Single Spin Asymmetry and the
@@ -460,92 +533,36 @@ David~William Kleinjan.
   Polarized Proton-Proton Collisions at Center of Mass Energy of 200 GeV.}
 \newblock PhD thesis, University of California, Riverside, 2014.
 
-\bibitem{PhysRevD.13.2948}
-J.~H. K\"uhn.
-\newblock Nucleon-number dependence of large-transverse-momentum reactions and
-  multiple scattering.
-\newblock {\em Phys. Rev. D}, 13:2948--2953, Jun 1976.
-
-\bibitem{RHIClum}
-J.~M.~Brennan M.~Blaskiewicz and K.~Mernick.
-\newblock Three-dimensional stochastic cooling in the relativistic heavy ion
-  collider.
-\newblock {\em Phys. Rev. Lett.}, 105(094801), August 2010.
-
-\bibitem{TOFfocus}
-Hiroshi Masui.
-\newblock Phenix focus: Time of flight.
-\newblock {\em FOCUS Talk}, February 2004.
-
-\bibitem{McLerran:2008es}
-Larry McLerran.
-\newblock {A Brief Introduction to the Color Glass Condensate and the Glasma}.
-\newblock In {\em {Proceedings, 38th International Symposium on Multiparticle
-  Dynamics (ISMD08): Hamburg, Germany, September 15-20, 2008}}, pages 3--18,
-  2008.
-
-\bibitem{McLerran:2001sr}
-Larry~D. McLerran.
-\newblock {The Color glass condensate and small x physics: Four lectures}.
-\newblock {\em Lect. Notes Phys.}, 583:291--334, 2002.
-
-\bibitem{Mitchell:2002wu}
-J.~T. Mitchell et~al.
-\newblock {Event reconstruction in the PHENIX central arm spectrometers}.
-\newblock {\em Nucl. Instrum. Meth.}, A482:491--512, 2002.
-
-\bibitem{phenixcentrality}
-Jamie Nagle, Shawn Beckman, Javier Orjuela-Koop, and Anne Sickles.
-\newblock Phenix run-08 dau a 200 gev centrality categorization: Addendum.
-\newblock {\em PHENIX internal analysis notes}, AN1087, February 2013.
-
-\bibitem{BBCfocus}
-Tomoaki Nakamura.
-\newblock Introduction to phenix beam beam counter (bbc).
-\newblock {\em FOCUS Talk}, December 2002.
-
-\bibitem{OHLSSON199277}
-Mattias Ohlsson, Carsten Peterson, and Alan~L. Yuille.
-\newblock Track finding with deformable templates — the elastic arms
-  approach.
-\newblock {\em Computer Physics Communications}, 71(1):77 -- 98, 1992.
-
-\bibitem{PCfocus}
-Anders Oskarsson.
-\newblock The pad chambers.
-\newblock {\em FOCUS Talk}, January 2003.
-
-\bibitem{PhysRevLett.30.1346}
-H.~David Politzer.
-\newblock Reliable perturbative results for strong interactions?
-\newblock {\em Phys. Rev. Lett.}, 30:1346--1349, Jun 1973.
-
-\bibitem{PhysRevC.58.1671}
-A.~M. Poskanzer and S.~A. Voloshin.
-\newblock Methods for analyzing anisotropic flow in relativistic nuclear
-  collisions.
-\newblock {\em Phys. Rev. C}, 58:1671--1678, Sep 1998.
-
-\bibitem{DAQfocus}
-Eric Richardson.
-\newblock The phenix trigger system.
-\newblock {\em FOCUS Talk}, April 2004.
+\bibitem{RXNPfocus}
+Abby Bickley.
+\newblock The physics of the reaction plane detector.
+\newblock {\em FOCUS Talk}, February 2007.
 
 \bibitem{RXNPfocusER}
 Eric Richardson.
 \newblock The reaction plane detector.
 \newblock {\em FOCUS Talk}, January 2007.
 
-\bibitem{ROBINSON857}
-ARTHUR~L. ROBINSON.
-\newblock Nuclear squeeze at lawrence berkeley lab.
-\newblock {\em Science}, 224(4651):857--858, 1984.
+\bibitem{DAQfocus}
+Eric Richardson.
+\newblock The phenix trigger system.
+\newblock {\em FOCUS Talk}, April 2004.
 
-\bibitem{rolnickthesis}
-Sky~Deva Rolnick.
-\newblock {\em Measurement of Dielectron Continuum in p + p at sqrt(s) = 200
-  GeV as a Baseline study for Chiral Symmetry Restoration}.
-\newblock PhD thesis, University of California, Riverside, 2015.
+\bibitem{cernhifireball}
+Alberica Toia.
+\newblock Participants and spectators at the heavy-ion fireball.
+\newblock {\em CERN Courier}, April 2013.
+
+\bibitem{Mitchell:2002wu}
+J.~T. Mitchell et~al.
+\newblock {Event reconstruction in the PHENIX central arm spectrometers}.
+\newblock {\em Nucl. Instrum. Meth.}, A482:491--512, 2002.
+
+\bibitem{OHLSSON199277}
+Mattias Ohlsson, Carsten Peterson, and Alan~L. Yuille.
+\newblock Track finding with deformable templates — the elastic arms
+  approach.
+\newblock {\em Computer Physics Communications}, 71(1):77 -- 98, 1992.
 
 \bibitem{schaeferthesis}
 Brennan~C. Schaefer.
@@ -554,18 +571,22 @@ Brennan~C. Schaefer.
   RHIC}.
 \newblock PhD thesis, Vanderbilt University, 2016.
 
-\bibitem{Shuryak:1980tp}
-Edward~V. Shuryak.
-\newblock {Quantum Chromodynamics and the Theory of Superdense Matter}.
-\newblock {\em Phys. Rept.}, 61:71--158, 1980.
+\bibitem{tofchargemom}
+Akio Kiyomichi.
+\newblock Identified charged hadron spectra and particle ratios at sqrt(s)=200
+  gev for qm2002.
+\newblock {\em PHENIX internal analysis notes}, AN148, 2002.
 
-\bibitem{jetfeynmancredit}
-Flip Tanedo.
-\newblock When feynman diagrams fail, 2010.
+\bibitem{PhysRevC.58.1671}
+A.~M. Poskanzer and S.~A. Voloshin.
+\newblock Methods for analyzing anisotropic flow in relativistic nuclear
+  collisions.
+\newblock {\em Phys. Rev. C}, 58:1671--1678, Sep 1998.
 
-\bibitem{jetdiagramcredit}
-Flip Tanedo.
-\newblock When you’re a jet, you’re a jet all the way, 2011.
+\bibitem{phenixcentrality}
+Jamie Nagle, Shawn Beckman, Javier Orjuela-Koop, and Anne Sickles.
+\newblock Phenix run-08 dau a 200 gev centrality categorization: Addendum.
+\newblock {\em PHENIX internal analysis notes}, AN1087, February 2013.
 
 \bibitem{azianisystematics}
 A.~Taranenko and Roy~A. Lacey.
@@ -573,23 +594,28 @@ A.~Taranenko and Roy~A. Lacey.
   collisions.
 \newblock {\em PHENIX internal analysis notes}, AN957, January 2011.
 
-\bibitem{CMSRPC}
-Lucas Taylor.
-\newblock Resistive plate chambers.
-\newblock {\em CMS Detectors Web Page}, November 2011.
+\bibitem{pi0v2run8dau}
+Chin-Hao Chen, Gabor David, Shengli Huang, and Takao Sakaguchi.
+\newblock Measurement of second-order fourier coefficients of the emission
+  angle dependent pi0 yields in run8 d+au collisions.
+\newblock {\em PHENIX Internal Analysis Note}, AN1164, April 2014.
 
-\bibitem{cernhifireball}
-Alberica Toia.
-\newblock Participants and spectators at the heavy-ion fireball.
-\newblock {\em CERN Courier}, April 2013.
+\bibitem{Adcox:2004mh}
+K.~Adcox et~al.
+\newblock {Formation of dense partonic matter in relativistic nucleus-nucleus
+  collisions at RHIC: Experimental evaluation by the PHENIX collaboration}.
+\newblock {\em Nucl. Phys.}, A757:184--283, 2005.
 
-\bibitem{phenixzdc}
-Sebastian White.
-\newblock RHIC/PHENIX hosted group page, 2003.
+\bibitem{Antinori:1999hy}
+F.~Antinori et~al.
+\newblock {Production of strange and multistrange hadrons in nucleus nucleus
+  collisions at the SPS}.
+\newblock {\em Nucl. Phys.}, A661:130--139, 1999.
 
-\bibitem{wojciechphenomenology}
-F.~Wojciech.
-\newblock {\em Phenomenology of Ultra-relativistic Heavy-ion Collisions}.
-\newblock World Scientific, 2010.
+\bibitem{PhysRevLett.25.316}
+Sidney~D. Drell and Tung-Mow Yan.
+\newblock Massive lepton-pair production in hadron-hadron collisions at high
+  energies.
+\newblock {\em Phys. Rev. Lett.}, 25:316--320, Aug 1970.
 
 \end{thebibliography}

@@ -12,15 +12,15 @@
 \contentsline {subsection}{\numberline {2.3.1}Collective Flow}{15}
 \contentsline {subsection}{\numberline {2.3.2}Baryon Enhancement}{17}
 \contentsline {subsection}{\numberline {2.3.3}Theoretical Models of the QGP}{19}
-\contentsline {subsubsection}{Viscous Hydrodynamics}{19}
+\contentsline {subsubsection}{Relativistic Hydrodynamics}{19}
 \contentsline {subsubsection}{Recombination and Fragmentation}{19}
 \contentsline {section}{\numberline {2.4}Flow at the LHC}{22}
 \contentsline {section}{\numberline {2.5}Recombination and Fragmentation for All?}{23}
 \contentsline {section}{\numberline {2.6}The Big(ger) Picture}{26}
 \contentsline {subsection}{\numberline {2.6.1}Color-Glass Condensate}{26}
-\contentsline {subsection}{\numberline {2.6.2}Glasma}{29}
+\contentsline {subsection}{\numberline {2.6.2}Glasma}{30}
 \contentsline {subsection}{\numberline {2.6.3}Strangeness Enhancement}{31}
-\contentsline {section}{\numberline {2.7}Moving Forward}{31}
+\contentsline {section}{\numberline {2.7}Moving Forward}{32}
 \contentsline {chapter}{\numberline {3}Experimental Apparatus}{33}
 \contentsline {section}{\numberline {3.1}The Relativistic Heavy Ion Collider}{33}
 \contentsline {section}{\numberline {3.2}The Particle Acceleration Process}{34}
