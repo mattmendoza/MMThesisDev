@@ -106,9 +106,9 @@ Detectors occupy a limited and constant range in space. The ability of a detecto
 \section{Summary}
 The particle yield is binned in six bins of $d\phi$ which therefore means that there are six points that can be perturbed systematically. In order to study the propagation of the yield uncertainty to the measured flow coefficient I take the known values of yield in $d\phi$ and perturb them up or down by the percentages quantified in this chapter. The changed yield vs $d\phi$ distribution is re-fit and a new flow coefficient is calculated. This new $v_2$ is compared to the original one in order to determine systematic errors on the final measurement which are caused by sources within the process of measuring it. Since the identified track flow follows the behavior of the individual particle flows I will use it for this study and for completeness, perturbations both up and down were be studied. 
 
-\advance\headheight-2.5cm
-\advance\footskip2cm
-\begin{figure}[hbtp]
+
+\begin{figure}[p]
+\captionsetup{width=1.2\linewidth}
     \caption[Effects of Systematic Shifts in Yield on $v_2$.]{Effects of Systematic Shifts in Yield on $v_2$. 1\%, 2\%, 4\%, 5\%, 7\%, and 10\% perturbations are applied to each yield for a particular bin of $d\phi$ and the corresponding $v_2$ is calculated. Closed circles are downward perturbations, open circles, upward perturbations.}
     \rule{35em}{0.5pt}
     \centerline{\includegraphics[width=1\textwidth]{evtQA/plusminusstudy.jpg}}
@@ -117,10 +117,12 @@ The particle yield is binned in six bins of $d\phi$ which therefore means that t
 
 In practice, of these six points, four contribute strongly to the overall shape of the yield distribution, these are: the two end points and the two center points. This is shown by the significantly smaller systematic error in bins 1 and 4 in fig \ref{fig:wiggleupdown}. Additionally, the direction of perturbation makes a negligible difference; up and down perturbations line up very well on the plots. Yield systematics have the strongest effect on the lower $p_T$ bins. This is because their significantly higher statistics correspond to a larger loss or gain of counted particles with which to skew the flow coefficient.
 
-\begin{table}[]
+The resulting systematic errors are summarized in table \ref{tab:syserr}.
+
+\begin{table}[hp]
 \centering
-\caption{My caption}
-\label{my-label}
+\caption{Table of Systematic Errors in each bin of $p_T$}
+\label{tab:syserr}
 \resizebox{\textwidth}{!}{
 \begin{tabular}{lllllllll}
                                                                        & \multicolumn{8}{c}{\textbf{Transverse Momentum Bin Range (GeV/c)}}                                                                                                                                                                                                                                                                                                                                                                                                                                                            \\ \hline \hline

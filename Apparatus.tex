@@ -135,7 +135,7 @@ A MRPC is a version of a RPC with alternating layers of the resistive material a
 \end{figure}
 
 \subsubsection{ACC: Aerogel Cherenkov Counter}
-As measured track momentum increases, the timing resolution of the TOF detectors causes greater uncertainty in the timing measurements, leading to a statistically ``wider'' particle signal and eventually the widths of individual particle signals overlap. The high resolution capabilities of the TOF detectors only allow them to separate $\pi^{\pm}$, $k^{\pm}$, and $p$ / $\bar{p}$ signals up to certain transverse momentum $p_{T}$ thresholds ($\pi/k$ separation becomes difficult above $p_T$ = 2.1 GeV/c impossible above 2.8 GeV/c, k/P separation is possible only up to 4 GeV/c). The distinct masses of the particles of interest do provide an additional method of separating particle signals since if you were to give two particles of different mass the same momentum they would have distinct velocities. This is the principle with which a Cherenkov detector works. Cherenkov radiation is light that is emitted in a material when a charged particle travels through it with a velocity faster than the speed of light in that medium. This medium, called a Cherenkov radiator, can be carefully selected such that its intrinsic speed of light is such that lighter particles with higher velocities cause Cherenkov radiation but heavier particles which travel slower given the same momentum will not. This threshold is given by:
+As measured track momentum increases the timing resolution of the TOF detectors causes larger uncertainty in the timing measurements which, in turn, leads to a larger uncertainty in the particle mass. This uncertainty broadens the Gaussian-shaped particle mass distribution, gradually causing individual mass distributions to overlap and eventually become inseparable as $p_T$ increases. The high resolution capabilities of the TOF detectors only allow them to separate $\pi^{\pm}$, $k^{\pm}$, and $p$ / $\bar{p}$ signals up to certain transverse momentum $p_{T}$ thresholds ($\pi/k$ separation becomes difficult above $p_T$ = 2.1 GeV/c impossible above 2.8 GeV/c, k/P separation is possible only up to 4 GeV/c). The distinct masses of the particles of interest do provide an additional method of separating particle signals since if you were to give two particles of different mass the same momentum they would have distinct velocities. This is the principle with which a Cherenkov detector works. Cherenkov radiation is light that is emitted in a material when a charged particle travels through it with a velocity faster than the speed of light in that medium. This medium, called a Cherenkov radiator, can be carefully selected such that its intrinsic speed of light is such that lighter particles with higher velocities cause Cherenkov radiation but heavier particles which travel slower given the same momentum will not. This threshold is given by:
 
 \begin{equation}
 E_{threshold} = \frac{nm}{\sqrt{n^2-1}}
@@ -143,33 +143,34 @@ E_{threshold} = \frac{nm}{\sqrt{n^2-1}}
 where n is the index of refraction in the Cherenkov radiator and m is the mass of the particle.
 Using this, a Cherenkov detector acts as a logic detector categorizing tracks as those that either "fire" or "veto", that is to say tracks that radiate versus tracks that don't. In the case of separating $\pi^{\pm}$ mesons from $k^{\pm}$ mesons for $p_{T}$ tracks where their mass signals overlap so strongly that they cannot be uncorrelated, the radiator was chosen such that the pions will radiate in the detector but the kaons will not. Pions and kaons are indistinguishable for $p_{T} > 2.8$ GeV/c, so the radiator chosen to separate the signals is a silica aerogel ($n \approx 1.011$).
 
-\begin{figure}[htbp!]
-  \centering
-    \includegraphics[width=0.8\textwidth]{Figures/ACCschematic.jpg}
-    \rule{35em}{0.5pt}
-  \caption[A schematic of the Aerogel Cherenkov Counter]{A schematic of the Aerogel Cherenkov Counter}
-  \label{fig:ACCschematic}
-\end{figure}
-
 The Aerogel Cherenkov Counter (ACC) is comprised of 160 tiles of silica aerogel. Each tile is affixed to a cube which forces radiated Cherenkov photons to reflect internally until they hit a PMT (see fig. \ref{fig:accchannel}). These cubes are filled with air and are covered on all exposed sides by a goretex reflector except for the "front" facing aerogel tile side and the two cutouts where the PMTs attach. Because the cube uses internal reflection to maximize the number of photons collected by the PMTs it is called an intergration cube. There are two PMTs located opposite from each other for each cube. To account for the space taken by PMTs on the ends of the tiles the ACC is two sided and the tiles are oriented such that the opposite side tile occupies the gap where PMTs would be situated (this configuration can be seen on the ``Top View'' labeled diagram on fig. \ref{fig:ACCschematic}). There are 10 rows of 8 tiles on each side for a total of 160 tiles.
-
-\begin{figure}[htbp!]
-  \centering
-    \includegraphics[width=0.8\textwidth]{Figures/aerogelchannel.JPG}
-    \rule{35em}{0.5pt}
-  \caption[A schematic of one tile in the ACC]{A schematic of one tile in the ACC}
-  \label{fig:accchannel}
-\end{figure}
 
 The ACC is located in the west arm covering the half of the azimuthal coverage that the TOFW covers and with the same rapidity coverage (see fig. \ref{fig:run8config}). When used in conjunction with the TOFW it can provide pion/kaon separation for $p_{T} < 4$ GeV/c and can discriminate protons for $p_{T} < 7$ GeV/c.  The total particle identification capabilities of the combination of the TOFW + ACC is shown in figure \ref{fig:PIDrange}.
 
-\begin{figure}[h!]
+\begin{figure}
+\begin{subfigure}[p]{1\textwidth}
+   \centering
+    \includegraphics[width=0.8\textwidth]{Figures/aerogelchannel.JPG}
+  \caption[A schematic of one tile in the ACC]{A schematic of one tile in the ACC}
+  \label{fig:accchannel}
+    \rule{35em}{0.5pt}\end{subfigure}
+\begin{subfigure}[p]{1\textwidth}
+  \centering
+    \includegraphics[width=0.8\textwidth]{Figures/ACCschematic.jpg}
+
+  \caption[A schematic of the Aerogel Cherenkov Counter]{A schematic of the layout of the Aerogel Cherenkov Counter. Yellow boxes represent Aerogel tiles and integration cubes. Green cylinders on either end of the yellow boxes are the PMTs.}
+    \rule{35em}{0.5pt}
+  \label{fig:ACCschematic}
+\end{subfigure}
+\begin{subfigure}[p]{1\textwidth}
   \centering
     \includegraphics[width=0.8\textwidth]{Figures/accrange.jpg}
+  \caption[Chart of Particle Identification capabilities over a range of transverse momentum.]{Chart of Particle Identification capabilities over a range of transverse momentum with combinations of detectors.}
     \rule{35em}{0.5pt}
-  \caption[Chart of Particle Identification capabilities over a range of transverse momentum]{Chart of Particle Identification capabilities over a range of transverse momentum}
   \label{fig:PIDrange}
+\end{subfigure}
 \end{figure}
+
 
 \subsubsection{EMCal and RICH: Electromagnetic Calorimeter and Ring Imaging Cherenkov Counter}
 Two other detectors that provide important track data are the \textit{Electromagnetic Calorimeter} (EMCal) and the \textit{Ring Imaging Cherenkov Counter} (RICH). Each arm has full coverage with both the RICH and the EMCal and they are often used together in order to study electrons via the EMCal/RICH Trigger (ERT). For the scope of this analysis, only the RICH is used in order to reject electron tracks which can contaminate the pion signal, I will discuss the EMCal for completeness.
@@ -213,17 +214,17 @@ The EMCal provides an energy measurement for charged tracks and is broken up int
 
 Though it may seem odd to have two types of detectors in the EMCal, there is a method to the madness. Both have their own strengths, PbSc is more linear in response and is better at timing than PbGl thanks to its alternating layers, whereas PbGl is a tried and true design used in previous experiments such as WA98 at the SPS at CERN for it's exceptional granularity and accurate energy measurement. Because they are two separate systems, they have different systematics and therefore we have a higher confidence level for the physics results from the EMCal. 
 
-As mentioned, the EMCal and RICH are used together to form a level 1 trigger to classify charged tracks. Since the RICH is tuned to radiate with electron tracks and the EMCal measures all charged tracks, we know that tracks that result in signals in both the EMCal and the RICH are most likely electrons, whereas tracks that only have signals in the EMCal are likely charged hadrons (fig \ref{fig:ERT}).
-\begin{figure}[h!]
-  \centering
-    \includegraphics[width=0.5\textwidth]{Figures/ERT.jpg}
-    \rule{35em}{0.5pt}
-  \caption[A drawing of ERT event discrimination.]{A drawing of ERT event discrimination.}
-  \label{fig:ERT}
-\end{figure}
+%As mentioned, the EMCal and RICH are used together to form a level 1 trigger to classify charged tracks. Since the RICH is tuned to radiate with electron tracks and the EMCal measures all charged tracks, we know that tracks that result in signals in both the EMCal and the RICH are most likely electrons, whereas tracks that only have signals in the EMCal are likely charged hadrons (fig \ref{fig:ERT}).
+%\begin{figure}[h!]
+%  \centering
+%    \includegraphics[width=0.5\textwidth]{Figures/ERT.jpg}
+%    \rule{35em}{0.5pt}
+%  \caption[A drawing of ERT event discrimination.]{A drawing of ERT event discrimination.}
+%  \label{fig:ERT}
+%\end{figure}
 
 \subsection{Forward and Global Detectors}
-Though the bulk of this analysis is dependent on the central arm detectors, many aspects of reconstruction, namely event characterization (start of the event timer, the event vertex, centrality, and event reaction plane) is dependent on a handful of forward detectors which I will briefly discuss here.
+Though the bulk of this analysis is dependent on the central arm detectors, many aspects of reconstruction, namely event characterization (start of the event timer, the event vertex, centrality, and event reaction plane) is dependent on a handful of forward-rapidity detectors which I will briefly discuss here.
 
 \subsubsection{BBC: Beam-Beam Counter}
 Of the forward detectors, the \textit{Beam-Beam Counter} (BBC) \citep{BBCfocus} is probably the most important because of its ability to measure the various global event parameters. There are two BBCs, one on the north side and one on the south side of PHENIX both equidistant (144 cm) from the center of the interaction region (IR). The constituent detector (fig \ref{fig:BBCillustrations}) elements are made of quartz Cherenkov radiators attached to meshed dynode PMTs housed in hexagonal encasements. These elements are arranged in a toroidal shape (5 cm inner radius, 30 cm outer) in order to allow the ion beams to pass through the center while still getting full $2\pi$ azimuthal coverage. The BBCs cover 3.1$\leq \Delta \eta \leq$4 in pseudorapidity. 
@@ -246,24 +247,38 @@ Of the forward detectors, the \textit{Beam-Beam Counter} (BBC) \citep{BBCfocus} 
 
 \subsubsection{ZDC/SMD: Zero Degree Calorimeter and Shower Max Detectors}
 \label{sect:ZDC}
-%\begin{figure}[h!]
-%  \centering
-%    \includegraphics[width=0.7\textwidth]{Figures/ZDCschematic.JPG}
- %   \rule{35em}{0.7pt}
-%  \caption[Schematic showing the layout of fiber optics in the ZDC]{Schematic showing the %layout of fiber optics in the ZDC}
-%  \label{fig:zdcvsbbc}
-%\end{figure}
 
-Crucial to the determination of event centrality is the ability to count the number of spectator particles. Since neutrons have no charge we can place a calorimeter at high rapidity behind an IR dipole magnet (18 m away from the nominal event vertex) which we can use to ``sweep'' away charged particles like proton spectators and other charged track noise. The \textit{Zero Degree Calorimeter}\citep{ZDCfocus} is comprised of a ribbon of acrylic fiber optic strands sandwiched between two tungsten plates. The tungsten plates act as a dense absorber for the neutrons to hit and shower into resulting in detectable photon yield in the fiber optic ribbon. Sandwiched between modules of the ZDC is a hodoscope called the \textit{Shower Max Detector} (SMD). The SMD is comprised of 21 0.5 cm x 0.5 cm scintillators and is used to measure the centroid of the shower in cartesian coordinates since the ZDC only measures energy\citep{phenixzdc}. This shower location determination of the SMD makes it useful as another detector with which to determine the \textit{reaction plane}(see sect. \ref{sect:eventplane}. The ZDC is used in conjunction with the BBC in order to determine centrality. Since more peripheral collisions mean more spectators and therefore more neutrons to hit the ZDC, the higher the energy measured by the ZDC the more peripheral the event (see fig \ref{fig:zdcvsbbc}\citep{Ghosh2001}).
+\begin{figure}
+
+\begin{subfigure}[p]{1\textwidth}
+  \centering
+    \includegraphics[width=0.5\textwidth]{Figures/ZDCschematic.JPG}
+
+  \caption[Schematic showing the layout of fiber optics in the ZDC]{Schematic showing the layout of fiber optic ribbons in the ZDC. This is a side view.}
+  \label{fig:zdcschem}
+   \rule{35em}{0.7pt}
+\end{subfigure}
+\begin{subfigure}[p]{1\textwidth}
+  \centering
+    \includegraphics[width=0.5\textwidth]{Figures/SMDonZDC.jpg}
+
+  \caption[Picture of the SMD.]{A picture of a SMD. 21 scintillators resting on top of a ZDC module. Another ZDC module will go in front of this. The beam would hit from the lower left going right if this were installed in the beam pipe like this.}
+  \label{fig:smdonzdc}
+   \rule{35em}{0.7pt}
+\end{subfigure}
+\caption{The ZDC and SMD.}
+\end{figure}
+
+Crucial to the determination of event centrality is the ability to count the number of spectator particles. Since neutrons have no charge we can place a calorimeter at high rapidity behind an IR dipole magnet (18 m away from the nominal event vertex) which we can use to ``sweep'' away charged particles like proton spectators and other charged track noise (see ``side view'' on fig. \ref{fig:run8config}). The \textit{Zero Degree Calorimeter}\citep{ZDCfocus} is comprised of ribbons of acrylic fiber optic strands sandwiched between two tungsten plates (fig. \ref{fig:zdcschem}). The tungsten plates act as a dense absorber for the neutrons to hit and shower into resulting in detectable photon yield in the fiber optic ribbon. There are 3 ZDC modules on each side of PHENIX. Sandwiched between modules of the ZDC is a hodoscope called the \textit{Shower Max Detector} (SMD) (fig. \ref{fig:smdonzdc}). The SMD is comprised of 21 0.5 cm x 0.5 cm scintillators and is used to measure the centroid of the shower in cartesian coordinates since the ZDC only measures energy\citep{phenixzdc}. This shower location determination of the SMD makes it useful as another detector with which to determine the \textit{reaction plane}(see sect. \ref{sect:eventplane}. The ZDC is used in conjunction with the BBC in order to determine centrality. Since more peripheral collisions mean more spectators and therefore more neutrons to hit the ZDC, the higher the energy measured by the ZDC the more peripheral the event (see figure \ref{fig:zdcvsbbc}\citep{Ghosh2001}). 
 
 \subsubsection{MPC: Muon Piston Calorimeter}
-The \textit{Muon Piston Calorimeter} (MPC) was a needed upgrade to PHENIX that provided calorimetry at very high rapidity\citep{kleinjanthesis}. It was installed in two parts: first in the south in 2005, then in the north in 2006 and was commisioned to reconstruct $\pi^{0}$ and $\eta$ mesons for various forward physics analyses, however it's forward location ($3.1 \leq  | \eta | \leq 3.7$ ($3.9$ in the north)) and full azimuthal coverage make it another ideal detector for determining the reaction plane. Nestled in a gap in the piston of the Muon Magnet Arms, the MPC is comprised of 196 (220 in the north) Lead Tungstate $PbWO_4$ crystal scintillator towers attached to avalanche photodiodes with preamplifiers to measure the electromagnetic shower photons.  
+The \textit{Muon Piston Calorimeter} (MPC) was a needed upgrade to PHENIX that provided calorimetry at very high rapidity\citep{kleinjanthesis}. It was installed in two parts: first in the south in 2005, then in the north in 2006 and was commissioned to reconstruct $\pi^{0}$ and $\eta$ mesons for various forward physics analyses, however it's forward location ($3.1 \leq  | \eta | \leq 3.7$ ($3.9$ in the north)) and full azimuthal coverage make it another ideal detector for determining the reaction plane. Nestled in a gap in the piston of the Muon Magnet Arms, the MPC is comprised of 196 (220 in the north) Lead Tungstate $PbWO_4$ crystal scintillator towers attached to avalanche photodiodes with preamplifiers to measure the electromagnetic shower photons and can be seen on figure \ref{fig:mpcschematic}, with its location in PHENIX labeled on figure \ref{fig:run8config}.  
 
 \begin{figure}[h!]
   \centering
     \includegraphics[width=0.7\textwidth]{Figures/mpcschematic.JPG}
     \rule{35em}{0.5pt}
-  \caption[Schematic of the MPC]{Schematic of the MPC}
+  \caption[Schematic of the MPC]{Schematic of the MPC. The toroidal shape of the tower configuration allows it to nestle inside the piston of the muon arms while allowing ion beams to travel through the center.}
   \label{fig:mpcschematic}
 \end{figure}
 
@@ -274,13 +289,13 @@ Of particular interest for this analysis is the determination of the reaction pl
 \begin{subfigure}[b]{1\textwidth}
     \centering
     \includegraphics[width=0.5\textwidth]{Figures/RXNPdiagram.JPG}
-    \caption{A picture of the RXNP installed in PHENIX}
+    \caption{The beam axis view of the RXNP. The blue ring is the inner RXNP, the yellow, the outer RXNP.}
 
 \end{subfigure}
 \begin{subfigure}[b]{1\textwidth}
 \centering
   \includegraphics[width=0.5\textwidth]{Figures/RXNPschem.jpg}
-  \caption{Cross sectional diagram of RXNP layers}
+  \caption{Cross sectional diagram of RXNP layers. Produced particles hit a lead layer that causes them to shower into the scintillators.}
 \end{subfigure}
 
   \rule{35em}{0.5pt}
