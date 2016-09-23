@@ -313,6 +313,17 @@ Michael~L. Miller, Klaus Reygers, Stephen~J. Sanders, and Peter Steinberg.
 \newblock {Glauber modeling in high energy nuclear collisions}.
 \newblock {\em Ann. Rev. Nucl. Part. Sci.}, 57:205--243, 2007.
 
+\bibitem{Nagle:2006}
+Jamie Nagle.
+\newblock The physics of relativistic heavy ion collisions.
+\newblock {\em 18th National Nuclear Physics Summer School}, July 2006.
+
+\bibitem{PhysRevD.10.1649}
+A.~De~R\'ujula, S.~L. Glashow, H.~D. Politzer, S.~B. Treiman, F.~Wilczek, and
+  A.~Zee.
+\newblock Possible non-regge behavior of electroproduction structure functions.
+\newblock {\em Phys. Rev. D}, 10:1649--1652, Sep 1974.
+
 \bibitem{Abramowicz2015}
 H.~Abramowicz, I.~Abt, L.~Adamczyk, M.~Adamus, V.~Andreev, S.~Antonelli,
   B.~Antunovi{\'{c}}, V.~Aushev, Y.~Aushev, A.~Baghdasaryan, K.~Begzsuren,
@@ -404,6 +415,16 @@ Larry McLerran.
 Hirotsugu Fujii and Kazunori Itakura.
 \newblock {Expanding color flux tubes and instabilities}.
 \newblock {\em Nucl. Phys.}, A809:88--109, 2008.
+
+\bibitem{statmechofquarks}
+Hagedorn R. and Rafelski J.
+\newblock Statistical mechanics of quarks and hadrons.
+\newblock page 237, 1981.
+
+\bibitem{Muller:2011tu}
+Berndt Muller.
+\newblock {Strangeness and the Quark-Gluon Plasma: Thirty Years of Discovery}.
+\newblock {\em Acta Phys. Polon.}, B43:761, 2012.
 
 \bibitem{PhysRevLett.48.1066}
 Johann Rafelski and Berndt M\"uller.
@@ -611,10 +632,9 @@ Chin-Hao Chen, Gabor David, Shengli Huang, and Takao Sakaguchi.
   angle dependent pi0 yields in run8 d+au collisions.
 \newblock {\em PHENIX Internal Analysis Note}, AN1164, April 2014.
 
-\bibitem{Nagle:2006}
-Jamie Nagle.
-\newblock The physics of relativistic heavy ion collisions.
-\newblock {\em 18th National Nuclear Physics Summer School}, July 2006.
+\bibitem{velkovska:lec12}
+Julia Velkovska.
+\newblock Lecture 12: Hydrodynamics in heavy ion collisons, elliptic flow.
 
 \bibitem{Adcox:2004mh}
 K.~Adcox et~al.

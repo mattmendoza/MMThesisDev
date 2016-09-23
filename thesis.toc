@@ -14,77 +14,77 @@
 \contentsline {subsection}{\numberline {2.3.3}Theoretical Models of the QGP}{19}
 \contentsline {subsubsection}{Recombination and Fragmentation}{19}
 \contentsline {subsubsection}{Relativistic Hydrodynamics}{22}
-\contentsline {section}{\numberline {2.4}Collective Flow at the LHC}{23}
-\contentsline {section}{\numberline {2.5}Recombination and Fragmentation for All?}{24}
+\contentsline {section}{\numberline {2.4}Collective Flow at the LHC}{24}
+\contentsline {section}{\numberline {2.5}Recombination and Fragmentation for All?}{25}
 \contentsline {section}{\numberline {2.6}The Big(ger) Picture}{27}
 \contentsline {subsection}{\numberline {2.6.1}The Glauber Model}{28}
-\contentsline {subsection}{\numberline {2.6.2}Color-Glass Condensate}{29}
-\contentsline {subsection}{\numberline {2.6.3}Glasma}{33}
-\contentsline {subsection}{\numberline {2.6.4}Strangeness Enhancement}{34}
-\contentsline {section}{\numberline {2.7}Moving Forward}{35}
-\contentsline {chapter}{\numberline {3}Experimental Apparatus}{36}
-\contentsline {section}{\numberline {3.1}The Relativistic Heavy Ion Collider}{36}
-\contentsline {section}{\numberline {3.2}The Particle Acceleration Process}{37}
-\contentsline {section}{\numberline {3.3}The PHENIX Detector}{39}
-\contentsline {subsection}{\numberline {3.3.1}Central Arm}{41}
-\contentsline {subsubsection}{Drift and Pad Chambers}{41}
-\contentsline {subsubsection}{TOF: Time Of Flight Detectors}{45}
-\contentsline {subsubsection}{ACC: Aerogel Cherenkov Counter}{50}
-\contentsline {subsubsection}{EMCal and RICH: Electromagnetic Calorimeter and Ring Imaging Cherenkov Counter}{52}
-\contentsline {subsection}{\numberline {3.3.2}Forward and Global Detectors}{56}
-\contentsline {subsubsection}{BBC: Beam-Beam Counter}{57}
-\contentsline {subsubsection}{ZDC/SMD: Zero Degree Calorimeter and Shower Max Detectors}{57}
-\contentsline {subsubsection}{MPC: Muon Piston Calorimeter}{59}
-\contentsline {subsubsection}{RXNP: Reaction Plane Detector}{61}
-\contentsline {section}{\numberline {3.4}The DAQ}{61}
-\contentsline {chapter}{\numberline {4}Heavy Ion Collisions: A Primer}{66}
-\contentsline {section}{\numberline {4.1}Measurable Quantities}{66}
-\contentsline {section}{\numberline {4.2}Event Characterization}{67}
-\contentsline {subsection}{\numberline {4.2.1}Centrality}{68}
-\contentsline {subsection}{\numberline {4.2.2}Event Vertex and Timing}{69}
-\contentsline {section}{\numberline {4.3}Track Reconstruction}{71}
-\contentsline {subsection}{\numberline {4.3.1}Variables for Track Selection}{71}
-\contentsline {subsubsection}{Track Matching: DC and PC1}{73}
-\contentsline {subsubsection}{Track Matching: TOF and PC3}{74}
-\contentsline {subsection}{\numberline {4.3.2}Particle Identification}{76}
-\contentsline {chapter}{\numberline {5}Anisotropic Flow}{81}
-\contentsline {chapter}{\numberline {6}Event Plane}{86}
-\contentsline {section}{\numberline {6.1}Determination of Event Plane}{86}
-\contentsline {section}{\numberline {6.2}Q-vector Recentering}{89}
-\contentsline {section}{\numberline {6.3}Event Plane ``Flattening"}{89}
-\contentsline {section}{\numberline {6.4}Event Plane Resolution Correction}{92}
-\contentsline {chapter}{\numberline {7}Results}{94}
-\contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{94}
-\contentsline {section}{\numberline {7.2}Separating Particle Signals}{95}
-\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{97}
-\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{98}
-\contentsline {subsection}{\numberline {7.2.3}ACC as a Particle Discriminator}{100}
-\contentsline {subsection}{\numberline {7.2.4}High $p_T$: Fixed Width and Mean}{102}
-\contentsline {section}{\numberline {7.3}Identified Particle $v_{2}$}{102}
-\contentsline {chapter}{\numberline {8}Error Analysis}{104}
-\contentsline {section}{\numberline {8.1}Event Plane Resolution Correction}{105}
-\contentsline {section}{\numberline {8.2}Centrality Resolution}{107}
-\contentsline {section}{\numberline {8.3}Particle Identification Methods}{109}
-\contentsline {subsection}{\numberline {8.3.1}Momentum Uncertainty}{109}
-\contentsline {subsection}{\numberline {8.3.2}TOF Timing}{110}
-\contentsline {subsection}{\numberline {8.3.3}Uncertainties from Gaussian Models}{113}
-\contentsline {subsubsection}{Single and Mixed Gaussians, no ACC, $p_T\leq 2.1$ GeV/c}{113}
-\contentsline {subsubsection}{ACC Meson Separation and Gaussian Tail Cross Contamination, $2.1\leq p_T \leq 2.9$}{114}
-\contentsline {subsubsection}{Fixed Width/Mean Gaussians and Background Effects}{114}
-\contentsline {section}{\numberline {8.4}Detector Acceptance}{115}
-\contentsline {section}{\numberline {8.5}Summary}{116}
-\contentsline {chapter}{\numberline {9}Summary and Conclusions}{120}
-\contentsline {section}{\numberline {9.1}Discussion}{120}
-\contentsline {section}{\numberline {9.2}Conclusions}{120}
-\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{121}
-\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{123}
-\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{125}
-\contentsline {chapter}{\numberline {D}Analysis Data and Plots}{126}
-\contentsline {section}{\numberline {D.1}Charged Track Elliptic Flow}{127}
-\contentsline {section}{\numberline {D.2}Particle Identification: TOFW}{131}
-\contentsline {subsection}{\numberline {D.2.1}Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, negative charged tracks}{131}
-\contentsline {subsection}{\numberline {D.2.2}Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, positive charged tracks}{135}
-\contentsline {subsection}{\numberline {D.2.3}Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, negative charged tracks}{139}
-\contentsline {subsubsection}{Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, positive charged tracks}{143}
-\contentsline {subsection}{\numberline {D.2.4}TOF.W and ACC, $p_T$=2.1-3.5 GeV, negative charged tracks}{147}
-\contentsline {subsection}{\numberline {D.2.5}TOF.W and ACC, $p_T$=2.1-3.5 GeV, positive charged tracks}{168}
+\contentsline {subsection}{\numberline {2.6.2}Color-Glass Condensate}{30}
+\contentsline {subsection}{\numberline {2.6.3}Glasma}{34}
+\contentsline {subsection}{\numberline {2.6.4}Strangeness Enhancement}{35}
+\contentsline {section}{\numberline {2.7}Moving Forward}{36}
+\contentsline {chapter}{\numberline {3}Experimental Apparatus}{38}
+\contentsline {section}{\numberline {3.1}The Relativistic Heavy Ion Collider}{38}
+\contentsline {section}{\numberline {3.2}The Particle Acceleration Process}{39}
+\contentsline {section}{\numberline {3.3}The PHENIX Detector}{41}
+\contentsline {subsection}{\numberline {3.3.1}Central Arm}{43}
+\contentsline {subsubsection}{Drift and Pad Chambers}{44}
+\contentsline {subsubsection}{TOF: Time Of Flight Detectors}{48}
+\contentsline {subsubsection}{ACC: Aerogel Cherenkov Counter}{53}
+\contentsline {subsubsection}{EMCal and RICH: Electromagnetic Calorimeter and Ring Imaging Cherenkov Counter}{55}
+\contentsline {subsection}{\numberline {3.3.2}Forward and Global Detectors}{59}
+\contentsline {subsubsection}{BBC: Beam-Beam Counter}{60}
+\contentsline {subsubsection}{ZDC/SMD: Zero Degree Calorimeter and Shower Max Detectors}{60}
+\contentsline {subsubsection}{MPC: Muon Piston Calorimeter}{62}
+\contentsline {subsubsection}{RXNP: Reaction Plane Detector}{64}
+\contentsline {section}{\numberline {3.4}The DAQ}{64}
+\contentsline {chapter}{\numberline {4}Heavy Ion Collisions: A Primer}{69}
+\contentsline {section}{\numberline {4.1}Measurable Quantities}{69}
+\contentsline {section}{\numberline {4.2}Event Characterization}{70}
+\contentsline {subsection}{\numberline {4.2.1}Centrality}{71}
+\contentsline {subsection}{\numberline {4.2.2}Event Vertex and Timing}{74}
+\contentsline {section}{\numberline {4.3}Track Reconstruction}{76}
+\contentsline {subsection}{\numberline {4.3.1}Variables for Track Selection}{76}
+\contentsline {subsubsection}{Track Matching: DC and PC1}{76}
+\contentsline {subsubsection}{Track Matching: TOF and PC3}{79}
+\contentsline {subsection}{\numberline {4.3.2}Particle Identification}{81}
+\contentsline {chapter}{\numberline {5}Anisotropic Flow}{84}
+\contentsline {chapter}{\numberline {6}Event Plane}{89}
+\contentsline {section}{\numberline {6.1}Determination of Event Plane}{89}
+\contentsline {section}{\numberline {6.2}Q-vector Recentering}{92}
+\contentsline {section}{\numberline {6.3}Event Plane ``Flattening"}{92}
+\contentsline {section}{\numberline {6.4}Event Plane Resolution Correction}{95}
+\contentsline {chapter}{\numberline {7}Results}{97}
+\contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{97}
+\contentsline {section}{\numberline {7.2}Separating Particle Signals}{98}
+\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{100}
+\contentsline {subsection}{\numberline {7.2.2}Gaussian Mixing}{101}
+\contentsline {subsection}{\numberline {7.2.3}ACC as a Particle Discriminator}{103}
+\contentsline {subsection}{\numberline {7.2.4}High $p_T$: Fixed Width and Mean}{105}
+\contentsline {section}{\numberline {7.3}Identified Particle $v_{2}$}{105}
+\contentsline {chapter}{\numberline {8}Error Analysis}{107}
+\contentsline {section}{\numberline {8.1}Event Plane Resolution Correction}{108}
+\contentsline {section}{\numberline {8.2}Centrality Resolution}{110}
+\contentsline {section}{\numberline {8.3}Particle Identification Methods}{112}
+\contentsline {subsection}{\numberline {8.3.1}Momentum Uncertainty}{112}
+\contentsline {subsection}{\numberline {8.3.2}TOF Timing}{113}
+\contentsline {subsection}{\numberline {8.3.3}Uncertainties from Gaussian Models}{116}
+\contentsline {subsubsection}{Single and Mixed Gaussians, no ACC, $p_T\leq 2.1$ GeV/c}{116}
+\contentsline {subsubsection}{ACC Meson Separation and Gaussian Tail Cross Contamination, $2.1\leq p_T \leq 2.9$}{117}
+\contentsline {subsubsection}{Fixed Width/Mean Gaussians and Background Effects}{117}
+\contentsline {section}{\numberline {8.4}Detector Acceptance}{118}
+\contentsline {section}{\numberline {8.5}Summary}{119}
+\contentsline {chapter}{\numberline {9}Summary and Conclusions}{123}
+\contentsline {section}{\numberline {9.1}Discussion}{123}
+\contentsline {section}{\numberline {9.2}Conclusions}{123}
+\contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{124}
+\contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{126}
+\contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{128}
+\contentsline {chapter}{\numberline {D}Analysis Data and Plots}{129}
+\contentsline {section}{\numberline {D.1}Charged Track Elliptic Flow}{130}
+\contentsline {section}{\numberline {D.2}Particle Identification: TOFW}{134}
+\contentsline {subsection}{\numberline {D.2.1}Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, negative charged tracks}{134}
+\contentsline {subsection}{\numberline {D.2.2}Single Gaussian fits, $p_T$=0.5-1.3 GeV/c, TOF.W, positive charged tracks}{138}
+\contentsline {subsection}{\numberline {D.2.3}Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, negative charged tracks}{142}
+\contentsline {subsubsection}{Mixed Gaussian fits, $p_T$=1.3-2.1 GeV/c, TOF.W, positive charged tracks}{146}
+\contentsline {subsection}{\numberline {D.2.4}TOF.W and ACC, $p_T$=2.1-3.5 GeV, negative charged tracks}{150}
+\contentsline {subsection}{\numberline {D.2.5}TOF.W and ACC, $p_T$=2.1-3.5 GeV, positive charged tracks}{171}

@@ -6,5 +6,8 @@ Warning--you've exceeded 5000, the global-string-size, for entry PhysRevC.88.024
 while executing--line 944 of file unsrt.bst
 *Please notify the bibstyle designer*
 Warning--empty booktitle in Itakura2012
+Warning--empty journal in statmechofquarks
 Warning--empty title in rapidityref
-(There were 4 warnings)
+Warning--empty journal in velkovska:lec12
+Warning--empty year in velkovska:lec12
+(There were 7 warnings)
