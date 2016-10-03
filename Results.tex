@@ -6,18 +6,18 @@
 %Add background contamination discussion, 3 point tracking vs 5 point tracking
 Here I present measurements of elliptic flow in $\sqrt{s_{NN}}=200$ GeV d+Au collisions. Recall that the Fourier coefficients parameterize the shape of the azimuthal hydrodynamic flow by describing it as a superposition of cosine harmonics:
 \begin{equation} \label{eq:frrexpanded}
-\frac{d^{2}N}{dp^{2}} \propto v_0 + v_1 \cos\big(\phi - \Psi_{RP}\big) + v_2 \cos\big(2(\phi - \Psi_{RP})\big) + v_3 \cos\big(3(\phi - \Psi_{RP})\big) \cdots
+\frac{d^{2}N}{dp^{2}} \propto v_0 + v_1 \cos\big(\phi - \Psi^{RP}_1\big) + v_2 \cos\big(2(\phi - \Psi^{RP}_2)\big) + v_3 \cos\big(3(\phi - \Psi^{RP}_3)\big) \cdots
 \end{equation}
-where $v_0$, $v_1$, $v_2$, and $v_3$ are the values that scale the amount of spherical, directed, elliptic, and triangular flow respectively, and are indicative of collective behavior of the nuclear matter. The angle, $\phi$, is the azimuthal angle in the lab frame and $\Psi_{RP}$ is the angle of the reaction plane in the lab frame. This can be simplified by defining the coordinate: $\Delta \phi = \phi - \Psi_{RP}$ which gives:
+where $v_0$, $v_1$, $v_2$, and $v_3$ are the values that scale the amount of spherical, directed, elliptic, and triangular flow respectively, and are indicative of collective behavior of the nuclear matter. The angle, $\phi$, is the azimuthal angle in the lab frame and $\Psi^{RP}_n$ is the angle of the reaction plane in the lab frame\footnote{for the $n$-th Fourier harmonic.}. This can be simplified by defining the coordinate: $\Delta \phi = \phi - \Psi^{RP}_n$ which gives:
 \begin{equation} 
-\frac{d^{2}N}{dp^{2}} \propto v_0 + v_1 \cos(\Delta \phi) + v_2 \cos(2\Delta \phi) + v_3 \cos(3\Delta \phi) \cdots
+\frac{d^{2}N}{dp^{2}} \propto v_0 + v_1 \cos(\Delta \phi _1) + v_2 \cos(2\Delta \phi _2) + v_3 \cos(3\Delta \phi _3) \cdots
 \end{equation}
-effectively redefining eqn. \ref{eq:frrexpanded} relative to the event plane. To measure the elliptic flow we count number of tracks in bins of $\Delta \phi$ and fit this with a function of the form:
+effectively redefining eqn. \ref{eq:frrexpanded} relative to the event plane. To measure the elliptic flow ($v_2$) we count number of tracks in bins of $\Delta \phi_2$ and fit this with a function of the form:
 \begin{equation}
 \label{v2fitfn}
-f(\Delta \phi) = v_0 [1 + v_2 \cos 2 \Delta \phi]
+f(\Delta \phi_2) = v_0 [1 + v_2 \cos 2 \Delta \phi_2]
 \end{equation}
-where $v_0$ is a term that accounts for an overall shift in the number of tracks due to statistics and $v_2$ is the 2nd order Fourier harmonic of the azimuthal momentum anisotropy. 
+where $v_0$ is a term that accounts for an overall shift in the number of tracks due to statistics and $v_2$ is the 2nd order Fourier harmonic of the azimuthal momentum anisotropy. By the orthogonality of Fourier harmonics and because the event plane is determined for each harmonic independently\footnote{and therefore $\Delta \phi$ is specific to a particular harmonic.}, all other $v_n$ contributions must be calculated independently.
 
 
 \section{Separating Particle Signals}
@@ -55,7 +55,7 @@ where $\sigma$ is the width of the identified particle peak, $\mu$ is the locati
   \label{fig:yieldphisinglegaus}
 \end{figure}
 
-\subsection{Gaussian Mixing}
+\subsection{Multiple Gaussians}
 \begin{figure}[htbp!]
   \centering
     \includegraphics[width=0.8\textwidth]{lowptfits/yieldvsdphi_tof1_cent0_ch1_pT-19-21.jpg}
@@ -68,7 +68,9 @@ For $1.3<p_T<2.1$, kaon and pion mass distributions become overlapped. To decoup
 f(m^2) = \frac{1}{\sqrt{2\pi}} \bigg( \frac{N_{\pi}}{\sigma_{\pi}} e^{-\frac{(m^2-\mu_{\pi})^2}{2\sigma_{\pi}^{2}}} + \frac{N_{k}}{\sigma_{\pi}-\sigma_{k}} e^{-\frac{(m^2-\mu_{k})^2}{2(\sigma_{\pi} - \sigma_{k})^{2}}} \bigg),
 \end{equation}
 where $N_{x}$, $\mu_x$, and $\sigma_x$ are the parameters that describe the shape of particle $x$'s ($\pi$/k) distribution. These parameters can then be used to reconstruct single Gaussian distributions which are then integrated out to $2\sigma$ as mentioned in the previous section.
-(full fits and data in Appendix \ref{app:mixgauss})
+(full fits and data in Appendix \ref{app:mixgauss}).
+
+Triple Gaussian fits were attempted, however pion and kaon peaks were so strongly merged that many possible ratios of pion and kaon heights reproduced the same peak in the data. This occurs in a region where the ACC can be utilized so a triple Gaussian fit attempt was abandoned.
 
 \subsection{ACC as a Particle Discriminator}
 
@@ -86,7 +88,7 @@ Above $p_T=2.3$ pion/kaon mixing becomes inseparable. In this region I utilize t
 Above $p_T$=3.5, the strength of particle signatures decreases, approaching level of the background, making individual peaks hard to fit. Though statistics may be very low in the six bins of $d\phi$, there are still enough statistics if all the bins are combined. Means and widths of particle signals should only depend on $p_T$ and not on $d\phi$, therefore I can merge all $d\phi$ bins to calculate the statistical mean and width for each particle species at a given $p_T$ and fix these means and widths as constant for each bin in $d\phi$ and allow the heights of the Gaussians to dictate the yield.
 
 \section{Identified Particle $v_{2}$}
-The end result of each of these particle identification methods is a Yield vs $d\phi$ plot for the three particle species. These plots can be treated like the $dN/d\phi$ vs $d\phi$ plots that provided the charged track $v_2$ measurement which was acquired by fitting with the functional form of equation \ref{v2fitfn}. The parameters of this Fourier fit are the uncorrected $v_2$ coefficients. Dividing by the event plane resolution gives the corrected $v_2$ (fig \ref{fig:v2all}).
+The end result of each of these particle identification methods is a Yield vs $d\phi$ plot for the three particle species. These plots can be treated like the $dN/d\phi$ vs $d\phi$ plots that provided the charged track $v_2$ measurement which was acquired by fitting with the functional form of equation \ref{v2fitfn}. The parameters of this Fourier fit are the uncorrected $v_2$ coefficients. Dividing by the event plane resolution gives the corrected $v_2$ (fig \ref{fig:v2all}) (see section \ref{secteperr}). Statistical error bars on this plot come from the associated parameter errors in the Gaussian fits, propagated through and combined with the errors of the cosine fits. Systematic error bars are treated in the next chapter.
 
 \begin{figure}[htbp!]
   \centering

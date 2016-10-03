@@ -223,6 +223,10 @@ Matthew Luzum and Paul Romatschke.
   results at $\sqrt{{s}_{\mathit{NN}}}=200$ gev.
 \newblock {\em Phys. Rev. C}, 78:034915, Sep 2008.
 
+\bibitem{velkovska:lec12}
+Julia Velkovska.
+\newblock Lecture 12: Hydrodynamics in heavy ion collisons, elliptic flow.
+
 \bibitem{Khachatryan:2015waa}
 Vardan Khachatryan et~al.
 \newblock {Evidence for Collective Multiparticle Correlations in p-Pb
@@ -609,6 +613,13 @@ Akio Kiyomichi.
   gev for qm2002.
 \newblock {\em PHENIX internal analysis notes}, AN148, 2002.
 
+\bibitem{Alver:2010gr}
+B.~Alver and G.~Roland.
+\newblock {Collision geometry fluctuations and triangular flow in heavy-ion
+  collisions}.
+\newblock {\em Phys. Rev.}, C81:054905, 2010.
+\newblock [Erratum: Phys. Rev.C82,039903(2010)].
+
 \bibitem{PhysRevC.58.1671}
 A.~M. Poskanzer and S.~A. Voloshin.
 \newblock Methods for analyzing anisotropic flow in relativistic nuclear
@@ -631,10 +642,6 @@ Chin-Hao Chen, Gabor David, Shengli Huang, and Takao Sakaguchi.
 \newblock Measurement of second-order fourier coefficients of the emission
   angle dependent pi0 yields in run8 d+au collisions.
 \newblock {\em PHENIX Internal Analysis Note}, AN1164, April 2014.
-
-\bibitem{velkovska:lec12}
-Julia Velkovska.
-\newblock Lecture 12: Hydrodynamics in heavy ion collisons, elliptic flow.
 
 \bibitem{Adcox:2004mh}
 K.~Adcox et~al.
