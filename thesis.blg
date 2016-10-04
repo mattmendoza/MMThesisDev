@@ -10,4 +10,8 @@ while executing--line 944 of file unsrt.bst
 Warning--empty booktitle in Itakura2012
 Warning--empty journal in statmechofquarks
 Warning--empty title in rapidityref
-(There were 7 warnings)
+Warning--empty journal in huangQM2015
+Warning--you've exceeded 5000, the global-string-size, for entry PhysRevC.92.034913
+while executing--line 944 of file unsrt.bst
+*Please notify the bibstyle designer*
+(There were 9 warnings)
