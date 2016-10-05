@@ -11,8 +11,8 @@
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Recombination model compared with Au+Au data}}{21}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Illustration of an example hard scatter resulting in fragmentation to two pions}}{22}
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Quark Scaled Elliptic Flow Results from PHENIX and STAR in Au+Au $\sqrt {s_NN}=200 GeV$ collisions}}{23}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Elliptic Flow in p+Pb at the LHC}}{25}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces p/$\pi $ ratios compared for central d+Au and peripheral Au+Au}}{26}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Elliptic Flow in p+Pb at the LHC}}{24}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces p/$\pi $ ratios compared for central d+Au and peripheral Au+Au}}{25}
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Pion transverse momentum distribution from d+Au collisions compared to one created with the recombination model}}{27}
 \contentsline {figure}{\numberline {2.15}{\ignorespaces A diagram of QGP hydrodynamic evolution.}}{28}
 \contentsline {figure}{\numberline {2.16}{\ignorespaces A Cartoon of the Glauber Model}}{29}
@@ -52,24 +52,25 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Illustrations of the event plane in heavy ion collisions}}{92}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Cartoon of Event Plane determination with forward detectors}}{93}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Flattened event plane distributions in the BBC, MPC, and RXNP}}{96}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Flattened event plane distributions in the BBC, MPC, and RXNP}}{95}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Track $p_T$ vs $m^2$ determined by the TOF.W showing separation of $\pi $, k, and proton particle signals.}}{101}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Example single Gaussian fits of $m^2$ for $p_T\leq 1.3$ GeV/c in 6 bins of $\Delta \phi $.}}{103}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Particle distribution fit mean and width QA. $\pi $, k, p yield vs $\Delta \phi $ and corresponding Fourier fits for $p_T\leq 1.3$ GeV/c.}}{104}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Example mixed Gaussian fits of $m^2$ for $1.3 \leq p_T\leq 2.1$ GeV/c in 6 bins of $\Delta \phi $.}}{105}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Number of ACC photoelectrons vs $m^2$ in bins of $p_T$.}}{106}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces $\pi ^{\pm }$, $k^{\pm }$, $p/\mathaccentV {bar}016{p}$ elliptic flow,$\sqrt {s_{NN}}=$200 GeV d+Au collisions}}{109}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Track $p_T$ vs $m^2$ determined by the TOF.W showing separation of $\pi $, k, and proton particle signals.}}{100}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Example single Gaussian fits of $m^2$ for $p_T\leq 1.3$ GeV/c in 6 bins of $\Delta \phi $.}}{102}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Particle distribution fit mean and width QA. $\pi $, k, p yield vs $\Delta \phi $ and corresponding Fourier fits for $p_T\leq 1.3$ GeV/c.}}{103}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Example mixed Gaussian fits of $m^2$ for $1.3 \leq p_T\leq 2.1$ GeV/c in 6 bins of $\Delta \phi $.}}{103}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Number of ACC photoelectrons vs $m^2$ in bins of $p_T$.}}{105}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces $\pi ^{\pm }$, $k^{\pm }$, $p/\mathaccentV {bar}016{p}$ elliptic flow,$\sqrt {s_{NN}}=$200 GeV d+Au collisions}}{107}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Centrality uncertainty contribution to Systematic Error}}{115}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Timing QA in the TOF.W}}{117}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Systematic Offset in TOF.W}}{118}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Effects of Systematic Shifts in Yield on $v_2$.}}{124}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Centrality uncertainty contribution to Systematic Error}}{113}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Timing QA in the TOF.W}}{115}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Systematic Offset in TOF.W}}{116}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Effects of Systematic Shifts in Yield on $v_2$.}}{122}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Elliptic Flow vs Transverse Momentum, 200 GeV d+Au}}{126}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Quark Scaled Elliptic Flow ($\pi ^{\pm }$ and $p/\mathaccentV {bar}016{p}$) vs Transverse Momentum, 200 GeV d+Au}}{127}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces $\pi ^{\pm }$ and $p/\mathaccentV {bar}016{p}$ Elliptic Flow compared to hydrodynamic models.}}{129}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Elliptic flow of all charged hadrons compared to hydrodynamic models.}}{130}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Elliptic Flow vs Transverse Momentum, 200 GeV d+Au}}{123}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Quark Scaled Elliptic Flow ($\pi ^{\pm }$ and $p/\mathaccentV {bar}016{p}$) vs Transverse Momentum, 200 GeV d+Au}}{125}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces $\pi ^{\pm }$ and $p/\mathaccentV {bar}016{p}$ Elliptic Flow compared to hydrodynamic models.}}{126}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Elliptic flow of all charged hadrons compared to hydrodynamic models.}}{127}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Meson Elliptic Flow plots}}{128}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {A.1}{\ignorespaces PHENIX coordinate system}}{131}
 \addvspace {10\p@ }

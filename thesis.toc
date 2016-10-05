@@ -13,13 +13,13 @@
 \contentsline {subsection}{\numberline {2.3.2}Baryon Enhancement}{17}
 \contentsline {subsection}{\numberline {2.3.3}Theoretical Models of the QGP}{19}
 \contentsline {subsubsection}{Recombination and Fragmentation}{19}
-\contentsline {subsubsection}{Relativistic Hydrodynamics}{22}
-\contentsline {section}{\numberline {2.4}Collective Flow at the LHC}{24}
+\contentsline {subsubsection}{Relativistic Hydrodynamics}{20}
+\contentsline {section}{\numberline {2.4}Collective Flow at the LHC}{23}
 \contentsline {section}{\numberline {2.5}Recombination and Fragmentation for All?}{25}
 \contentsline {section}{\numberline {2.6}The Big(ger) Picture}{27}
 \contentsline {subsection}{\numberline {2.6.1}The Glauber Model}{28}
-\contentsline {subsection}{\numberline {2.6.2}Color-Glass Condensate}{30}
-\contentsline {subsection}{\numberline {2.6.3}Glasma}{34}
+\contentsline {subsection}{\numberline {2.6.2}Color-Glass Condensate}{29}
+\contentsline {subsection}{\numberline {2.6.3}Glasma}{33}
 \contentsline {subsection}{\numberline {2.6.4}Strangeness Enhancement}{35}
 \contentsline {section}{\numberline {2.7}Moving Forward}{36}
 \contentsline {chapter}{\numberline {3}Experimental Apparatus}{38}
@@ -52,34 +52,35 @@
 \contentsline {section}{\numberline {5.2}Flow from Fluctuations}{89}
 \contentsline {chapter}{\numberline {6}Event Plane}{91}
 \contentsline {section}{\numberline {6.1}Determination of Event Plane}{91}
-\contentsline {section}{\numberline {6.2}Q-vector Recentering}{94}
+\contentsline {section}{\numberline {6.2}Q-vector Recentering}{93}
 \contentsline {section}{\numberline {6.3}Event Plane ``Flattening"}{94}
-\contentsline {section}{\numberline {6.4}Event Plane Resolution Correction}{97}
-\contentsline {chapter}{\numberline {7}Results}{99}
-\contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{99}
-\contentsline {section}{\numberline {7.2}Separating Particle Signals}{100}
-\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{102}
+\contentsline {section}{\numberline {6.4}Event Plane Resolution Correction}{96}
+\contentsline {chapter}{\numberline {7}Results}{98}
+\contentsline {section}{\numberline {7.1}Charged Track $v_{2}$}{98}
+\contentsline {section}{\numberline {7.2}Separating Particle Signals}{99}
+\contentsline {subsection}{\numberline {7.2.1}Single Gaussians}{101}
 \contentsline {subsection}{\numberline {7.2.2}Multiple Gaussians}{104}
-\contentsline {subsection}{\numberline {7.2.3}ACC as a Particle Discriminator}{105}
-\contentsline {subsection}{\numberline {7.2.4}High $p_T$: Fixed Width and Mean}{107}
-\contentsline {section}{\numberline {7.3}Identified Particle $v_{2}$}{108}
-\contentsline {chapter}{\numberline {8}Error Analysis}{110}
-\contentsline {section}{\numberline {8.1}Event Plane Resolution Correction}{111}
-\contentsline {section}{\numberline {8.2}Centrality Resolution}{113}
-\contentsline {section}{\numberline {8.3}Particle Identification Methods}{114}
-\contentsline {subsection}{\numberline {8.3.1}Momentum Uncertainty}{115}
-\contentsline {subsection}{\numberline {8.3.2}TOF Timing}{116}
-\contentsline {subsection}{\numberline {8.3.3}Uncertainties from Gaussian Models}{119}
-\contentsline {subsubsection}{Single and Mixed Gaussians, no ACC, $p_T\leq 2.1$ GeV/c}{119}
-\contentsline {subsubsection}{ACC Meson Separation and Gaussian Tail Cross Contamination, $2.1\leq p_T \leq 2.9$}{120}
-\contentsline {subsubsection}{Fixed Width/Mean Gaussians and Background Effects}{120}
-\contentsline {section}{\numberline {8.4}Detector Acceptance}{121}
-\contentsline {section}{\numberline {8.5}Summary}{122}
-\contentsline {chapter}{\numberline {9}Conclusions}{126}
-\contentsline {section}{\numberline {9.1}Discussion}{127}
-\contentsline {subsection}{\numberline {9.1.1}Hadronization}{127}
-\contentsline {subsection}{\numberline {9.1.2}Comparison to Flow Models}{128}
-\contentsline {subsection}{\numberline {9.1.3}Strangeness and Initial Conditions}{130}
+\contentsline {subsection}{\numberline {7.2.3}ACC as a Particle Discriminator}{104}
+\contentsline {subsection}{\numberline {7.2.4}High $p_T$: Fixed Width and Mean}{106}
+\contentsline {section}{\numberline {7.3}Identified Particle $v_{2}$}{107}
+\contentsline {chapter}{\numberline {8}Error Analysis}{108}
+\contentsline {section}{\numberline {8.1}Event Plane Resolution Correction}{109}
+\contentsline {section}{\numberline {8.2}Centrality Resolution}{111}
+\contentsline {section}{\numberline {8.3}Particle Identification Methods}{112}
+\contentsline {subsection}{\numberline {8.3.1}Momentum Uncertainty}{113}
+\contentsline {subsection}{\numberline {8.3.2}TOF Timing}{114}
+\contentsline {subsection}{\numberline {8.3.3}Uncertainties from Gaussian Models}{117}
+\contentsline {subsubsection}{Single and Mixed Gaussians, no ACC, $p_T\leq 2.1$ GeV/c}{117}
+\contentsline {subsubsection}{ACC Meson Separation and Gaussian Tail Cross Contamination, $2.1\leq p_T \leq 2.9$}{118}
+\contentsline {subsubsection}{Fixed Width/Mean Gaussians and Background Effects}{118}
+\contentsline {section}{\numberline {8.4}Detector Acceptance}{119}
+\contentsline {section}{\numberline {8.5}Summary}{120}
+\contentsline {chapter}{\numberline {9}Conclusions}{123}
+\contentsline {section}{\numberline {9.1}Discussion}{124}
+\contentsline {subsection}{\numberline {9.1.1}Hadronization}{124}
+\contentsline {subsection}{\numberline {9.1.2}Comparison to Flow Models}{126}
+\contentsline {subsection}{\numberline {9.1.3}Strangeness and Initial Conditions}{127}
+\contentsline {section}{\numberline {9.2}Summary}{129}
 \contentsline {chapter}{\numberline {A}PHENIX Coordinate System}{131}
 \contentsline {chapter}{\numberline {B}Nuclear Modification Factor}{133}
 \contentsline {chapter}{\numberline {C}Event and Track Selection Cuts}{135}

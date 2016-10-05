@@ -723,13 +723,6 @@ Francesco Noferini.
   $\sqrt{s_{NN}} = 2.76$ TeV measured with ALICE at the LHC}.
 \newblock {\em Nucl. Phys.}, A904-905:483c--486c, 2013.
 
-\bibitem{Adare:2014keg}
-A.~Adare et~al.
-\newblock {Measurement of long-range angular correlation and quadrupole
-  anisotropy of pions and (anti)protons in central $d$$+$Au collisions at
-  $\sqrt{s_{_{NN}}}$=200 GeV}.
-\newblock {\em Phys. Rev. Lett.}, 114(19):192301, 2015.
-
 \bibitem{Nagle:2013lja}
 J.~L. Nagle, A.~Adare, S.~Beckman, T.~Koblesky, J.~Orjuela~Koop, D.~McGlinchey,
   P.~Romatschke, J.~Carlson, J.~E. Lynn, and M.~McCumber.
@@ -747,6 +740,20 @@ P.~Romatschke.
 \newblock Light-heavy-ion collisions: a window into pre-equilibrium qcd
   dynamics?
 \newblock {\em The European Physical Journal C}, 75(7):1--15, 2015.
+
+\bibitem{Adare:2014keg}
+A.~Adare et~al.
+\newblock {Measurement of long-range angular correlation and quadrupole
+  anisotropy of pions and (anti)protons in central $d$$+$Au collisions at
+  $\sqrt{s_{_{NN}}}$=200 GeV}.
+\newblock {\em Phys. Rev. Lett.}, 114(19):192301, 2015.
+
+\bibitem{1742-6596-668-1-012099}
+E~E Zabrodin, L~V Bravina, B~H~Brusheim Johansson, J~Crkovska, G~Kh Eyyubova,
+  V~L Korotkikh, I~P Lokhtin, L~V Malinina, S~V Petrushanko, and A~M Snigirev.
+\newblock Features of triangular flow of strange and non-strange hadrons at
+  lhc.
+\newblock {\em Journal of Physics: Conference Series}, 668(1):012099, 2016.
 
 \bibitem{pi0v2run8dau}
 Chin-Hao Chen, Gabor David, Shengli Huang, and Takao Sakaguchi.
