@@ -211,12 +211,6 @@ B.~I. Abelev, M.~M. Aggarwal, Z.~Ahammed, B.~D. Anderson, M.~Anderson,
   }\text{ }\mathrm{GeV}$.
 \newblock {\em Phys. Rev. Lett.}, 97:152301, Oct 2006.
 
-\bibitem{PhysRevC.70.024905}
-Rudolph~C. Hwa and C.~B. Yang.
-\newblock Recombination of shower partons at high ${p}_{T}$ in heavy-ion
-  collisions.
-\newblock {\em Phys. Rev. C}, 70:024905, Aug 2004.
-
 \bibitem{PhysRevC.78.034915}
 Matthew Luzum and Paul Romatschke.
 \newblock Conformal relativistic viscous hydrodynamics: Applications to rhic
@@ -226,6 +220,12 @@ Matthew Luzum and Paul Romatschke.
 \bibitem{velkovska:lec12}
 Julia Velkovska.
 \newblock Lecture 12: Hydrodynamics in heavy ion collisons, elliptic flow.
+
+\bibitem{PhysRevC.70.024905}
+Rudolph~C. Hwa and C.~B. Yang.
+\newblock Recombination of shower partons at high ${p}_{T}$ in heavy-ion
+  collisions.
+\newblock {\em Phys. Rev. C}, 70:024905, Aug 2004.
 
 \bibitem{Khachatryan:2015waa}
 Vardan Khachatryan et~al.
@@ -748,6 +748,11 @@ A.~Adare et~al.
   $\sqrt{s_{_{NN}}}$=200 GeV}.
 \newblock {\em Phys. Rev. Lett.}, 114(19):192301, 2015.
 
+\bibitem{Krasnitz200321}
+Alex Krasnitz, Yasushi Nara, and Raju Venugopalan.
+\newblock Elliptic flow of colored glass in high energy heavy ion collisions.
+\newblock {\em Physics Letters B}, 554(1–2):21 -- 27, 2003.
+
 \bibitem{1742-6596-668-1-012099}
 E~E Zabrodin, L~V Bravina, B~H~Brusheim Johansson, J~Crkovska, G~Kh Eyyubova,
   V~L Korotkikh, I~P Lokhtin, L~V Malinina, S~V Petrushanko, and A~M Snigirev.
@@ -755,17 +760,17 @@ E~E Zabrodin, L~V Bravina, B~H~Brusheim Johansson, J~Crkovska, G~Kh Eyyubova,
   lhc.
 \newblock {\em Journal of Physics: Conference Series}, 668(1):012099, 2016.
 
-\bibitem{Powell:2010oea}
-Christopher Powell.
-\newblock {$J/\psi$ production in d+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
-  at the STAR Experiment}.
-\newblock Master's thesis, Cape Town U., 2010.
-
 \bibitem{pi0v2run8dau}
 Chin-Hao Chen, Gabor David, Shengli Huang, and Takao Sakaguchi.
 \newblock Measurement of second-order fourier coefficients of the emission
   angle dependent pi0 yields in run8 d+au collisions.
 \newblock {\em PHENIX Internal Analysis Note}, AN1164, April 2014.
+
+\bibitem{Powell:2010oea}
+Christopher Powell.
+\newblock {$J/\psi$ production in d+Au collisions at $\sqrt{s_{NN}}$ = 200 GeV
+  at the STAR Experiment}.
+\newblock Master's thesis, Cape Town U., 2010.
 
 \bibitem{ALICE:2013xna}
 Ehab Abbas et~al.

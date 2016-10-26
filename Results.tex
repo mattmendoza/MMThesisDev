@@ -8,7 +8,7 @@ Here I present measurements of elliptic flow in $\sqrt{s_{NN}}=200$ GeV d+Au col
 \begin{equation} \label{eq:frrexpanded}
 \frac{d^{2}N}{dp^{2}} \propto v_0 + v_1 \cos\big(\phi - \Psi^{RP}_1\big) + v_2 \cos\big(2(\phi - \Psi^{RP}_2)\big) + v_3 \cos\big(3(\phi - \Psi^{RP}_3)\big) \cdots
 \end{equation}
-where $v_0$, $v_1$, $v_2$, and $v_3$ are the values that scale the amount of spherical, directed, elliptic, and triangular flow respectively, and are indicative of collective behavior of the nuclear matter. The angle, $\phi$, is the azimuthal angle in the lab frame and $\Psi^{RP}_n$ is the angle of the reaction plane in the lab frame\footnote{for the $n$-th Fourier harmonic.}. This can be simplified by defining the coordinate: $\Delta \phi = \phi - \Psi^{RP}_n$ which gives:
+where $v_0$, $v_1$, $v_2$, and $v_3$ are the values that scale the amount of spherical, directed, elliptic, and triangular flow respectively, and are indicative of collective behavior of the nuclear matter. The angle, $\phi$, is the azimuthal angle in the lab frame and $\Psi^{RP}_n$ is the angle of the reaction plane in the lab frame\footnote{for the $n$-th Fourier harmonic.}. This can be simplified by defining the coordinate: $\Delta \phi_n = \phi - \Psi^{RP}_n$ which gives:
 \begin{equation} 
 \frac{d^{2}N}{dp^{2}} \propto v_0 + v_1 \cos(\Delta \phi _1) + v_2 \cos(2\Delta \phi _2) + v_3 \cos(3\Delta \phi _3) \cdots
 \end{equation}
@@ -21,12 +21,12 @@ where $v_0$ is a term that accounts for an overall shift in the number of tracks
 
 
 \section{Separating Particle Signals}
-Following the recentering of the Q vectors, the flattening of the event plane, and checking for calibration of the TOF detector, 2-d histograms of $p_T$ vs $m^2$ are plotted following the method described in section \ref{sect:pidmethod} to identify the species of charged track hits in the TOF. 
+Following the re-centering of the Q-vectors, the flattening of the event plane, and checking for calibration of the TOF detector, 2-d histograms of $p_T$ vs $m^2$ are plotted following the method described in section \ref{sect:pidmethod} to identify the species of charged track hits in the TOF. 
 \begin{figure}[htbp!]
   \centering
     \includegraphics[width=1\textwidth]{Figures/ptvsm2tof.jpg}
     \rule{35em}{0.5pt}
-  \caption[Track $p_T$ vs $m^2$ determined by the TOF.W showing separation of $\pi$, k, and proton particle signals.]{Track $p_T$ vs $m^2$ determined by the TOF.W showing separation of $\pi$, k, and proton particle signals.}
+  \caption[Track $p_T$ vs $m^2$ determined by the TOF.W showing separation of $\pi$, k, and proton particle signals.]{Track $p_T$ vs $m^2$ determined by the TOF.W showing separation of $\pi$, K, and proton particle signals.}
   \label{fig:accspread}
 \end{figure}
 
@@ -51,7 +51,7 @@ where $\sigma$ is the width of the identified particle peak, $\mu$ is the locati
   \centering
     \includegraphics[width=0.8\textwidth]{lowptfits/fitParams_tof1_cent0_ch1_pT-11-13.jpg}
     \rule{35em}{0.5pt}
-  \caption[Particle distribution fit mean and width QA. $\pi$, k, p yield vs $\Delta \phi$ and corresponding Fourier fits for $p_T\leq 1.3$ GeV/c.]{Particle distribution fit mean and width QA, $\pi$, k, p yield vs $\Delta \phi$ and corresponding Fourier fits for $p_T\leq 1.3$ GeV/c.}
+  \caption[Particle distribution fit mean and width QA. $\pi$, K, p yield vs $\Delta \phi$ and corresponding Fourier fits for $p_T\leq 1.3$ GeV/c.]{Particle distribution fit mean and width QA. $\pi$, K, p yield vs $\Delta \phi$ and corresponding Fourier fits for $p_T\leq 1.3$ GeV/c. Yield plots are zero suppressed and statistical error bars are plotted.}
   \label{fig:yieldphisinglegaus}
 \end{figure}
 
@@ -63,11 +63,11 @@ where $\sigma$ is the width of the identified particle peak, $\mu$ is the locati
   \caption[Example mixed Gaussian fits of $m^2$ for $1.3 \leq p_T\leq 2.1$ GeV/c in 6 bins of $\Delta \phi$.]{Example mixed Gaussian fits of $m^2$ for $1.3 \leq p_T\leq 2.1$ GeV/c in 6 bins of $\Delta \phi$.}
   \label{fig:mixgausm2}
 \end{figure}
-For $1.3<p_T<2.1$, kaon and pion mass distributions become overlapped. To decouple the two I fit the distribution with a combination of two Gaussians in order to fit the overlapping tails of the distributions without over counting (see fig. \ref{fig:mixgausm2}). This function takes the form:
+For $1.3<p_T<2.1$, kaon and pion mass distributions become overlapped. To decouple the two, I fit the distribution with a combination of two Gaussians in order to fit the overlapping tails of the distributions without over counting (see fig. \ref{fig:mixgausm2}). This function takes the form:
 \begin{equation}
 f(m^2) = \frac{1}{\sqrt{2\pi}} \bigg( \frac{N_{\pi}}{\sigma_{\pi}} e^{-\frac{(m^2-\mu_{\pi})^2}{2\sigma_{\pi}^{2}}} + \frac{N_{k}}{\sigma_{\pi}-\sigma_{k}} e^{-\frac{(m^2-\mu_{k})^2}{2(\sigma_{\pi} - \sigma_{k})^{2}}} \bigg),
 \end{equation}
-where $N_{x}$, $\mu_x$, and $\sigma_x$ are the parameters that describe the shape of particle $x$'s ($\pi$/k) distribution. These parameters can then be used to reconstruct single Gaussian distributions which are then integrated out to $2\sigma$ as mentioned in the previous section.
+where $N_{x}$, $\mu_x$, and $\sigma_x$ are the parameters that describe the shape of particle $x$'s ($\pi$/K) distribution. These parameters can then be used to reconstruct single Gaussian distributions which are then integrated out to $2\sigma$ as mentioned in the previous section.
 (full fits and data in Appendix \ref{app:mixgauss}).
 
 Triple Gaussian fits were attempted, however pion and kaon peaks were so strongly merged that many possible ratios of pion and kaon heights reproduced the same peak in the data. This occurs in a region where the ACC can be utilized so a triple Gaussian fit attempt was abandoned.
@@ -88,13 +88,13 @@ Above $p_T=2.3$ pion/kaon mixing becomes inseparable. In this region I utilize t
 Above $p_T$=3.5, the strength of particle signatures decreases, approaching level of the background, making individual peaks hard to fit. Though statistics may be very low in the six bins of $d\phi$, there are still enough statistics if all the bins are combined. Means and widths of particle signals should only depend on $p_T$ and not on $d\phi$, therefore I can merge all $d\phi$ bins to calculate the statistical mean and width for each particle species at a given $p_T$ and fix these means and widths as constant for each bin in $d\phi$ and allow the heights of the Gaussians to dictate the yield.
 
 \section{Identified Particle $v_{2}$}
-The end result of each of these particle identification methods is a Yield vs $d\phi$ plot for the three particle species. These plots can be treated like the $dN/d\phi$ vs $d\phi$ plots that provided the charged track $v_2$ measurement which was acquired by fitting with the functional form of equation \ref{v2fitfn}. The parameters of this Fourier fit are the uncorrected $v_2$ coefficients. Dividing by the event plane resolution gives the corrected $v_2$ (fig \ref{fig:v2all}) (see section \ref{secteperr}). Statistical error bars on this plot come from the associated parameter errors in the Gaussian fits, propagated through and combined with the errors of the cosine fits. Systematic error bars are treated in the next chapter.
+The end result of each of these particle identification methods is a Yield vs $d\phi$ plot for the three particle species: pions, kaons, and protons. These plots can be treated like the $dN/d\phi$ vs $d\phi$ plots that provided the charged track $v_2$ measurement which was acquired by fitting with the functional form of equation \ref{v2fitfn}. The parameters of this Fourier fit are the uncorrected $v_2$ coefficients. Dividing by the event plane resolution gives the corrected $v_2$ (fig \ref{fig:v2all}) (see section \ref{secteperr}). Statistical error bars on this plot come from the associated parameter errors in the Gaussian fits, propagated through and combined with the errors of the cosine fits. Systematic errors are treated in the next chapter.
 
-\begin{figure}[htbp!]
+\begin{figure}[h!]
   \centering
-    \includegraphics[width=1\textwidth]{v2all.jpg}
+    \includegraphics[width=1\textwidth]{results/v2allnoSE.jpg}
     \rule{35em}{0.5pt}
-  \caption[$\pi^{\pm}$, $k^{\pm}$, $p/\bar{p}$ elliptic flow,$\sqrt{s_{NN}}=$200 GeV d+Au collisions]{$\pi^{\pm}$, $k^{\pm}$, $p/\bar{p}$ elliptic flow, resolution corrected.}
+  \caption[$\pi^{\pm}$, $K^{\pm}$, $p/\bar{p}$ elliptic flow,$\sqrt{s_{NN}}=$200 GeV d+Au collisions]{$\pi^{\pm}$, $K^{\pm}$, and $p/\bar{p}$ elliptic flow, resolution corrected. Error bars are statistical errors.}
   \label{fig:v2all}
 \end{figure}
 
