@@ -24,32 +24,30 @@
 \end{figure}
 
 
-In the moments immediately after a collision event, the outward expansion of the newly formed QGP can be studied to better understand the QCD processes that take place both during formation as well what happens as the temperature of the system drops to below the freeze out threshold. Though fluctuations in collision geometry can happen, if we ignore them for the moment, we can say that the shape of the colliding ions' cross-sectional overlap provides a good approximation of the initial conditions of the medium after collision. Therefore, the geometry of the initial configuration of participants is dependent on the collision's centrality\footnote{see sect. \ref{sect:centrality}}. Because of this, peripheral events in symmetric systems such as Au+Au have an inherently elliptical shape (as shown in figure \ref{fig:pgradauau}). The azimuthal asymmetry of this interaction creates different amounts of pressure, or \textit{pressure gradients}, about the azimuth. These pressures are strongest along the waist of the collision and weakest at the poles. Because of this, though it expands in all directions, it is the stronger expansion about the azimuth that best describes the behavior of this fluid. Asymmetric systems, such as the one studied in this analysis (d+Au), have a different dependence on centrality. As shown in figure \ref{fig:pgraddau}, since deuterons contain only two nucleons, they are inherently elliptical in shape, the pressure gradients then only depend on how many of the gold ion's nucleons the deuteron interacts with. By the Glauber model, we can approximate the nucleon distribution of an ion as a density function that decreases with increasing radius. Therefore, it follows that, for d+Au, pressure gradients are maximal with central collisions since nuclear interaction is maximal at maximum centrality. Consequently, flow should be strongest in central collisions due to this maximal pressure.  
+In the moments immediately after a collision event, the outward expansion of the newly formed QGP can be studied to better understand the QCD processes that take place both during formation as well what happens as the temperature of the system drops to below the freeze-out threshold. Though fluctuations in collision geometry can happen, if they are ignored for the moment, it can be said that the shape of the colliding ions' cross-sectional overlap provides a good approximation of the initial conditions of the medium after collision. Therefore, the geometry of the initial configuration of participants is dependent on the collision's centrality\footnote{See Section \ref{sect:centrality}}. Because of this, peripheral events in symmetric systems such as Au+Au have an inherently elliptical shape (as shown in Figure \ref{fig:pgradauau}). The azimuthal asymmetry of this interaction creates different amounts of pressure, or \textit{pressure gradients}, about the azimuth. These pressures are strongest along the waist of the collision and weakest at the poles. Because of this, though it expands in all directions, it is the stronger expansion about the azimuth that best describes the behavior of this fluid. Asymmetric systems, such as the one studied in this analysis (d+Au), have a different dependence on centrality. As shown in Figure \ref{fig:pgraddau}, since deuterons contain only two nucleons, they are inherently elliptical in shape, and the pressure gradients then only depend on how many of the gold ion's nucleons the deuteron interacts with. By the Glauber model, the nucleon distribution in an ion can be approximated as a density function that decreases with increasing radius. Therefore, it follows that for d+Au, pressure gradients are maximal with central collisions since nuclear interaction is maximal at maximum centrality. Consequently, flow should be strongest in central collisions due to this maximal pressure.  
 
-Often physicists like to describe the behavior of phenomena using a series expansion of orthogonal functions. Since the azimuthal angle runs from $0$ to $2 \pi$, this azimuthal expansion can be treated as a harmonic function which lends itself well to parameterization using a Fourier series. Recall that a Fourier series can be used to approximate the shape of a periodic function, $f(x)$, over a fixed period, $L$:
-
+Often physicists describe the behavior of phenomena using a series expansion of orthogonal functions. Since the azimuthal angle runs from $0$ to $2 \pi$, this azimuthal expansion can be treated as a harmonic function, which lends itself well to parameterization using a Fourier series. Recall that a Fourier series can be used to approximate the shape of a periodic function, $f(x)$, over a fixed period, $L$, as follows:
 \begin{equation}
-f(x) = \sum^{\infty}_{n=-\infty} A_{n} e^{i(2 \pi n x / L)}
+f(x) = \sum^{\infty}_{n=-\infty} A_{n} e^{i(2 \pi n x / L)},
 \end{equation}
 where
 \begin{equation}
 A_{n} = \frac{1}{L} \int^{L}_{0} f(\phi) e^{-i(2 \pi n x / L)} dx
 \end{equation}
-
-are said to be the Fourier \textbf{coefficients} or often, since they approximate harmonic functions, Fourier \textbf{harmonics}. For azimuthal periodicity, $L=2\pi$ and these equations become: 
+are said to be the Fourier \textit{coefficients} or often, since they approximate harmonic functions, Fourier \textit{harmonics}. For azimuthal periodicity, $L=2\pi$ and this equation becomes
 
 \begin{equation}
-f(\phi) = \sum^{\infty}_{n=-\infty} A_{n} e^{i(n \phi)}
+f(\phi) = \sum^{\infty}_{n=-\infty} A_{n} e^{i(n \phi)},
 \end{equation}
 where
 \begin{equation}
-A_{n} = \frac{1}{2\pi} \int^{-\pi}_{\pi} f(\phi) e^{-i(n \phi)} d\phi
+A_{n} = \frac{1}{2\pi} \int^{-\pi}_{\pi} f(\phi) e^{-i(n \phi)} d\phi.
 \end{equation}
 
-These coefficients describe the amount a particular harmonic's functional shape contributes to the overall shape of the periodic function. We know that the exponential term can be written as the sum of a real cosine term and an imaginary sine term:
+These coefficients describe the amount a particular harmonic's functional shape contributes to the overall shape of the periodic function. The exponential term can be written as the sum of a real cosine term and an imaginary sine term, as follows:
 
 \begin{equation}
-f(\phi) = \sum^{\infty}_{n=0} A_{n} cos ( n \phi) + i \sum^{\infty}_{n=0} B_{n} sin (n \phi)
+f(\phi) = \sum^{\infty}_{n=0} A_{n} cos ( n \phi) + i \sum^{\infty}_{n=0} B_{n} sin (n \phi),
 \end{equation}
 where
 \begin{equation}
@@ -57,7 +55,7 @@ A_{n} = \frac{1}{2\pi} \int^{-\pi}_{\pi} f(\phi) cos (n \phi) d\phi
 \end{equation}
 and
 \begin{equation}
-B_{n} = \frac{1}{2\pi} \int^{-\pi}_{\pi} f(\phi) sin (n \phi) d\phi 
+B_{n} = \frac{1}{2\pi} \int^{-\pi}_{\pi} f(\phi) sin (n \phi) d\phi.
 \end{equation}
 
 \begin{figure}[htbp!]
@@ -71,34 +69,34 @@ B_{n} = \frac{1}{2\pi} \int^{-\pi}_{\pi} f(\phi) sin (n \phi) d\phi
 \end{figure}
 
 
-Since we define $\phi=0$ to be along the waist of the ellipsoidal shaped QGP and not at the poles (see fig \ref{fig:dphiep}), odd function contributions (sine terms, $B_{n}$) to the Fourier series can all be ignored. Therefore, if we wish to approximate the shape of the outgoing flow from the QGP, we can define the rate of change of outgoing particle tracks vs transverse momentum and approximate it with a Fourier series. Flow anisotropy of the QGP can then be written as:
+Since we define $\phi=0$ to be along the waist of the ellipsoidal shaped QGP and not at the poles (see Figure \ref{fig:dphiep}), odd function contributions (sine terms, $B_{n}$) to the Fourier series can all be ignored. Therefore, the shape of the outgoing QGP flow can be approximated by defining the rate of change of outgoing particle tracks versus transverse momentum and approximating it with a Fourier series. Flow anisotropy of the QGP can then be written as
 \begin{equation}
 E \frac{d^{3}N}{dp^{3}} = \frac{1}{2 \pi} \frac{d^{2}N}{p_{T} dp_{T}dy}\Big( 1 + \sum^{\infty}_{n=1} 2 v_{n} \cos\big(n \Delta \phi)\big) \Big),
 \end{equation}
-where:
+where
 \begin{equation}
 v_{n} = \bigg \langle cos \Big( n \Delta\phi \Big) \bigg \rangle
 \end{equation}
-are the n-th order Fourier coefficients that describe the azimuthal shape of the QGP's outward expansion and $\Delta \phi = \phi_{lab} - \Psi_{RP}$ is the azimuthal angle with respect to the reaction plane angle relative measured in the lab coordinate system, changing the lab coordinate phi to the angle phi with respect to the event plane. Each n-th order coefficient scales the amount of expansion that behaves like $cos$ $nx$.
+are the n-th order Fourier coefficients that describe the azimuthal shape of the QGP's outward expansion, and $\Delta \phi = \phi_{lab} - \Psi_{RP}$ is the azimuthal angle with respect to the reaction plane angle relative measured in the lab coordinate system, changing the lab coordinate phi to the angle phi with respect to the event plane. Each n-th order coefficient scales the amount of expansion that behaves like $cos$ $nx$.
 
 \begin{figure}[htbp!]
   \centering
     \includegraphics[width=0.8\textwidth]{Figures/fouriercosines.jpg}
     \rule{35em}{0.5pt}
-  \caption[Plots of the first four harmonics of a cosine series.]{Plots of the first four harmonics of a cosine series. $\phi=0$ is along the event plane and increasing $\phi$ goes clockwise as shown in figure \ref{fig:dphiep}.}
+  \caption[Plots of the first four harmonics of a cosine series.]{Plots of the first four harmonics of a cosine series. $\phi=0$ is along the event plane and increasing $\phi$ goes clockwise as shown in Figure \ref{fig:dphiep}.}
   \label{fig:fouriercosines}
 \end{figure}
 
-From studying the behavior of these various harmonics we can see that $n=0$ corresponds to a constant term since $\cos{0} = 1$ for $n=1$. Furthermore, $\cos{x}$ is a maximum at $\phi=0$ and a minimum at $\phi = \pi$ which would correspond to a collective flow in the $\phi=0$ direction. Therefore, the $n=1$ flow coefficient is often called \textit{directed flow}. For the case of $n=2$ we see that again there is a maximum at $\phi=0$ and another at $\phi=\pi$ which corresponds to maximal flow along the event plane of the ellipsoidal QGP. This anisotropic expansion that is strongest along the reaction plane in an elliptical collective flow, a term which is shortened to \textit{elliptic flow}. There are higher order harmonics which can describe various other phenomena of QGP flow which are beyond the scope of this analysis.
+From studying the behavior of these various harmonics we can see that $n=0$ corresponds to a constant term since $\cos{0} = 1$ for $n=1$. Furthermore, $\cos{x}$ is a maximum at $\phi=0$ and a minimum at $\phi = \pi$, which would correspond to a collective flow in the $\phi=0$ direction. Therefore, the $n=1$ flow coefficient is often called \textit{directed flow}. For the case of $n=2$ we see that again there is a maximum at $\phi=0$ and another at $\phi=\pi$, which corresponds to maximal flow along the event plane of the ellipsoidal QGP. This anisotropic expansion that is strongest along the reaction plane in an elliptical collective flow, a term which is shortened to \textit{elliptic flow}. There are higher order harmonics which can describe various other phenomena of QGP flow which are beyond the scope of this analysis.
 
 \section{Flow from Fluctuations}
-Geometric sources of initial conditions are a good approximation; however, it has been seen that higher harmonics can be measured in elliptic systems such as peripheral Au+Au previously thought to be only elliptic\citep{Alver:2010gr}. This effect has been attributed to secondary scattering processes of the participant nucleons. These nucleons that interact with spectators in secondary reactions are called \textit{wounded nucleons} and the overall effect of these additional collisions increases both the number of binary collisions and alters the initial shape of the created medium. An example of this shown in figure \ref{fig:v3inauau} where a symmetric Au+Au system collided peripherally and we expect a strong $v_2$, however fluctuations and wounded nucleons create a triangular shaped initial condition, which would correspond to a $v_3$ signal.
+Geometric sources of initial conditions are a good approximation; however, it has been seen that higher harmonics can be measured in elliptic systems such as peripheral Au+Au previously thought to be only elliptic \citep{Alver:2010gr}. This effect has been attributed to secondary scattering processes of the participant nucleons. These nucleons that interact with spectators in secondary reactions are called \textit{wounded nucleons} and the overall effect of these additional collisions increases both the number of binary collisions and alters the initial shape of the created medium. An example of this shown in Figure \ref{fig:v3inauau} where a symmetric Au+Au system collided peripherally and a strong $v_2$ is expected, however fluctuations and wounded nucleons create a triangular shaped initial condition, which would correspond to a $v_3$ signal.
 
 \begin{figure}[htbp!]
   \centering
     \includegraphics[width=0.8\textwidth]{prevplots/phobosglauberv3.JPG}
     \rule{35em}{0.5pt}
-  \caption[Triangular Flow from Fluctuations.]{An example of how fluctuations can cause flow with the shape of higher Fourier harmonics. Here Au+Au collisions are modeled with Glauber Monte Carlo. The distribution of nucleons at the point of collision in the x-y plane is plotted. Wounded nucleons cause secondary collisions which alter the initial elliptic shape from the overlap into a triangular shape\citep{Alver:2010gr}. In this plot small dotted circles are spectators and solid circles are participants, the large dotted circle that contains the various circles are outlines of the two colliding ions.}
+  \caption[Triangular Flow from Fluctuations.]{An example of how fluctuations can cause flow with the shape of higher Fourier harmonics. Here Au+Au collisions are modeled with Glauber Monte Carlo. The distribution of nucleons at the point of collision in the x-y plane is plotted. Wounded nucleons cause secondary collisions which alter the initial elliptic shape from the overlap into a triangular shape \citep{Alver:2010gr}. In this plot small dotted circles are spectators and solid circles are participants, the large dotted circle that contains the various circles are outlines of the two colliding ions.}
   \label{fig:v3inauau}
 \end{figure}
 \pagebreak
