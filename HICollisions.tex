@@ -13,7 +13,7 @@ One such variable is \textit{centrality} and is used to describe how ``head-on''
   \centering
     \begin{subfigure}[p]{0.7\textwidth}
     \includegraphics[width=1\textwidth]{Figures/spectatorsvsparticipants.jpg}
-    \caption[Diagram showing impact parameter versus $N_{spectators}$ and $N_{participants}$]{Diagram showing impact parameter versus $N_{spectators}$ and $N_{participants}$\citep{cernhifireball}}
+    \caption[Diagram showing impact parameter versus $N_{spectators}$ and $N_{participants}$]{Diagram showing impact parameter versus $N_{spectators}$ and $N_{participants}$ \citep{cernhifireball}.}
     \label{fig:cernfireball}
     \end{subfigure} 
     \rule{35em}{0.5pt}
@@ -27,7 +27,7 @@ One such variable is \textit{centrality} and is used to describe how ``head-on''
   \centering
     \includegraphics[width=0.5\textwidth]{prevplots/bbczdcanaresponse.JPG}
 
-  \caption[Centrality bins as determined by ZDC energy versus BBC charge sum]{Centrality bins as determined by ZDC energy versus BBC charge sum\citep{Ghosh2001}. ZDC counts spectators, BBC counts particles produced by spectators, correlation of the two gives centrality parameter.}
+  \caption[Centrality bins as determined by ZDC energy versus BBC charge sum]{Centrality bins as determined by ZDC energy versus BBC charge sum \citep{Ghosh2001}. ZDC counts spectators, BBC counts particles produced by spectators, correlation of the two gives centrality parameter.}
   \label{fig:zdcvsbbc}
 \end{subfigure}
 \end{figure}
@@ -87,6 +87,7 @@ After the collision, created particles fly outward from the vertex and traverse 
 
 \subsubsection{Track Matching: DC and PC1}
 Track reconstruction utilizes various layers of the Drift Chamber and Pad Chambers in concert to determine track momentum due to the varying curvature of tracks of different momenta traveling through a magnetic field. Tracks are reconstructed in the DC and PC1 using an algorithm called a \textit{Combinatorial Hough Transform} (CHT) \citep{Mitchell:2002wu}. A CHT is a reconstruction algorithm used on a set of points that we know were created by single particles in order to fit them with likely linear track candidates \citep{OHLSSON199277}. The set of points are connected combinatorially and probabilities are assigned to each connection based on other kinematic variables and the likeliness that the connection describes a real particle track. For instance, we know all tracks must start at or reasonably close to the event vertex, therefore if any connected points point back to a point that we know is not the event vertex, it is unlikely that that connection reconstructs a real track created in the collision. Furthermore, further out from the vertex additional hits should happen at radially more distant detectors, and there should be corresponding points at those detectors as well.  We use a parameter called track \textit{quality} in order to quantify our confidence that a CHT reconstructed track is a likely fit. Track quality is a function of how many points in the different tracking detector layers were used to reconstruct a track. Since this is a combinatorial reconstruction, it is possible that other tracks such as cosmic events and background events are reconstructed.  Because of this we also make the assumption that the origin of all probable tracks is the event vertex as determined by the BBC. This analysis uses tracks whose accepted reconstructions were made with at least three hits in the inner tracking detectors; at least one hit each in X1 and X2 wire nets in the DC (Section \ref{sect:dcpc}) and one hit in PC1.
+\vspace{2cm}
 
 \begin{figure}[htbp!]
   \centering
@@ -97,8 +98,8 @@ Track reconstruction utilizes various layers of the Drift Chamber and Pad Chambe
 \end{figure}
 
 \subsubsection{Track Matching: TOF and PC3}
-The magnetic field in PHENIX is strongest in the IR where $R<2 m$ and negligible within the central arms \citep{rolnickthesis}. Therefore, once tracks are matched in the DC and through the PC1, we can project the track linearly through the rest of the central arms. We can then match these projections with hits in the PC3 and TOF as illustrated in Figure \ref{fig:pc3tofmatching} and assign variables (called \textit{residuals}) to the difference between where a hit landed in the TOF/PC3 versus where it was projected to be, one in azimuthal angle ($d\phi$) and one along beam axis ($dz$). Therefore, track purity can be increased by setting limits to how large a track's residuals can be. These residuals are set per strip in the TOFW and slat in the TOFE. DC/PC reconstructed track residuals for a given strip/slat are plotted and fit with a Gaussian. The corresponding width ($\sigma$) of this Gaussian is used to set the acceptance threshold for matched tracks projected out to the TOF/PC3. For this analysis, the maximum residual allowed for both TOF and PC3 in both $z$ and $\phi$ is three standard deviations ($3\sigma$) from the mean residual to allow for more statistics needed due to the lower multiplicity d+Au system (compared to larger systems) while still maintaining good track reconstruction purity. Combined with the DC/PC track quality cut, the TOF and PC3 matching cuts require that all reconstructed tracks used in this analysis be made with at least five points in four detector subsystems that are spread out over 5 m radially from the event vertex.
-\begin{figure}[htbp!]
+
+\begin{figure}[H]
   \centering
     \includegraphics[width=0.9\textwidth]{Figures/pc3tofmatching.JPG}
     \rule{35em}{0.5pt}
@@ -106,19 +107,11 @@ The magnetic field in PHENIX is strongest in the IR where $R<2 m$ and negligible
   \label{fig:pc3tofmatching}
 \end{figure}
 
+The magnetic field in PHENIX is strongest in the IR where $R<2 m$ and negligible within the central arms \citep{rolnickthesis}. Therefore, once tracks are matched in the DC and through the PC1, we can project the track linearly through the rest of the central arms. We can then match these projections with hits in the PC3 and TOF as illustrated in Figure \ref{fig:pc3tofmatching} and assign variables (called \textit{residuals}) to the difference between where a hit landed in the TOF/PC3 versus where it was projected to be, one in azimuthal angle ($d\phi$) and one along beam axis ($dz$). Therefore, track purity can be increased by setting limits to how large a track's residuals can be. These residuals are set per strip in the TOFW and slat in the TOFE. DC/PC reconstructed track residuals for a given strip/slat are plotted and fit with a Gaussian. The corresponding width ($\sigma$) of this Gaussian is used to set the acceptance threshold for matched tracks projected out to the TOF/PC3. For this analysis, the maximum residual allowed for both TOF and PC3 in both $z$ and $\phi$ is three standard deviations ($3\sigma$) from the mean residual to allow for more statistics needed due to the lower multiplicity d+Au system (compared to larger systems) while still maintaining good track reconstruction purity. Combined with the DC/PC track quality cut, the TOF and PC3 matching cuts require that all reconstructed tracks used in this analysis be made with at least five points in four detector subsystems that are spread out over 5 m radially from the event vertex.
+
 \subsection{Particle Identification}
 \label{sect:pidmethod}
-Using the TOF detectors' high resolution timing measurements, charged particles that are created in heavy ion collisions can be identified. For this analysis, the particles of interest are the charged pions ($\pi^{\pm}$), charged kaons ($K^{\pm}$), and protons/antiprotons ($p/\bar{p}$). Since the masses of these particles are distinct, plotting particle charge/momentum versus time of flight can show clear separation between pion, kaon, and proton signals (see Figure \ref{fig:tofchargemom}). 
-
-\begin{figure}[htbp!]
-  \centering
-    \includegraphics[width=0.7\textwidth]{Figures/tofchargemom.JPG}
-    \rule{35em}{0.5pt}
-  \caption[Particle separation in the TOF]{Charge/momentum vs Time of Flight \citep{tofchargemom} is plotted to show particle separation in the TOF vis-\`a-vis Equation \ref{eqn:qmomentum}. Pions, kaons, protons, and deuteron signals are labeled. Other signals corresponding to shorter flight times in the plot are other particles; the closest to the pion signal are electrons, followed by photons which notably have a constant time of flight at all momenta (as they should).}
-  \label{fig:tofchargemom}
-\end{figure}
-
-While visually the individual particle signatures are easily identifiable in Figure \ref{fig;tofchargemom}, computationally it is advantageous to convert units so that the signatures only depend on a single variable. It is known from basic kinematics that it is possible to calculate the velocity, v, of an object traveling at a constant speed,
+Using the TOF detectors' high resolution timing measurements, the species of charged particles created in heavy ion collisions can be identified. For this analysis, the particles of interest are the charged pions ($\pi^{\pm}$), charged kaons ($K^{\pm}$), and protons/antiprotons ($p/\bar{p}$). Since the masses of these particles are distinct, plotting particle charge/momentum versus time of flight can show clear separation between pion, kaon, and proton signals (see Figure \ref{fig:tofchargemom}). While visually the individual particle signatures are easily identifiable in Figure \ref{fig:tofchargemom}, computationally it is advantageous to convert units so that the signatures only depend on a single variable. It is known from basic kinematics that it is possible to calculate the velocity, v, of an object traveling at a constant speed,
 
 \begin{equation}
 v=\frac{L}{t} \implies t=\frac{L}{v},
@@ -136,12 +129,20 @@ and is shown in Figure \ref{fig:m2tofvspt}.
 
 Since the distance from the event vertex to the detector is constant and the velocity (and therefore momentum) of the particle is constant, $m^{2}$ depends on two constant terms if we take measurements in bins of \textit{p}. Since we are talking about radially outward traveling tracks, this \textit{p} is, in practice, $p_{T}$ (transverse momentum). From this we can see that the time of flight for particles created in ion collisions can be used to identify their species.
 \begin{figure}[htbp!]
+\begin{subfigure}[H]{1\textwidth}
   \centering
-    \includegraphics[width=0.7\textwidth]{Figures/m2tofvspt.jpg}
+    \includegraphics[width=0.5\textwidth]{Figures/tofchargemom.JPG}
+    \rule{35em}{0.5pt}
+  \caption[Particle separation in the TOF]{Charge/momentum vs Time of Flight \citep{tofchargemom} is plotted to show particle separation in the TOF vis-\`a-vis Equation \ref{eqn:qmomentum}. Pions, kaons, protons, and deuteron signals are labeled. Other signals corresponding to shorter flight times in the plot are other particles; the closest to the pion signal are electrons, followed by photons which notably have a constant time of flight at all momenta (as they should).}
+  \label{fig:tofchargemom}
+\end{subfigure}
+\begin{subfigure}[H]{1\textwidth}
+  \centering
+    \includegraphics[width=0.5\textwidth]{Figures/m2tofvspt.jpg}
     \rule{35em}{0.5pt}
   \caption[$m^{2}$ vs $p_{T}$ showing clear constant separation of particle signatures.]{$m^{2}$ vs $p_{T}$ showing clear constant separation of particle signatures \citep{tofchargemom}. Under this transformation, electron peaks overlap strongly with pions and need to be cut out by using the RICH. Photons are massless leading to the wisp-like distribution for $m^2<0$.}
   \label{fig:m2tofvspt}
+\end{subfigure}
 \end{figure}
-
 \pagebreak
 \pagebreak

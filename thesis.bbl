@@ -766,25 +766,6 @@ Betty~Bezverkhny Abelev et~al.
   collisions at $\sqrt{s_{\rm NN}}$ = 5.02 TeV}.
 \newblock {\em Phys. Lett.}, B726:164--177, 2013.
 
-\bibitem{Adare:2010fn}
-A.~Adare et~al.
-\newblock {Cold Nuclear Matter Effects on $J/\psi$ Yields as a Function of
-  Rapidity and Nuclear Geometry in Deuteron-Gold Collisions at
-  $\sqrt{s_{NN}}=200$ GeV}.
-\newblock {\em Phys. Rev. Lett.}, 107:142301, 2011.
-
-\bibitem{pi0v2run8dau}
-Chin-Hao Chen, Gabor David, Shengli Huang, and Takao Sakaguchi.
-\newblock Measurement of second-order fourier coefficients of the emission
-  angle dependent pi0 yields in run8 d+au collisions.
-\newblock {\em PHENIX Internal Analysis Note}, AN1164, April 2014.
-
-\bibitem{1742-6596-668-1-012049}
-Arianna~Batista Camejo.
-\newblock Charmonium production in pp, p—pb and pb—pb collisions at forward
-  rapidity with alice at the lhc.
-\newblock {\em Journal of Physics: Conference Series}, 668(1):012049, 2016.
-
 \bibitem{PhysRevLett.84.3256}
 M.~J. Leitch, W.~M. Lee, M.~E. Beddo, C.~N. Brown, T.~A. Carey, T.~H. Chang,
   W.~E. Cooper, C.~A. Gagliardi, G.~T. Garvey, D.~F. Geesaman, E.~A. Hawker,
@@ -798,6 +779,57 @@ M.~J. Leitch, W.~M. Lee, M.~E. Beddo, C.~N. Brown, T.~A. Carey, T.~H. Chang,
   ${\mathit{\ensuremath{\psi}}}^{\ensuremath{'}}$ suppression in
   $\mathit{p}-\mathit{A}$ collisions.
 \newblock {\em Phys. Rev. Lett.}, 84:3256--3260, Apr 2000.
+
+\bibitem{Armesto:2006ph}
+Nestor Armesto.
+\newblock {Nuclear shadowing}.
+\newblock {\em J. Phys.}, G32:R367--R394, 2006.
+
+\bibitem{Adare:2010fn}
+A.~Adare et~al.
+\newblock {Cold Nuclear Matter Effects on $J/\psi$ Yields as a Function of
+  Rapidity and Nuclear Geometry in Deuteron-Gold Collisions at
+  $\sqrt{s_{NN}}=200$ GeV}.
+\newblock {\em Phys. Rev. Lett.}, 107:142301, 2011.
+
+\bibitem{Adler:2003qi}
+S.~S. Adler et~al.
+\newblock {Suppressed pi0 production at large transverse momentum in central
+  Au+ Au collisions at S(NN)**1/2 = 200 GeV}.
+\newblock {\em Phys. Rev. Lett.}, 91:072301, 2003.
+
+\bibitem{PhysRevLett.93.242303}
+I.~Arsene, I.~G. Bearden, D.~Beavis, C.~Besliu, B.~Budick, H.~B\o{}ggild,
+  C.~Chasman, C.~H. Christensen, P.~Christiansen, J.~Cibor, R.~Debbe, E.~Enger,
+  J.~J. Gaardh\o{}je, M.~Germinario, K.~Hagel, H.~Ito, A.~Jipa, F.~Jundt, J.~I.
+  J\o{}rdre, C.~E. J\o{}rgensen, R.~Karabowicz, E.~J. Kim, T.~Kozik, T.~M.
+  Larsen, J.~H. Lee, Y.~K. Lee, S.~Lindal, R.~Lystad, G.~L\o{}vh\o{}iden,
+  Z.~Majka, A.~Makeev, M.~Mikelsen, M.~Murray, J.~Natowitz, B.~Neumann, B.~S.
+  Nielsen, D.~Ouerdane, R.~P\l{}aneta, F.~Rami, C.~Ristea, O.~Ristea,
+  D.~R\"ohrich, B.~H. Samset, D.~Sandberg, S.~J. Sanders, R.~A. Scheetz,
+  P.~Staszel, T.~S. Tveter, F.~Videb\ae{}k, R.~Wada, Z.~Yin, and I.~S. Zgura.
+\newblock Evolution of the nuclear modification factors with rapidity and
+  centrality in $d+\mathrm{A}\mathrm{u}$ collisions at $\sqrt{N^{S}N}=200\text{
+  }\text{ }\mathrm{G}\mathrm{e}\mathrm{V}$.
+\newblock {\em Phys. Rev. Lett.}, 93:242303, Dec 2004.
+
+\bibitem{Adler:2006wg}
+S.~S. Adler et~al.
+\newblock {Centrality dependence of pi0 and eta production at large transverse
+  momentum in s(NN)**(1/2) = 200-GeV d+Au collisions}.
+\newblock {\em Phys. Rev. Lett.}, 98:172302, 2007.
+
+\bibitem{pi0v2run8dau}
+Chin-Hao Chen, Gabor David, Shengli Huang, and Takao Sakaguchi.
+\newblock Measurement of second-order fourier coefficients of the emission
+  angle dependent pi0 yields in run8 d+au collisions.
+\newblock {\em PHENIX Internal Analysis Note}, AN1164, April 2014.
+
+\bibitem{1742-6596-668-1-012049}
+Arianna~Batista Camejo.
+\newblock Charmonium production in pp, p—pb and pb—pb collisions at forward
+  rapidity with alice at the lhc.
+\newblock {\em Journal of Physics: Conference Series}, 668(1):012049, 2016.
 
 \bibitem{Powell:2010oea}
 Christopher Powell.
@@ -828,5 +860,11 @@ Sidney~D. Drell and Tung-Mow Yan.
 \newblock Massive lepton-pair production in hadron-hadron collisions at high
   energies.
 \newblock {\em Phys. Rev. Lett.}, 25:316--320, Aug 1970.
+
+\bibitem{Adare:2006ns}
+A.~Adare et~al.
+\newblock {$J/\psi$ Production vs Centrality, Transverse Momentum, and Rapidity
+  in Au+Au Collisions at $\sqrt{s_{NN}} = 200$ GeV}.
+\newblock {\em Phys. Rev. Lett.}, 98:232301, 2007.
 
 \end{thebibliography}
